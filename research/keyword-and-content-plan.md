@@ -1,114 +1,92 @@
-# Keyword & Content Plan — hoantrantdh.com/en (Global Sourcing)
+# Kế hoạch Keyword & Content — hoantrantdh.com (thị trường Việt Nam)
 
-Đây là **backlog trang cụ thể để sản xuất**, không phải hướng dẫn. Mỗi dòng = một trang thật, đã có target keyword + URL + loại + ưu tiên. Xếp theo ROI (obsolete→replacement và cross-reference lên trước vì intent thương mại cao và đối thủ đã chứng minh nhu cầu).
+> hoantrantdh.com là trang **tiếng Việt**, phục vụ khách Việt Nam (KHÔNG làm bản tiếng Anh/tiếng Nhật). Đây là **backlog trang cụ thể để sản xuất** — mỗi dòng là một trang thật, có từ khóa + URL + loại + ưu tiên. Không phải hướng dẫn.
 
-Ký hiệu ưu tiên: **P0** = làm ngay (đã có bằng chứng nhu cầu) · **P1** = đợt 2 · **P2** = mở rộng.
+Ưu tiên: **P0** = làm ngay · **P1** = đợt 2 · **P2** = mở rộng.
+
+Cách người Việt tìm kiếm ngành này (đã kiểm chứng qua Google): **"[thiết bị] là gì → phân loại → nguyên lý → cách chọn → ứng dụng → báo giá/chính hãng CO-CQ"**. Content bám đúng khung này + luôn có CTA báo giá.
 
 ---
 
-## Cluster A — Obsolete → Replacement (money pages, P0)
+## Cụm A — Bài trụ "là gì / cách chọn" (thông tin + thương mại, P0)
 
-Bằng chứng nhu cầu: Emerson/Radwell/EU Automation/Galco đều có trang cho các part này; người dùng chủ động tìm "replacement / obsolete / discontinued".
+Bằng chứng nhu cầu: hàng loạt đối thủ (lumi.vn, baa.vn, wisevietnam, thubvn, servodynamics…) đều rank dạng bài này.
 
-| Trang | Target keyword | URL slug | Ưu tiên | Trạng thái |
+| Trang | Từ khóa chính | URL slug | Ưu tiên | Trạng thái |
 |---|---|---|---|---|
-| Rosemount 1151 replacement | rosemount 1151 replacement / obsolete | `/en/obsolete/rosemount-1151-replacement/` | P0 | ✅ **Đã viết** (`content/en/obsolete-rosemount-1151-replacement.md`) |
-| Mitsubishi FX3U replacement (FX5U) | mitsubishi fx3u replacement / end of life | `/en/obsolete/mitsubishi-fx3u-replacement-fx5u/` | P0 | ✅ **Đã viết** (`content/en/mitsubishi-fx3u-fx5u-replacement.md`) |
-| Allen-Bradley PLC-5 / SLC 500 replacement | plc-5 replacement / slc 500 obsolete | `/en/obsolete/allen-bradley-plc5-slc500-replacement/` | P0 | ✅ **Đã viết** (`content/en/obsolete-allen-bradley-plc5-slc500-replacement.md`) |
-| Rosemount 3051 obsolete models replacement | rosemount 3051 obsolete replacement | `/en/obsolete/rosemount-3051-replacement/` | P0 | ⬜ Chờ viết |
-| Siemens SITRANS P (legacy) replacement | siemens sitrans p obsolete replacement | `/en/obsolete/siemens-sitrans-p-replacement/` | P1 | ⬜ |
-| Mitsubishi FX3G / FX3UC replacement | fx3g replacement / fx3uc end of life | `/en/obsolete/mitsubishi-fx3g-fx3uc-replacement/` | P1 | ⬜ |
-| Yokogawa EJA obsolete replacement | yokogawa eja replacement | `/en/obsolete/yokogawa-eja-replacement/` | P2 | ⬜ |
-| Endress+Hauser Cerabar (legacy) replacement | e+h cerabar obsolete replacement | `/en/obsolete/endress-hauser-cerabar-replacement/` | P2 | ⬜ |
-
-**Hub cha:** `/en/obsolete/` — trang pillar "Obsolete Industrial Automation Parts — Replacement & Sourcing" gom toàn bộ cluster (P0, làm sau khi có 3–4 trang con).
+| Cảm biến áp suất là gì? Cách chọn | cảm biến áp suất / là gì / cách chọn | `/cam-bien-ap-suat/` | P0 | ✅ **Đã viết** (`content/vi/cam-bien-ap-suat-la-gi-cach-chon.md`) |
+| PLC Mitsubishi FX3U là gì? | plc mitsubishi fx3u / là gì / ứng dụng | `/plc-mitsubishi-fx3u-la-gi/` | P0 | ✅ **Đã viết** (`content/vi/plc-mitsubishi-fx3u-la-gi.md`) |
+| Cảm biến chênh áp là gì? Cách chọn | cảm biến chênh áp / differential pressure | `/cam-bien-chenh-ap/` | P0 | ⬜ Chờ viết |
+| Cảm biến nhiệt độ (RTD/can nhiệt) là gì? | cảm biến nhiệt độ / pt100 / can nhiệt | `/cam-bien-nhiet-do/` | P0 | ⬜ |
+| Cảm biến đo mức là gì? Các loại & cách chọn | cảm biến đo mức / đo mức nước / radar | `/cam-bien-do-muc/` | P1 | ⬜ |
+| Biến tần là gì? Cách chọn biến tần | biến tần / inverter / cách chọn | `/bien-tan-la-gi/` | P1 | ⬜ |
+| Đồng hồ đo áp suất là gì? Cách chọn | đồng hồ đo áp suất / cách chọn | `/dong-ho-do-ap-suat/` | P1 | ⬜ |
 
 ---
 
-## Cluster B — Cross-reference / Equivalent (P0–P1)
+## Cụm B — Trang sản phẩm/thương hiệu (thương mại, P0)
 
-Bằng chứng: Galco "How to Cross-Reference Obsolete Automation Parts", US Control Tech cross-reference cho AB/Siemens/Schneider/ABB/Eaton/Mitsubishi.
+Intent mua rõ: "chính hãng", "giá", "CO/CQ", "sẵn hàng". Đối thủ: vangiare, tuanhungphat, caophong, eurododo…
 
-| Trang | Target keyword | URL slug | Ưu tiên |
+| Trang | Từ khóa chính | URL slug | Ưu tiên | Trạng thái |
+|---|---|---|---|---|
+| Đồng hồ đo áp suất WIKA | đồng hồ đo áp suất wika / chính hãng / giá | `/dong-ho-do-ap-suat-wika/` | P0 | ✅ **Đã viết** (`content/vi/dong-ho-do-ap-suat-wika.md`) |
+| Cảm biến áp suất WIKA / Georgin / Huba | cảm biến áp suất wika / báo giá | `/cam-bien-ap-suat-wika/` | P0 | ⬜ |
+| PLC Mitsubishi FX5U | plc mitsubishi fx5u / giá | `/plc-mitsubishi-fx5u/` | P0 | ⬜ |
+| Đồng hồ áp suất dạng màng | đồng hồ áp suất dạng màng / có màng ngăn | `/dong-ho-ap-suat-dang-mang/` | P1 | ⬜ |
+| Đồng hồ áp suất có dầu (chống rung) | đồng hồ áp suất có dầu glycerin | `/dong-ho-ap-suat-co-dau/` | P1 | ⬜ |
+| Đồng hồ đo áp suất lò hơi | đồng hồ áp suất lò hơi | `/dong-ho-ap-suat-lo-hoi/` | P1 | ⬜ |
+| HMI Weintek | hmi weintek / màn hình hmi giá | `/hmi-weintek/` | P2 | ⬜ |
+
+> **Cần 1 template trang sản phẩm** dùng chung (đã có sẵn cấu trúc trong 2 file WIKA/PLC): H1 + "vì sao tin dùng" + phân loại (bảng) + cách chọn + giá + cam kết CO-CQ/VAT + FAQ + CTA báo giá + schema Product. Nhân bản cho từng brand/dòng.
+
+---
+
+## Cụm C — Blog kỹ thuật how-to (giữ traffic + xây uy tín, P0–P1)
+
+Đây là thế mạnh sẵn có của hoantrantdh (đã có bài "PLC Mitsubishi trong máy CNC", "hiệu chỉnh zero & span cảm biến"). Kéo top-funnel + internal link về trang sản phẩm.
+
+| Trang | Từ khóa | URL slug | Ưu tiên |
 |---|---|---|---|
-| How to cross-reference obsolete automation parts | cross reference obsolete parts | `/en/guides/cross-reference-obsolete-parts/` | P0 ✅ **Đã viết** |
-| Rosemount 1151 → 3051 cross-reference chart | rosemount 1151 3051 cross reference | `/en/cross-reference/rosemount-1151-to-3051/` | P0 |
-| Mitsubishi FX3U → FX5U cross-reference | fx3u fx5u cross reference | `/en/cross-reference/mitsubishi-fx3u-to-fx5u/` | P1 |
-| Pressure transmitter cross-reference (multi-brand) | pressure transmitter cross reference | `/en/cross-reference/pressure-transmitters/` | P1 |
+| Hướng dẫn hiệu chỉnh zero & span cảm biến | hiệu chỉnh zero span cảm biến | (đã có – rà soát/refresh) | P0 |
+| Cách đấu dây cảm biến áp suất 4-20mA (2 dây/3 dây) | đấu dây cảm biến áp suất 4-20ma | `/dau-day-cam-bien-ap-suat-4-20ma/` | P0 |
+| Lỗi thường gặp của cảm biến áp suất & cách khắc phục | lỗi cảm biến áp suất / cách khắc phục | `/loi-cam-bien-ap-suat/` | P1 |
+| Cách chọn thang đo đồng hồ/cảm biến áp suất | cách chọn thang đo áp suất | `/cach-chon-thang-do-ap-suat/` | P1 |
+| 4-20mA là gì? Vì sao dùng trong công nghiệp | tín hiệu 4-20ma là gì | `/tin-hieu-4-20ma-la-gi/` | P2 |
+| Truyền thông FX5U với FX3U | truyền thông fx5u fx3u | `/truyen-thong-fx5u-fx3u/` | P2 |
 
 ---
 
-## Cluster C — Product / Part-number pages (P0, long-tail lớn)
+## Cụm D — So sánh / tư vấn chọn mua (P1)
 
-Mỗi part number = 1 trang (giống `/en/products/siemens-sitrans-p320/` đã có). Ưu tiên các part hay tìm + hoantrantdh cấp được.
-
-| Nhóm part | URL pattern | Ưu tiên |
+| Trang | Từ khóa | URL slug |
 |---|---|---|
-| Siemens SITRANS (P320/P500/…) | `/en/products/siemens-sitrans-<model>/` | P0 |
-| Rosemount 3051 variants | `/en/products/rosemount-3051-<variant>/` | P0 |
-| Mitsubishi FX5U CPUs | `/en/products/mitsubishi-fx5u-<model>/` | P1 |
-| WIKA pressure gauges | `/en/products/wika-<model>/` | P1 |
-| Endress+Hauser transmitters | `/en/products/endress-hauser-<model>/` | P2 |
-
-> Template dùng chung: `content/en/_TEMPLATE_product-page.md` (chờ tạo). Mỗi trang cần: part number chính + phụ, spec bảng, cert (SIL/ATEX), datasheet link, "obsolete? xem replacement", CTA hỏi giá/lead time, schema Product.
+| Nên chọn đồng hồ áp suất hay cảm biến áp suất? | đồng hồ áp suất vs cảm biến áp suất | `/dong-ho-vs-cam-bien-ap-suat/` |
+| So sánh FX3U và FX5U | fx3u và fx5u / so sánh | (gộp vào bài FX3U đã viết – đủ mạnh) |
+| Cảm biến áp suất loại nào tốt / hãng nào | cảm biến áp suất hãng nào tốt | `/cam-bien-ap-suat-hang-nao-tot/` |
 
 ---
 
-## Cluster D — Solution / Service pages (định vị + convert, P0)
+## Cụm E — Trang ngành / ứng dụng (P2)
 
-Nâng cấp/viết mới cho chính các dịch vụ ở `/en/sourcing/`:
-
-| Trang | Target keyword | URL slug | Ưu tiên |
-|---|---|---|---|
-| Obsolete & hard-to-find parts sourcing | obsolete parts sourcing / hard to find automation parts | `/en/services/obsolete-parts-sourcing/` | P0 ✅ **Đã viết** |
-| Emergency / line-down (AOG) supply | line down parts / emergency industrial parts | `/en/services/emergency-line-down-supply/` | P0 ✅ **Đã viết** |
-| Counterfeit screening & traceability | counterfeit electronic components prevention | `/en/services/counterfeit-screening/` | P1 |
-| VMI & BOM cost reduction | vendor managed inventory industrial / bom cost reduction | `/en/services/vmi-bom-optimization/` | P1 |
+- `/thiet-bi-do-luong-lo-hoi/` (nhiệt điện, lò hơi)
+- `/thiet-bi-tu-dong-hoa-nha-may-xi-mang/`
+- `/giai-phap-do-luong-hoa-chat-dau-khi/`
 
 ---
 
-## Cluster E — Comparison (P1)
+## Bộ modifier để nhân từ khóa (ghép với mọi thiết bị/brand)
 
-| Trang | Target keyword | URL slug |
-|---|---|---|
-| FX3U vs FX5U | mitsubishi fx3u vs fx5u | (gộp vào trang obsolete FX3U đã viết, đủ mạnh) |
-| Rosemount 3051 vs Siemens SITRANS P320 | rosemount 3051 vs sitrans p320 | `/en/compare/rosemount-3051-vs-siemens-sitrans-p320/` |
-| Rosemount 3051 vs Yokogawa EJA | rosemount 3051 vs yokogawa eja | `/en/compare/rosemount-3051-vs-yokogawa-eja/` |
+`là gì` · `cách chọn` · `phân loại` · `nguyên lý` · `ứng dụng` · `cấu tạo` · `bảng giá` · `báo giá` · `giá` · `chính hãng` · `CO CQ` · `mua ở đâu` · `đấu dây` · `cách lắp` · `lỗi ... cách khắc phục` · `hãng nào tốt` · `thay thế` · `catalog` · `datasheet`
+
+**Công thức:** `[thiết bị / brand / mã] + [modifier]` → mỗi tổ hợp là 1 từ khóa tiềm năng.
 
 ---
 
-## Cluster F — Glossary / Technical (top-funnel, xây E-E-A-T, P2)
+## Đợt sản xuất đề xuất
 
-Ngắn, mỗi trang 1 khái niệm, internal-link về product/obsolete.
+1. **Đợt 1 (đã bắt đầu):** 3 trang P0 ✅ (cảm biến áp suất, WIKA, PLC FX3U) + tiếp: cảm biến chênh áp, cảm biến nhiệt độ, PLC FX5U, blog đấu dây 4-20mA.
+2. **Đợt 2:** trang sản phẩm còn lại (dạng màng, có dầu, lò hơi, cảm biến áp suất theo hãng) + blog how-to.
+3. **Đợt 3:** so sánh + trang ngành/ứng dụng.
 
-`4-20mA vs HART` · `SIL2 / SIL3 rating explained` · `ATEX / Ex zones` · `IP rating for instruments` · `pressure transmitter vs pressure gauge` · `RTD vs thermocouple` · `what is a last-time-buy (LTB)` · `what is AOG in industrial supply`.
-
-URL: `/en/glossary/<term>/`
-
----
-
-## Cluster G — Industry & Location (P2)
-
-- `/en/industries/thermal-power-mro-sourcing/`
-- `/en/industries/cement-plant-spare-parts/`
-- `/en/industries/oil-gas-instrumentation-sourcing/`
-- `/en/locations/industrial-parts-supplier-southeast-asia/`
-- `/en/locations/automation-parts-supplier-vietnam/`
-
----
-
-## Bộ modifier để nhân keyword (ghép với mọi brand/part/loại)
-
-`obsolete` · `replacement for` · `alternative to` · `cross reference` · `equivalent` · `datasheet` · `price` · `buy` · `supplier` · `distributor` · `in stock` · `lead time` · `part number` · `end of life` · `last time buy` · `discontinued` · `AOG` · `line down` · `counterfeit` · `reconditioned`
-
-**Công thức:** `[brand / device type / part number] + [modifier]` → mỗi tổ hợp là 1 target keyword tiềm năng.
-
----
-
-## Đợt sản xuất đề xuất (thứ tự làm)
-
-1. **Đợt 1 (đã bắt đầu):** 2 trang obsolete P0 ✅ + 2 trang service P0 (obsolete sourcing, emergency supply) + cross-reference guide P0.
-2. **Đợt 2:** 3051 obsolete + cross-reference charts + 3–5 product page Siemens/Rosemount.
-3. **Đợt 3:** comparison + glossary + industry/location.
-
-> Mỗi trang trước khi publish: chạy qua `docs/templates/editorial-checklist.md` (schema, internal link, kiểm spec kỹ thuật với datasheet OEM).
+> Mỗi trang trước khi publish: kiểm tra **thông số kỹ thuật theo datasheet hãng**, thêm schema (Product/FAQ/Breadcrumb), internal link chéo giữa bài trụ ↔ trang sản phẩm ↔ blog how-to, và CTA báo giá về `/lien-he/`.

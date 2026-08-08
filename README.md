@@ -1,60 +1,31 @@
-# SEO Playbook — hoantrantdh.com (Global / EN market)
+# Nội dung SEO cho hoantrantdh.com
 
-Bộ workflow SEO thực chiến cho **hoantrantdh.com**, được tùy biến cho thị trường **toàn cầu (tiếng Anh)** — mảng **Global Sourcing Center** (cung ứng linh kiện & thiết bị đo lường / tự động hóa công nghiệp).
+Kho nội dung SEO **tiếng Việt, sẵn đăng** cho **hoantrantdh.com** — nhà cung cấp thiết bị đo lường & tự động hóa công nghiệp (đồng hồ áp suất, cảm biến/transmitter, PLC Mitsubishi, đo mức/nhiệt/áp, đồng hồ lò hơi…), thị trường Việt Nam.
 
-Toàn bộ tài liệu viết bằng **tiếng Việt**, nhưng mọi tài sản dùng để SEO (keyword, prompt, template trang, mẫu bài) đều được viết sẵn bằng **tiếng Anh** để bạn copy–paste dùng ngay. Bạn không cần giỏi tiếng Anh: các prompt luôn yêu cầu AI viết bằng English bản ngữ, chuẩn B2B kỹ thuật, và **đánh dấu chỗ cần người bản ngữ review**.
+> Trọng tâm: **sản phẩm giao được ngay** (trang web viết sẵn), không phải hướng dẫn quy trình.
 
----
+## Trang đã viết xong (thư mục `content/vi/`)
 
-## 1. Website đang là gì? (tóm tắt phân tích)
+| Trang | Từ khóa nhắm tới | Loại | File |
+|---|---|---|---|
+| Cảm biến áp suất là gì? Cách chọn | cảm biến áp suất / là gì / cách chọn / báo giá | Bài trụ (thông tin + thương mại) | `content/vi/cam-bien-ap-suat-la-gi-cach-chon.md` |
+| Đồng hồ đo áp suất WIKA chính hãng | đồng hồ đo áp suất wika / chính hãng / giá | Trang sản phẩm (thương mại) | `content/vi/dong-ho-do-ap-suat-wika.md` |
+| PLC Mitsubishi FX3U là gì? | plc mitsubishi fx3u / ứng dụng / vs fx5u | Blog kỹ thuật + thương mại | `content/vi/plc-mitsubishi-fx3u-la-gi.md` |
 
-| | |
-|---|---|
-| **Doanh nghiệp** | Hoan Tran Automation Technology — thiết bị đo lường & tự động hóa công nghiệp |
-| **Thị trường lõi (VI)** | Việt Nam + Đông Nam Á. Đồng hồ áp suất, cảm biến/transmitter, PLC Mitsubishi, đo mức/nhiệt/áp cho nhiệt điện, xi măng, hóa chất, dầu khí |
-| **Thị trường global (EN)** | `/en/` — **Global Sourcing Center**: mua hàng đa quốc gia, **linh kiện obsolete/EOL**, cấp hàng khẩn cấp **line-down (AOG)**, chống hàng giả (counterfeit screening), truy xuất nguồn gốc, AVL, VMI, giảm chi phí BOM |
-| **Đối tượng (ICP)** | Procurement/purchasing manager, maintenance & reliability engineer, MRO buyer, plant/instrumentation engineer ở nhà máy & EPC |
-| **Loại trang chính** | Product/part-number page, brand hub, **obsolete→replacement**, cross-reference, comparison, glossary, solution/service, industry page, location page |
+Mỗi trang có sẵn: **title tag, meta description, URL slug, H1, nội dung, bảng phân loại/so sánh, FAQ, CTA báo giá, ghi chú schema + internal link**. Viết theo đúng khung đang rank top ở thị trường VN: *là gì → phân loại → nguyên lý → cách chọn → ứng dụng → báo giá / CO-CQ chính hãng*.
 
-Chi tiết đầy đủ: [`docs/00-phan-tich-website.md`](docs/00-phan-tich-website.md)
+Các trang **link chéo vào nhau** (bài trụ ↔ trang sản phẩm ↔ blog), CTA đưa về `/lien-he/`.
 
-> **Tại sao niche này hợp với 7 workflow?** Mỗi part number (vd `7MF0340-1DM01-5AF2`) là một truy vấn long-tail. Mảng "obsolete → replacement" và "cross-reference / equivalent" có **intent thương mại rất cao** và đối thủ phương Tây (EU Automation, Radwell…) đã chứng minh mô hình. Dữ liệu (GSC, sitemap đối thủ, SERP part-number) dồi dào → giảm tối đa việc "đoán".
+## Kế hoạch content (thư mục `research/`)
 
----
+`research/keyword-and-content-plan.md` — backlog ~30 trang tiếng Việt cụ thể còn lại, xếp theo ROI, mỗi trang có từ khóa + URL + độ ưu tiên (đã đánh dấu trang nào xong). Gồm: bài trụ "là gì/cách chọn", trang sản phẩm theo hãng, blog kỹ thuật how-to, so sánh, trang ngành.
 
-## 2. Bảy workflow (đã tùy biến cho hoantrantdh)
+## Trước khi đăng — bắt buộc
 
-| # | Workflow | Dùng để | File |
-|---|----------|---------|------|
-| 1 | GSC → cơ hội SEO từ dữ liệu sẵn có | Tìm trang gần Top 10, part-number impression cao CTR thấp | [`docs/01-gsc-co-hoi.md`](docs/01-gsc-co-hoi.md) |
-| 2 | Sitemap đối thủ → bản đồ SEO | Đọc cấu trúc EU Automation / Radwell, tìm cluster đang thiếu | [`docs/02-sitemap-doi-thu.md`](docs/02-sitemap-doi-thu.md) |
-| 3 | 1 bài → hệ thống phân phối | Biến 1 trang thành 15–20 điểm chạm | [`docs/03-tai-su-dung-content.md`](docs/03-tai-su-dung-content.md) |
-| 4 | Reddit/forum → ngôn ngữ khách hàng thật | r/PLC, Eng-Tips, PLCTalk — hiểu "vì sao họ tìm" | [`docs/04-reddit-voice-of-customer.md`](docs/04-reddit-voice-of-customer.md) |
-| 5 | Audit content cũ trước khi viết mới | Tìm URL tụt hạng / lỗi thời để refresh | [`docs/05-audit-content-cu.md`](docs/05-audit-content-cu.md) |
-| 6 | Không chỉ publish trên website | LinkedIn / YouTube / cộng đồng kỹ thuật | [`docs/06-phan-phoi-da-kenh.md`](docs/06-phan-phoi-da-kenh.md) |
-| 7 | Google keyword TRƯỚC khi nhờ AI viết | Đọc SERP để không viết sai loại trang | [`docs/07-serp-intent-truoc.md`](docs/07-serp-intent-truoc.md) |
+⚠️ **Kiểm tra lại thông số kỹ thuật** (thang đo, tín hiệu ngõ ra, cấp bảo vệ, thông số dòng PLC…) theo **datasheet/catalog của hãng**. Nội dung được viết dựa trên kiến thức ngành + nguồn công khai; các chỗ cần xác nhận đã ghi chú trong file. Sai thông số thiết bị công nghiệp là rủi ro thật.
 
-**Tài sản dùng chung:**
-- [`docs/prompts/prompt-library.md`](docs/prompts/prompt-library.md) — Toàn bộ prompt EN, copy-paste ngay
-- [`docs/templates/page-templates.md`](docs/templates/page-templates.md) — Khung trang Product / Alternatives / Comparison / Glossary…
-- [`docs/templates/keyword-topic-map.md`](docs/templates/keyword-topic-map.md) — Topic cluster + keyword EN mẫu cho niche
-- [`docs/templates/editorial-checklist.md`](docs/templates/editorial-checklist.md) — Checklist trước khi publish (E-E-A-T, schema, internal link)
-- [`scripts/gsc_opportunities.py`](scripts/gsc_opportunities.py) — Script phân loại cơ hội từ file GSC export (chỉ cần Python, không cần cài gì)
+Sau đó: gắn schema (Product/FAQ/Breadcrumb), rà internal link, cập nhật giá/mã hàng thực tế còn bán.
 
----
+## Còn lại
 
-## 3. Bắt đầu từ đâu? (thứ tự đề xuất)
-
-1. **Tuần 1 — Nhìn lại dữ liệu của chính mình.** Chạy Workflow 1 (GSC) + Workflow 5 (audit content cũ). Đây là nơi ra kết quả nhanh nhất vì website đã có tín hiệu sẵn.
-2. **Tuần 2 — Nhìn ra ngoài.** Workflow 2 (sitemap đối thủ) + Workflow 4 (Reddit) để dựng bản đồ topic cluster và lấy "ngôn ngữ khách hàng".
-3. **Tuần 3 trở đi — Sản xuất đúng loại.** Mỗi bài mới: bắt buộc qua Workflow 7 (đọc SERP) trước, rồi mới viết theo template. Mỗi bài xong: chạy Workflow 3 + 6 để phân phối.
-
-Nguyên tắc xuyên suốt (giống case study gốc): **AI để xử lý tín hiệu nhanh hơn, không để AI quyết định Search Intent thay bạn.**
-
----
-
-## 4. Ghi chú vận hành
-
-- **Claude vs Codex/ChatGPT luân phiên:** dùng Claude cho phân tích dài (sitemap, GSC, đọc SERP tổng hợp) và viết bản EN có chiều sâu; dùng ChatGPT/Codex cho lặp nhanh, biến thể ngắn (social, meta). Prompt trong repo dùng được cho cả hai.
-- **Ngôn ngữ:** website có cả VI (root) và EN (`/en/`). Playbook này tập trung mảng **EN/global**; nguyên tắc áp dụng ngược lại cho VI.
-- File này + toàn bộ `docs/` là tài liệu sống — cập nhật khi bạn học được điều mới từ dữ liệu.
+Backlog trong `research/` còn nhiều trang P0/P1. Cần viết tiếp nhóm nào (thêm bài trụ, trang sản phẩm theo hãng, hay blog how-to) chỉ cần yêu cầu là sản xuất tiếp.
