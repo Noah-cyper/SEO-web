@@ -16,6 +16,21 @@ Mỗi trang có sẵn: **title tag, meta description, URL slug, H1, nội dung, 
 
 Các trang **link chéo vào nhau** (bài trụ ↔ trang sản phẩm ↔ blog), CTA đưa về `/lien-he/`.
 
+## Cụm thương hiệu Seneca (thư mục `content/vi/seneca/`)
+
+Đang phủ **toàn bộ sản phẩm Seneca** (Italy) theo cấu trúc hub → danh mục → model:
+
+| Trang | Loại | File |
+|---|---|---|
+| Seneca Việt Nam (trang hãng) | Hub thương hiệu | `content/vi/seneca/seneca-viet-nam.md` |
+| Bộ chuyển đổi tín hiệu Seneca | Danh mục (pillar) | `content/vi/seneca/bo-chuyen-doi-tin-hieu-seneca.md` |
+| K109S | Sản phẩm | `content/vi/seneca/k109s-seneca.md` |
+| K109PT (Pt100) | Sản phẩm | `content/vi/seneca/k109pt-seneca.md` |
+| Z109REG2-1 | Sản phẩm | `content/vi/seneca/z109reg2-1-seneca.md` |
+| _Template sản phẩm Seneca_ | Khung nhân bản | `content/vi/seneca/_TEMPLATE-san-pham-seneca.md` |
+
+Kế hoạch phủ hết dòng/model Seneca (chuyển đổi tín hiệu, remote I/O Z-PC, datalogger/RTU, gateway Modbus, đồng hồ đo điện năng): `research/seneca-content-plan.md`.
+
 ## Kế hoạch content (thư mục `research/`)
 
 `research/keyword-and-content-plan.md` — backlog ~30 trang tiếng Việt cụ thể còn lại, xếp theo ROI, mỗi trang có từ khóa + URL + độ ưu tiên (đã đánh dấu trang nào xong). Gồm: bài trụ "là gì/cách chọn", trang sản phẩm theo hãng, blog kỹ thuật how-to, so sánh, trang ngành.
