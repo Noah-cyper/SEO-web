@@ -199,6 +199,36 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Alt text ảnh:** Z109REG2-1 Seneca chính hãng
 - **Gợi ý ảnh thật:** Ảnh sản phẩm thật trên nền trắng, thấy rõ mặt trước + tem model, gắn DIN rail. Nếu có, thêm 1 ảnh sơ đồ đấu nối.
 
+### K120 Seneca – Bộ Chuyển Đổi & Cách Ly Tín Hiệu
+- **URL:** `/k120-seneca/`
+- **Focus keyword:** k120
+- **Meta description:** Bộ chuyển đổi & cách ly tín hiệu K120 Seneca: vào/ra mA–V cấu hình, cách ly chống nhiễu, DIN rail nhỏ gọn. Thuộc dòng K-series. Chính hãng Italy, CO/CQ, sẵn hàng, báo giá.
+- **Thẻ (tags):** Seneca, thiết bị tự động hóa, thiết bị đo lường
+- **Ảnh bìa có sẵn:** `assets/covers/k120-seneca.svg`
+- **Tên file ảnh nên đặt:** `k120-seneca.jpg`
+- **Alt text ảnh:** K120 Seneca chính hãng
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Z109REG2-2 Seneca – Bộ Cách Ly & Chia Tín Hiệu (2 Ngõ Ra)
+- **URL:** `/z109reg2-2-seneca/`
+- **Focus keyword:** z109reg2-2
+- **Meta description:** Bộ cách ly & chuyển đổi tín hiệu Z109REG2-2 Seneca với 2 ngõ ra: chia/nhân 1 tín hiệu thành 2, cách ly, cấu hình linh hoạt, DIN rail. Chính hãng Italy, CO/CQ, sẵn hàng, báo giá.
+- **Thẻ (tags):** Seneca, bộ chuyển đổi tín hiệu, thiết bị tự động hóa, thiết bị đo lường
+- **Ảnh bìa có sẵn:** `assets/covers/z109reg2-2-seneca.svg`
+- **Tên file ảnh nên đặt:** `z109reg2-2-seneca.jpg`
+- **Alt text ảnh:** Z109REG2-2 Seneca chính hãng
+- **Gợi ý ảnh thật:** Ảnh sản phẩm thật trên nền trắng, thấy rõ mặt trước + tem model, gắn DIN rail. Nếu có, thêm 1 ảnh sơ đồ đấu nối.
+
+### T121 Seneca – Bộ Chuyển Đổi Tín Hiệu Nhiệt Độ (Pt100 / Can Nhiệt)
+- **URL:** `/t121-seneca/`
+- **Focus keyword:** t121
+- **Meta description:** Bộ chuyển đổi tín hiệu nhiệt độ T121 Seneca: nhận Pt100/can nhiệt (thermocouple), chuyển ra 4-20mA/0-10V, có nguồn cấp, cách ly, DIN rail. Chính hãng Italy, CO/CQ, báo giá.
+- **Thẻ (tags):** Seneca, thiết bị tự động hóa, thiết bị đo lường
+- **Ảnh bìa có sẵn:** `assets/covers/t121-seneca.svg`
+- **Tên file ảnh nên đặt:** `t121-seneca.jpg`
+- **Alt text ảnh:** T121 Seneca chính hãng
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
 ### Z-4RTD2 Seneca – Module 4 Kênh RTD/Pt100 (Modbus RTU)
 - **URL:** `/z-4rtd2-seneca/`
 - **Focus keyword:** z-4rtd2

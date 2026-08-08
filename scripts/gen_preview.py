@@ -33,6 +33,7 @@ GROUPS = [
         "seneca/k109lv-seneca.md",
         "seneca/k121-seneca.md",
         "seneca/z109reg2-1-seneca.md",
+        "seneca/k120-seneca.md","seneca/z109reg2-2-seneca.md","seneca/t121-seneca.md",
         "seneca/z-4rtd2-seneca.md",
         "seneca/z-8ai-seneca.md",
         "seneca/z-4ao-seneca.md",

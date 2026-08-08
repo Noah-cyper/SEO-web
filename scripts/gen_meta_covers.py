@@ -19,6 +19,7 @@ GROUPS = [
     ("Seneca — Sản phẩm", "#e5484d", [
         "seneca/k109s-seneca.md","seneca/k109pt-seneca.md","seneca/k109lv-seneca.md","seneca/k121-seneca.md",
         "seneca/z109reg2-1-seneca.md",
+        "seneca/k120-seneca.md","seneca/z109reg2-2-seneca.md","seneca/t121-seneca.md",
         "seneca/z-4rtd2-seneca.md","seneca/z-8ai-seneca.md","seneca/z-4ao-seneca.md","seneca/z-10-d-in-seneca.md",
         "seneca/z-logger3-seneca.md","seneca/z-gprs3-seneca.md",
         "seneca/z-key-seneca.md","seneca/r-key-lt-seneca.md"]),

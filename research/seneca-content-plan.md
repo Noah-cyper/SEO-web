@@ -25,9 +25,9 @@
 | **Z109REG2-1** | Cách ly 3 đường, lập trình được | `/z109reg2-1-seneca/` | P0 | ✅ **Đã viết** |
 | **K109LV** | Shunt/mV → 4-20mA/0-10V | `/k109lv-seneca/` | P0 | ✅ **Đã viết** |
 | **K121** | Chuyển đổi/cách ly có nguồn, dải rộng | `/k121-seneca/` | P0 | ✅ **Đã viết** |
-| **K120** | Chuyển đổi tín hiệu (biến thể K-series) | `/k120-seneca/` | P1 | ⬜ |
-| **Z109REG2-2** | Cách ly, 2 ngõ ra | `/z109reg2-2-seneca/` | P1 | ⬜ |
-| **T121 / T120** | Chuyển đổi nhiệt độ (Pt100/can nhiệt) có nguồn | `/t121-seneca/` | P1 | ⬜ |
+| **K120** | Chuyển đổi tín hiệu (biến thể K-series) | `/k120-seneca/` | P1 | ✅ **Đã viết** |
+| **Z109REG2-2** | Cách ly, 2 ngõ ra | `/z109reg2-2-seneca/` | P1 | ✅ **Đã viết** |
+| **T121** | Chuyển đổi nhiệt độ (Pt100/can nhiệt) có nguồn | `/t121-seneca/` | P1 | ✅ **Đã viết** |
 | **ZK109 / bộ loadcell** | Chuyển đổi loadcell/strain gauge | `/zk109-seneca/` | P2 | ⬜ |
 
 ---
