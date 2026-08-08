@@ -51,8 +51,8 @@
 
 | Model | Chức năng | URL slug | Ưu tiên |
 |---|---|---|---|
-| **Z-LOGGER3** | Datalogger đa giao thức, UPS tích hợp | `/z-logger3-seneca/` | P1 |
-| **Z-GPRS3** | Datalogger/RTU không dây 2G/3G, telemetry | `/z-gprs3-seneca/` | P1 |
+| **Z-LOGGER3** | Datalogger đa giao thức, UPS tích hợp | `/z-logger3-seneca/` | P1 ✅ |
+| **Z-GPRS3** | Datalogger/RTU không dây 2G/3G, telemetry | `/z-gprs3-seneca/` | P1 ✅ |
 | **Z-UMTS** | RTU/datalogger 3G | `/z-umts-seneca/` | P2 |
 | **Z-LTE** | RTU/datalogger 4G | `/z-lte-seneca/` | P2 |
 
@@ -63,8 +63,8 @@
 
 | Model | Chức năng | URL slug | Ưu tiên |
 |---|---|---|---|
-| **Z-KEY** | Gateway Modbus TCP ↔ RTU | `/z-key-seneca/` | P1 |
-| **R-KEY-LT** | Gateway Modbus nhỏ gọn | `/r-key-lt-seneca/` | P1 |
+| **Z-KEY** | Gateway Modbus TCP ↔ RTU | `/z-key-seneca/` | P1 ✅ |
+| **R-KEY-LT** | Gateway Modbus nhỏ gọn | `/r-key-lt-seneca/` | P1 ✅ |
 | **Z-PASS2** | IoT gateway/router VPN | `/z-pass2-seneca/` | P2 |
 | **R-PASS** | Industrial IoT Edge Gateway | `/r-pass-seneca/` | P2 |
 
