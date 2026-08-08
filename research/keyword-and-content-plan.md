@@ -16,8 +16,8 @@ Bằng chứng nhu cầu: hàng loạt đối thủ (lumi.vn, baa.vn, wisevietna
 |---|---|---|---|---|
 | Cảm biến áp suất là gì? Cách chọn | cảm biến áp suất / là gì / cách chọn | `/cam-bien-ap-suat/` | P0 | ✅ **Đã viết** (`content/vi/cam-bien-ap-suat-la-gi-cach-chon.md`) |
 | PLC Mitsubishi FX3U là gì? | plc mitsubishi fx3u / là gì / ứng dụng | `/plc-mitsubishi-fx3u-la-gi/` | P0 | ✅ **Đã viết** (`content/vi/plc-mitsubishi-fx3u-la-gi.md`) |
-| Cảm biến chênh áp là gì? Cách chọn | cảm biến chênh áp / differential pressure | `/cam-bien-chenh-ap/` | P0 | ⬜ Chờ viết |
-| Cảm biến nhiệt độ (RTD/can nhiệt) là gì? | cảm biến nhiệt độ / pt100 / can nhiệt | `/cam-bien-nhiet-do/` | P0 | ⬜ |
+| Cảm biến chênh áp là gì? Cách chọn | cảm biến chênh áp / differential pressure | `/cam-bien-chenh-ap/` | P0 | ✅ **Đã viết** (`content/vi/cam-bien-chenh-ap.md`) |
+| Cảm biến nhiệt độ (RTD/can nhiệt) là gì? | cảm biến nhiệt độ / pt100 / can nhiệt | `/cam-bien-nhiet-do/` | P0 | ✅ **Đã viết** (`content/vi/cam-bien-nhiet-do.md`) |
 | Cảm biến đo mức là gì? Các loại & cách chọn | cảm biến đo mức / đo mức nước / radar | `/cam-bien-do-muc/` | P1 | ⬜ |
 | Biến tần là gì? Cách chọn biến tần | biến tần / inverter / cách chọn | `/bien-tan-la-gi/` | P1 | ⬜ |
 | Đồng hồ đo áp suất là gì? Cách chọn | đồng hồ đo áp suất / cách chọn | `/dong-ho-do-ap-suat/` | P1 | ⬜ |
@@ -49,7 +49,7 @@ Intent mua rõ: "chính hãng", "giá", "CO/CQ", "sẵn hàng". Đối thủ: va
 | Trang | Từ khóa | URL slug | Ưu tiên |
 |---|---|---|---|
 | Hướng dẫn hiệu chỉnh zero & span cảm biến | hiệu chỉnh zero span cảm biến | (đã có – rà soát/refresh) | P0 |
-| Cách đấu dây cảm biến áp suất 4-20mA (2 dây/3 dây) | đấu dây cảm biến áp suất 4-20ma | `/dau-day-cam-bien-ap-suat-4-20ma/` | P0 |
+| Cách đấu dây cảm biến áp suất 4-20mA (2 dây/3 dây) | đấu dây cảm biến áp suất 4-20ma | `/dau-day-cam-bien-ap-suat-4-20ma/` | P0 ✅ **Đã viết** |
 | Lỗi thường gặp của cảm biến áp suất & cách khắc phục | lỗi cảm biến áp suất / cách khắc phục | `/loi-cam-bien-ap-suat/` | P1 |
 | Cách chọn thang đo đồng hồ/cảm biến áp suất | cách chọn thang đo áp suất | `/cach-chon-thang-do-ap-suat/` | P1 |
 | 4-20mA là gì? Vì sao dùng trong công nghiệp | tín hiệu 4-20ma là gì | `/tin-hieu-4-20ma-la-gi/` | P2 |
