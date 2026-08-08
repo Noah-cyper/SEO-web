@@ -33,7 +33,7 @@
 ---
 
 ## 2. Remote I/O Modbus RTU (Z-PC Line) — P1
-**Trang danh mục:** `/remote-io-seneca-z-pc/` — ⬜
+**Trang danh mục:** `/remote-io-seneca-z-pc/` — ✅ **Đã viết**
 
 | Model | Chức năng | URL slug | Ưu tiên |
 |---|---|---|---|
@@ -47,7 +47,7 @@
 ---
 
 ## 3. Datalogger & RTU giám sát từ xa — P1
-**Trang danh mục:** `/datalogger-rtu-seneca/` — ⬜
+**Trang danh mục:** `/datalogger-rtu-seneca/` — ✅ **Đã viết**
 
 | Model | Chức năng | URL slug | Ưu tiên |
 |---|---|---|---|
@@ -59,7 +59,7 @@
 ---
 
 ## 4. Gateway / Router Modbus – IoT — P1
-**Trang danh mục:** `/gateway-modbus-seneca/` — ⬜
+**Trang danh mục:** `/gateway-modbus-seneca/` — ✅ **Đã viết**
 
 | Model | Chức năng | URL slug | Ưu tiên |
 |---|---|---|---|
