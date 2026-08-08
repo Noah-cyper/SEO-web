@@ -14,9 +14,9 @@ Bằng chứng nhu cầu: Emerson/Radwell/EU Automation/Galco đều có trang c
 |---|---|---|---|---|
 | Rosemount 1151 replacement | rosemount 1151 replacement / obsolete | `/en/obsolete/rosemount-1151-replacement/` | P0 | ✅ **Đã viết** (`content/en/obsolete-rosemount-1151-replacement.md`) |
 | Mitsubishi FX3U replacement (FX5U) | mitsubishi fx3u replacement / end of life | `/en/obsolete/mitsubishi-fx3u-replacement-fx5u/` | P0 | ✅ **Đã viết** (`content/en/mitsubishi-fx3u-fx5u-replacement.md`) |
+| Allen-Bradley PLC-5 / SLC 500 replacement | plc-5 replacement / slc 500 obsolete | `/en/obsolete/allen-bradley-plc5-slc500-replacement/` | P0 | ✅ **Đã viết** (`content/en/obsolete-allen-bradley-plc5-slc500-replacement.md`) |
 | Rosemount 3051 obsolete models replacement | rosemount 3051 obsolete replacement | `/en/obsolete/rosemount-3051-replacement/` | P0 | ⬜ Chờ viết |
 | Siemens SITRANS P (legacy) replacement | siemens sitrans p obsolete replacement | `/en/obsolete/siemens-sitrans-p-replacement/` | P1 | ⬜ |
-| Allen-Bradley PLC-5 / SLC 500 replacement | plc-5 replacement / slc 500 obsolete | `/en/obsolete/allen-bradley-plc5-slc500-replacement/` | P1 | ⬜ |
 | Mitsubishi FX3G / FX3UC replacement | fx3g replacement / fx3uc end of life | `/en/obsolete/mitsubishi-fx3g-fx3uc-replacement/` | P1 | ⬜ |
 | Yokogawa EJA obsolete replacement | yokogawa eja replacement | `/en/obsolete/yokogawa-eja-replacement/` | P2 | ⬜ |
 | Endress+Hauser Cerabar (legacy) replacement | e+h cerabar obsolete replacement | `/en/obsolete/endress-hauser-cerabar-replacement/` | P2 | ⬜ |
@@ -31,7 +31,7 @@ Bằng chứng: Galco "How to Cross-Reference Obsolete Automation Parts", US Con
 
 | Trang | Target keyword | URL slug | Ưu tiên |
 |---|---|---|---|
-| How to cross-reference obsolete automation parts | cross reference obsolete parts | `/en/guides/cross-reference-obsolete-parts/` | P0 |
+| How to cross-reference obsolete automation parts | cross reference obsolete parts | `/en/guides/cross-reference-obsolete-parts/` | P0 ✅ **Đã viết** |
 | Rosemount 1151 → 3051 cross-reference chart | rosemount 1151 3051 cross reference | `/en/cross-reference/rosemount-1151-to-3051/` | P0 |
 | Mitsubishi FX3U → FX5U cross-reference | fx3u fx5u cross reference | `/en/cross-reference/mitsubishi-fx3u-to-fx5u/` | P1 |
 | Pressure transmitter cross-reference (multi-brand) | pressure transmitter cross reference | `/en/cross-reference/pressure-transmitters/` | P1 |
@@ -60,8 +60,8 @@ Nâng cấp/viết mới cho chính các dịch vụ ở `/en/sourcing/`:
 
 | Trang | Target keyword | URL slug | Ưu tiên |
 |---|---|---|---|
-| Obsolete & hard-to-find parts sourcing | obsolete parts sourcing / hard to find automation parts | `/en/services/obsolete-parts-sourcing/` | P0 |
-| Emergency / line-down (AOG) supply | line down parts / emergency industrial parts | `/en/services/emergency-line-down-supply/` | P0 |
+| Obsolete & hard-to-find parts sourcing | obsolete parts sourcing / hard to find automation parts | `/en/services/obsolete-parts-sourcing/` | P0 ✅ **Đã viết** |
+| Emergency / line-down (AOG) supply | line down parts / emergency industrial parts | `/en/services/emergency-line-down-supply/` | P0 ✅ **Đã viết** |
 | Counterfeit screening & traceability | counterfeit electronic components prevention | `/en/services/counterfeit-screening/` | P1 |
 | VMI & BOM cost reduction | vendor managed inventory industrial / bom cost reduction | `/en/services/vmi-bom-optimization/` | P1 |
 
