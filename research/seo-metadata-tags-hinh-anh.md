@@ -71,6 +71,29 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Gợi ý ảnh thật:** Ảnh PLC Mitsubishi FX3U/FX5U + bảng so sánh.
 
 
+## Thiết bị khó tìm & hàng ngừng sản xuất
+
+### Thiết Bị Công Nghiệp Khó Tìm & Hàng Ngừng Sản Xuất – Tìm Nguồn & Thay Thế
+- **URL:** `/thiet-bi-cong-nghiep-kho-tim/`
+- **Focus keyword:** thiết bị công nghiệp khó tìm
+- **Meta description:** Cần thiết bị đo lường – tự động hóa đã ngừng sản xuất, khó tìm, hết hàng? Chúng tôi tìm nguồn hàng chính hãng và đề xuất mã thay thế tương đương. Gửi mã thiết bị để được tư vấn.
+- **Thẻ (tags):** thiết bị khó tìm, hàng ngừng sản xuất, thiết bị tự động hóa, thiết bị đo lường
+- **Ảnh bìa có sẵn:** `assets/covers/thiet-bi-cong-nghiep-kho-tim.svg`
+- **Tên file ảnh nên đặt:** `thiet-bi-cong-nghiep-kho-tim.jpg`
+- **Alt text ảnh:** Thiết Bị Công Nghiệp Khó Tìm & Hàng Ngừng Sản Xuất
+- **Gợi ý ảnh thật:** Ảnh kho thiết bị/linh kiện đa dạng hoặc hình ghép nhiều model — gợi ý nguồn hàng sẵn.
+
+### Linh Kiện Tự Động Hóa Ngừng Sản Xuất: Cách Tìm Hàng Thay Thế Đúng
+- **URL:** `/linh-kien-tu-dong-hoa-ngung-san-xuat/`
+- **Focus keyword:** linh kiện ngừng sản xuất
+- **Meta description:** Thiết bị/linh kiện tự động hóa ngừng sản xuất (obsolete/EOL)? Hướng dẫn 5 bước tìm mã thay thế đúng: tra thông số, tìm model kế nhiệm, đối chiếu tín hiệu & chứng nhận.
+- **Thẻ (tags):** đồng hồ áp suất, hàng ngừng sản xuất, obsolete, thiết bị tự động hóa, thiết bị đo lường
+- **Ảnh bìa có sẵn:** `assets/covers/linh-kien-tu-dong-hoa-ngung-san-xuat.svg`
+- **Tên file ảnh nên đặt:** `linh-kien-tu-dong-hoa-ngung-san-xuat.jpg`
+- **Alt text ảnh:** Linh Kiện Tự Động Hóa Ngừng Sản Xuất: Cách Tìm Hàng Thay Thế Đúng
+- **Gợi ý ảnh thật:** Ảnh so sánh model cũ → model kế nhiệm, hoặc nhãn 'obsolete/EOL'.
+
+
 ## Seneca — Hãng & danh mục
 
 ### Thiết Bị Seneca Chính Hãng – Bộ Chuyển Đổi Tín Hiệu, Remote I/O, Datalogger
@@ -175,6 +198,46 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Tên file ảnh nên đặt:** `z109reg2-1-seneca.jpg`
 - **Alt text ảnh:** Z109REG2-1 Seneca chính hãng
 - **Gợi ý ảnh thật:** Ảnh sản phẩm thật trên nền trắng, thấy rõ mặt trước + tem model, gắn DIN rail. Nếu có, thêm 1 ảnh sơ đồ đấu nối.
+
+### Z-4RTD2 Seneca – Module 4 Kênh RTD/Pt100 (Modbus RTU)
+- **URL:** `/z-4rtd2-seneca/`
+- **Focus keyword:** z-4rtd2
+- **Meta description:** Module remote I/O Z-4RTD2 Seneca: 4 kênh đầu vào RTD/Pt100 (2/3 dây), truyền Modbus RTU RS485, DIN rail nhỏ gọn. Đọc nhiều điểm nhiệt độ từ xa. Chính hãng Italy, CO/CQ, báo giá.
+- **Thẻ (tags):** Seneca, thiết bị tự động hóa, thiết bị đo lường
+- **Ảnh bìa có sẵn:** `assets/covers/z-4rtd2-seneca.svg`
+- **Tên file ảnh nên đặt:** `z-4rtd2-seneca.jpg`
+- **Alt text ảnh:** Z-4RTD2 Seneca chính hãng
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Z-8AI Seneca – Module 8 Kênh Đầu Vào Analog (Modbus RTU)
+- **URL:** `/z-8ai-seneca/`
+- **Focus keyword:** z-8ai
+- **Meta description:** Module remote I/O Z-8AI Seneca: 8 kênh đầu vào analog (mA/V) truyền Modbus RTU RS485, DIN rail nhỏ gọn. Gom nhiều cảm biến analog về SCADA. Chính hãng Italy, CO/CQ, báo giá.
+- **Thẻ (tags):** Seneca, thiết bị tự động hóa, thiết bị đo lường
+- **Ảnh bìa có sẵn:** `assets/covers/z-8ai-seneca.svg`
+- **Tên file ảnh nên đặt:** `z-8ai-seneca.jpg`
+- **Alt text ảnh:** Z-8AI Seneca chính hãng
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Z-4AO Seneca – Module 4 Kênh Đầu Ra Analog (Modbus RTU)
+- **URL:** `/z-4ao-seneca/`
+- **Focus keyword:** z-4ao
+- **Meta description:** Module remote I/O Z-4AO Seneca: 4 kênh đầu ra analog (mA/V) điều khiển qua Modbus RTU RS485, DIN rail. Xuất tín hiệu điều khiển từ SCADA/PLC. Chính hãng Italy, CO/CQ, báo giá.
+- **Thẻ (tags):** Seneca, thiết bị tự động hóa, thiết bị đo lường
+- **Ảnh bìa có sẵn:** `assets/covers/z-4ao-seneca.svg`
+- **Tên file ảnh nên đặt:** `z-4ao-seneca.jpg`
+- **Alt text ảnh:** Z-4AO Seneca chính hãng
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Z-10-D-IN Seneca – Module Ngõ Vào Số + Đếm Xung (Modbus RTU)
+- **URL:** `/z-10-d-in-seneca/`
+- **Focus keyword:** z-10-d-in
+- **Meta description:** Module remote I/O Z-10-D-IN Seneca: nhiều ngõ vào số + bộ đếm xung tốc độ cao, truyền Modbus RTU RS485, DIN rail. Đọc trạng thái & đếm từ xa. Chính hãng Italy, CO/CQ, báo giá.
+- **Thẻ (tags):** Seneca, thiết bị tự động hóa, thiết bị đo lường
+- **Ảnh bìa có sẵn:** `assets/covers/z-10-d-in-seneca.svg`
+- **Tên file ảnh nên đặt:** `z-10-d-in-seneca.jpg`
+- **Alt text ảnh:** Z-10-D-IN Seneca chính hãng
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
 
 ### Z-LOGGER3 Seneca – Datalogger Công Nghiệp Đa Giao Thức
 - **URL:** `/z-logger3-seneca/`

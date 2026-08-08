@@ -37,10 +37,10 @@
 
 | Model | Chức năng | URL slug | Ưu tiên |
 |---|---|---|---|
-| **Z-4RTD2** | Module 4 kênh RTD/Pt100 Modbus | `/z-4rtd2-seneca/` | P1 |
-| **Z-8AI** | Module 8 ngõ vào analog | `/z-8ai-seneca/` | P1 |
-| **Z-4AO** | Module 4 ngõ ra analog | `/z-4ao-seneca/` | P1 |
-| **Z-10-D-IN** | Module ngõ vào số + đếm tốc độ cao | `/z-10-d-in-seneca/` | P1 |
+| **Z-4RTD2** | Module 4 kênh RTD/Pt100 Modbus | `/z-4rtd2-seneca/` | P1 ✅ |
+| **Z-8AI** | Module 8 ngõ vào analog | `/z-8ai-seneca/` | P1 ✅ |
+| **Z-4AO** | Module 4 ngõ ra analog | `/z-4ao-seneca/` | P1 ✅ |
+| **Z-10-D-IN** | Module ngõ vào số + đếm tốc độ cao | `/z-10-d-in-seneca/` | P1 ✅ |
 | **Z-D-IN / Z-D-OUT** | Module I/O số | `/z-d-in-seneca/` | P2 |
 | Các module Z-PC khác | (theo catalog) | `/…-seneca/` | P2 |
 

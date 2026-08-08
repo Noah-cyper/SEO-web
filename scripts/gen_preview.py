@@ -16,6 +16,10 @@ GROUPS = [
     ("PLC", "plc", [
         "plc-mitsubishi-fx3u-la-gi.md",
     ]),
+    ("Thiết bị khó tìm & hàng ngừng sản xuất", "kho-tim", [
+        "thiet-bi-cong-nghiep-kho-tim.md",
+        "linh-kien-tu-dong-hoa-ngung-san-xuat.md",
+    ]),
     ("Seneca — Hãng & danh mục", "seneca-cat", [
         "seneca/seneca-viet-nam.md",
         "seneca/bo-chuyen-doi-tin-hieu-seneca.md",
@@ -29,6 +33,10 @@ GROUPS = [
         "seneca/k109lv-seneca.md",
         "seneca/k121-seneca.md",
         "seneca/z109reg2-1-seneca.md",
+        "seneca/z-4rtd2-seneca.md",
+        "seneca/z-8ai-seneca.md",
+        "seneca/z-4ao-seneca.md",
+        "seneca/z-10-d-in-seneca.md",
         "seneca/z-logger3-seneca.md",
         "seneca/z-gprs3-seneca.md",
         "seneca/z-key-seneca.md",

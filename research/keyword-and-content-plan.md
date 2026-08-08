@@ -75,6 +75,19 @@ Intent mua rõ: "chính hãng", "giá", "CO/CQ", "sẵn hàng". Đối thủ: va
 
 ---
 
+## Cụm H — Thiết bị khó tìm & hàng ngừng sản xuất (P0–P1)
+
+Mảng dịch vụ hoantrantdh có thể sở hữu (nguồn EU/G7 + China). Intent thương mại cao (khách đang bí).
+
+| Trang | Từ khóa chính | URL slug | Ưu tiên | Trạng thái |
+|---|---|---|---|---|
+| Thiết bị công nghiệp khó tìm & hàng ngừng sản xuất | thiết bị công nghiệp khó tìm / hàng ngừng sản xuất | `/thiet-bi-cong-nghiep-kho-tim/` | P0 | ✅ **Đã viết** |
+| Linh kiện tự động hóa ngừng sản xuất — cách tìm thay thế | linh kiện ngừng sản xuất / obsolete / tìm hàng thay thế | `/linh-kien-tu-dong-hoa-ngung-san-xuat/` | P0 | ✅ **Đã viết** |
+| Tìm cảm biến/transmitter khó tìm | cảm biến khó tìm / transmitter ngừng sản xuất | `/tim-cam-bien-transmitter-kho-tim/` | P1 | ⬜ |
+| Thay thế PLC/module đời cũ | thay thế plc cũ / module ngừng sản xuất | `/thay-the-plc-module-doi-cu/` | P1 | ⬜ |
+
+---
+
 ## Bộ modifier để nhân từ khóa (ghép với mọi thiết bị/brand)
 
 `là gì` · `cách chọn` · `phân loại` · `nguyên lý` · `ứng dụng` · `cấu tạo` · `bảng giá` · `báo giá` · `giá` · `chính hãng` · `CO CQ` · `mua ở đâu` · `đấu dây` · `cách lắp` · `lỗi ... cách khắc phục` · `hãng nào tốt` · `thay thế` · `catalog` · `datasheet`

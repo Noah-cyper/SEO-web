@@ -11,12 +11,16 @@ GROUPS = [
         "cam-bien-ap-suat-la-gi-cach-chon.md","cam-bien-nhiet-do.md","cam-bien-chenh-ap.md",
         "dong-ho-do-ap-suat-wika.md","dau-day-cam-bien-ap-suat-4-20ma.md"]),
     ("PLC", "#12a594", ["plc-mitsubishi-fx3u-la-gi.md"]),
+    ("Thiết bị khó tìm & hàng ngừng sản xuất", "#d9862a", [
+        "thiet-bi-cong-nghiep-kho-tim.md","linh-kien-tu-dong-hoa-ngung-san-xuat.md"]),
     ("Seneca — Hãng & danh mục", "#e5484d", [
         "seneca/seneca-viet-nam.md","seneca/bo-chuyen-doi-tin-hieu-seneca.md",
         "seneca/remote-io-seneca-z-pc.md","seneca/datalogger-rtu-seneca.md","seneca/gateway-modbus-seneca.md"]),
     ("Seneca — Sản phẩm", "#e5484d", [
         "seneca/k109s-seneca.md","seneca/k109pt-seneca.md","seneca/k109lv-seneca.md","seneca/k121-seneca.md",
-        "seneca/z109reg2-1-seneca.md","seneca/z-logger3-seneca.md","seneca/z-gprs3-seneca.md",
+        "seneca/z109reg2-1-seneca.md",
+        "seneca/z-4rtd2-seneca.md","seneca/z-8ai-seneca.md","seneca/z-4ao-seneca.md","seneca/z-10-d-in-seneca.md",
+        "seneca/z-logger3-seneca.md","seneca/z-gprs3-seneca.md",
         "seneca/z-key-seneca.md","seneca/r-key-lt-seneca.md"]),
 ]
 
@@ -57,6 +61,9 @@ def tags_for(d):
         ("remote I/O", "remote-io" in d["slug"]),
         ("datalogger", "datalogger" in d["slug"] or "logger" in d["slug"] or "gprs" in d["slug"]),
         ("gateway Modbus", "gateway" in d["slug"] or "key" in d["slug"]),
+        ("thiết bị khó tìm", "kho-tim" in d["slug"]),
+        ("hàng ngừng sản xuất", "ngung-san-xuat" in d["slug"] or "kho-tim" in d["slug"]),
+        ("obsolete", "ngung-san-xuat" in d["slug"]),
     ]
     for name, cond in cat:
         if cond: t.append(name)
@@ -86,6 +93,8 @@ def img_brief(d):
     if "chenh-ap" in s: return "Ảnh cảm biến chênh áp + sơ đồ đo lưu lượng/mức bồn kín."
     if "plc" in s: return "Ảnh PLC Mitsubishi FX3U/FX5U + bảng so sánh."
     if "dau-day" in s: return "Sơ đồ đấu dây 4-20mA (2/3/4 dây) rõ ràng, dễ nhìn."
+    if "kho-tim" in s: return "Ảnh kho thiết bị/linh kiện đa dạng hoặc hình ghép nhiều model — gợi ý nguồn hàng sẵn."
+    if "ngung-san-xuat" in s: return "Ảnh so sánh model cũ → model kế nhiệm, hoặc nhãn 'obsolete/EOL'."
     return "Ảnh minh họa liên quan chủ đề, nền sạch."
 
 def alt_text(d):
