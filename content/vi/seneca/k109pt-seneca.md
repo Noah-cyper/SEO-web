@@ -18,6 +18,10 @@ H1          : K109PT Seneca – Bộ Chuyển Đổi Tín Hiệu Pt100 (RTD)
 
 > **Cần giá K109PT?** [Nhận báo giá trong ngày](#bao-gia).
 
+<!--DIAGRAM-->
+![Chuyển đổi & cách ly tín hiệu (vd 4–20mA → 0–10V)](assets/diagrams/signal-converter.svg)
+
+
 ---
 
 ## Thông số nổi bật (tham khảo – kiểm tra theo datasheet)

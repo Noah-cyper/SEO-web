@@ -18,6 +18,10 @@ H1          : Z-LOGGER3 Seneca – Datalogger Công Nghiệp Đa Giao Thức
 
 > **Cần giá Z-LOGGER3?** [Nhận báo giá trong ngày](#bao-gia).
 
+<!--DIAGRAM-->
+![Giám sát & cảnh báo từ xa qua RTU/datalogger (3G/4G)](assets/diagrams/remote-monitoring.svg)
+
+
 ---
 
 ## Thông số nổi bật (tham khảo – kiểm tra theo datasheet)

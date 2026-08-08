@@ -18,6 +18,10 @@ Rất nhiều dây chuyền đang chạy trên **PLC và module I/O đời cũ**
 
 > **Đang cần?** Gửi **mã PLC/module** → [Gửi yêu cầu tìm hàng & tư vấn](#yeu-cau).
 
+<!--DIAGRAM-->
+![Quy trình tìm hàng thay thế cho thiết bị ngừng sản xuất](assets/diagrams/obsolete-replacement.svg)
+
+
 ---
 
 ## Hai hướng xử lý

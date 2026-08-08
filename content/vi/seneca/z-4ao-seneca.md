@@ -18,6 +18,10 @@ H1          : Z-4AO Seneca – Module 4 Kênh Đầu Ra Analog (Modbus RTU)
 
 > **Cần giá Z-4AO?** [Nhận báo giá trong ngày](#bao-gia).
 
+<!--DIAGRAM-->
+![Thu thập tín hiệu từ xa qua Modbus RTU (remote I/O Z-PC)](assets/diagrams/modbus-remote-io.svg)
+
+
 ---
 
 ## Thông số nổi bật (tham khảo – kiểm tra theo datasheet)

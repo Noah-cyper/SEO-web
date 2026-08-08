@@ -18,6 +18,10 @@ H1          : Cảm Biến Chênh Áp Là Gì? Nguyên Lý, Ứng Dụng Và Cá
 
 > **Cần báo giá?** Gửi **dải chênh áp · môi chất · tín hiệu ngõ ra** → [Nhận tư vấn & báo giá](#bao-gia).
 
+<!--DIAGRAM-->
+![Ứng dụng cảm biến chênh áp: đo lưu lượng & mức bồn kín](assets/diagrams/dp-measurement.svg)
+
+
 ---
 
 ## Nguyên lý & 3 ứng dụng chính

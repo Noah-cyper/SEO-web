@@ -18,6 +18,10 @@ H1          : S504 Seneca – Công Tơ Điện Năng 1 Pha (Dòng S500)
 
 > **Cần giá S504?** [Nhận báo giá trong ngày](#bao-gia).
 
+<!--DIAGRAM-->
+![Giám sát điện năng: tải → CT → đồng hồ đo → Modbus → EMS](assets/diagrams/energy-monitoring.svg)
+
+
 ---
 
 ## Thông số nổi bật (tham khảo – kiểm tra theo datasheet)

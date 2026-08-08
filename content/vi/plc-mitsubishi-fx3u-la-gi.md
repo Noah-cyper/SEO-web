@@ -20,6 +20,10 @@ Trong nhiều năm, FX3U được xem là **"PLC quốc dân"** tại Việt Nam
 
 > **Cần mua FX3U/FX5U hoặc thay thế PLC cũ?** Gửi model đang dùng → [Tư vấn & báo giá PLC Mitsubishi](#bao-gia).
 
+<!--DIAGRAM-->
+![Chuỗi tín hiệu: cảm biến → bộ chuyển đổi → PLC/SCADA](assets/diagrams/signal-chain.svg)
+
+
 ---
 
 ## Ưu điểm của FX3U

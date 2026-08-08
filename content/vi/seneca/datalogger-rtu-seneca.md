@@ -18,6 +18,10 @@ Là các thiết bị **ghi dữ liệu (datalogger) và điều khiển/giám s
 
 > **Cần báo giá?** Gửi **số kênh I/O · kiểu truyền (Ethernet/3G/4G) · nhu cầu cảnh báo** → [Nhận tư vấn & báo giá](#bao-gia).
 
+<!--DIAGRAM-->
+![Giám sát & cảnh báo từ xa qua RTU/datalogger (3G/4G)](assets/diagrams/remote-monitoring.svg)
+
+
 ---
 
 ## Các model thông dụng

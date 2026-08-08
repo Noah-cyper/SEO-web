@@ -18,6 +18,10 @@ H1          : R-KEY-LT Seneca – Gateway Modbus TCP/RTU Nhỏ Gọn
 
 > **Cần giá R-KEY-LT?** [Nhận báo giá trong ngày](#bao-gia).
 
+<!--DIAGRAM-->
+![Gateway chuyển đổi Modbus TCP ↔ RTU](assets/diagrams/modbus-gateway.svg)
+
+
 ---
 
 ## Thông số nổi bật (tham khảo – kiểm tra theo datasheet)

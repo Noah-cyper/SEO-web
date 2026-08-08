@@ -18,6 +18,10 @@ Nhiều cảm biến áp suất, nhiệt độ, mức, lưu lượng và transmi
 
 > **Đang cần?** Gửi **mã/thông số cảm biến** (hoặc ảnh tem) → [Gửi yêu cầu tìm hàng](#yeu-cau).
 
+<!--DIAGRAM-->
+![Quy trình tìm hàng thay thế cho thiết bị ngừng sản xuất](assets/diagrams/obsolete-replacement.svg)
+
+
 ---
 
 ## Chúng tôi tìm loại nào

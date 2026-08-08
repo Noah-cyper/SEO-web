@@ -24,6 +24,11 @@ Cảm biến áp suất công nghiệp phổ biến nhất dùng tín hiệu **4
 
 > ⚠️ **Luôn đối chiếu sơ đồ trên nhãn/datasheet của cảm biến** — ký hiệu chân có thể khác nhau giữa các hãng.
 
+<!--DIAGRAM-->
+![Sơ đồ đấu dây 2 dây (loop-powered) 4–20mA](assets/diagrams/wiring-4-20ma-2wire.svg)
+![Sơ đồ đấu dây 3 dây 4–20mA](assets/diagrams/wiring-4-20ma-3wire.svg)
+
+
 ---
 
 ## 1. Đấu dây cảm biến 2 dây (loop-powered) — phổ biến nhất

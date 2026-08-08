@@ -18,6 +18,10 @@ H1          : Z109REG2-2 Seneca – Bộ Cách Ly & Chia Tín Hiệu (2 Ngõ Ra)
 
 > **Cần giá Z109REG2-2?** [Nhận báo giá trong ngày](#bao-gia).
 
+<!--DIAGRAM-->
+![Chuyển đổi & cách ly tín hiệu (vd 4–20mA → 0–10V)](assets/diagrams/signal-converter.svg)
+
+
 ---
 
 ## Thông số nổi bật (tham khảo – kiểm tra theo datasheet)

@@ -18,6 +18,10 @@ Là các thiết bị **đo, giám sát và ghi thông số điện** của **Se
 
 > **Cần báo giá?** Gửi **1 pha/3 pha · dòng tải (trực tiếp/qua CT) · giao thức** → [Nhận tư vấn & báo giá](#bao-gia).
 
+<!--DIAGRAM-->
+![Giám sát điện năng: tải → CT → đồng hồ đo → Modbus → EMS](assets/diagrams/energy-monitoring.svg)
+
+
 ---
 
 ## Các dòng thông dụng

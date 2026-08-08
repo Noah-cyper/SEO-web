@@ -18,6 +18,10 @@ Là các **đồng hồ hiển thị số gắn tủ (panel meter / digital indi
 
 > **Cần báo giá?** Gửi **loại tín hiệu vào · số chữ số · cần relay/Modbus không** → [Nhận tư vấn & báo giá](#bao-gia).
 
+<!--DIAGRAM-->
+![Bộ hiển thị: cảm biến → hiển thị LED → relay & ngõ ra analog](assets/diagrams/panel-indicator.svg)
+
+
 ---
 
 ## Các model thông dụng

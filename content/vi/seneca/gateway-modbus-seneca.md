@@ -18,6 +18,10 @@ Là các thiết bị **kết nối và chuyển đổi giao thức truyền th�
 
 > **Cần báo giá?** Gửi **giao thức cần ghép (TCP/RTU) & nhu cầu VPN/từ xa** → [Nhận tư vấn & báo giá](#bao-gia).
 
+<!--DIAGRAM-->
+![Gateway chuyển đổi Modbus TCP ↔ RTU](assets/diagrams/modbus-gateway.svg)
+
+
 ---
 
 ## Các model thông dụng

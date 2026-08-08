@@ -88,6 +88,18 @@ def convert(md):
         s = lines[i].strip()
         if not s:
             i += 1; continue
+        mimg = re.match(r'!\[(.*?)\]\((.*?)\)\s*$', s)
+        if mimg:
+            alt, src = mimg.group(1), mimg.group(2)
+            fig = ""
+            if "assets/diagrams/" in src:
+                p = os.path.join("/home/user/SEO-web", src)
+                if os.path.exists(p):
+                    svg = open(p, encoding="utf-8").read()
+                    fig = f"<figure class='diagram'>{svg}<figcaption>{inline(alt)}</figcaption></figure>"
+            if not fig:
+                fig = f"<figure class='diagram'><img src='{esc(src)}' alt='{esc(alt)}'/><figcaption>{inline(alt)}</figcaption></figure>"
+            out.append(fig); i += 1; continue
         if s.startswith("|"):
             tbl = []
             while i < n and lines[i].strip().startswith("|"):
@@ -268,6 +280,10 @@ main{min-width:0}
 .cover{margin:-30px clamp(-18px,-3.4vw,-44px) 22px;border-radius:16px 16px 0 0;overflow:hidden;
   border-bottom:1px solid var(--border);line-height:0}
 .cover svg{display:block;width:100%;height:auto}
+.diagram{margin:22px 0}
+.diagram svg{display:block;width:100%;height:auto;border-radius:12px}
+.diagram img{display:block;width:100%;height:auto;border-radius:12px}
+.diagram figcaption{margin-top:8px;font-size:12.5px;color:var(--muted);text-align:center;font-style:italic}
 .art-tag{display:inline-block;font-family:var(--mono);font-size:11px;letter-spacing:.05em;
   color:var(--signal);background:var(--signal-soft);border:1px solid var(--border);
   padding:4px 10px;border-radius:6px;margin-bottom:14px}

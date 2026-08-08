@@ -18,6 +18,10 @@ H1          : Z-8AI Seneca – Module 8 Kênh Đầu Vào Analog (Modbus RTU)
 
 > **Cần giá Z-8AI?** [Nhận báo giá trong ngày](#bao-gia).
 
+<!--DIAGRAM-->
+![Thu thập tín hiệu từ xa qua Modbus RTU (remote I/O Z-PC)](assets/diagrams/modbus-remote-io.svg)
+
+
 ---
 
 ## Thông số nổi bật (tham khảo – kiểm tra theo datasheet)

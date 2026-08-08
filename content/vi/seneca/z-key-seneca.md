@@ -18,6 +18,10 @@ H1          : Z-KEY Seneca – Gateway Modbus TCP-IP ↔ RTU
 
 > **Cần giá Z-KEY?** [Nhận báo giá trong ngày](#bao-gia).
 
+<!--DIAGRAM-->
+![Gateway chuyển đổi Modbus TCP ↔ RTU](assets/diagrams/modbus-gateway.svg)
+
+
 ---
 
 ## Thông số nổi bật (tham khảo – kiểm tra theo datasheet)

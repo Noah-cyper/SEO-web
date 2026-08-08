@@ -18,6 +18,10 @@ H1          : Z-10-D-IN Seneca – Module Ngõ Vào Số + Đếm Xung (Modbus R
 
 > **Cần giá Z-10-D-IN?** [Nhận báo giá trong ngày](#bao-gia).
 
+<!--DIAGRAM-->
+![Thu thập tín hiệu từ xa qua Modbus RTU (remote I/O Z-PC)](assets/diagrams/modbus-remote-io.svg)
+
+
 ---
 
 ## Thông số nổi bật (tham khảo – kiểm tra theo datasheet)

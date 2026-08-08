@@ -18,6 +18,10 @@ H1          : S311A Seneca – Bộ Hiển Thị Số Đa Năng (Panel Meter)
 
 > **Cần giá S311A?** [Nhận báo giá trong ngày](#bao-gia).
 
+<!--DIAGRAM-->
+![Bộ hiển thị: cảm biến → hiển thị LED → relay & ngõ ra analog](assets/diagrams/panel-indicator.svg)
+
+
 ---
 
 ## Thông số nổi bật (tham khảo – kiểm tra theo datasheet)

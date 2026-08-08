@@ -18,6 +18,10 @@ H1          : Z-PASS2 Seneca – IIoT Edge Gateway/Router 4G LTE + VPN
 
 > **Cần giá Z-PASS2?** [Nhận báo giá & tư vấn phiên bản](#bao-gia).
 
+<!--DIAGRAM-->
+![Giám sát & cảnh báo từ xa qua RTU/datalogger (3G/4G)](assets/diagrams/remote-monitoring.svg)
+
+
 ---
 
 ## Thông số nổi bật (tham khảo – kiểm tra theo datasheet)

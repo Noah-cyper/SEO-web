@@ -18,6 +18,10 @@ H1          : Remote I/O Seneca (Z-PC Line) – Module Thu Thập Tín Hiệu Mo
 
 > **Cần báo giá module Z-PC?** Gửi **loại tín hiệu & số kênh cần đọc** → [Nhận tư vấn & báo giá](#bao-gia).
 
+<!--DIAGRAM-->
+![Thu thập tín hiệu từ xa qua Modbus RTU (remote I/O Z-PC)](assets/diagrams/modbus-remote-io.svg)
+
+
 ---
 
 ## Các module Z-PC thông dụng

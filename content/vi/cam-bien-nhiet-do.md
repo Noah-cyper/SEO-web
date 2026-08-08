@@ -18,6 +18,10 @@ H1          : Cảm Biến Nhiệt Độ Là Gì? Pt100, Can Nhiệt Và Cách C
 
 > **Cần báo giá?** Gửi **dải nhiệt độ · loại (Pt100/can nhiệt) · kiểu lắp** → [Nhận tư vấn & báo giá](#bao-gia).
 
+<!--DIAGRAM-->
+![So sánh Pt100 (RTD) và can nhiệt (thermocouple)](assets/diagrams/rtd-vs-tc.svg)
+
+
 ---
 
 ## Phân loại cảm biến nhiệt độ

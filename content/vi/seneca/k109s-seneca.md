@@ -18,6 +18,10 @@ H1          : K109S Seneca – Bộ Chuyển Đổi & Cách Ly Tín Hiệu Đa N
 
 > **Cần giá K109S?** [Nhận báo giá K109S trong ngày](#bao-gia) — sẵn hàng.
 
+<!--DIAGRAM-->
+![Chuyển đổi & cách ly tín hiệu (vd 4–20mA → 0–10V)](assets/diagrams/signal-converter.svg)
+
+
 ---
 
 ## Thông số nổi bật (tham khảo – kiểm tra theo datasheet)

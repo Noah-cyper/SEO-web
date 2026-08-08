@@ -20,6 +20,10 @@ Nguồn hàng **EU/G7 + China**, tư vấn kỹ thuật để chọn đúng thay
 
 > **Đang cần gấp?** Gửi **mã thiết bị / hình chụp tem nhãn** → [Gửi yêu cầu tìm hàng & báo giá](#yeu-cau).
 
+<!--DIAGRAM-->
+![Quy trình tìm hàng thay thế cho thiết bị ngừng sản xuất](assets/diagrams/obsolete-replacement.svg)
+
+
 ---
 
 ## Chúng tôi tìm & cung cấp

@@ -20,6 +20,10 @@ Nói đơn giản: nó là "giác quan" giúp hệ thống biết được áp s
 
 > **Cần báo giá nhanh?** Gửi cho chúng tôi **dải áp suất, tín hiệu ngõ ra và kiểu kết nối** cần dùng → [Nhận báo giá & tư vấn chọn cảm biến](#bao-gia).
 
+<!--DIAGRAM-->
+![Ba loại áp suất: tương đối, tuyệt đối, chênh áp](assets/diagrams/pressure-types.svg)
+
+
 ---
 
 ## Phân loại cảm biến áp suất

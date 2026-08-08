@@ -18,6 +18,10 @@ H1          : Z-GPRS3 Seneca – RTU / Datalogger Không Dây (2G/3G)
 
 > **Cần giá Z-GPRS3?** [Nhận báo giá trong ngày](#bao-gia).
 
+<!--DIAGRAM-->
+![Giám sát & cảnh báo từ xa qua RTU/datalogger (3G/4G)](assets/diagrams/remote-monitoring.svg)
+
+
 ---
 
 ## Thông số nổi bật (tham khảo – kiểm tra theo datasheet)

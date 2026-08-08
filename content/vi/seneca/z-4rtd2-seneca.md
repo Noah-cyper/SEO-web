@@ -18,6 +18,10 @@ H1          : Z-4RTD2 Seneca – Module 4 Kênh RTD/Pt100 (Modbus RTU)
 
 > **Cần giá Z-4RTD2?** [Nhận báo giá trong ngày](#bao-gia).
 
+<!--DIAGRAM-->
+![Thu thập tín hiệu từ xa qua Modbus RTU (remote I/O Z-PC)](assets/diagrams/modbus-remote-io.svg)
+
+
 ---
 
 ## Thông số nổi bật (tham khảo – kiểm tra theo datasheet)

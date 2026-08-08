@@ -18,6 +18,10 @@ H1          : Bộ Chuyển Đổi & Cách Ly Tín Hiệu Seneca (Z-LINE)
 
 > **Không chắc chọn mã nào?** Cho chúng tôi biết **tín hiệu vào → tín hiệu ra** cần dùng → [Tư vấn & báo giá](#bao-gia).
 
+<!--DIAGRAM-->
+![Chuyển đổi & cách ly tín hiệu (vd 4–20mA → 0–10V)](assets/diagrams/signal-converter.svg)
+
+
 ---
 
 ## Các model bộ chuyển đổi tín hiệu Seneca thông dụng

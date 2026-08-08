@@ -18,6 +18,10 @@ H1          : S604 Seneca – Đồng Hồ Đo Điện Đa Năng 3 Pha (Power An
 
 > **Cần giá S604?** [Nhận báo giá trong ngày](#bao-gia).
 
+<!--DIAGRAM-->
+![Giám sát điện năng: tải → CT → đồng hồ đo → Modbus → EMS](assets/diagrams/energy-monitoring.svg)
+
+
 ---
 
 ## Thông số nổi bật (tham khảo – kiểm tra theo datasheet)

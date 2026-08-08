@@ -18,6 +18,10 @@ Một linh kiện (cảm biến, transmitter, PLC, module, bộ chuyển đổi�
 
 > **Muốn nhanh?** Gửi mã cũ, chúng tôi tra thay thế giúp → [Gửi yêu cầu](/thiet-bi-cong-nghiep-kho-tim/).
 
+<!--DIAGRAM-->
+![Quy trình tìm hàng thay thế cho thiết bị ngừng sản xuất](assets/diagrams/obsolete-replacement.svg)
+
+
 ---
 
 ## Bước 1 — Ghi lại đầy đủ "danh tính" mã cũ

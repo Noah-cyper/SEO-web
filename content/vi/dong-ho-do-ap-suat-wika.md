@@ -18,6 +18,10 @@ H1          : Đồng Hồ Đo Áp Suất WIKA Chính Hãng – Giá Tốt, Sẵ
 
 > **Cần giá nhanh?** Gửi **thang đo · kiểu chân (đồng/inox) · đường kính mặt · kết nối ren** → [Nhận báo giá WIKA trong ngày](#bao-gia).
 
+<!--DIAGRAM-->
+![Ba loại áp suất: tương đối, tuyệt đối, chênh áp](assets/diagrams/pressure-types.svg)
+
+
 ---
 
 ## Các loại đồng hồ đo áp suất WIKA thông dụng
