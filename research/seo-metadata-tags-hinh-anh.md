@@ -87,11 +87,31 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **URL:** `/linh-kien-tu-dong-hoa-ngung-san-xuat/`
 - **Focus keyword:** linh kiện ngừng sản xuất
 - **Meta description:** Thiết bị/linh kiện tự động hóa ngừng sản xuất (obsolete/EOL)? Hướng dẫn 5 bước tìm mã thay thế đúng: tra thông số, tìm model kế nhiệm, đối chiếu tín hiệu & chứng nhận.
-- **Thẻ (tags):** đồng hồ áp suất, hàng ngừng sản xuất, obsolete, thiết bị tự động hóa, thiết bị đo lường
+- **Thẻ (tags):** hàng ngừng sản xuất, obsolete, thiết bị tự động hóa, thiết bị đo lường
 - **Ảnh bìa có sẵn:** `assets/covers/linh-kien-tu-dong-hoa-ngung-san-xuat.svg`
 - **Tên file ảnh nên đặt:** `linh-kien-tu-dong-hoa-ngung-san-xuat.jpg`
 - **Alt text ảnh:** Linh Kiện Tự Động Hóa Ngừng Sản Xuất: Cách Tìm Hàng Thay Thế Đúng
 - **Gợi ý ảnh thật:** Ảnh so sánh model cũ → model kế nhiệm, hoặc nhãn 'obsolete/EOL'.
+
+### Tìm Cảm Biến & Transmitter Khó Tìm / Ngừng Sản Xuất
+- **URL:** `/tim-cam-bien-transmitter-kho-tim/`
+- **Focus keyword:** cảm biến khó tìm
+- **Meta description:** Cần cảm biến, transmitter, đầu dò đã ngừng sản xuất hoặc khó tìm? Chúng tôi tìm nguồn hàng chính hãng và đề xuất mã thay thế tương đương. Gửi mã/thông số để được tư vấn nhanh.
+- **Thẻ (tags):** thiết bị khó tìm, hàng ngừng sản xuất, thiết bị tự động hóa, thiết bị đo lường
+- **Ảnh bìa có sẵn:** `assets/covers/tim-cam-bien-transmitter-kho-tim.svg`
+- **Tên file ảnh nên đặt:** `tim-cam-bien-transmitter-kho-tim.jpg`
+- **Alt text ảnh:** Tìm Cảm Biến & Transmitter Khó Tìm / Ngừng Sản Xuất
+- **Gợi ý ảnh thật:** Ảnh kho thiết bị/linh kiện đa dạng hoặc hình ghép nhiều model — gợi ý nguồn hàng sẵn.
+
+### Thay Thế PLC & Module Đời Cũ / Ngừng Sản Xuất
+- **URL:** `/thay-the-plc-module-doi-cu/`
+- **Focus keyword:** thay thế plc cũ
+- **Meta description:** PLC hoặc module I/O đời cũ đã ngừng sản xuất, khó tìm? Chúng tôi tìm hàng chính hãng còn lại và tư vấn nâng cấp lên dòng kế nhiệm. Gửi mã PLC/module để được tư vấn thay thế.
+- **Thẻ (tags):** PLC, thiết bị tự động hóa, thiết bị đo lường
+- **Ảnh bìa có sẵn:** `assets/covers/thay-the-plc-module-doi-cu.svg`
+- **Tên file ảnh nên đặt:** `thay-the-plc-module-doi-cu.jpg`
+- **Alt text ảnh:** Thay Thế PLC & Module Đời Cũ / Ngừng Sản Xuất
+- **Gợi ý ảnh thật:** Ảnh PLC Mitsubishi FX3U/FX5U + bảng so sánh.
 
 
 ## Seneca — Hãng & danh mục
@@ -145,6 +165,26 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Tên file ảnh nên đặt:** `gateway-modbus-seneca.jpg`
 - **Alt text ảnh:** Gateway / Router Modbus chính hãng
 - **Gợi ý ảnh thật:** Ảnh gateway Z-KEY/R-KEY-LT có cổng Ethernet + RS485.
+
+### Đồng Hồ Đo Điện Năng & Phân Tích Điện Seneca
+- **URL:** `/dong-ho-do-dien-nang-seneca/`
+- **Focus keyword:** đồng hồ đo điện năng seneca
+- **Meta description:** Đồng hồ đo điện năng & phân tích điện Seneca: dòng S500 (công tơ 1 pha, MID) và S604 (đa năng 3 pha). Đo đa thông số, truyền Modbus/M-Bus/Ethernet, DIN rail. Chính hãng Italy, CO/CQ.
+- **Thẻ (tags):** Seneca, đồng hồ đo điện năng, thiết bị tự động hóa, thiết bị đo lường
+- **Ảnh bìa có sẵn:** `assets/covers/dong-ho-do-dien-nang-seneca.svg`
+- **Tên file ảnh nên đặt:** `dong-ho-do-dien-nang-seneca.jpg`
+- **Alt text ảnh:** Đồng Hồ Đo Điện Năng & Phân Tích Điện Seneca chính hãng
+- **Gợi ý ảnh thật:** Ảnh đồng hồ đo điện năng Seneca (S500/S604) gắn DIN rail.
+
+### Bộ Hiển Thị Số Seneca (Panel Meter)
+- **URL:** `/bo-hien-thi-seneca/`
+- **Focus keyword:** bộ hiển thị seneca
+- **Meta description:** Bộ hiển thị số Seneca (digital indicator/panel meter) dòng S: S311A, S312A, S315 – đầu vào đa năng V/mA/Pt100/can nhiệt, ngõ ra cách ly, cảnh báo relay, Modbus. Chính hãng Italy, CO/CQ.
+- **Thẻ (tags):** Seneca, bộ hiển thị / panel meter, thiết bị tự động hóa, thiết bị đo lường
+- **Ảnh bìa có sẵn:** `assets/covers/bo-hien-thi-seneca.svg`
+- **Tên file ảnh nên đặt:** `bo-hien-thi-seneca.jpg`
+- **Alt text ảnh:** Bộ Hiển Thị Số Seneca (Panel Meter) chính hãng
+- **Gợi ý ảnh thật:** Ảnh bộ hiển thị/panel meter gắn mặt tủ, màn LED.
 
 
 ## Seneca — Sản phẩm
@@ -289,6 +329,26 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Alt text ảnh:** Z-GPRS3 Seneca chính hãng
 - **Gợi ý ảnh thật:** Ảnh sản phẩm thật trên nền trắng, thấy rõ mặt trước + tem model, gắn DIN rail. Nếu có, thêm 1 ảnh sơ đồ đấu nối.
 
+### Z-UMTS Seneca – RTU / Datalogger Không Dây 3G (UMTS)
+- **URL:** `/z-umts-seneca/`
+- **Focus keyword:** z-umts
+- **Meta description:** Z-UMTS Seneca – RTU/datalogger không dây 3G (UMTS): I/O tích hợp, cảnh báo SMS/Email, telemetry, UPS, cấu hình SEAL. Cho trạm ở xa. Chính hãng Italy, CO/CQ, báo giá.
+- **Thẻ (tags):** Seneca, thiết bị tự động hóa, thiết bị đo lường
+- **Ảnh bìa có sẵn:** `assets/covers/z-umts-seneca.svg`
+- **Tên file ảnh nên đặt:** `z-umts-seneca.jpg`
+- **Alt text ảnh:** Z-UMTS Seneca chính hãng
+- **Gợi ý ảnh thật:** Ảnh sản phẩm thật trên nền trắng, thấy rõ mặt trước + tem model, gắn DIN rail. Nếu có, thêm 1 ảnh sơ đồ đấu nối.
+
+### Z-LTE Seneca – RTU / Datalogger Không Dây 4G LTE
+- **URL:** `/z-lte-seneca/`
+- **Focus keyword:** z-lte
+- **Meta description:** Z-LTE Seneca – RTU/datalogger không dây 4G LTE: I/O tích hợp, cảnh báo SMS/Email, telemetry, UPS, cấu hình SEAL. Băng thông ổn định cho trạm ở xa. Chính hãng Italy, CO/CQ, báo giá.
+- **Thẻ (tags):** Seneca, thiết bị tự động hóa, thiết bị đo lường
+- **Ảnh bìa có sẵn:** `assets/covers/z-lte-seneca.svg`
+- **Tên file ảnh nên đặt:** `z-lte-seneca.jpg`
+- **Alt text ảnh:** Z-LTE Seneca chính hãng
+- **Gợi ý ảnh thật:** Ảnh sản phẩm thật trên nền trắng, thấy rõ mặt trước + tem model, gắn DIN rail. Nếu có, thêm 1 ảnh sơ đồ đấu nối.
+
 ### Z-KEY Seneca – Gateway Modbus TCP-IP ↔ RTU
 - **URL:** `/z-key-seneca/`
 - **Focus keyword:** z-key
@@ -307,4 +367,54 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Ảnh bìa có sẵn:** `assets/covers/r-key-lt-seneca.svg`
 - **Tên file ảnh nên đặt:** `r-key-lt-seneca.jpg`
 - **Alt text ảnh:** R-KEY-LT Seneca chính hãng
+- **Gợi ý ảnh thật:** Ảnh sản phẩm thật trên nền trắng, thấy rõ mặt trước + tem model, gắn DIN rail. Nếu có, thêm 1 ảnh sơ đồ đấu nối.
+
+### Z-PASS2 Seneca – IIoT Edge Gateway/Router 4G LTE + VPN
+- **URL:** `/z-pass2-seneca/`
+- **Focus keyword:** z-pass2
+- **Meta description:** Z-PASS2 Seneca – IIoT edge gateway/router công nghiệp: 4G LTE, 2 cổng Ethernet, VPN (OpenVPN), GPS, I/O tích hợp, datalogger, Modbus TCP/RTU. Điều khiển – bảo trì từ xa an toàn. CO/CQ, báo giá.
+- **Thẻ (tags):** Seneca, thiết bị tự động hóa, thiết bị đo lường
+- **Ảnh bìa có sẵn:** `assets/covers/z-pass2-seneca.svg`
+- **Tên file ảnh nên đặt:** `z-pass2-seneca.jpg`
+- **Alt text ảnh:** Z-PASS2 Seneca chính hãng
+- **Gợi ý ảnh thật:** Ảnh sản phẩm thật trên nền trắng, thấy rõ mặt trước + tem model, gắn DIN rail. Nếu có, thêm 1 ảnh sơ đồ đấu nối.
+
+### R-PASS Seneca – IIoT Edge Gateway (VPN Từ Xa)
+- **URL:** `/r-pass-seneca/`
+- **Focus keyword:** r-pass
+- **Meta description:** R-PASS Seneca – IIoT edge gateway công nghiệp: truy cập & bảo trì thiết bị từ xa qua VPN, gateway Modbus, nhỏ gọn DIN rail. Cho hệ IoT/edge. Chính hãng Italy, CO/CQ, báo giá.
+- **Thẻ (tags):** Seneca, R-PASS-SENECA, thiết bị tự động hóa, thiết bị đo lường
+- **Ảnh bìa có sẵn:** `assets/covers/r-pass-seneca.svg`
+- **Tên file ảnh nên đặt:** `r-pass-seneca.jpg`
+- **Alt text ảnh:** R-PASS Seneca chính hãng
+- **Gợi ý ảnh thật:** Ảnh sản phẩm thật trên nền trắng, thấy rõ mặt trước + tem model, gắn DIN rail. Nếu có, thêm 1 ảnh sơ đồ đấu nối.
+
+### S504 Seneca – Công Tơ Điện Năng 1 Pha (Dòng S500)
+- **URL:** `/s504-seneca/`
+- **Focus keyword:** s504
+- **Meta description:** Công tơ điện năng S504 Seneca (dòng S500): đo điện năng 1 pha, bản chứng nhận MID, truyền RS485 Modbus/M-Bus, màn hình LCD, gắn DIN rail. Chính hãng Italy, CO/CQ, báo giá.
+- **Thẻ (tags):** Seneca, đồng hồ đo điện năng, thiết bị tự động hóa, thiết bị đo lường
+- **Ảnh bìa có sẵn:** `assets/covers/s504-seneca.svg`
+- **Tên file ảnh nên đặt:** `s504-seneca.jpg`
+- **Alt text ảnh:** S504 Seneca chính hãng
+- **Gợi ý ảnh thật:** Ảnh sản phẩm thật trên nền trắng, thấy rõ mặt trước + tem model, gắn DIN rail. Nếu có, thêm 1 ảnh sơ đồ đấu nối.
+
+### S604 Seneca – Đồng Hồ Đo Điện Đa Năng 3 Pha (Power Analyzer)
+- **URL:** `/s604-seneca/`
+- **Focus keyword:** s604
+- **Meta description:** Đồng hồ đo điện đa năng 3 pha S604 Seneca: đo U, I, P/Q/S, PF, tần số, điện năng; lưu dữ liệu; truyền Modbus; bản Rogowski cho dòng lớn. Gắn DIN rail. Chính hãng Italy, CO/CQ, báo giá.
+- **Thẻ (tags):** Seneca, đồng hồ đo điện năng, thiết bị tự động hóa, thiết bị đo lường
+- **Ảnh bìa có sẵn:** `assets/covers/s604-seneca.svg`
+- **Tên file ảnh nên đặt:** `s604-seneca.jpg`
+- **Alt text ảnh:** S604 Seneca chính hãng
+- **Gợi ý ảnh thật:** Ảnh sản phẩm thật trên nền trắng, thấy rõ mặt trước + tem model, gắn DIN rail. Nếu có, thêm 1 ảnh sơ đồ đấu nối.
+
+### S311A Seneca – Bộ Hiển Thị Số Đa Năng (Panel Meter)
+- **URL:** `/s311a-seneca/`
+- **Focus keyword:** s311a
+- **Meta description:** Bộ hiển thị số S311A Seneca: đầu vào đa năng V/mA/Pt100 (2/3/4 dây)/can nhiệt/biến trở, 4–11 số, ngõ ra analog cách ly, tùy chọn 2 relay + Modbus. Gắn tủ 96x48. Chính hãng, CO/CQ, báo giá.
+- **Thẻ (tags):** Seneca, bộ hiển thị / panel meter, thiết bị tự động hóa, thiết bị đo lường
+- **Ảnh bìa có sẵn:** `assets/covers/s311a-seneca.svg`
+- **Tên file ảnh nên đặt:** `s311a-seneca.jpg`
+- **Alt text ảnh:** S311A Seneca chính hãng
 - **Gợi ý ảnh thật:** Ảnh sản phẩm thật trên nền trắng, thấy rõ mặt trước + tem model, gắn DIN rail. Nếu có, thêm 1 ảnh sơ đồ đấu nối.

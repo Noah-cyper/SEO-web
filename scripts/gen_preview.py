@@ -19,6 +19,8 @@ GROUPS = [
     ("Thiết bị khó tìm & hàng ngừng sản xuất", "kho-tim", [
         "thiet-bi-cong-nghiep-kho-tim.md",
         "linh-kien-tu-dong-hoa-ngung-san-xuat.md",
+        "tim-cam-bien-transmitter-kho-tim.md",
+        "thay-the-plc-module-doi-cu.md",
     ]),
     ("Seneca — Hãng & danh mục", "seneca-cat", [
         "seneca/seneca-viet-nam.md",
@@ -26,6 +28,8 @@ GROUPS = [
         "seneca/remote-io-seneca-z-pc.md",
         "seneca/datalogger-rtu-seneca.md",
         "seneca/gateway-modbus-seneca.md",
+        "seneca/dong-ho-do-dien-nang-seneca.md",
+        "seneca/bo-hien-thi-seneca.md",
     ]),
     ("Seneca — Sản phẩm", "seneca-prod", [
         "seneca/k109s-seneca.md",
@@ -40,8 +44,15 @@ GROUPS = [
         "seneca/z-10-d-in-seneca.md",
         "seneca/z-logger3-seneca.md",
         "seneca/z-gprs3-seneca.md",
+        "seneca/z-umts-seneca.md",
+        "seneca/z-lte-seneca.md",
         "seneca/z-key-seneca.md",
         "seneca/r-key-lt-seneca.md",
+        "seneca/z-pass2-seneca.md",
+        "seneca/r-pass-seneca.md",
+        "seneca/s504-seneca.md",
+        "seneca/s604-seneca.md",
+        "seneca/s311a-seneca.md",
     ]),
 ]
 

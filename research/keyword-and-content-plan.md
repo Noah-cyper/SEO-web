@@ -83,8 +83,8 @@ Mảng dịch vụ hoantrantdh có thể sở hữu (nguồn EU/G7 + China). Int
 |---|---|---|---|---|
 | Thiết bị công nghiệp khó tìm & hàng ngừng sản xuất | thiết bị công nghiệp khó tìm / hàng ngừng sản xuất | `/thiet-bi-cong-nghiep-kho-tim/` | P0 | ✅ **Đã viết** |
 | Linh kiện tự động hóa ngừng sản xuất — cách tìm thay thế | linh kiện ngừng sản xuất / obsolete / tìm hàng thay thế | `/linh-kien-tu-dong-hoa-ngung-san-xuat/` | P0 | ✅ **Đã viết** |
-| Tìm cảm biến/transmitter khó tìm | cảm biến khó tìm / transmitter ngừng sản xuất | `/tim-cam-bien-transmitter-kho-tim/` | P1 | ⬜ |
-| Thay thế PLC/module đời cũ | thay thế plc cũ / module ngừng sản xuất | `/thay-the-plc-module-doi-cu/` | P1 | ⬜ |
+| Tìm cảm biến/transmitter khó tìm | cảm biến khó tìm / transmitter ngừng sản xuất | `/tim-cam-bien-transmitter-kho-tim/` | P1 | ✅ **Đã viết** |
+| Thay thế PLC/module đời cũ | thay thế plc cũ / module ngừng sản xuất | `/thay-the-plc-module-doi-cu/` | P1 | ✅ **Đã viết** |
 
 ---
 

@@ -12,17 +12,17 @@ GROUPS = [
         "dong-ho-do-ap-suat-wika.md","dau-day-cam-bien-ap-suat-4-20ma.md"]),
     ("PLC", "#12a594", ["plc-mitsubishi-fx3u-la-gi.md"]),
     ("Thiết bị khó tìm & hàng ngừng sản xuất", "#d9862a", [
-        "thiet-bi-cong-nghiep-kho-tim.md","linh-kien-tu-dong-hoa-ngung-san-xuat.md"]),
+        "thiet-bi-cong-nghiep-kho-tim.md","linh-kien-tu-dong-hoa-ngung-san-xuat.md","tim-cam-bien-transmitter-kho-tim.md","thay-the-plc-module-doi-cu.md"]),
     ("Seneca — Hãng & danh mục", "#e5484d", [
         "seneca/seneca-viet-nam.md","seneca/bo-chuyen-doi-tin-hieu-seneca.md",
-        "seneca/remote-io-seneca-z-pc.md","seneca/datalogger-rtu-seneca.md","seneca/gateway-modbus-seneca.md"]),
+        "seneca/remote-io-seneca-z-pc.md","seneca/datalogger-rtu-seneca.md","seneca/gateway-modbus-seneca.md","seneca/dong-ho-do-dien-nang-seneca.md","seneca/bo-hien-thi-seneca.md"]),
     ("Seneca — Sản phẩm", "#e5484d", [
         "seneca/k109s-seneca.md","seneca/k109pt-seneca.md","seneca/k109lv-seneca.md","seneca/k121-seneca.md",
         "seneca/z109reg2-1-seneca.md",
         "seneca/k120-seneca.md","seneca/z109reg2-2-seneca.md","seneca/t121-seneca.md",
         "seneca/z-4rtd2-seneca.md","seneca/z-8ai-seneca.md","seneca/z-4ao-seneca.md","seneca/z-10-d-in-seneca.md",
-        "seneca/z-logger3-seneca.md","seneca/z-gprs3-seneca.md",
-        "seneca/z-key-seneca.md","seneca/r-key-lt-seneca.md"]),
+        "seneca/z-logger3-seneca.md","seneca/z-gprs3-seneca.md","seneca/z-umts-seneca.md","seneca/z-lte-seneca.md",
+        "seneca/z-key-seneca.md","seneca/r-key-lt-seneca.md","seneca/z-pass2-seneca.md","seneca/r-pass-seneca.md","seneca/s504-seneca.md","seneca/s604-seneca.md","seneca/s311a-seneca.md"]),
 ]
 
 def field(name, text):
@@ -56,7 +56,9 @@ def tags_for(d):
         ("cảm biến áp suất", "cam-bien-ap-suat" in d["slug"]),
         ("cảm biến nhiệt độ", "nhiet-do" in d["slug"]),
         ("cảm biến chênh áp", "chenh-ap" in d["slug"]),
-        ("đồng hồ áp suất", "dong-ho" in d["slug"]),
+        ("đồng hồ áp suất", "do-ap-suat-wika" in d["slug"]),
+        ("đồng hồ đo điện năng", "dien-nang" in d["slug"] or d["slug"].strip("/") in ("s504-seneca","s604-seneca")),
+        ("bộ hiển thị / panel meter", "hien-thi" in d["slug"] or "s311a" in d["slug"]),
         ("bộ chuyển đổi tín hiệu", "chuyen-doi" in d["slug"] or re.search(r"/(k109|k121|z109)", d["slug"])),
         ("PLC", "plc" in d["slug"]),
         ("remote I/O", "remote-io" in d["slug"]),
@@ -81,7 +83,7 @@ def tags_for(d):
 
 def img_brief(d):
     s = d["slug"]
-    if any(k in s for k in ["k109","k121","z109","z-logger","z-gprs","z-key","r-key"]):
+    if any(k in s for k in ["k109","k121","z109","z-logger","z-gprs","z-umts","z-lte","z-key","r-key","z-pass2","r-pass","s504","s604","s311a"]):
         return "Ảnh sản phẩm thật trên nền trắng, thấy rõ mặt trước + tem model, gắn DIN rail. Nếu có, thêm 1 ảnh sơ đồ đấu nối."
     if "seneca-viet-nam" in s: return "Ảnh nhóm thiết bị Seneca (bộ chuyển đổi + module) hoặc logo Seneca + dải sản phẩm."
     if "chuyen-doi" in s: return "Ảnh vài model bộ chuyển đổi K109/Z109 gắn trên DIN rail."
@@ -94,6 +96,8 @@ def img_brief(d):
     if "chenh-ap" in s: return "Ảnh cảm biến chênh áp + sơ đồ đo lưu lượng/mức bồn kín."
     if "plc" in s: return "Ảnh PLC Mitsubishi FX3U/FX5U + bảng so sánh."
     if "dau-day" in s: return "Sơ đồ đấu dây 4-20mA (2/3/4 dây) rõ ràng, dễ nhìn."
+    if "dien-nang" in s: return "Ảnh đồng hồ đo điện năng Seneca (S500/S604) gắn DIN rail."
+    if "hien-thi" in s: return "Ảnh bộ hiển thị/panel meter gắn mặt tủ, màn LED."
     if "kho-tim" in s: return "Ảnh kho thiết bị/linh kiện đa dạng hoặc hình ghép nhiều model — gợi ý nguồn hàng sẵn."
     if "ngung-san-xuat" in s: return "Ảnh so sánh model cũ → model kế nhiệm, hoặc nhãn 'obsolete/EOL'."
     return "Ảnh minh họa liên quan chủ đề, nền sạch."

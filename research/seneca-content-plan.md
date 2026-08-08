@@ -53,8 +53,8 @@
 |---|---|---|---|
 | **Z-LOGGER3** | Datalogger đa giao thức, UPS tích hợp | `/z-logger3-seneca/` | P1 ✅ |
 | **Z-GPRS3** | Datalogger/RTU không dây 2G/3G, telemetry | `/z-gprs3-seneca/` | P1 ✅ |
-| **Z-UMTS** | RTU/datalogger 3G | `/z-umts-seneca/` | P2 |
-| **Z-LTE** | RTU/datalogger 4G | `/z-lte-seneca/` | P2 |
+| **Z-UMTS** | RTU/datalogger 3G | `/z-umts-seneca/` | P2 ✅ |
+| **Z-LTE** | RTU/datalogger 4G | `/z-lte-seneca/` | P2 ✅ |
 
 ---
 
@@ -65,19 +65,19 @@
 |---|---|---|---|
 | **Z-KEY** | Gateway Modbus TCP ↔ RTU | `/z-key-seneca/` | P1 ✅ |
 | **R-KEY-LT** | Gateway Modbus nhỏ gọn | `/r-key-lt-seneca/` | P1 ✅ |
-| **Z-PASS2** | IoT gateway/router VPN | `/z-pass2-seneca/` | P2 |
-| **R-PASS** | Industrial IoT Edge Gateway | `/r-pass-seneca/` | P2 |
+| **Z-PASS2** | IoT gateway/router VPN | `/z-pass2-seneca/` | P2 ✅ |
+| **R-PASS** | Industrial IoT Edge Gateway | `/r-pass-seneca/` | P2 ✅ |
 
 ---
 
 ## 5. Đồng hồ đo điện năng / Power analyzer (S-series) — P2
-**Trang danh mục:** `/dong-ho-do-dien-nang-seneca/` — ⬜
+**Trang danh mục:** `/dong-ho-do-dien-nang-seneca/` — ✅ **Đã viết** (+ S504, S604)
 - Các model S-series (đo & giám sát điện năng đa thông số) → `/{{model}}-seneca/`, P2.
 
 ---
 
 ## 6. Bộ hiển thị / Panel meter (S/D-series) — P2
-**Trang danh mục:** `/bo-hien-thi-seneca/` — ⬜
+**Trang danh mục:** `/bo-hien-thi-seneca/` — ✅ **Đã viết** (+ S311A)
 - Panel meter hiển thị giá trị đo trên tủ → `/{{model}}-seneca/`, P2.
 
 ---
