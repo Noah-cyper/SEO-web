@@ -1,8 +1,12 @@
 #!/usr/bin/env python3
 # Render all VI article .md files into one browsable preview HTML.
-import re, os, glob, html as _html
+import re, os, glob, base64, html as _html
 
 ROOT = "/home/user/SEO-web/content/vi"
+PNGDIR = "/home/user/SEO-web/assets/png/diagrams"
+PNG_B64 = {}
+for _p in glob.glob(os.path.join(PNGDIR, "*.png")):
+    PNG_B64[os.path.basename(_p)[:-4]] = "data:image/png;base64," + base64.b64encode(open(_p, "rb").read()).decode()
 
 # Ordered clusters -> list of file basenames (relative to ROOT)
 GROUPS = [
@@ -77,7 +81,7 @@ def render_table(rows):
     ) + "</tbody>"
     return f'<div class="tablewrap"><table>{h}{b}</table></div>'
 
-def convert(md):
+def convert(md, mode="preview"):
     md = re.sub(r"<!--.*?-->", "", md, flags=re.S)
     md = re.sub(r'<a\s+name="[^"]*"></a>', "", md)
     lines = md.split("\n")
@@ -91,6 +95,15 @@ def convert(md):
         mimg = re.match(r'!\[(.*?)\]\((.*?)\)\s*$', s)
         if mimg:
             alt, src = mimg.group(1), mimg.group(2)
+            name = src.split("/")[-1]
+            name = name[:-4] if name.endswith(".svg") else name
+            if mode == "wp":
+                # WordPress-safe: embed PNG data-URI so it renders in the classic editor
+                uri = PNG_B64.get(name, "")
+                if uri:
+                    out.append(f'<figure><img src="{uri}" alt="{esc(alt)}" style="max-width:100%;height:auto"/>'
+                               f'<figcaption style="text-align:center;font-style:italic;color:#667;font-size:13px">{esc(alt)}</figcaption></figure>')
+                    i += 1; continue
             fig = ""
             if "assets/diagrams/" in src:
                 p = os.path.join("/home/user/SEO-web", src)
@@ -165,7 +178,7 @@ def parse(path):
     parts = after.split("\n---\n", 1)
     body_md = parts[1] if len(parts) > 1 else after
     return dict(slug=slug, loai=loai, tukhoa=tukhoa, title_tag=title_tag,
-                meta_desc=meta_desc, h1=h1, body=convert(body_md))
+                meta_desc=meta_desc, h1=h1, body_md=body_md)
 
 def anchor(slug):
     return slug.strip("/").replace("/", "-") or "art"
@@ -202,6 +215,8 @@ for gtitle, gid, files in GROUPS:
             svg = open(cover_path, encoding="utf-8").read()
             svg = re.sub(r'width="\d+"\s+height="\d+"', 'width="100%" height="auto"', svg, count=1)
             cover = f'<div class="cover">{svg}</div>'
+        disp = convert(d["body_md"], "preview")
+        wp = to_wp(convert(d["body_md"], "wp"))
         articles.append(f"""
 <article id="{a}" class="art">
   {cover}
@@ -214,14 +229,14 @@ for gtitle, gid, files in GROUPS:
     <div class="serp-desc">{esc(d["meta_desc"])}</div>
   </div>
   <div class="wpbar">
-    <button class="btn primary" onclick="copyWp(this)">📋 Copy HTML bài viết → dán vào WordPress</button>
+    <button class="btn primary" onclick="copyWp(this)">📋 Copy HTML bài viết → dán vào tab “Mã”</button>
     <button class="btn" onclick="copyAttr(this)" data-copy="{attresc(d["title_tag"])}">Copy Title</button>
     <button class="btn" onclick="copyAttr(this)" data-copy="{attresc(d["meta_desc"])}">Copy Meta</button>
     <button class="btn" onclick="copyAttr(this)" data-copy="{attresc(d["slug"])}">Copy Slug</button>
   </div>
-  <textarea class="wp-src" hidden>{esc_ta(to_wp(d["body"]))}</textarea>
+  <textarea class="wp-src" hidden>{esc_ta(wp)}</textarea>
   <div class="prose">
-    {d["body"]}
+    {disp}
   </div>
   <div class="kw"><span>Từ khoá</span>{esc(kw)}</div>
   <a class="toplink" href="#top">↑ Lên đầu</a>
@@ -378,15 +393,16 @@ page = f"""{CSS}
     <span class="stat">Kèm SERP preview &amp; FAQ</span>
   </div>
 </div></header>
-<div class="howto"><details><summary>📋 Cách copy sang WordPress (bấm để xem)</summary>
+<div class="howto"><details open><summary>📋 Cách copy sang WordPress (Classic Editor) — bấm để xem</summary>
 <ol>
-<li>Mở mỗi bài bên dưới → bấm <b>“Copy HTML bài viết”</b>.</li>
-<li>Trong WordPress: tạo <b>Bài viết mới</b> → bấm dấu <b>+</b> → chọn khối <b>“HTML tùy chỉnh” (Custom HTML)</b> → dán vào. Toàn bộ nội dung <b>và 3 hình</b> hiện ngay (hình là SVG nhúng sẵn, không cần upload).</li>
-<li>Bấm <b>Copy Title / Copy Meta / Copy Slug</b> → dán vào ô tương ứng của <b>Rank Math</b> (SEO Title, Meta description, Permalink).</li>
-<li>Thẻ tag đầy đủ nằm trong file <code>research/seo-metadata-tags-hinh-anh.md</code>. Ảnh bìa (featured image) ở <code>assets/covers/</code>.</li>
-<li>Publish → vào Google Search Console <b>Request Indexing</b> cho URL vừa đăng.</li>
+<li>Ở bài cần đăng bên dưới → bấm <b>“Copy HTML bài viết”</b>.</li>
+<li>Trong WordPress (màn Thêm bài viết): ở ô soạn thảo, bấm tab <b>“Mã”</b> (góc trên phải, cạnh “Trực quan”).</li>
+<li><b>Dán (Ctrl+V)</b> vào đó → bấm lại tab <b>“Trực quan”</b> để xem: nội dung <b>và 3 hình</b> hiện ngay (hình đã nhúng sẵn dạng PNG, <b>không cần upload</b>).</li>
+<li>Bấm <b>Copy Title / Copy Meta / Copy Slug</b> → dán vào Rank Math (SEO Title, Meta description, Permalink). Điền <b>tiêu đề bài</b> ở ô “Thêm tiêu đề”.</li>
+<li>Chọn <b>Danh mục</b> phù hợp → <b>Xuất bản</b>.</li>
+<li>Cuối cùng: vào Google Search Console → <b>Request Indexing</b> cho URL vừa đăng.</li>
 </ol>
-<p style="color:var(--muted);font-size:13px;margin:0 0 8px">Mẹo: muốn sửa lại từng đoạn trong WordPress, sau khi dán khối Custom HTML có thể bấm “Chuyển sang khối / Convert to blocks”.</p>
+<p style="color:var(--muted);font-size:13px;margin:0 0 8px">Thẻ tag đầy đủ: file <code>research/seo-metadata-tags-hinh-anh.md</code>. Nếu muốn ảnh bìa (featured image) riêng: dùng file trong <code>assets/covers/</code> hoặc ảnh sản phẩm thật.</p>
 </details></div>
 <div class="layout">
   <nav class="toc" aria-label="Mục lục">{nav_html}</nav>
@@ -413,7 +429,7 @@ function toast(){{var t=document.getElementById('toast');t.style.opacity='1';t.s
   clearTimeout(window.__tt);window.__tt=setTimeout(function(){{t.style.opacity='0';t.style.transform='translateX(-50%) translateY(20px)';}},1300);}}
 function flash(btn,label){{var o=btn.textContent;btn.textContent=label;btn.classList.add('ok');
   setTimeout(function(){{btn.textContent=o;btn.classList.remove('ok');}},1300);}}
-function copyWp(btn){{var ta=btn.closest('.art').querySelector('.wp-src');doCopy(ta.value);flash(btn,'✓ Đã copy — dán vào khối HTML tùy chỉnh');}}
+function copyWp(btn){{var ta=btn.closest('.art').querySelector('.wp-src');doCopy(ta.value);flash(btn,'✓ Đã copy — dán vào tab “Mã” trong WordPress');}}
 function copyAttr(btn){{doCopy(btn.getAttribute('data-copy'));flash(btn,'✓ Đã copy');}}
 </script>
 """
