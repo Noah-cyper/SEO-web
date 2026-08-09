@@ -174,6 +174,16 @@ def serp_crumbs(slug):
     parts = [p for p in slug.strip("/").split("/") if p]
     return "hoantrantdh.com" + ("".join(f" › {p}" for p in parts))
 
+def esc_ta(t):
+    return t.replace("&", "&amp;").replace("<", "&lt;")
+
+def attresc(t):
+    return t.replace("&", "&amp;").replace('"', "&quot;").replace("<", "&lt;")
+
+def to_wp(body):
+    # real hrefs for internal links so it pastes clean into WordPress
+    return re.sub(r'<a class="ilink" title="Liên kết nội bộ → ([^"]*)">', r'<a href="\1">', body)
+
 # ---- build ----
 articles = []
 nav = []
@@ -203,6 +213,13 @@ for gtitle, gid, files in GROUPS:
     <div class="serp-title">{esc(d["title_tag"])}</div>
     <div class="serp-desc">{esc(d["meta_desc"])}</div>
   </div>
+  <div class="wpbar">
+    <button class="btn primary" onclick="copyWp(this)">📋 Copy HTML bài viết → dán vào WordPress</button>
+    <button class="btn" onclick="copyAttr(this)" data-copy="{attresc(d["title_tag"])}">Copy Title</button>
+    <button class="btn" onclick="copyAttr(this)" data-copy="{attresc(d["meta_desc"])}">Copy Meta</button>
+    <button class="btn" onclick="copyAttr(this)" data-copy="{attresc(d["slug"])}">Copy Slug</button>
+  </div>
+  <textarea class="wp-src" hidden>{esc_ta(to_wp(d["body"]))}</textarea>
   <div class="prose">
     {d["body"]}
   </div>
@@ -284,6 +301,18 @@ main{min-width:0}
 .diagram svg{display:block;width:100%;height:auto;border-radius:12px}
 .diagram img{display:block;width:100%;height:auto;border-radius:12px}
 .diagram figcaption{margin-top:8px;font-size:12.5px;color:var(--muted);text-align:center;font-style:italic}
+.wpbar{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 20px;padding:12px;background:var(--surface-2);
+  border:1px solid var(--border);border-radius:10px}
+.btn{font-family:var(--sans);font-size:13px;font-weight:600;color:var(--ink);background:var(--surface);
+  border:1px solid var(--border-strong);border-radius:8px;padding:8px 12px;cursor:pointer;transition:.12s}
+.btn:hover{border-color:var(--accent);color:var(--accent-ink)}
+.btn.primary{background:var(--accent);color:#fff;border-color:var(--accent)}
+.btn.primary:hover{background:var(--accent-ink);color:#fff}
+.btn.ok{background:var(--good,#12a06a);color:#fff;border-color:transparent}
+.howto{max-width:1180px;margin:0 auto;padding:16px 24px 0}
+.howto details{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:6px 16px}
+.howto summary{cursor:pointer;font-weight:700;padding:8px 0}
+.howto ol{margin:6px 0 12px;padding-left:22px}.howto li{margin:5px 0}
 .art-tag{display:inline-block;font-family:var(--mono);font-size:11px;letter-spacing:.05em;
   color:var(--signal);background:var(--signal-soft);border:1px solid var(--border);
   padding:4px 10px;border-radius:6px;margin-bottom:14px}
@@ -349,6 +378,16 @@ page = f"""{CSS}
     <span class="stat">Kèm SERP preview &amp; FAQ</span>
   </div>
 </div></header>
+<div class="howto"><details><summary>📋 Cách copy sang WordPress (bấm để xem)</summary>
+<ol>
+<li>Mở mỗi bài bên dưới → bấm <b>“Copy HTML bài viết”</b>.</li>
+<li>Trong WordPress: tạo <b>Bài viết mới</b> → bấm dấu <b>+</b> → chọn khối <b>“HTML tùy chỉnh” (Custom HTML)</b> → dán vào. Toàn bộ nội dung <b>và 3 hình</b> hiện ngay (hình là SVG nhúng sẵn, không cần upload).</li>
+<li>Bấm <b>Copy Title / Copy Meta / Copy Slug</b> → dán vào ô tương ứng của <b>Rank Math</b> (SEO Title, Meta description, Permalink).</li>
+<li>Thẻ tag đầy đủ nằm trong file <code>research/seo-metadata-tags-hinh-anh.md</code>. Ảnh bìa (featured image) ở <code>assets/covers/</code>.</li>
+<li>Publish → vào Google Search Console <b>Request Indexing</b> cho URL vừa đăng.</li>
+</ol>
+<p style="color:var(--muted);font-size:13px;margin:0 0 8px">Mẹo: muốn sửa lại từng đoạn trong WordPress, sau khi dán khối Custom HTML có thể bấm “Chuyển sang khối / Convert to blocks”.</p>
+</details></div>
 <div class="layout">
   <nav class="toc" aria-label="Mục lục">{nav_html}</nav>
   <main>
@@ -357,6 +396,26 @@ page = f"""{CSS}
   </main>
 </div>
 <footer class="foot">Bản xem trước tạo tự động từ các file nội dung · hoantrantdh.com</footer>
+<div id="toast" style="position:fixed;left:50%;bottom:24px;transform:translateX(-50%) translateY(20px);
+  background:#12a06a;color:#fff;padding:10px 18px;border-radius:999px;font-weight:600;font-size:14px;
+  opacity:0;pointer-events:none;transition:.2s;z-index:99">Đã copy ✓</div>
+<script>
+function doCopy(text){{
+  var ok=false;
+  var ta=document.createElement('textarea');ta.value=text;ta.style.position='fixed';ta.style.top='-1000px';
+  document.body.appendChild(ta);ta.focus();ta.select();
+  try{{ok=document.execCommand('copy');}}catch(e){{}}
+  document.body.removeChild(ta);
+  if(!ok&&navigator.clipboard){{navigator.clipboard.writeText(text);}}
+  toast();
+}}
+function toast(){{var t=document.getElementById('toast');t.style.opacity='1';t.style.transform='translateX(-50%) translateY(0)';
+  clearTimeout(window.__tt);window.__tt=setTimeout(function(){{t.style.opacity='0';t.style.transform='translateX(-50%) translateY(20px)';}},1300);}}
+function flash(btn,label){{var o=btn.textContent;btn.textContent=label;btn.classList.add('ok');
+  setTimeout(function(){{btn.textContent=o;btn.classList.remove('ok');}},1300);}}
+function copyWp(btn){{var ta=btn.closest('.art').querySelector('.wp-src');doCopy(ta.value);flash(btn,'✓ Đã copy — dán vào khối HTML tùy chỉnh');}}
+function copyAttr(btn){{doCopy(btn.getAttribute('data-copy'));flash(btn,'✓ Đã copy');}}
+</script>
 """
 
 out = "/tmp/claude-0/-home-user-SEO-web/a0f20c8b-045d-51bf-b68b-8d2c7f8a16e9/scratchpad/preview.html"
