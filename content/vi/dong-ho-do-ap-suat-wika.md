@@ -14,12 +14,16 @@ H1          : Đồng Hồ Đo Áp Suất WIKA Chính Hãng – Giá Tốt, Sẵ
 
 ## Đồng hồ đo áp suất WIKA – vì sao được tin dùng
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-gauge.svg)
+
+
 **WIKA** (Đức) là thương hiệu đồng hồ đo áp suất được dùng phổ biến nhất trong công nghiệp nhờ **độ bền, độ chính xác ổn định** và dải sản phẩm rất rộng – từ đo khí nén, thủy lực đến hơi nóng, hóa chất, thực phẩm. Tại HOANTRANTDH, đồng hồ WIKA là **hàng nhập khẩu chính hãng, có CO/CQ, xuất hóa đơn VAT**.
 
 > **Cần giá nhanh?** Gửi **thang đo · kiểu chân (đồng/inox) · đường kính mặt · kết nối ren** → [Nhận báo giá WIKA trong ngày](#bao-gia).
 
-<!--DIAGRAM-->
-![Ba loại áp suất: tương đối, tuyệt đối, chênh áp](assets/diagrams/pressure-types.svg)
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-bourdon.svg)
 
 
 ---
@@ -75,6 +79,10 @@ Gửi cho chúng tôi: **thang đo (bar/kg/cm²) · kiểu chân (đồng/inox/m
 **→ [Liên hệ báo giá đồng hồ áp suất WIKA](/lien-he/)**
 
 ---
+
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-gauge.svg)
 
 ## Câu hỏi thường gặp (FAQ)
 

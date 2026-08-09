@@ -14,12 +14,16 @@ H1          : Remote I/O Seneca (Z-PC Line) – Module Thu Thập Tín Hiệu Mo
 
 ## Remote I/O Seneca (Z-PC Line) là gì?
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-remoteio.svg)
+
+
 **Z-PC Line** là hệ **module I/O từ xa (remote I/O)** của **Seneca (Italy)**, dùng để **thu thập tín hiệu analog và số ở hiện trường** rồi truyền về PLC/SCADA qua **Modbus RTU (RS485)**. Ưu điểm: **nhỏ gọn gắn DIN rail**, mở rộng linh hoạt theo số kênh cần dùng, giảm dây kéo về tủ trung tâm — rất hợp trạm bơm, xử lý nước, năng lượng, nhà máy phân tán.
 
 > **Cần báo giá module Z-PC?** Gửi **loại tín hiệu & số kênh cần đọc** → [Nhận tư vấn & báo giá](#bao-gia).
 
-<!--DIAGRAM-->
-![Thu thập tín hiệu từ xa qua Modbus RTU (remote I/O Z-PC)](assets/diagrams/modbus-remote-io.svg)
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/modbus-remote-io.svg)
 
 
 ---
@@ -48,6 +52,10 @@ H1          : Remote I/O Seneca (Z-PC Line) – Module Thu Thập Tín Hiệu Mo
 ---
 
 ## Ứng dụng
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-remoteio.svg)
+
 
 - Trạm bơm, xử lý nước phân tán (đọc mức, áp, dòng từ xa).
 - Giám sát nhiệt độ nhiều điểm (Z-4RTD2).

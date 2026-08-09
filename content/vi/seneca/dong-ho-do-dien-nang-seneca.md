@@ -14,12 +14,16 @@ H1          : Đồng Hồ Đo Điện Năng & Phân Tích Điện Seneca
 
 ## Đồng hồ đo điện năng Seneca là gì?
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-energy.svg)
+
+
 Là các thiết bị **đo, giám sát và ghi thông số điện** của **Seneca (Italy)** — từ **công tơ điện năng** đến **đồng hồ đo đa năng (power analyzer)**. Đo các thông số như điện áp, dòng, công suất (P/Q/S), hệ số công suất, tần số, điện năng tiêu thụ… và truyền về hệ giám sát qua **Modbus RTU/TCP, M-Bus hoặc Ethernet**. Gắn **DIN rail**, có màn hình LCD/LED, phù hợp tủ điện, hệ quản lý năng lượng (EMS).
 
 > **Cần báo giá?** Gửi **1 pha/3 pha · dòng tải (trực tiếp/qua CT) · giao thức** → [Nhận tư vấn & báo giá](#bao-gia).
 
-<!--DIAGRAM-->
-![Giám sát điện năng: tải → CT → đồng hồ đo → Modbus → EMS](assets/diagrams/energy-monitoring.svg)
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-energy.svg)
 
 
 ---
@@ -46,6 +50,10 @@ Là các thiết bị **đo, giám sát và ghi thông số điện** của **Se
 ---
 
 ## Ứng dụng
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-energy.svg)
+
 
 - **Quản lý năng lượng nhà máy** (EMS), phân bổ điện theo dây chuyền.
 - **Giám sát tải, phát hiện bất thường** tiêu thụ điện.

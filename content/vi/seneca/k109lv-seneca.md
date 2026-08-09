@@ -14,12 +14,16 @@ H1          : K109LV Seneca – Bộ Chuyển Đổi Điện Áp Thấp / Shunt
 
 ## K109LV là gì?
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-converter.svg)
+
+
 **K109LV** là **bộ chuyển đổi tín hiệu điện áp thấp (mV)** của **Seneca (Italy)**: nhận tín hiệu **mV hoặc điện áp rơi trên điện trở shunt** và chuyển thành tín hiệu chuẩn **4-20mA, 0-10V, 0-5V** để đưa về PLC, bộ hiển thị, SCADA. Thường dùng để **đo dòng điện lớn qua shunt** rồi quy về tín hiệu chuẩn. Thiết bị **cách ly**, thân **mỏng gắn DIN rail**.
 
 > **Cần giá K109LV?** [Nhận báo giá trong ngày](#bao-gia).
 
-<!--DIAGRAM-->
-![Chuyển đổi & cách ly tín hiệu (vd 4–20mA → 0–10V)](assets/diagrams/signal-converter.svg)
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/signal-converter.svg)
 
 
 ---
@@ -41,6 +45,10 @@ H1          : K109LV Seneca – Bộ Chuyển Đổi Điện Áp Thấp / Shunt
 ---
 
 ## K109LV dùng để làm gì?
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/signal-chain.svg)
+
 
 - **Đo dòng lớn qua shunt:** điện áp mV rơi trên shunt → K109LV quy về 4-20mA để giám sát dòng.
 - **Chuyển tín hiệu mV** từ cảm biến/đầu đo điện áp thấp về tín hiệu chuẩn.

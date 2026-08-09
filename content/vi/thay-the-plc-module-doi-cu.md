@@ -14,12 +14,16 @@ H1          : Thay Thế PLC & Module Đời Cũ / Ngừng Sản Xuất
 
 ## PLC/module của bạn đã ngừng sản xuất?
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-obsolete.svg)
+
+
 Rất nhiều dây chuyền đang chạy trên **PLC và module I/O đời cũ** mà hãng đã hoặc sắp **ngừng sản xuất** (ví dụ Mitsubishi FX3U đang dần EOL). Khi một CPU/module hỏng mà không tìm được hàng chính hãng, bạn đối mặt nguy cơ **dừng máy kéo dài**. Chúng tôi giúp: **tìm PLC/module chính hãng còn lại** để duy trì máy, hoặc **tư vấn nâng cấp lên dòng kế nhiệm**.
 
 > **Đang cần?** Gửi **mã PLC/module** → [Gửi yêu cầu tìm hàng & tư vấn](#yeu-cau).
 
-<!--DIAGRAM-->
-![Quy trình tìm hàng thay thế cho thiết bị ngừng sản xuất](assets/diagrams/obsolete-replacement.svg)
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/obsolete-replacement.svg)
 
 
 ---
@@ -60,6 +64,10 @@ Gửi: **mã PLC/module · số I/O · nhu cầu (duy trì/nâng cấp) · số 
 Xem thêm: [Thiết bị công nghiệp khó tìm](/thiet-bi-cong-nghiep-kho-tim/) · [Linh kiện tự động hóa ngừng sản xuất](/linh-kien-tu-dong-hoa-ngung-san-xuat/).
 
 ---
+
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-obsolete.svg)
 
 ## Câu hỏi thường gặp (FAQ)
 

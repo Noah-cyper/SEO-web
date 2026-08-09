@@ -14,12 +14,16 @@ H1          : R-PASS Seneca – IIoT Edge Gateway (VPN Từ Xa)
 
 ## R-PASS là gì?
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-iot.svg)
+
+
 **R-PASS** là **IIoT edge gateway** của **Seneca (Italy)** — thiết bị cho phép **truy cập, giám sát và bảo trì thiết bị công nghiệp từ xa qua VPN**, đồng thời làm **gateway Modbus** kết nối các cấp mạng. Là lựa chọn **nhỏ gọn** cho hệ IoT/edge cần kết nối từ xa an toàn mà không cần cấu hình mạng phức tạp.
 
 > **Cần giá R-PASS?** [Nhận báo giá trong ngày](#bao-gia).
 
-<!--DIAGRAM-->
-![Giám sát & cảnh báo từ xa qua RTU/datalogger (3G/4G)](assets/diagrams/remote-monitoring.svg)
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/remote-monitoring.svg)
 
 
 ---
@@ -40,6 +44,10 @@ H1          : R-PASS Seneca – IIoT Edge Gateway (VPN Từ Xa)
 ---
 
 ## R-PASS dùng để làm gì?
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-iot.svg)
+
 
 - **Truy cập & bảo trì máy từ xa** qua VPN (giảm chi phí đi lại).
 - **Gateway Modbus** đưa thiết bị hiện trường lên hệ giám sát.

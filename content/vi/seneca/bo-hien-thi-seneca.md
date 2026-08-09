@@ -14,12 +14,16 @@ H1          : Bộ Hiển Thị Số Seneca (Panel Meter)
 
 ## Bộ hiển thị Seneca là gì?
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-panel.svg)
+
+
 Là các **đồng hồ hiển thị số gắn tủ (panel meter / digital indicator)** của **Seneca (Italy)** — nhận tín hiệu đo và **hiển thị giá trị theo đơn vị kỹ thuật** trên màn hình LED, đồng thời có thể **cảnh báo (relay), truyền Modbus và phát lại tín hiệu analog**. Đầu vào đa năng: **điện áp, dòng (4-20mA), Pt100, can nhiệt, biến trở**. Dùng để hiển thị áp suất, nhiệt độ, mức, lưu lượng… ngay trên tủ điện.
 
 > **Cần báo giá?** Gửi **loại tín hiệu vào · số chữ số · cần relay/Modbus không** → [Nhận tư vấn & báo giá](#bao-gia).
 
-<!--DIAGRAM-->
-![Bộ hiển thị: cảm biến → hiển thị LED → relay & ngõ ra analog](assets/diagrams/panel-indicator.svg)
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-panel.svg)
 
 
 ---
@@ -46,6 +50,10 @@ Là các **đồng hồ hiển thị số gắn tủ (panel meter / digital indi
 ---
 
 ## Ứng dụng
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-panel.svg)
+
 
 - Hiển thị áp suất/nhiệt độ/mức/lưu lượng trên tủ điều khiển.
 - Cảnh báo tại chỗ khi vượt ngưỡng.

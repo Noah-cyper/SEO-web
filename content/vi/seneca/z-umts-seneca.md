@@ -14,12 +14,16 @@ H1          : Z-UMTS Seneca – RTU / Datalogger Không Dây 3G (UMTS)
 
 ## Z-UMTS là gì?
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-datalogger.svg)
+
+
 **Z-UMTS** là **RTU kiêm datalogger không dây 3G (UMTS)** của **Seneca (Italy)**, cùng nền tảng với [Z-GPRS3](/z-gprs3-seneca/) và [Z-LOGGER3](/z-logger3-seneca/). Thiết bị thu thập tín hiệu I/O, ghi dữ liệu và **truyền qua sóng 3G** — dành cho **trạm ở xa cần băng thông/độ ổn định cao hơn 2G**. Có **cảnh báo SMS/Email**, **UPS tích hợp**, cấu hình bằng **SEAL** kéo-thả.
 
 > **Cần giá Z-UMTS?** [Nhận báo giá trong ngày](#bao-gia).
 
-<!--DIAGRAM-->
-![Giám sát & cảnh báo từ xa qua RTU/datalogger (3G/4G)](assets/diagrams/remote-monitoring.svg)
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/remote-monitoring.svg)
 
 
 ---
@@ -41,6 +45,10 @@ H1          : Z-UMTS Seneca – RTU / Datalogger Không Dây 3G (UMTS)
 ---
 
 ## Z-UMTS dùng để làm gì?
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-datalogger.svg)
+
 
 - **Giám sát trạm ở xa qua 3G** (bơm, bể nước, quan trắc) nơi không có mạng dây.
 - **Cảnh báo tức thời** khi sự cố; **telemetry** gửi số liệu về trung tâm.

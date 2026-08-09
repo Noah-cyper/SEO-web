@@ -14,12 +14,16 @@ H1          : Z109REG2-2 Seneca – Bộ Cách Ly & Chia Tín Hiệu (2 Ngõ Ra)
 
 ## Z109REG2-2 là gì?
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-converter.svg)
+
+
 **Z109REG2-2** là **bộ cách ly và chuyển đổi tín hiệu analog** của **Seneca (Italy)** với **2 ngõ ra** — cho phép **chia/nhân một tín hiệu đầu vào thành hai tín hiệu ra độc lập** (ví dụ vừa đưa về PLC vừa về bộ hiển thị), đồng thời cách ly chống nhiễu. Cùng họ với [Z109REG2-1](/z109reg2-1-seneca/) nhưng có thêm ngõ ra thứ hai.
 
 > **Cần giá Z109REG2-2?** [Nhận báo giá trong ngày](#bao-gia).
 
-<!--DIAGRAM-->
-![Chuyển đổi & cách ly tín hiệu (vd 4–20mA → 0–10V)](assets/diagrams/signal-converter.svg)
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/signal-converter.svg)
 
 
 ---
@@ -42,6 +46,10 @@ H1          : Z109REG2-2 Seneca – Bộ Cách Ly & Chia Tín Hiệu (2 Ngõ Ra)
 ---
 
 ## Z109REG2-2 dùng để làm gì?
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/signal-chain.svg)
+
 
 - **Chia 1 tín hiệu thành 2** để cấp đồng thời cho PLC + hiển thị/ghi dữ liệu.
 - **Cách ly & chuẩn hóa** tín hiệu cho nhiều thiết bị nhận.

@@ -14,12 +14,16 @@ H1          : Cảm Biến Chênh Áp Là Gì? Nguyên Lý, Ứng Dụng Và Cá
 
 ## Cảm biến chênh áp là gì?
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-dp.svg)
+
+
 **Cảm biến chênh áp** (differential pressure transmitter) đo **chênh lệch áp suất giữa hai điểm** (đầu "+" và đầu "–") rồi chuyển thành tín hiệu chuẩn **4-20mA/0-10V**. Khác với cảm biến áp suất thường (đo tại một điểm so với khí quyển), cảm biến chênh áp cho biết **mức chênh áp** — từ đó suy ra **lưu lượng, mức chất lỏng trong bồn kín, hay độ nghẹt của bộ lọc**.
 
 > **Cần báo giá?** Gửi **dải chênh áp · môi chất · tín hiệu ngõ ra** → [Nhận tư vấn & báo giá](#bao-gia).
 
-<!--DIAGRAM-->
-![Ứng dụng cảm biến chênh áp: đo lưu lượng & mức bồn kín](assets/diagrams/dp-measurement.svg)
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-dp.svg)
 
 
 ---
@@ -69,6 +73,10 @@ Gửi: **dải chênh áp · áp tĩnh đường ống · môi chất · tín hi
 **→ [Liên hệ báo giá cảm biến chênh áp](/lien-he/)**
 
 ---
+
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/dp-measurement.svg)
 
 ## Câu hỏi thường gặp (FAQ)
 

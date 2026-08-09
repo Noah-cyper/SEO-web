@@ -14,12 +14,16 @@ H1          : Gateway / Router Modbus – IoT Seneca
 
 ## Gateway Modbus Seneca là gì?
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-gateway.svg)
+
+
 Là các thiết bị **kết nối và chuyển đổi giao thức truyền thông công nghiệp** của **Seneca (Italy)**: chuyển đổi **Modbus TCP-IP ↔ Modbus RTU (RS485)**, mở rộng số node, và (với dòng IoT) làm **router/VPN để điều khiển – giám sát từ xa** an toàn. Giúp ghép nối các cấp mạng khác nhau (thiết bị hiện trường ↔ hệ điều khiển ↔ IT/đám mây).
 
 > **Cần báo giá?** Gửi **giao thức cần ghép (TCP/RTU) & nhu cầu VPN/từ xa** → [Nhận tư vấn & báo giá](#bao-gia).
 
-<!--DIAGRAM-->
-![Gateway chuyển đổi Modbus TCP ↔ RTU](assets/diagrams/modbus-gateway.svg)
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/modbus-gateway.svg)
 
 
 ---
@@ -47,6 +51,10 @@ Là các thiết bị **kết nối và chuyển đổi giao thức truyền th�
 ---
 
 ## Ứng dụng
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-gateway.svg)
+
 
 - Kết nối đồng hồ/PLC/thiết bị RS485 lên SCADA qua Ethernet.
 - Bảo trì – điều khiển máy móc **từ xa** qua VPN.

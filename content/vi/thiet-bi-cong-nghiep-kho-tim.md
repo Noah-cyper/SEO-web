@@ -14,14 +14,18 @@ H1          : Thiết Bị Công Nghiệp Khó Tìm & Hàng Ngừng Sản Xuất
 
 ## Khi thiết bị bạn cần "không còn ai bán"
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-obsolete.svg)
+
+
 Model đã **ngừng sản xuất (obsolete)**. Nhà phân phối báo **hết hàng**. Hoặc là loại **quá đặc thù, ít nơi nhập**. Trong khi đó máy đang chờ linh kiện để chạy lại. Đây đúng là việc chúng tôi xử lý: **tìm nguồn thiết bị đo lường – tự động hóa khó tìm**, kiểm tra hàng chính hãng, và **đề xuất mã thay thế tương đương** khi model gốc không còn.
 
 Nguồn hàng **EU/G7 + China**, tư vấn kỹ thuật để chọn đúng thay thế, xuất **CO/CQ – VAT**.
 
 > **Đang cần gấp?** Gửi **mã thiết bị / hình chụp tem nhãn** → [Gửi yêu cầu tìm hàng & báo giá](#yeu-cau).
 
-<!--DIAGRAM-->
-![Quy trình tìm hàng thay thế cho thiết bị ngừng sản xuất](assets/diagrams/obsolete-replacement.svg)
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/obsolete-replacement.svg)
 
 
 ---
@@ -72,6 +76,10 @@ Gửi cho chúng tôi: **mã/model thiết bị · thông số · số lượng 
 **→ [Liên hệ tìm hàng & báo giá](/lien-he/)**
 
 ---
+
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-obsolete.svg)
 
 ## Câu hỏi thường gặp (FAQ)
 

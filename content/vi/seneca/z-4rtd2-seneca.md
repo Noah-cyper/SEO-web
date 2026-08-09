@@ -14,12 +14,16 @@ H1          : Z-4RTD2 Seneca – Module 4 Kênh RTD/Pt100 (Modbus RTU)
 
 ## Z-4RTD2 là gì?
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-remoteio.svg)
+
+
 **Z-4RTD2** là **module remote I/O** thuộc dòng Z-PC của **Seneca (Italy)**, chuyên **đọc 4 kênh đầu vào RTD/Pt100** và truyền dữ liệu về PLC/SCADA qua **Modbus RTU (RS485)**. Dùng khi cần **thu thập nhiều điểm nhiệt độ ở hiện trường** rồi gom về trung tâm bằng một đường truyền — giảm dây, dễ mở rộng.
 
 > **Cần giá Z-4RTD2?** [Nhận báo giá trong ngày](#bao-gia).
 
-<!--DIAGRAM-->
-![Thu thập tín hiệu từ xa qua Modbus RTU (remote I/O Z-PC)](assets/diagrams/modbus-remote-io.svg)
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/modbus-remote-io.svg)
 
 
 ---
@@ -40,6 +44,10 @@ H1          : Z-4RTD2 Seneca – Module 4 Kênh RTD/Pt100 (Modbus RTU)
 ---
 
 ## Z-4RTD2 dùng để làm gì?
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-remoteio.svg)
+
 
 - **Đọc nhiều điểm Pt100** (lò, đường ống, bồn) và đưa về SCADA qua Modbus.
 - **Gom tín hiệu nhiệt độ phân tán** bằng một đường RS485 thay vì kéo nhiều cáp.

@@ -14,14 +14,18 @@ H1          : PLC Mitsubishi FX3U Là Gì? Ứng Dụng, Ưu Điểm Và Khi Nà
 
 ## PLC Mitsubishi FX3U là gì?
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-plc.svg)
+
+
 **PLC Mitsubishi FX3U** là bộ điều khiển lập trình thuộc **dòng FX-series** của Mitsubishi Electric, dành cho ứng dụng tự động hóa **quy mô nhỏ đến trung bình**. PLC nhận tín hiệu từ cảm biến, xử lý logic theo chương trình rồi điều khiển ngõ ra như motor, băng tải, van điện từ, biến tần…
 
 Trong nhiều năm, FX3U được xem là **"PLC quốc dân"** tại Việt Nam nhờ ổn định, dễ lập trình và phổ biến – vẫn xuất hiện rất nhiều trong máy móc, dây chuyền sản xuất hiện nay.
 
 > **Cần mua FX3U/FX5U hoặc thay thế PLC cũ?** Gửi model đang dùng → [Tư vấn & báo giá PLC Mitsubishi](#bao-gia).
 
-<!--DIAGRAM-->
-![Chuỗi tín hiệu: cảm biến → bộ chuyển đổi → PLC/SCADA](assets/diagrams/signal-chain.svg)
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-plc.svg)
 
 
 ---
@@ -36,6 +40,10 @@ Trong nhiều năm, FX3U được xem là **"PLC quốc dân"** tại Việt Nam
 ---
 
 ## Ứng dụng thực tế của FX3U
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-plc.svg)
+
 
 - Máy đóng gói, máy cắt bao bì, dây chuyền chiết rót.
 - Điều khiển **step motor / servo** nhờ khả năng phát xung tốc độ cao.

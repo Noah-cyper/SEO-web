@@ -14,12 +14,16 @@ H1          : Z-8AI Seneca – Module 8 Kênh Đầu Vào Analog (Modbus RTU)
 
 ## Z-8AI là gì?
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-remoteio.svg)
+
+
 **Z-8AI** là **module remote I/O** dòng Z-PC của **Seneca (Italy)**, **đọc 8 kênh đầu vào analog** (dòng mA / áp V) và truyền về PLC/SCADA qua **Modbus RTU (RS485)**. Phù hợp khi cần **gom nhiều cảm biến analog** (áp suất, mức, dòng…) về trung tâm bằng một đường truyền.
 
 > **Cần giá Z-8AI?** [Nhận báo giá trong ngày](#bao-gia).
 
-<!--DIAGRAM-->
-![Thu thập tín hiệu từ xa qua Modbus RTU (remote I/O Z-PC)](assets/diagrams/modbus-remote-io.svg)
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/modbus-remote-io.svg)
 
 
 ---
@@ -40,6 +44,10 @@ H1          : Z-8AI Seneca – Module 8 Kênh Đầu Vào Analog (Modbus RTU)
 ---
 
 ## Z-8AI dùng để làm gì?
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-remoteio.svg)
+
 
 - **Đọc nhiều cảm biến 4-20mA / 0-10V** cùng lúc, đưa lên SCADA.
 - **Số hóa tín hiệu analog phân tán** qua Modbus, giảm dây kéo về tủ.

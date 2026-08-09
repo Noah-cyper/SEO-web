@@ -14,12 +14,16 @@ H1          : K121 Seneca – Bộ Chuyển Đổi & Cách Ly Tín Hiệu (Có N
 
 ## K121 là gì?
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-converter.svg)
+
+
 **K121** là **bộ chuyển đổi và cách ly tín hiệu analog có nguồn cấp** của **Seneca (Italy)**. Khác với K109S (loop-powered), K121 dùng **nguồn cấp riêng** nên phù hợp khi cần **dải tín hiệu rộng, công suất truyền khỏe và cách ly chắc chắn** giữa ngõ vào – ngõ ra. Ngõ vào/ra cấu hình đa dạng (mA / V), thân gắn DIN rail.
 
 > **Cần giá K121?** [Nhận báo giá trong ngày](#bao-gia).
 
-<!--DIAGRAM-->
-![Chuyển đổi & cách ly tín hiệu (vd 4–20mA → 0–10V)](assets/diagrams/signal-converter.svg)
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/signal-converter.svg)
 
 
 ---
@@ -42,6 +46,10 @@ H1          : K121 Seneca – Bộ Chuyển Đổi & Cách Ly Tín Hiệu (Có N
 ---
 
 ## K121 dùng để làm gì?
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/signal-chain.svg)
+
 
 - **Chuyển đổi & cách ly tín hiệu** mA/V khi cần nguồn cấp riêng, tín hiệu ổn định.
 - **Chuẩn hóa tín hiệu** giữa cảm biến và PLC/biến tần trong môi trường nhiễu.

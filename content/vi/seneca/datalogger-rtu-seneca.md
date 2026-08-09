@@ -14,12 +14,16 @@ H1          : Datalogger & RTU Giám Sát Từ Xa Seneca
 
 ## Datalogger / RTU Seneca là gì?
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-datalogger.svg)
+
+
 Là các thiết bị **ghi dữ liệu (datalogger) và điều khiển/giám sát từ xa (RTU)** của **Seneca (Italy)** — thu thập tín hiệu I/O, **lưu dữ liệu, gửi cảnh báo và truyền số liệu từ xa** qua Ethernet hoặc **3G/4G (telemetry)**. Nhiều model có **UPS tích hợp** (chạy tiếp khi mất điện) và hỗ trợ nhiều giao thức (Modbus RTU/TCP, FTP, SMTP, HTTP, MQTT). Cấu hình bằng phần mềm **SEAL** dạng kéo-thả, không cần biết lập trình.
 
 > **Cần báo giá?** Gửi **số kênh I/O · kiểu truyền (Ethernet/3G/4G) · nhu cầu cảnh báo** → [Nhận tư vấn & báo giá](#bao-gia).
 
-<!--DIAGRAM-->
-![Giám sát & cảnh báo từ xa qua RTU/datalogger (3G/4G)](assets/diagrams/remote-monitoring.svg)
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/remote-monitoring.svg)
 
 
 ---
@@ -48,6 +52,10 @@ Là các thiết bị **ghi dữ liệu (datalogger) và điều khiển/giám s
 ---
 
 ## Ứng dụng
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-datalogger.svg)
+
 
 - Giám sát **trạm bơm, mực nước, chất lượng nước** ở xa.
 - **Cảnh báo sự cố** cho trạm không người trực.

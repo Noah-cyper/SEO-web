@@ -14,12 +14,16 @@ H1          : R-KEY-LT Seneca – Gateway Modbus TCP/RTU Nhỏ Gọn
 
 ## R-KEY-LT là gì?
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-gateway.svg)
+
+
 **R-KEY-LT** là **gateway Modbus nhỏ gọn** của **Seneca (Italy)**, chuyển đổi tín hiệu giữa **Modbus TCP-IP và Modbus RTU (RS485)** ở nhiều chế độ. Là lựa chọn **đơn giản, tiết kiệm** khi chỉ cần đưa thiết bị RS485 lên mạng Ethernet mà không cần nhiều tính năng như Z-KEY.
 
 > **Cần giá R-KEY-LT?** [Nhận báo giá trong ngày](#bao-gia).
 
-<!--DIAGRAM-->
-![Gateway chuyển đổi Modbus TCP ↔ RTU](assets/diagrams/modbus-gateway.svg)
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/modbus-gateway.svg)
 
 
 ---
@@ -39,6 +43,10 @@ H1          : R-KEY-LT Seneca – Gateway Modbus TCP/RTU Nhỏ Gọn
 ---
 
 ## R-KEY-LT dùng để làm gì?
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-gateway.svg)
+
 
 - **Đưa thiết bị RS485 (Modbus RTU) lên Ethernet (Modbus TCP-IP)** cho SCADA/PLC đọc.
 - Giải pháp **gọn – rẻ** cho hệ nhỏ hoặc điểm đơn lẻ.

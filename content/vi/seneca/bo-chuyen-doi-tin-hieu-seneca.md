@@ -14,12 +14,16 @@ H1          : Bộ Chuyển Đổi & Cách Ly Tín Hiệu Seneca (Z-LINE)
 
 ## Bộ chuyển đổi tín hiệu Seneca là gì?
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-converter.svg)
+
+
 **Bộ chuyển đổi tín hiệu Seneca** (dòng Z-LINE) là thiết bị **chuyển đổi và/hoặc cách ly (isolate)** tín hiệu analog trong công nghiệp — ví dụ chuyển **4-20mA sang 0-10V**, đọc **Pt100/can nhiệt** ra tín hiệu chuẩn, đo **điện áp shunt** ra 4-20mA. Thiết bị **gắn DIN rail, nhỏ gọn**, có **cách ly chống nhiễu (galvanic isolation)** giúp tín hiệu ổn định và bảo vệ PLC/thiết bị đọc.
 
 > **Không chắc chọn mã nào?** Cho chúng tôi biết **tín hiệu vào → tín hiệu ra** cần dùng → [Tư vấn & báo giá](#bao-gia).
 
-<!--DIAGRAM-->
-![Chuyển đổi & cách ly tín hiệu (vd 4–20mA → 0–10V)](assets/diagrams/signal-converter.svg)
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/signal-converter.svg)
 
 
 ---
@@ -48,6 +52,10 @@ H1          : Bộ Chuyển Đổi & Cách Ly Tín Hiệu Seneca (Z-LINE)
 ---
 
 ## Ứng dụng
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/signal-chain.svg)
+
 
 - Cách ly & chuyển tín hiệu **4-20mA ↔ 0-10V** giữa cảm biến và PLC.
 - Đọc **Pt100/can nhiệt** đưa về analog chuẩn cho hệ điều khiển.

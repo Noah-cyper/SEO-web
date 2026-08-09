@@ -14,12 +14,16 @@ H1          : Z-4AO Seneca – Module 4 Kênh Đầu Ra Analog (Modbus RTU)
 
 ## Z-4AO là gì?
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-remoteio.svg)
+
+
 **Z-4AO** là **module remote I/O** dòng Z-PC của **Seneca (Italy)**, cung cấp **4 kênh đầu ra analog** (mA / V) nhận lệnh từ PLC/SCADA qua **Modbus RTU (RS485)**. Dùng để **xuất tín hiệu điều khiển** (đặt điểm cho biến tần, van tỉ lệ, bộ điều khiển…) ở hiện trường mà không cần kéo dây analog dài từ tủ trung tâm.
 
 > **Cần giá Z-4AO?** [Nhận báo giá trong ngày](#bao-gia).
 
-<!--DIAGRAM-->
-![Thu thập tín hiệu từ xa qua Modbus RTU (remote I/O Z-PC)](assets/diagrams/modbus-remote-io.svg)
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/modbus-remote-io.svg)
 
 
 ---
@@ -40,6 +44,10 @@ H1          : Z-4AO Seneca – Module 4 Kênh Đầu Ra Analog (Modbus RTU)
 ---
 
 ## Z-4AO dùng để làm gì?
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-remoteio.svg)
+
 
 - **Xuất tín hiệu 4-20mA / 0-10V** điều khiển biến tần, van tỉ lệ, thiết bị analog từ xa.
 - **Điều khiển phân tán** qua Modbus, giảm dây analog kéo về trung tâm.

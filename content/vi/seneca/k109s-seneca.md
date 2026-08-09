@@ -14,12 +14,16 @@ H1          : K109S Seneca – Bộ Chuyển Đổi & Cách Ly Tín Hiệu Đa N
 
 ## K109S là gì?
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-converter.svg)
+
+
 **K109S** là **bộ chuyển đổi và cách ly tín hiệu analog** của **Seneca (Italy)**, thuộc dòng Z-LINE. K109S chuyển đổi qua lại các tín hiệu công nghiệp phổ biến — **4-20mA, 0-20mA, 0-10V, 0-5V, 1-5V** — đồng thời **cách ly (galvanic isolation)** để chống nhiễu và bảo vệ thiết bị. Ưu điểm lớn: **loop-powered** (lấy nguồn từ vòng dòng ngõ ra), thường **không cần cấp nguồn ngoài**, và thân **rất mỏng gắn DIN rail** giúp tiết kiệm không gian tủ.
 
 > **Cần giá K109S?** [Nhận báo giá K109S trong ngày](#bao-gia) — sẵn hàng.
 
-<!--DIAGRAM-->
-![Chuyển đổi & cách ly tín hiệu (vd 4–20mA → 0–10V)](assets/diagrams/signal-converter.svg)
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/signal-converter.svg)
 
 
 ---
@@ -42,6 +46,10 @@ H1          : K109S Seneca – Bộ Chuyển Đổi & Cách Ly Tín Hiệu Đa N
 ---
 
 ## K109S dùng để làm gì?
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/signal-chain.svg)
+
 
 - **Chuyển 4-20mA sang 0-10V** (hoặc ngược lại) để ghép cảm biến với PLC/biến tần khác chuẩn tín hiệu.
 - **Cách ly tín hiệu** chống nhiễu, chống vòng lặp đất (ground loop) trên đường truyền dài.

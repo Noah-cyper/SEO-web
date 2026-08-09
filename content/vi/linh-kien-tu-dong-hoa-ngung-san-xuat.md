@@ -14,12 +14,16 @@ H1          : Linh Kiện Tự Động Hóa Ngừng Sản Xuất: Cách Tìm Hà
 
 ## Vấn đề
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-obsolete.svg)
+
+
 Một linh kiện (cảm biến, transmitter, PLC, module, bộ chuyển đổi…) đã **ngừng sản xuất (obsolete / end-of-life)** và bạn cần "mã tương đương". Nhưng lắp sai thay thế vào hệ đang chạy có thể gây **đo sai, lỗi vòng điều khiển, hoặc thiếu chứng nhận** ở điểm an toàn. Dưới đây là 5 bước làm đúng.
 
 > **Muốn nhanh?** Gửi mã cũ, chúng tôi tra thay thế giúp → [Gửi yêu cầu](/thiet-bi-cong-nghiep-kho-tim/).
 
-<!--DIAGRAM-->
-![Quy trình tìm hàng thay thế cho thiết bị ngừng sản xuất](assets/diagrams/obsolete-replacement.svg)
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/obsolete-replacement.svg)
 
 
 ---
@@ -71,6 +75,10 @@ Gửi **mã/serial trên tem** → chúng tôi trả về model kế nhiệm, h�
 **→ [Gửi yêu cầu tìm hàng thay thế](/thiet-bi-cong-nghiep-kho-tim/)** · [Liên hệ báo giá](/lien-he/)
 
 ---
+
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-obsolete.svg)
 
 ## Câu hỏi thường gặp (FAQ)
 

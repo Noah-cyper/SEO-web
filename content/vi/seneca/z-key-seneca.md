@@ -14,12 +14,16 @@ H1          : Z-KEY Seneca – Gateway Modbus TCP-IP ↔ RTU
 
 ## Z-KEY là gì?
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-gateway.svg)
+
+
 **Z-KEY** là **gateway Modbus** của **Seneca (Italy)**, dùng để **kết nối và chuyển đổi giữa Modbus TCP-IP và Modbus RTU (RS485)** ở nhiều chế độ, đồng thời **tăng số node** kết nối trong mạng. Nó giúp đưa các thiết bị RS485 (đồng hồ, cảm biến, PLC) **lên mạng Ethernet/SCADA**, ghép nối các cấp mạng công nghiệp với nhau.
 
 > **Cần giá Z-KEY?** [Nhận báo giá trong ngày](#bao-gia).
 
-<!--DIAGRAM-->
-![Gateway chuyển đổi Modbus TCP ↔ RTU](assets/diagrams/modbus-gateway.svg)
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/modbus-gateway.svg)
 
 
 ---
@@ -39,6 +43,10 @@ H1          : Z-KEY Seneca – Gateway Modbus TCP-IP ↔ RTU
 ---
 
 ## Z-KEY dùng để làm gì?
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-gateway.svg)
+
 
 - **Đưa thiết bị RS485 (Modbus RTU) lên mạng Ethernet (Modbus TCP-IP)** cho SCADA đọc.
 - **Tăng số node/thiết bị** kết nối trong mạng Modbus.

@@ -14,12 +14,16 @@ H1          : Z-LOGGER3 Seneca – Datalogger Công Nghiệp Đa Giao Thức
 
 ## Z-LOGGER3 là gì?
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-datalogger.svg)
+
+
 **Z-LOGGER3** là **bộ ghi dữ liệu (datalogger)** đa giao thức của **Seneca (Italy)**, tích hợp sẵn I/O để **thu thập, ghi và truyền dữ liệu** đo lường trong công nghiệp. Chạy được **độc lập (stand-alone)** hoặc trong mạng **Modbus RTU (Master) / Modbus TCP-IP (client/server)**. Điểm mạnh: **UPS tích hợp** giữ hệ chạy khi mất điện, và cấu hình bằng phần mềm **SEAL** kéo-thả — không cần biết lập trình.
 
 > **Cần giá Z-LOGGER3?** [Nhận báo giá trong ngày](#bao-gia).
 
-<!--DIAGRAM-->
-![Giám sát & cảnh báo từ xa qua RTU/datalogger (3G/4G)](assets/diagrams/remote-monitoring.svg)
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/remote-monitoring.svg)
 
 
 ---
@@ -42,6 +46,10 @@ H1          : Z-LOGGER3 Seneca – Datalogger Công Nghiệp Đa Giao Thức
 ---
 
 ## Z-LOGGER3 dùng để làm gì?
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-datalogger.svg)
+
 
 - **Ghi dữ liệu đo** (áp, nhiệt, mức, điện…) ra microSD và gửi qua FTP/Email/HTTP.
 - **Gom dữ liệu Modbus** từ nhiều thiết bị (làm Master RS485) rồi đưa lên SCADA (TCP-IP).

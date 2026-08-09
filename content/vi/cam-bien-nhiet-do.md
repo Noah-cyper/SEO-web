@@ -14,12 +14,16 @@ H1          : Cảm Biến Nhiệt Độ Là Gì? Pt100, Can Nhiệt Và Cách C
 
 ## Cảm biến nhiệt độ là gì?
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-temp.svg)
+
+
 **Cảm biến nhiệt độ** là thiết bị đo nhiệt độ và chuyển thành tín hiệu để đưa về bộ điều khiển, hiển thị hay SCADA. Hai loại phổ biến nhất trong công nghiệp là **Pt100 (RTD)** và **can nhiệt (thermocouple)**. Tín hiệu từ cảm biến thường được đưa qua **bộ chuyển đổi (transmitter)** để ra chuẩn **4-20mA/0-10V** trước khi vào PLC.
 
 > **Cần báo giá?** Gửi **dải nhiệt độ · loại (Pt100/can nhiệt) · kiểu lắp** → [Nhận tư vấn & báo giá](#bao-gia).
 
-<!--DIAGRAM-->
-![So sánh Pt100 (RTD) và can nhiệt (thermocouple)](assets/diagrams/rtd-vs-tc.svg)
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/rtd-vs-tc.svg)
 
 
 ---
@@ -56,6 +60,10 @@ Do tín hiệu gốc (điện trở / mV) yếu, thường dùng **bộ chuyển
 ---
 
 ## Ứng dụng
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-temp.svg)
+
 
 - Lò hơi, lò nung, nhiệt điện (can nhiệt cho nhiệt cao).
 - Đo nhiệt đường ống, bồn chứa, máy móc (Pt100).

@@ -14,12 +14,16 @@ H1          : T121 Seneca – Bộ Chuyển Đổi Tín Hiệu Nhiệt Độ (Pt
 
 ## T121 là gì?
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-converter.svg)
+
+
 **T121** là **bộ chuyển đổi tín hiệu nhiệt độ** của **Seneca (Italy)**: nhận đầu vào từ **Pt100 (RTD) hoặc can nhiệt (thermocouple)** và chuyển thành tín hiệu chuẩn **4-20mA/0-10V** cho PLC/hiển thị/SCADA. Khác với [K109PT](/k109pt-seneca/) (thường loop-powered, chuyên Pt100), T121 là dòng chuyển đổi nhiệt độ **có nguồn cấp**, hỗ trợ nhiều loại cảm biến nhiệt.
 
 > **Cần giá T121?** [Nhận báo giá trong ngày](#bao-gia).
 
-<!--DIAGRAM-->
-![Chuyển đổi & cách ly tín hiệu (vd 4–20mA → 0–10V)](assets/diagrams/signal-converter.svg)
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/signal-converter.svg)
 
 
 ---
@@ -41,6 +45,10 @@ H1          : T121 Seneca – Bộ Chuyển Đổi Tín Hiệu Nhiệt Độ (Pt
 ---
 
 ## T121 dùng để làm gì?
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/signal-chain.svg)
+
 
 - **Đọc Pt100 hoặc can nhiệt** và chuyển ra tín hiệu chuẩn cho hệ điều khiển.
 - **Chuẩn hóa & cách ly** tín hiệu nhiệt độ, chống nhiễu.

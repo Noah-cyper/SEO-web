@@ -14,12 +14,16 @@ H1          : Tìm Cảm Biến & Transmitter Khó Tìm / Ngừng Sản Xuất
 
 ## Cảm biến/transmitter của bạn không còn ai bán?
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-obsolete.svg)
+
+
 Nhiều cảm biến áp suất, nhiệt độ, mức, lưu lượng và transmitter đo lường **đã ngừng sản xuất** hoặc **thuộc hãng ngách khó nhập**. Khi cần thay thế cho một điểm đo đang chạy, chọn sai loại có thể gây **đo sai hoặc lỗi vòng điều khiển**. Chúng tôi giúp **tìm đúng cảm biến/transmitter** — hàng chính hãng còn lại hoặc **mã thay thế tương đương**.
 
 > **Đang cần?** Gửi **mã/thông số cảm biến** (hoặc ảnh tem) → [Gửi yêu cầu tìm hàng](#yeu-cau).
 
-<!--DIAGRAM-->
-![Quy trình tìm hàng thay thế cho thiết bị ngừng sản xuất](assets/diagrams/obsolete-replacement.svg)
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/obsolete-replacement.svg)
 
 
 ---
@@ -63,6 +67,10 @@ Gửi: **mã/serial · dải đo · tín hiệu · kết nối · chứng nhận
 **→ [Liên hệ tìm cảm biến/transmitter](/lien-he/)**
 
 ---
+
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-obsolete.svg)
 
 ## Câu hỏi thường gặp (FAQ)
 

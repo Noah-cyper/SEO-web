@@ -14,12 +14,16 @@ H1          : K120 Seneca – Bộ Chuyển Đổi & Cách Ly Tín Hiệu
 
 ## K120 là gì?
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-converter.svg)
+
+
 **K120** là **bộ chuyển đổi và cách ly tín hiệu analog** của **Seneca (Italy)**, thuộc dòng K-series cùng họ với [K109S](/k109s-seneca/). K120 chuyển đổi/cách ly các tín hiệu công nghiệp (mA / V), thân nhỏ gọn gắn DIN rail, cấu hình bằng dip-switch.
 
 > **Cần giá K120?** [Nhận báo giá trong ngày](#bao-gia).
 
-<!--DIAGRAM-->
-![Chuyển đổi & cách ly tín hiệu (vd 4–20mA → 0–10V)](assets/diagrams/signal-converter.svg)
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/signal-converter.svg)
 
 
 ---
@@ -41,6 +45,10 @@ H1          : K120 Seneca – Bộ Chuyển Đổi & Cách Ly Tín Hiệu
 ---
 
 ## K120 dùng để làm gì?
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/signal-chain.svg)
+
 
 - **Chuyển đổi & cách ly tín hiệu** mA/V giữa cảm biến và PLC/biến tần.
 - **Chống nhiễu** trên đường truyền tín hiệu analog.

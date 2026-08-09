@@ -14,12 +14,16 @@ H1          : Z-GPRS3 Seneca – RTU / Datalogger Không Dây (2G/3G)
 
 ## Z-GPRS3 là gì?
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-datalogger.svg)
+
+
 **Z-GPRS3** là **RTU kiêm datalogger không dây** của **Seneca (Italy)**: thu thập tín hiệu I/O, ghi dữ liệu và **truyền qua sóng di động 2G/3G** — lý tưởng cho **trạm ở xa không có mạng dây/Ethernet**. Có **cảnh báo SMS/Email** khi sự cố, **UPS tích hợp**, và cấu hình bằng **SEAL** kéo-thả. Cùng nền tảng với [Z-LOGGER3](/z-logger3-seneca/) nhưng thêm truyền dữ liệu di động.
 
 > **Cần giá Z-GPRS3?** [Nhận báo giá trong ngày](#bao-gia).
 
-<!--DIAGRAM-->
-![Giám sát & cảnh báo từ xa qua RTU/datalogger (3G/4G)](assets/diagrams/remote-monitoring.svg)
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/remote-monitoring.svg)
 
 
 ---
@@ -42,6 +46,10 @@ H1          : Z-GPRS3 Seneca – RTU / Datalogger Không Dây (2G/3G)
 ---
 
 ## Z-GPRS3 dùng để làm gì?
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-datalogger.svg)
+
 
 - **Giám sát trạm ở xa** (bơm, bể nước, quan trắc) nơi không kéo được mạng dây.
 - **Cảnh báo tức thời** qua SMS/Email khi mất điện, tràn/cạn, vượt ngưỡng.

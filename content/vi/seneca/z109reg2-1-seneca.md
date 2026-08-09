@@ -14,12 +14,16 @@ H1          : Z109REG2-1 Seneca – Bộ Cách Ly & Chuyển Đổi Tín Hiệu 
 
 ## Z109REG2-1 là gì?
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-converter.svg)
+
+
 **Z109REG2-1** là **bộ cách ly và chuyển đổi tín hiệu analog** của **Seneca (Italy)**, cấu hình linh hoạt cho nhiều loại tín hiệu **mA / V**. Điểm mạnh: **cách ly 3 đường (ngõ vào – ngõ ra – nguồn)** chống nhiễu tốt, **cấu hình bằng dip-switch hoặc phần mềm**, thân **17.5mm gắn DIN rail**, dùng **nguồn cấp 24VDC**. Phù hợp khi cần một bộ chuyển đổi/cách ly "một mã dùng cho nhiều tín hiệu".
 
 > **Cần giá Z109REG2-1?** [Nhận báo giá trong ngày](#bao-gia).
 
-<!--DIAGRAM-->
-![Chuyển đổi & cách ly tín hiệu (vd 4–20mA → 0–10V)](assets/diagrams/signal-converter.svg)
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/signal-converter.svg)
 
 
 ---
@@ -42,6 +46,10 @@ H1          : Z109REG2-1 Seneca – Bộ Cách Ly & Chuyển Đổi Tín Hiệu 
 ---
 
 ## Z109REG2-1 dùng để làm gì?
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/signal-chain.svg)
+
 
 - **Cách ly & chuyển đổi tín hiệu** giữa cảm biến và PLC/biến tần trong môi trường nhiễu.
 - **Chuẩn hóa tín hiệu** đa dạng bằng một thiết bị cấu hình linh hoạt (giảm số mã tồn kho).

@@ -14,12 +14,16 @@ H1          : Z-LTE Seneca – RTU / Datalogger Không Dây 4G LTE
 
 ## Z-LTE là gì?
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-datalogger.svg)
+
+
 **Z-LTE** là **RTU kiêm datalogger không dây 4G LTE** của **Seneca (Italy)**, cùng nền tảng Z-GPRS3/Z-LOGGER3 nhưng dùng **sóng 4G LTE** cho **băng thông cao & ổn định nhất**. Phù hợp trạm ở xa cần truyền nhiều dữ liệu, thời gian thực tốt hơn. Có **cảnh báo SMS/Email**, **UPS tích hợp**, cấu hình **SEAL**.
 
 > **Cần giá Z-LTE?** [Nhận báo giá trong ngày](#bao-gia).
 
-<!--DIAGRAM-->
-![Giám sát & cảnh báo từ xa qua RTU/datalogger (3G/4G)](assets/diagrams/remote-monitoring.svg)
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/remote-monitoring.svg)
 
 
 ---
@@ -41,6 +45,10 @@ H1          : Z-LTE Seneca – RTU / Datalogger Không Dây 4G LTE
 ---
 
 ## Z-LTE dùng để làm gì?
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-datalogger.svg)
+
 
 - **Giám sát trạm ở xa qua 4G** với băng thông cao, ổn định.
 - **Telemetry & cảnh báo** thời gian thực cho hệ nhiều điểm dữ liệu.

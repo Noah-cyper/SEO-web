@@ -14,12 +14,16 @@ H1          : Z-PASS2 Seneca – IIoT Edge Gateway/Router 4G LTE + VPN
 
 ## Z-PASS2 là gì?
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-iot.svg)
+
+
 **Z-PASS2** là **IIoT edge gateway/router công nghiệp** của **Seneca (Italy)** — thiết bị đa năng: **gateway, router 4G LTE, serial device server, datalogger, và bộ truy cập từ xa qua VPN**. Cho phép **điều khiển, bảo trì máy móc từ xa an toàn** (OpenVPN, không cần SIM IP tĩnh), đồng thời chuyển dữ liệu giữa các cấp mạng IT ↔ công nghiệp.
 
 > **Cần giá Z-PASS2?** [Nhận báo giá & tư vấn phiên bản](#bao-gia).
 
-<!--DIAGRAM-->
-![Giám sát & cảnh báo từ xa qua RTU/datalogger (3G/4G)](assets/diagrams/remote-monitoring.svg)
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/remote-monitoring.svg)
 
 
 ---
@@ -41,6 +45,10 @@ H1          : Z-PASS2 Seneca – IIoT Edge Gateway/Router 4G LTE + VPN
 ---
 
 ## Z-PASS2 dùng để làm gì?
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-iot.svg)
+
 
 - **Truy cập & bảo trì máy từ xa an toàn** qua VPN (không cần IP tĩnh).
 - **Router 4G** cho trạm/máy ở nơi không có internet cố định.

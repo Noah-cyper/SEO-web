@@ -14,12 +14,16 @@ H1          : S311A Seneca – Bộ Hiển Thị Số Đa Năng (Panel Meter)
 
 ## S311A là gì?
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-panel.svg)
+
+
 **S311A** là **bộ hiển thị số gắn tủ (panel meter)** thế hệ mới của **Seneca (Italy)**, với **đầu vào đa năng**: điện áp, dòng (4-20mA), **Pt100 (2/3/4 dây)**, **can nhiệt (thermocouple)**, điện trở/biến trở. Hiển thị giá trị theo **đơn vị kỹ thuật** trên màn hình LED (4, 6, 8 hoặc 11 số), có thể **phát lại tín hiệu analog cách ly** và (tùy chọn) **2 relay cảnh báo + Modbus**.
 
 > **Cần giá S311A?** [Nhận báo giá trong ngày](#bao-gia).
 
-<!--DIAGRAM-->
-![Bộ hiển thị: cảm biến → hiển thị LED → relay & ngõ ra analog](assets/diagrams/panel-indicator.svg)
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-panel.svg)
 
 
 ---
@@ -41,6 +45,10 @@ H1          : S311A Seneca – Bộ Hiển Thị Số Đa Năng (Panel Meter)
 ---
 
 ## S311A dùng để làm gì?
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-panel.svg)
+
 
 - **Hiển thị áp suất, nhiệt độ, mức, lưu lượng…** trên tủ điều khiển theo đơn vị kỹ thuật.
 - **Cảnh báo tại chỗ** khi vượt ngưỡng (relay).

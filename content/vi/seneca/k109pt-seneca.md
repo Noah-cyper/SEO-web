@@ -14,12 +14,16 @@ H1          : K109PT Seneca – Bộ Chuyển Đổi Tín Hiệu Pt100 (RTD)
 
 ## K109PT là gì?
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-converter.svg)
+
+
 **K109PT** là **bộ chuyển đổi tín hiệu nhiệt độ** của **Seneca (Italy)**: nhận tín hiệu từ cảm biến **Pt100 (RTD)** và chuyển thành tín hiệu analog chuẩn **4-20mA hoặc 0-10V** để đưa về PLC, biến tần, bộ hiển thị hay SCADA. Thiết bị **cách ly**, thân **mỏng gắn DIN rail**, cấu hình đơn giản.
 
 > **Cần giá K109PT?** [Nhận báo giá trong ngày](#bao-gia).
 
-<!--DIAGRAM-->
-![Chuyển đổi & cách ly tín hiệu (vd 4–20mA → 0–10V)](assets/diagrams/signal-converter.svg)
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/signal-converter.svg)
 
 
 ---
@@ -41,6 +45,10 @@ H1          : K109PT Seneca – Bộ Chuyển Đổi Tín Hiệu Pt100 (RTD)
 ---
 
 ## K109PT dùng để làm gì?
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/signal-chain.svg)
+
 
 - **Đọc nhiệt độ Pt100** và đưa về tín hiệu 4-20mA/0-10V cho PLC/hệ điều khiển.
 - **Chuẩn hóa & cách ly** tín hiệu nhiệt độ, chống nhiễu trên đường truyền dài.

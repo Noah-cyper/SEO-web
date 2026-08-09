@@ -14,12 +14,16 @@ H1          : S504 Seneca – Công Tơ Điện Năng 1 Pha (Dòng S500)
 
 ## S504 là gì?
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-energy.svg)
+
+
 **S504** là **công tơ điện năng** thuộc dòng **S500** của **Seneca (Italy)** — đo và tính **điện năng tiêu thụ** cùng các thông số điện cơ bản, có bản **chứng nhận MID** (dùng cho mục đích tính tiền điện). Thiết bị gắn **DIN rail (4 module)**, màn hình **LCD** hiển thị điện năng và công suất tức thời, truyền dữ liệu qua **RS485 Modbus / M-Bus**.
 
 > **Cần giá S504?** [Nhận báo giá trong ngày](#bao-gia).
 
-<!--DIAGRAM-->
-![Giám sát điện năng: tải → CT → đồng hồ đo → Modbus → EMS](assets/diagrams/energy-monitoring.svg)
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-energy.svg)
 
 
 ---
@@ -41,6 +45,10 @@ H1          : S504 Seneca – Công Tơ Điện Năng 1 Pha (Dòng S500)
 ---
 
 ## S504 dùng để làm gì?
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-energy.svg)
+
 
 - **Đo & tính điện năng** cho tủ, nhánh phụ tải, khu vực cho thuê.
 - **Giám sát tiêu thụ điện** đưa về SCADA/EMS qua Modbus/M-Bus.

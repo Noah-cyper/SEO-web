@@ -14,12 +14,16 @@ H1          : Z-10-D-IN Seneca – Module Ngõ Vào Số + Đếm Xung (Modbus R
 
 ## Z-10-D-IN là gì?
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-remoteio.svg)
+
+
 **Z-10-D-IN** là **module remote I/O** dòng Z-PC của **Seneca (Italy)**, cung cấp nhiều **ngõ vào số (digital input)** kèm **bộ đếm xung tốc độ cao**, truyền dữ liệu về PLC/SCADA qua **Modbus RTU (RS485)**. Dùng để **đọc trạng thái ON/OFF, tín hiệu công tắc/cảm biến tiệm cận, và đếm xung** (lưu lượng dạng xung, tốc độ, số đếm) ở hiện trường.
 
 > **Cần giá Z-10-D-IN?** [Nhận báo giá trong ngày](#bao-gia).
 
-<!--DIAGRAM-->
-![Thu thập tín hiệu từ xa qua Modbus RTU (remote I/O Z-PC)](assets/diagrams/modbus-remote-io.svg)
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/modbus-remote-io.svg)
 
 
 ---
@@ -40,6 +44,10 @@ H1          : Z-10-D-IN Seneca – Module Ngõ Vào Số + Đếm Xung (Modbus R
 ---
 
 ## Z-10-D-IN dùng để làm gì?
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-remoteio.svg)
+
 
 - **Đọc trạng thái số** (công tắc, cảm biến tiệm cận, tín hiệu ON/OFF) từ xa.
 - **Đếm xung**: lưu lượng dạng xung, tốc độ, số sản phẩm — đưa về SCADA qua Modbus.

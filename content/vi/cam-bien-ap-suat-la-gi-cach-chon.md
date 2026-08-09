@@ -14,14 +14,18 @@ H1          : Cảm Biến Áp Suất Là Gì? Phân Loại, Nguyên Lý Và Cá
 
 ## Cảm biến áp suất là gì?
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-pressure.svg)
+
+
 **Cảm biến áp suất** (pressure sensor/transmitter, còn gọi là *bộ chuyển đổi áp suất*) là thiết bị đo áp suất của chất lỏng hoặc khí và **chuyển giá trị áp suất thành tín hiệu điện** (thường là 4–20mA hoặc 0–10V) để đưa về PLC, biến tần, đồng hồ hiển thị hay hệ SCADA.
 
 Nói đơn giản: nó là "giác quan" giúp hệ thống biết được áp suất trong đường ống, bồn chứa, lò hơi… đang là bao nhiêu, để điều khiển và cảnh báo kịp thời.
 
 > **Cần báo giá nhanh?** Gửi cho chúng tôi **dải áp suất, tín hiệu ngõ ra và kiểu kết nối** cần dùng → [Nhận báo giá & tư vấn chọn cảm biến](#bao-gia).
 
-<!--DIAGRAM-->
-![Ba loại áp suất: tương đối, tuyệt đối, chênh áp](assets/diagrams/pressure-types.svg)
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-pressure.svg)
 
 
 ---
@@ -66,6 +70,10 @@ Phần tử cảm biến (thường là **màng + phần tử áp điện trở 
 ---
 
 ## Ứng dụng thực tế
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-pressure.svg)
+
 
 - **Nhà máy nhiệt điện, lò hơi:** giám sát áp hơi, áp nước cấp.
 - **Xi măng, hóa chất, dầu khí:** đo áp đường ống, bồn chứa, an toàn quá áp.

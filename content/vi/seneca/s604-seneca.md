@@ -14,12 +14,16 @@ H1          : S604 Seneca – Đồng Hồ Đo Điện Đa Năng 3 Pha (Power An
 
 ## S604 là gì?
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-energy.svg)
+
+
 **S604** là **đồng hồ đo điện đa năng 3 pha (power analyzer)** của **Seneca (Italy)** — đo và lưu **toàn bộ thông số điện 3 pha**: điện áp, dòng, công suất (P/Q/S), hệ số công suất, tần số, điện năng… và truyền về hệ giám sát qua **Modbus**. Có bản **S604E-ROG** dùng **cuộn Rogowski** cho **dòng lớn, lắp cải tạo dễ**. Gắn **DIN rail**, phù hợp hệ quản lý năng lượng (EMS).
 
 > **Cần giá S604?** [Nhận báo giá trong ngày](#bao-gia).
 
-<!--DIAGRAM-->
-![Giám sát điện năng: tải → CT → đồng hồ đo → Modbus → EMS](assets/diagrams/energy-monitoring.svg)
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-energy.svg)
 
 
 ---
@@ -41,6 +45,10 @@ H1          : S604 Seneca – Đồng Hồ Đo Điện Đa Năng 3 Pha (Power An
 ---
 
 ## S604 dùng để làm gì?
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-energy.svg)
+
 
 - **Giám sát đầy đủ thông số điện 3 pha** cho tủ, dây chuyền, trạm.
 - **Quản lý năng lượng (EMS)**, phát hiện bất thường tiêu thụ.

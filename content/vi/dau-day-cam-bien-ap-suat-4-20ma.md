@@ -14,6 +14,10 @@ H1          : Cách Đấu Dây Cảm Biến Áp Suất 4-20mA (2 Dây, 3 Dây, 
 
 ## Tín hiệu 4-20mA và loại đấu dây
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/wiring-4-20ma-2wire.svg)
+
+
 Cảm biến áp suất công nghiệp phổ biến nhất dùng tín hiệu **4-20mA** (4mA = mức thấp nhất, 20mA = cao nhất). Có 3 kiểu đấu dây:
 
 | Loại | Số dây | Nguồn | Đặc điểm |
@@ -24,9 +28,8 @@ Cảm biến áp suất công nghiệp phổ biến nhất dùng tín hiệu **4
 
 > ⚠️ **Luôn đối chiếu sơ đồ trên nhãn/datasheet của cảm biến** — ký hiệu chân có thể khác nhau giữa các hãng.
 
-<!--DIAGRAM-->
-![Sơ đồ đấu dây 2 dây (loop-powered) 4–20mA](assets/diagrams/wiring-4-20ma-2wire.svg)
-![Sơ đồ đấu dây 3 dây 4–20mA](assets/diagrams/wiring-4-20ma-3wire.svg)
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/wiring-4-20ma-3wire.svg)
 
 
 ---
@@ -82,6 +85,10 @@ Nếu ngõ vào PLC chỉ nhận **áp (0-10V)** mà cảm biến ra **dòng (4-
 **→ [Liên hệ tư vấn & báo giá](/lien-he/)**
 
 ---
+
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/signal-chain.svg)
 
 ## Câu hỏi thường gặp (FAQ)
 
