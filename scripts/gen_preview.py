@@ -3,10 +3,14 @@
 import re, os, glob, base64, html as _html
 
 ROOT = "/home/user/SEO-web/content/vi"
-PNGDIR = "/home/user/SEO-web/assets/png/diagrams"
-PNG_B64 = {}
-for _p in glob.glob(os.path.join(PNGDIR, "*.png")):
-    PNG_B64[os.path.basename(_p)[:-4]] = "data:image/png;base64," + base64.b64encode(open(_p, "rb").read()).decode()
+DIAGDIR = "/home/user/SEO-web/assets/diagrams"
+SVG_URI = {}   # name -> data:image/svg+xml URI (light, ~2KB) for WordPress-safe <img> embedding
+for _p in glob.glob(os.path.join(DIAGDIR, "*.svg")):
+    _s = open(_p, encoding="utf-8").read()
+    _m = re.search(r"viewBox='0 0 ([\d.]+) ([\d.]+)'", _s)
+    if _m:
+        _s = _s.replace("width='100%' height='auto'", f"width='{_m.group(1)}' height='{_m.group(2)}'")
+    SVG_URI[os.path.basename(_p)[:-4]] = "data:image/svg+xml;base64," + base64.b64encode(_s.encode("utf-8")).decode()
 
 # Ordered clusters -> list of file basenames (relative to ROOT)
 GROUPS = [
@@ -98,11 +102,11 @@ def convert(md, mode="preview"):
             name = src.split("/")[-1]
             name = name[:-4] if name.endswith(".svg") else name
             if mode == "wp":
-                # WordPress-safe: embed PNG data-URI so it renders in the classic editor
-                uri = PNG_B64.get(name, "")
+                # WordPress-safe & light: embed SVG as <img> data-URI (~2KB, renders in classic editor)
+                uri = SVG_URI.get(name, "")
                 if uri:
-                    out.append(f'<figure><img src="{uri}" alt="{esc(alt)}" style="max-width:100%;height:auto"/>'
-                               f'<figcaption style="text-align:center;font-style:italic;color:#667;font-size:13px">{esc(alt)}</figcaption></figure>')
+                    out.append(f'<p style="text-align:center"><img src="{uri}" alt="{esc(alt)}" style="max-width:100%;height:auto"/></p>'
+                               f'<p style="text-align:center;font-style:italic;color:#667;font-size:13px">{esc(alt)}</p>')
                     i += 1; continue
             fig = ""
             if "assets/diagrams/" in src:
@@ -397,7 +401,7 @@ page = f"""{CSS}
 <ol>
 <li>Ở bài cần đăng bên dưới → bấm <b>“Copy HTML bài viết”</b>.</li>
 <li>Trong WordPress (màn Thêm bài viết): ở ô soạn thảo, bấm tab <b>“Mã”</b> (góc trên phải, cạnh “Trực quan”).</li>
-<li><b>Dán (Ctrl+V)</b> vào đó → bấm lại tab <b>“Trực quan”</b> để xem: nội dung <b>và 3 hình</b> hiện ngay (hình đã nhúng sẵn dạng PNG, <b>không cần upload</b>).</li>
+<li><b>Dán (Ctrl+V)</b> vào đó → bấm lại tab <b>“Trực quan”</b> để xem: nội dung <b>và 3 hình</b> hiện ngay (hình vector SVG nhẹ ~vài KB, nhúng sẵn, <b>không cần upload</b>).</li>
 <li>Bấm <b>Copy Title / Copy Meta / Copy Slug</b> → dán vào Rank Math (SEO Title, Meta description, Permalink). Điền <b>tiêu đề bài</b> ở ô “Thêm tiêu đề”.</li>
 <li>Chọn <b>Danh mục</b> phù hợp → <b>Xuất bản</b>.</li>
 <li>Cuối cùng: vào Google Search Console → <b>Request Indexing</b> cho URL vừa đăng.</li>
