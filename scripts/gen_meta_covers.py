@@ -170,10 +170,10 @@ for gtitle, accent, files in GROUPS:
 
 # metadata sheet
 md = ["# Gói SEO cho từng bài: Focus keyword · Meta · Thẻ tag · Ảnh\n",
-      "> Dùng khi đăng WordPress (Rank Math). Ảnh bìa thương hiệu đã tạo sẵn trong `assets/covers/<slug>.png` ",
-      "(**1200×630 px** – vượt chuẩn tối thiểu 200×200 và đúng định dạng ảnh mà Facebook/mạng xã hội chấp nhận; ",
-      "file `.svg` cùng tên là bản gốc để chỉnh sửa, **không** dùng làm featured image vì Facebook không đọc được SVG). ",
-      "Dùng PNG làm **featured image**; trang sản phẩm nên thay bằng **ảnh sản phẩm thật** (theo cột \"Gợi ý ảnh\").",
+      "> Dùng khi đăng WordPress (Rank Math). Ảnh bìa thương hiệu đã tạo sẵn trong `assets/covers/<slug>.jpg` ",
+      "(**1200×630 px, ~37KB** – vượt chuẩn tối thiểu 200×200 và đúng định dạng ảnh mà Facebook/Zalo/mạng xã hội chấp nhận; ",
+      "file `.svg` cùng tên là bản gốc vector để chỉnh sửa, **không** dùng làm featured image vì Facebook không đọc được SVG). ",
+      "Dùng JPG làm **featured image**; trang sản phẩm nên thay bằng **ảnh sản phẩm thật** (theo cột \"Gợi ý ảnh\").",
       "Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.\n"]
 for r in rows:
     if r[0] == "__group__":
@@ -185,7 +185,7 @@ for r in rows:
     md.append(f"- **Focus keyword:** {fkw}")
     md.append(f"- **Meta description:** {meta}")
     md.append(f"- **Thẻ (tags):** {tags}")
-    md.append(f"- **Ảnh bìa có sẵn (featured, 1200×630):** `assets/covers/{anchor(slug)}.png`")
+    md.append(f"- **Ảnh bìa có sẵn (featured, 1200×630, ~37KB):** `assets/covers/{anchor(slug)}.jpg`")
     md.append(f"- **Tên file ảnh nên đặt:** `{fname}`")
     md.append(f"- **Alt text ảnh:** {alt}")
     md.append(f"- **Gợi ý ảnh thật:** {brief}\n")
