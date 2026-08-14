@@ -201,6 +201,43 @@ def to_wp(body):
     # real hrefs for internal links so it pastes clean into WordPress
     return re.sub(r'<a class="ilink" title="Liên kết nội bộ → ([^"]*)">', r'<a href="\1">', body)
 
+def focus_kw(tukhoa):
+    ks = [k.strip() for k in tukhoa.split("|") if k.strip()]
+    return ks[0] if ks else ""
+
+def tags_for(d):
+    t = []
+    low = (d["tukhoa"] + " " + d["h1"]).lower()
+    sl = d["slug"]
+    if "seneca" in low: t.append("Seneca")
+    if "wika" in low: t.append("WIKA")
+    if "mitsubishi" in low or "fx3u" in low or "fx5u" in low: t.append("Mitsubishi")
+    cat = [
+        ("cảm biến áp suất", "cam-bien-ap-suat" in sl),
+        ("cảm biến nhiệt độ", "nhiet-do" in sl),
+        ("cảm biến chênh áp", "chenh-ap" in sl),
+        ("đồng hồ áp suất", "do-ap-suat-wika" in sl),
+        ("đồng hồ đo điện năng", "dien-nang" in sl or sl.strip("/") in ("s504-seneca", "s604-seneca")),
+        ("bộ hiển thị", "hien-thi" in sl or "s311a" in sl),
+        ("bộ chuyển đổi tín hiệu", "chuyen-doi" in sl or bool(re.search(r"/(k109|k121|z109)", sl))),
+        ("PLC", "plc" in sl),
+        ("remote I/O", "remote-io" in sl),
+        ("datalogger", "datalogger" in sl or "logger" in sl or "gprs" in sl),
+        ("gateway Modbus", "gateway" in sl or "key" in sl),
+        ("thiết bị khó tìm", "kho-tim" in sl),
+        ("hàng ngừng sản xuất", "ngung-san-xuat" in sl or "kho-tim" in sl),
+    ]
+    for name, cond in cat:
+        if cond: t.append(name)
+    m = re.search(r"/((?:k1\d\d[a-z]*|z\d+reg[\d-]*|z-[a-z0-9]+|r-[a-z0-9-]+|s\d+[a-z]*))/", sl)
+    if m: t.append(m.group(1).upper())
+    t += ["thiết bị tự động hóa", "thiết bị đo lường"]
+    seen, out = set(), []
+    for x in t:
+        if x.lower() not in seen:
+            seen.add(x.lower()); out.append(x)
+    return out[:8]
+
 # ---- build ----
 articles = []
 nav = []
@@ -237,12 +274,14 @@ for gtitle, gid, files in GROUPS:
     <button class="btn" onclick="copyAttr(this)" data-copy="{attresc(d["title_tag"])}">Copy Title</button>
     <button class="btn" onclick="copyAttr(this)" data-copy="{attresc(d["meta_desc"])}">Copy Meta</button>
     <button class="btn" onclick="copyAttr(this)" data-copy="{attresc(d["slug"])}">Copy Slug</button>
+    <button class="btn" onclick="copyAttr(this)" data-copy="{attresc(focus_kw(d["tukhoa"]))}">Copy Keyword</button>
+    <button class="btn" onclick="copyAttr(this)" data-copy="{attresc(', '.join(tags_for(d)))}">Copy Tags</button>
   </div>
   <textarea class="wp-src" hidden>{esc_ta(wp)}</textarea>
   <div class="prose">
     {disp}
   </div>
-  <div class="kw"><span>Từ khoá</span>{esc(kw)}</div>
+  <div class="kw"><span>Focus keyword</span>{esc(focus_kw(d["tukhoa"]))} &nbsp;·&nbsp; <span>Thẻ tag</span>{esc(', '.join(tags_for(d)))}</div>
   <a class="toplink" href="#top">↑ Lên đầu</a>
 </article>""")
 
@@ -403,6 +442,7 @@ page = f"""{CSS}
 <li>Trong WordPress (màn Thêm bài viết): ở ô soạn thảo, bấm tab <b>“Mã”</b> (góc trên phải, cạnh “Trực quan”).</li>
 <li><b>Dán (Ctrl+V)</b> vào đó → bấm lại tab <b>“Trực quan”</b> để xem: nội dung <b>và 3 hình</b> hiện ngay (hình vector SVG nhẹ ~vài KB, nhúng sẵn, <b>không cần upload</b>).</li>
 <li>Bấm <b>Copy Title / Copy Meta / Copy Slug</b> → dán vào Rank Math (SEO Title, Meta description, Permalink). Điền <b>tiêu đề bài</b> ở ô “Thêm tiêu đề”.</li>
+<li>Bấm <b>Copy Keyword</b> → dán vào ô <b>“Focus Keyword”</b> của Rank Math (để chấm điểm SEO). Bấm <b>Copy Tags</b> → dán vào ô <b>“Thẻ / Tags”</b> (bên phải, phân tách bằng dấu phẩy).</li>
 <li>Chọn <b>Danh mục</b> phù hợp → <b>Xuất bản</b>.</li>
 <li>Cuối cùng: vào Google Search Console → <b>Request Indexing</b> cho URL vừa đăng.</li>
 </ol>
