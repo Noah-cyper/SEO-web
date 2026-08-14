@@ -4,13 +4,15 @@ import re, os, glob, base64, html as _html
 
 ROOT = "/home/user/SEO-web/content/vi"
 DIAGDIR = "/home/user/SEO-web/assets/diagrams"
-SVG_URI = {}   # name -> data:image/svg+xml URI (light, ~2KB) for WordPress-safe <img> embedding
+SVG_INLINE = {}   # name -> one-line inline <svg> (survives Text/Mã tab; light ~2KB)
 for _p in glob.glob(os.path.join(DIAGDIR, "*.svg")):
     _s = open(_p, encoding="utf-8").read()
     _m = re.search(r"viewBox='0 0 ([\d.]+) ([\d.]+)'", _s)
     if _m:
-        _s = _s.replace("width='100%' height='auto'", f"width='{_m.group(1)}' height='{_m.group(2)}'")
-    SVG_URI[os.path.basename(_p)[:-4]] = "data:image/svg+xml;base64," + base64.b64encode(_s.encode("utf-8")).decode()
+        _s = _s.replace("width='100%' height='auto'",
+                        f"width='{_m.group(1)}' height='{_m.group(2)}' style='max-width:100%;height:auto'")
+    _s = re.sub(r"\s*\n\s*", " ", _s).strip()   # single line so wpautop won't mangle it
+    SVG_INLINE[os.path.basename(_p)[:-4]] = _s
 
 # Ordered clusters -> list of file basenames (relative to ROOT)
 GROUPS = [
@@ -102,10 +104,10 @@ def convert(md, mode="preview"):
             name = src.split("/")[-1]
             name = name[:-4] if name.endswith(".svg") else name
             if mode == "wp":
-                # WordPress-safe & light: embed SVG as <img> data-URI (~2KB, renders in classic editor)
-                uri = SVG_URI.get(name, "")
-                if uri:
-                    out.append(f'<p style="text-align:center"><img src="{uri}" alt="{esc(alt)}" style="max-width:100%;height:auto"/></p>'
+                # Inline <svg> (light ~2KB). Paste into the "Mã"/Text tab and Publish directly.
+                svgm = SVG_INLINE.get(name, "")
+                if svgm:
+                    out.append(f'<p style="text-align:center">{svgm}</p>'
                                f'<p style="text-align:center;font-style:italic;color:#667;font-size:13px">{esc(alt)}</p>')
                     i += 1; continue
             fig = ""
@@ -436,17 +438,15 @@ page = f"""{CSS}
     <span class="stat">Kèm SERP preview &amp; FAQ</span>
   </div>
 </div></header>
-<div class="howto"><details open><summary>📋 Cách copy sang WordPress (Classic Editor) — bấm để xem</summary>
+<div class="howto"><details open><summary>📋 Cách copy sang WordPress (Classic Editor) — ĐỌC KỸ để ảnh không mất</summary>
 <ol>
-<li>Ở bài cần đăng bên dưới → bấm <b>“Copy HTML bài viết”</b>.</li>
-<li>Trong WordPress (màn Thêm bài viết): ở ô soạn thảo, bấm tab <b>“Mã”</b> (góc trên phải, cạnh “Trực quan”).</li>
-<li><b>Dán (Ctrl+V)</b> vào đó → bấm lại tab <b>“Trực quan”</b> để xem: nội dung <b>và 3 hình</b> hiện ngay (hình vector SVG nhẹ ~vài KB, nhúng sẵn, <b>không cần upload</b>).</li>
-<li>Bấm <b>Copy Title / Copy Meta / Copy Slug</b> → dán vào Rank Math (SEO Title, Meta description, Permalink). Điền <b>tiêu đề bài</b> ở ô “Thêm tiêu đề”.</li>
-<li>Bấm <b>Copy Keyword</b> → dán vào ô <b>“Focus Keyword”</b> của Rank Math (để chấm điểm SEO). Bấm <b>Copy Tags</b> → dán vào ô <b>“Thẻ / Tags”</b> (bên phải, phân tách bằng dấu phẩy).</li>
-<li>Chọn <b>Danh mục</b> phù hợp → <b>Xuất bản</b>.</li>
-<li>Cuối cùng: vào Google Search Console → <b>Request Indexing</b> cho URL vừa đăng.</li>
+<li>Ở bài cần đăng → bấm <b>“Copy HTML bài viết”</b>.</li>
+<li>Trong WordPress: ở ô soạn thảo bấm tab <b>“Mã”</b> (góc trên phải) → <b>Dán (Ctrl+V)</b>.</li>
+<li style="color:#c0392b;font-weight:700">⚠️ ĐỪNG bấm sang tab “Trực quan” — thao tác đó sẽ XÓA hình. Cứ ở tab “Mã” và bấm thẳng <b>Xuất bản</b>. Muốn xem hình thì mở bài trên web (nút <b>“Xem”/Xem trước</b>) — hình sẽ hiện trên trang thật.</li>
+<li>Điền <b>tiêu đề</b> ở ô “Thêm tiêu đề”. Bấm <b>Copy Title / Meta / Slug / Keyword / Tags</b> → dán vào Rank Math (SEO Title, Meta, Permalink, Focus Keyword) và ô <b>Thẻ / Tags</b>.</li>
+<li>Chọn <b>Danh mục</b> → <b>Xuất bản</b> → vào Google Search Console <b>Request Indexing</b>.</li>
 </ol>
-<p style="color:var(--muted);font-size:13px;margin:0 0 8px">Thẻ tag đầy đủ: file <code>research/seo-metadata-tags-hinh-anh.md</code>. Nếu muốn ảnh bìa (featured image) riêng: dùng file trong <code>assets/covers/</code> hoặc ảnh sản phẩm thật.</p>
+<p style="color:var(--muted);font-size:13px;margin:0 0 8px"><b>Lưu ý:</b> hình là SVG nội tuyến (~2KB/hình, không cần upload). Nếu cần <b>sửa bài</b> sau này, hãy sửa trong tab <b>“Mã”</b> (đừng dùng “Trực quan”) để hình không mất. Nếu bài đăng trên web vẫn không thấy hình (tài khoản không phải Quản trị viên), báo mình — mình sẽ chuyển sang cách tải hình lên Thư viện.</p>
 </details></div>
 <div class="layout">
   <nav class="toc" aria-label="Mục lục">{nav_html}</nav>
