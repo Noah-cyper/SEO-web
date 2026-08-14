@@ -200,11 +200,14 @@ def attresc(t):
     return t.replace("&", "&amp;").replace('"', "&quot;").replace("<", "&lt;")
 
 BASE = "https://hoantrantdh.com"
+CONTACT = "https://zalo.me/0879848668"   # CTA liên hệ/báo giá → Zalo
 
 def to_wp(body):
     # real hrefs for internal links so it pastes clean into WordPress
     body = re.sub(r'<a class="ilink" title="Liên kết nội bộ → ([^"]*)">', r'<a href="\1">', body)
-    # absolutize site-relative links to real hoantrantdh.com URLs (keep #anchors as-is)
+    # CTA "Liên hệ / báo giá" (/lien-he/) → Zalo
+    body = body.replace('href="/lien-he/"', f'href="{CONTACT}"')
+    # absolutize remaining site-relative links to real hoantrantdh.com URLs (keep #anchors as-is)
     body = re.sub(r'href="/', f'href="{BASE}/', body)
     return body
 
