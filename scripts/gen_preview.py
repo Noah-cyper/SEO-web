@@ -216,38 +216,23 @@ def focus_kw(tukhoa):
     ks = [k.strip() for k in tukhoa.split("|") if k.strip()]
     return ks[0] if ks else ""
 
+import json as _json
+CURATED_TAGS = _json.load(open("/home/user/SEO-web/research/tags.json", encoding="utf-8"))
+
 def tags_for(d):
+    a = anchor(d["slug"])
+    if a in CURATED_TAGS:
+        return CURATED_TAGS[a]
+    # fallback: brand + model code from keywords (should rarely be used)
     t = []
     low = (d["tukhoa"] + " " + d["h1"]).lower()
-    sl = d["slug"]
-    if "seneca" in low: t.append("Seneca")
-    if "wika" in low: t.append("WIKA")
-    if "mitsubishi" in low or "fx3u" in low or "fx5u" in low: t.append("Mitsubishi")
-    cat = [
-        ("cảm biến áp suất", "cam-bien-ap-suat" in sl),
-        ("cảm biến nhiệt độ", "nhiet-do" in sl),
-        ("cảm biến chênh áp", "chenh-ap" in sl),
-        ("đồng hồ áp suất", "do-ap-suat-wika" in sl),
-        ("đồng hồ đo điện năng", "dien-nang" in sl or sl.strip("/") in ("s504-seneca", "s604-seneca")),
-        ("bộ hiển thị", "hien-thi" in sl or "s311a" in sl),
-        ("bộ chuyển đổi tín hiệu", "chuyen-doi" in sl or bool(re.search(r"/(k109|k121|z109)", sl))),
-        ("PLC", "plc" in sl),
-        ("remote I/O", "remote-io" in sl),
-        ("datalogger", "datalogger" in sl or "logger" in sl or "gprs" in sl),
-        ("gateway Modbus", "gateway" in sl or "key" in sl),
-        ("thiết bị khó tìm", "kho-tim" in sl),
-        ("hàng ngừng sản xuất", "ngung-san-xuat" in sl or "kho-tim" in sl),
-    ]
-    for name, cond in cat:
-        if cond: t.append(name)
-    m = re.search(r"/((?:k1\d\d[a-z]*|z\d+reg[\d-]*|z-[a-z0-9]+|r-[a-z0-9-]+|s\d+[a-z]*))/", sl)
+    m = re.search(r"/((?:k1\d\d[a-z]*|z\d+reg[\d-]*|z-[a-z0-9]+|r-[a-z0-9-]+|s\d+[a-z]*))/", d["slug"])
     if m: t.append(m.group(1).upper())
-    t += ["thiết bị tự động hóa", "thiết bị đo lường"]
-    seen, out = set(), []
-    for x in t:
-        if x.lower() not in seen:
-            seen.add(x.lower()); out.append(x)
-    return out[:8]
+    for b, label in [("seneca", "Seneca"), ("wika", "WIKA"), ("mitsubishi", "Mitsubishi")]:
+        if b in low: t.append(label)
+    for k in [x.strip() for x in d["tukhoa"].split("|") if x.strip()]:
+        if k not in t and len(t) < 5: t.append(k)
+    return t[:5]
 
 # ---- build ----
 articles = []

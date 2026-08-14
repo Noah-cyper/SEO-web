@@ -46,7 +46,13 @@ def keywords(tukhoa):
 
 def focus_kw(kws): return kws[0] if kws else ""
 
+import json as _json
+_CURATED = _json.load(open("/home/user/SEO-web/research/tags.json", encoding="utf-8"))
+
 def tags_for(d):
+    _a = anchor(d["slug"])
+    if _a in _CURATED:
+        return _CURATED[_a]
     t = []
     low = (d["tukhoa"] + " " + d["h1"]).lower()
     if "seneca" in low: t.append("Seneca")
