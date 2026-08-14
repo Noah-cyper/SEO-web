@@ -199,9 +199,14 @@ def esc_ta(t):
 def attresc(t):
     return t.replace("&", "&amp;").replace('"', "&quot;").replace("<", "&lt;")
 
+BASE = "https://hoantrantdh.com"
+
 def to_wp(body):
     # real hrefs for internal links so it pastes clean into WordPress
-    return re.sub(r'<a class="ilink" title="Liên kết nội bộ → ([^"]*)">', r'<a href="\1">', body)
+    body = re.sub(r'<a class="ilink" title="Liên kết nội bộ → ([^"]*)">', r'<a href="\1">', body)
+    # absolutize site-relative links to real hoantrantdh.com URLs (keep #anchors as-is)
+    body = re.sub(r'href="/', f'href="{BASE}/', body)
+    return body
 
 def focus_kw(tukhoa):
     ks = [k.strip() for k in tukhoa.split("|") if k.strip()]
