@@ -64,6 +64,15 @@ GROUPS = [
         "seneca/s604-seneca.md",
         "seneca/s311a-seneca.md",
     ]),
+    ("Flowline — Hãng & đo mức", "flowline", [
+        "flowline/flowline-viet-nam.md",
+        "flowline/cam-bien-sieu-am-do-muc-flowline.md",
+        "flowline/echopod-dl24-flowline.md",
+        "flowline/echopod-dl34-flowline.md",
+        "flowline/echospan-lu28-flowline.md",
+        "flowline/echotouch-us01-flowline.md",
+        "flowline/cong-tac-bao-muc-flowline.md",
+    ]),
 ]
 
 def esc(t):
@@ -104,12 +113,13 @@ def convert(md, mode="preview"):
             name = src.split("/")[-1]
             name = name[:-4] if name.endswith(".svg") else name
             if mode == "wp":
-                # Inline <svg> (light ~2KB). Paste into the "Mã"/Text tab and Publish directly.
-                svgm = SVG_INLINE.get(name, "")
-                if svgm:
-                    out.append(f'<p style="text-align:center">{svgm}</p>'
-                               f'<p style="text-align:center;font-style:italic;color:#667;font-size:13px">{esc(alt)}</p>')
-                    i += 1; continue
+                # Hosted PNG <img> — survives WordPress "Mã"/Text tab + Trực quan (SVG bị WP xoá).
+                # Upload các file PNG trong assets/png/diagrams/ vào Thư viện Media 1 lần.
+                url = IMG_BASE + name + ".png"
+                out.append(f'<p style="text-align:center">'
+                           f'<img src="{esc(url)}" alt="{attresc(alt)}" '
+                           f'style="max-width:100%;height:auto" /></p>')
+                i += 1; continue
             fig = ""
             if "assets/diagrams/" in src:
                 p = os.path.join("/home/user/SEO-web", src)
@@ -201,6 +211,7 @@ def attresc(t):
 
 BASE = "https://hoantrantdh.com"
 CONTACT = "https://zalo.me/0879848668"   # CTA liên hệ/báo giá → Zalo
+IMG_BASE = "https://hoantrantdh.com/wp-content/uploads/2026/08/"  # nơi WP lưu ảnh sau khi upload
 
 def to_wp(body):
     # real hrefs for internal links so it pastes clean into WordPress
@@ -427,20 +438,26 @@ page = f"""{CSS}
   <p>Nội dung tiếng Việt sẵn đăng cho website thiết bị đo lường – tự động hoá. Mỗi bài kèm bản xem trước cách hiển thị trên Google (thẻ tiêu đề + mô tả + đường dẫn). Số liệu kỹ thuật ở mức tham khảo — cần đối chiếu datasheet hãng và điền giá thật trước khi đăng.</p>
   <div class="stats">
     <span class="stat"><b>{total}</b> bài viết</span>
-    <span class="stat"><b>4</b> cụm chủ đề</span>
-    <span class="stat"><b>14</b> trang Seneca</span>
+    <span class="stat"><b>{len(GROUPS)}</b> cụm chủ đề</span>
+    <span class="stat"><b>23</b> trang Seneca</span>
+    <span class="stat"><b>7</b> trang Flowline</span>
     <span class="stat">Kèm SERP preview &amp; FAQ</span>
   </div>
 </div></header>
-<div class="howto"><details open><summary>📋 Cách copy sang WordPress (Classic Editor) — ĐỌC KỸ để ảnh không mất</summary>
+<div class="howto"><details open><summary>📋 Cách copy sang WordPress (Classic Editor) — ĐỌC KỸ (ảnh giờ HIỆN được cả tab “Trực quan”)</summary>
+<p style="color:#c0392b;font-weight:700;margin:8px 0">BƯỚC 0 (làm 1 lần duy nhất) — Tải ảnh lên Thư viện:</p>
+<ol style="margin-top:0">
+<li>Vào <b>WordPress → Media (Thư viện) → Thêm mới</b> → kéo–thả <b>toàn bộ file trong thư mục <code>png-hoantrantdh</code></b> (mình gửi kèm) lên. Chỉ cần làm 1 lần cho tất cả bài.</li>
+<li>Ảnh sẽ nằm ở đường dẫn <code>/wp-content/uploads/2026/08/&lt;tên-ảnh&gt;.png</code> — đúng với link trong HTML bài viết. <b>Đăng bài trong tháng 08/2026</b> để khớp thư mục; nếu tháng khác báo mình đổi lại link.</li>
+</ol>
+<p style="font-weight:700;margin:10px 0 4px">Sau đó, mỗi bài viết:</p>
 <ol>
 <li>Ở bài cần đăng → bấm <b>“Copy HTML bài viết”</b>.</li>
-<li>Trong WordPress: ở ô soạn thảo bấm tab <b>“Mã”</b> (góc trên phải) → <b>Dán (Ctrl+V)</b>.</li>
-<li style="color:#c0392b;font-weight:700">⚠️ ĐỪNG bấm sang tab “Trực quan” — thao tác đó sẽ XÓA hình. Cứ ở tab “Mã” và bấm thẳng <b>Xuất bản</b>. Muốn xem hình thì mở bài trên web (nút <b>“Xem”/Xem trước</b>) — hình sẽ hiện trên trang thật.</li>
+<li>Trong WordPress: ở ô soạn thảo bấm tab <b>“Mã”</b> → <b>Dán (Ctrl+V)</b>. (Giờ ảnh là ảnh thật đã upload nên <b>bấm “Trực quan” cũng không mất</b>.)</li>
 <li>Điền <b>tiêu đề</b> ở ô “Thêm tiêu đề”. Bấm <b>Copy Title / Meta / Slug / Keyword / Tags</b> → dán vào Rank Math (SEO Title, Meta, Permalink, Focus Keyword) và ô <b>Thẻ / Tags</b>.</li>
 <li>Chọn <b>Danh mục</b> → <b>Xuất bản</b> → vào Google Search Console <b>Request Indexing</b>.</li>
 </ol>
-<p style="color:var(--muted);font-size:13px;margin:0 0 8px"><b>Lưu ý:</b> hình là SVG nội tuyến (~2KB/hình, không cần upload). Nếu cần <b>sửa bài</b> sau này, hãy sửa trong tab <b>“Mã”</b> (đừng dùng “Trực quan”) để hình không mất. Nếu bài đăng trên web vẫn không thấy hình (tài khoản không phải Quản trị viên), báo mình — mình sẽ chuyển sang cách tải hình lên Thư viện.</p>
+<p style="color:var(--muted);font-size:13px;margin:0 0 8px"><b>Vì sao đổi cách này:</b> WordPress <b>xoá ảnh SVG dán trực tiếp</b> (chỉ giữ chữ) nên trước đây hình “nguyên lý hoạt động” bị mất. Nay hình là <b>PNG thật tải lên Thư viện</b> (~30–80KB/ảnh) nên hiện ổn định ở cả “Mã” lẫn “Trực quan” và trên trang thật.</p>
 </details></div>
 <div class="layout">
   <nav class="toc" aria-label="Mục lục">{nav_html}</nav>

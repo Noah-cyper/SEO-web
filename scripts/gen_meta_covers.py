@@ -23,6 +23,10 @@ GROUPS = [
         "seneca/z-4rtd2-seneca.md","seneca/z-8ai-seneca.md","seneca/z-4ao-seneca.md","seneca/z-10-d-in-seneca.md",
         "seneca/z-logger3-seneca.md","seneca/z-gprs3-seneca.md","seneca/z-umts-seneca.md","seneca/z-lte-seneca.md",
         "seneca/z-key-seneca.md","seneca/r-key-lt-seneca.md","seneca/z-pass2-seneca.md","seneca/r-pass-seneca.md","seneca/s504-seneca.md","seneca/s604-seneca.md","seneca/s311a-seneca.md"]),
+    ("Flowline — Hãng & đo mức", "#1657b8", [
+        "flowline/flowline-viet-nam.md","flowline/cam-bien-sieu-am-do-muc-flowline.md",
+        "flowline/echopod-dl24-flowline.md","flowline/echopod-dl34-flowline.md","flowline/echospan-lu28-flowline.md",
+        "flowline/echotouch-us01-flowline.md","flowline/cong-tac-bao-muc-flowline.md"]),
 ]
 
 def field(name, text):

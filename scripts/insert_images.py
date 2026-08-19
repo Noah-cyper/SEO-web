@@ -20,6 +20,11 @@ def pick(slug):
     if "hien-thi" in s or "s311a" in s: return ("rep-panel","prin-panel","app-panel")
     if any(k in s for k in ["kho-tim","ngung-san-xuat","thay-the-plc","tim-cam-bien"]): return ("rep-obsolete","obsolete-replacement","app-obsolete")
     if "seneca-viet-nam" in s: return ("rep-converter","signal-chain","app-remoteio")
+    # Flowline (đo mức)
+    if "echotouch" in s: return ("rep-uslevel","prin-ultrasonic","app-hazard")
+    if "echospan" in s: return ("rep-loop-level","prin-ultrasonic","app-level")
+    if "cong-tac-bao-muc" in s: return ("rep-switch","prin-switch","app-switch")
+    if any(k in s for k in ["flowline","echopod","cam-bien-sieu-am-do-muc"]): return ("rep-level","prin-ultrasonic","app-level")
     return None
 
 CAP={"rep":"Hình đại diện","prin":"Nguyên lý hoạt động","app":"Ứng dụng thiết bị"}

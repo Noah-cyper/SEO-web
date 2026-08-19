@@ -418,3 +418,76 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Tên file ảnh nên đặt:** `s311a-seneca.jpg`
 - **Alt text ảnh:** S311A Seneca chính hãng
 - **Gợi ý ảnh thật:** Ảnh sản phẩm thật trên nền trắng, thấy rõ mặt trước + tem model, gắn DIN rail. Nếu có, thêm 1 ảnh sơ đồ đấu nối.
+
+
+## Flowline — Hãng & đo mức
+
+### Flowline – Cảm Biến & Công Tắc Đo Mức (Level) Chính Hãng Mỹ
+- **URL:** `/flowline/`
+- **Focus keyword:** flowline
+- **Meta description:** Flowline (Mỹ) – cảm biến & công tắc đo mức chất lỏng, hoá chất, bồn chứa: siêu âm EchoPod/EchoTouch/EchoSpan, radar, công tắc Switch-Tek. Ngõ ra 4-20mA + relay. Chính hãng, CO/CQ, báo giá nhanh.
+- **Thẻ (tags):** Flowline, Flowline Việt Nam, Cảm biến đo mức Flowline, EchoPod, Đại lý Flowline
+- **Ảnh bìa có sẵn:** `assets/covers/flowline.svg`
+- **Tên file ảnh nên đặt:** `flowline.jpg`
+- **Alt text ảnh:** Flowline
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Cảm Biến Siêu Âm Đo Mức Flowline (Ultrasonic Level)
+- **URL:** `/cam-bien-sieu-am-do-muc-flowline/`
+- **Focus keyword:** cảm biến siêu âm đo mức
+- **Meta description:** Cảm biến siêu âm đo mức Flowline: EchoPod (transmitter + relay), EchoSpan (2 dây 4-20mA), EchoTouch (phòng nổ). Đo mức không tiếp xúc cho bồn hoá chất, nước. Chính hãng, CO/CQ, báo giá.
+- **Thẻ (tags):** Cảm biến siêu âm đo mức, Cảm biến đo mức Flowline, EchoPod, EchoSpan, Đo mức không tiếp xúc
+- **Ảnh bìa có sẵn:** `assets/covers/cam-bien-sieu-am-do-muc-flowline.svg`
+- **Tên file ảnh nên đặt:** `cam-bien-sieu-am-do-muc-flowline.jpg`
+- **Alt text ảnh:** Cảm Biến Siêu Âm Đo Mức Flowline (Ultrasonic Level)
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### EchoPod DL24 Flowline – Cảm Biến Siêu Âm Đo Mức + 2 Relay
+- **URL:** `/echopod-dl24-flowline/`
+- **Focus keyword:** echopod dl24
+- **Meta description:** EchoPod DL24 Flowline – transmitter siêu âm đo mức tới ~3m, ngõ ra 4-20mA + 2 relay điều khiển bơm, màn hình LCD, đầu dò PVDF cho hoá chất. Cấu hình WebCal. Chính hãng, CO/CQ, báo giá.
+- **Thẻ (tags):** EchoPod DL24, DL24 Flowline, Cảm biến siêu âm đo mức, Cảm biến mức có relay, Flowline
+- **Ảnh bìa có sẵn:** `assets/covers/echopod-dl24-flowline.svg`
+- **Tên file ảnh nên đặt:** `echopod-dl24-flowline.jpg`
+- **Alt text ảnh:** EchoPod DL24 Flowline
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### EchoPod DL34 Flowline – Cảm Biến Siêu Âm Đo Mức Bồn Cao
+- **URL:** `/echopod-dl34-flowline/`
+- **Focus keyword:** echopod dl34
+- **Meta description:** EchoPod DL34 Flowline – transmitter siêu âm đo mức bồn cao tới ~5,5m (18 ft), ngõ ra 4-20mA + 2 relay, màn hình LCD, đầu dò PVDF cho hoá chất, cấu hình WebCal. Chính hãng, CO/CQ, báo giá.
+- **Thẻ (tags):** EchoPod DL34, DL34 Flowline, Cảm biến siêu âm đo mức bồn cao, Cảm biến mức 4-20mA, Flowline
+- **Ảnh bìa có sẵn:** `assets/covers/echopod-dl34-flowline.svg`
+- **Tên file ảnh nên đặt:** `echopod-dl34-flowline.jpg`
+- **Alt text ảnh:** EchoPod DL34 Flowline
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### EchoSpan LU28 Flowline – Transmitter Siêu Âm 2 Dây (Loop-Powered)
+- **URL:** `/echospan-lu28-flowline/`
+- **Focus keyword:** echospan lu28
+- **Meta description:** EchoSpan LU28 Flowline – transmitter siêu âm đo mức 2 dây (loop-powered), chỉ 4-20mA, tầm với tới ~7,9m (26 ft), đầu dò PVDF, cấu hình WebCal. Gọn, dễ ghép PLC/SCADA. Chính hãng, CO/CQ, báo giá.
+- **Thẻ (tags):** EchoSpan LU28, LU28 Flowline, Cảm biến siêu âm 2 dây, Transmitter mức loop-powered, Flowline
+- **Ảnh bìa có sẵn:** `assets/covers/echospan-lu28-flowline.svg`
+- **Tên file ảnh nên đặt:** `echospan-lu28-flowline.jpg`
+- **Alt text ảnh:** EchoSpan LU28 Flowline
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### EchoTouch US01 Flowline – Cảm Biến Siêu Âm Đo Mức Phòng Nổ
+- **URL:** `/echotouch-us01-flowline/`
+- **Focus keyword:** echotouch us01
+- **Meta description:** EchoTouch US01 Flowline – transmitter siêu âm đo mức chống cháy nổ (intrinsically safe), 4-20mA, tầm với tới ~3m, đầu dò kháng hoá chất. Cho khu vực nguy hiểm. Chính hãng, CO/CQ, báo giá.
+- **Thẻ (tags):** EchoTouch US01, US01 Flowline, Cảm biến siêu âm phòng nổ, Cảm biến đo mức chống cháy nổ, Flowline
+- **Ảnh bìa có sẵn:** `assets/covers/echotouch-us01-flowline.svg`
+- **Tên file ảnh nên đặt:** `echotouch-us01-flowline.jpg`
+- **Alt text ảnh:** EchoTouch US01 Flowline
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Công Tắc Báo Mức Flowline (Switch-Tek)
+- **URL:** `/cong-tac-bao-muc-flowline/`
+- **Focus keyword:** công tắc báo mức
+- **Meta description:** Công tắc báo mức Flowline Switch-Tek: phao, siêu âm, quang, điện dung – báo mức điểm cao/thấp, điều khiển bơm chống tràn/chạy khô. Ngõ ra relay. Chính hãng, CO/CQ, báo giá nhanh.
+- **Thẻ (tags):** Công tắc báo mức, Switch-Tek, Công tắc phao Flowline, Công tắc mức chống tràn, Flowline
+- **Ảnh bìa có sẵn:** `assets/covers/cong-tac-bao-muc-flowline.svg`
+- **Tên file ảnh nên đặt:** `cong-tac-bao-muc-flowline.jpg`
+- **Alt text ảnh:** Công Tắc Báo Mức Flowline (Switch-Tek)
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.

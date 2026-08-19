@@ -38,5 +38,12 @@
   "s504-seneca": ["S504", "S504 Seneca", "Công tơ điện 1 pha", "Đồng hồ điện MID", "Seneca"],
   "s604-seneca": ["S604", "S604 Seneca", "Đồng hồ đo điện 3 pha", "Power analyzer 3 pha", "Seneca"],
   "bo-hien-thi-seneca": ["Bộ hiển thị Seneca", "Panel meter Seneca", "S311A", "Đồng hồ hiển thị số", "Digital indicator"],
-  "s311a-seneca": ["S311A", "S311A Seneca", "Bộ hiển thị đa năng", "Panel meter Pt100", "Seneca"]
+  "s311a-seneca": ["S311A", "S311A Seneca", "Bộ hiển thị đa năng", "Panel meter Pt100", "Seneca"],
+  "flowline": ["Flowline", "Flowline Việt Nam", "Cảm biến đo mức Flowline", "EchoPod", "Đại lý Flowline"],
+  "cam-bien-sieu-am-do-muc-flowline": ["Cảm biến siêu âm đo mức", "Cảm biến đo mức Flowline", "EchoPod", "EchoSpan", "Đo mức không tiếp xúc"],
+  "echopod-dl24-flowline": ["EchoPod DL24", "DL24 Flowline", "Cảm biến siêu âm đo mức", "Cảm biến mức có relay", "Flowline"],
+  "echopod-dl34-flowline": ["EchoPod DL34", "DL34 Flowline", "Cảm biến siêu âm đo mức bồn cao", "Cảm biến mức 4-20mA", "Flowline"],
+  "echospan-lu28-flowline": ["EchoSpan LU28", "LU28 Flowline", "Cảm biến siêu âm 2 dây", "Transmitter mức loop-powered", "Flowline"],
+  "echotouch-us01-flowline": ["EchoTouch US01", "US01 Flowline", "Cảm biến siêu âm phòng nổ", "Cảm biến đo mức chống cháy nổ", "Flowline"],
+  "cong-tac-bao-muc-flowline": ["Công tắc báo mức", "Switch-Tek", "Công tắc phao Flowline", "Công tắc mức chống tràn", "Flowline"]
 }
