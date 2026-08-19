@@ -23,10 +23,16 @@ GROUPS = [
         "seneca/z-4rtd2-seneca.md","seneca/z-8ai-seneca.md","seneca/z-4ao-seneca.md","seneca/z-10-d-in-seneca.md",
         "seneca/z-logger3-seneca.md","seneca/z-gprs3-seneca.md","seneca/z-umts-seneca.md","seneca/z-lte-seneca.md",
         "seneca/z-key-seneca.md","seneca/r-key-lt-seneca.md","seneca/z-pass2-seneca.md","seneca/r-pass-seneca.md","seneca/s504-seneca.md","seneca/s604-seneca.md","seneca/s311a-seneca.md"]),
-    ("Flowline — Hãng & đo mức", "#1657b8", [
+    ("Flowline — Hãng & danh mục", "#1657b8", [
         "flowline/flowline-viet-nam.md","flowline/cam-bien-sieu-am-do-muc-flowline.md",
-        "flowline/echopod-dl24-flowline.md","flowline/echopod-dl34-flowline.md","flowline/echospan-lu28-flowline.md",
-        "flowline/echotouch-us01-flowline.md","flowline/cong-tac-bao-muc-flowline.md"]),
+        "flowline/cam-bien-radar-do-muc-flowline.md","flowline/cam-bien-ap-suat-thuy-tinh-flowline.md",
+        "flowline/cong-tac-bao-muc-flowline.md","flowline/bo-dieu-khien-hien-thi-muc-flowline.md"]),
+    ("Flowline — Sản phẩm", "#1657b8", [
+        "flowline/echopod-dl10-flowline.md","flowline/echopod-dl14-flowline.md","flowline/echopod-dl24-flowline.md","flowline/echopod-dl34-flowline.md",
+        "flowline/echospan-lu27-flowline.md","flowline/echospan-lu28-flowline.md","flowline/echotouch-us01-flowline.md","flowline/echotouch-us03-flowline.md",
+        "flowline/echowave-radar-flowline.md","flowline/echopulse-radar-flowline.md","flowline/deltaspan-ld31-flowline.md",
+        "flowline/cong-tac-phao-flowline.md","flowline/cong-tac-sieu-am-bao-muc-flowline.md",
+        "flowline/leveltouch-lc40-flowline.md","flowline/dataloop-li55-flowline.md"]),
 ]
 
 def field(name, text):

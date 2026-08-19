@@ -420,7 +420,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Gợi ý ảnh thật:** Ảnh sản phẩm thật trên nền trắng, thấy rõ mặt trước + tem model, gắn DIN rail. Nếu có, thêm 1 ảnh sơ đồ đấu nối.
 
 
-## Flowline — Hãng & đo mức
+## Flowline — Hãng & danh mục
 
 ### Flowline – Cảm Biến & Công Tắc Đo Mức (Level) Chính Hãng Mỹ
 - **URL:** `/flowline/`
@@ -440,6 +440,69 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Ảnh bìa có sẵn:** `assets/covers/cam-bien-sieu-am-do-muc-flowline.svg`
 - **Tên file ảnh nên đặt:** `cam-bien-sieu-am-do-muc-flowline.jpg`
 - **Alt text ảnh:** Cảm Biến Siêu Âm Đo Mức Flowline (Ultrasonic Level)
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Cảm Biến Radar Đo Mức Flowline (EchoWave & EchoPulse)
+- **URL:** `/cam-bien-radar-do-muc-flowline/`
+- **Focus keyword:** cảm biến radar đo mức
+- **Meta description:** Cảm biến radar đo mức Flowline: EchoWave (radar không tiếp xúc) & EchoPulse (radar dẫn sóng - GWR). Đo mức chính xác dù có hơi, bụi, bọt, nhiệt cao. Ngõ ra 4-20mA. Chính hãng, CO/CQ, báo giá.
+- **Thẻ (tags):** Cảm biến radar đo mức, Radar đo mức Flowline, EchoWave, EchoPulse, Radar dẫn sóng
+- **Ảnh bìa có sẵn:** `assets/covers/cam-bien-radar-do-muc-flowline.svg`
+- **Tên file ảnh nên đặt:** `cam-bien-radar-do-muc-flowline.jpg`
+- **Alt text ảnh:** Cảm Biến Radar Đo Mức Flowline (EchoWave & EchoPulse)
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Cảm Biến Áp Suất Thủy Tĩnh Đo Mức Flowline (Thả Chìm)
+- **URL:** `/cam-bien-ap-suat-thuy-tinh-flowline/`
+- **Focus keyword:** cảm biến áp suất thủy tĩnh
+- **Meta description:** Cảm biến áp suất thủy tĩnh đo mức Flowline (DeltaSpan): thả chìm đáy bồn/giếng, đo áp cột chất lỏng suy ra mức, ngõ ra 4-20mA. Cho giếng, bể ngầm, hố bơm. Chính hãng, CO/CQ, báo giá.
+- **Thẻ (tags):** Cảm biến áp suất thủy tĩnh, Cảm biến đo mức thả chìm, DeltaSpan, Cảm biến mức submersible, Flowline
+- **Ảnh bìa có sẵn:** `assets/covers/cam-bien-ap-suat-thuy-tinh-flowline.svg`
+- **Tên file ảnh nên đặt:** `cam-bien-ap-suat-thuy-tinh-flowline.jpg`
+- **Alt text ảnh:** Cảm Biến Áp Suất Thủy Tĩnh Đo Mức Flowline (Thả Chìm)
+- **Gợi ý ảnh thật:** Ảnh cảm biến áp suất thật + ảnh minh họa lắp trên đường ống.
+
+### Công Tắc Báo Mức Flowline (Switch-Tek)
+- **URL:** `/cong-tac-bao-muc-flowline/`
+- **Focus keyword:** công tắc báo mức
+- **Meta description:** Công tắc báo mức Flowline Switch-Tek: phao, siêu âm, quang, điện dung – báo mức điểm cao/thấp, điều khiển bơm chống tràn/chạy khô. Ngõ ra relay. Chính hãng, CO/CQ, báo giá nhanh.
+- **Thẻ (tags):** Công tắc báo mức, Switch-Tek, Công tắc phao Flowline, Công tắc mức chống tràn, Flowline
+- **Ảnh bìa có sẵn:** `assets/covers/cong-tac-bao-muc-flowline.svg`
+- **Tên file ảnh nên đặt:** `cong-tac-bao-muc-flowline.jpg`
+- **Alt text ảnh:** Công Tắc Báo Mức Flowline (Switch-Tek)
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Bộ Điều Khiển & Hiển Thị Mức Flowline
+- **URL:** `/bo-dieu-khien-hien-thi-muc-flowline/`
+- **Focus keyword:** bộ điều khiển mức flowline
+- **Meta description:** Bộ điều khiển & hiển thị mức Flowline: LevelTouch (điều khiển bơm + relay + màn hình) và DataLoop (màn hình số cấp nguồn vòng dòng). Nhận 4-20mA từ cảm biến mức. Chính hãng, CO/CQ, báo giá.
+- **Thẻ (tags):** Bộ điều khiển mức, Bộ hiển thị mức, LevelTouch, DataLoop, Flowline
+- **Ảnh bìa có sẵn:** `assets/covers/bo-dieu-khien-hien-thi-muc-flowline.svg`
+- **Tên file ảnh nên đặt:** `bo-dieu-khien-hien-thi-muc-flowline.jpg`
+- **Alt text ảnh:** Bộ Điều Khiển & Hiển Thị Mức Flowline
+- **Gợi ý ảnh thật:** Ảnh bộ hiển thị/panel meter gắn mặt tủ, màn LED.
+
+
+## Flowline — Sản phẩm
+
+### EchoPod DL10 Flowline – Bộ Điều Khiển Mức Siêu Âm (2 Relay)
+- **URL:** `/echopod-dl10-flowline/`
+- **Focus keyword:** echopod dl10
+- **Meta description:** EchoPod DL10 Flowline – bộ điều khiển mức siêu âm nhỏ gọn, 2 relay bật/tắt bơm theo mức, đầu dò PVDF cho hoá chất, cấu hình WebCal. Cho bồn/day-tank nhỏ. Chính hãng, CO/CQ, báo giá.
+- **Thẻ (tags):** EchoPod DL10, DL10 Flowline, Bộ điều khiển mức siêu âm, Công tắc mức 2 relay, Flowline
+- **Ảnh bìa có sẵn:** `assets/covers/echopod-dl10-flowline.svg`
+- **Tên file ảnh nên đặt:** `echopod-dl10-flowline.jpg`
+- **Alt text ảnh:** EchoPod DL10 Flowline
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### EchoPod DL14 Flowline – Cảm Biến Siêu Âm 4-20mA + Relay
+- **URL:** `/echopod-dl14-flowline/`
+- **Focus keyword:** echopod dl14
+- **Meta description:** EchoPod DL14 Flowline – transmitter siêu âm đo mức nhỏ gọn, ngõ ra 4-20mA + relay, đầu dò PVDF cho hoá chất, cấu hình WebCal. Cho bồn/day-tank nhỏ. Chính hãng, CO/CQ, báo giá.
+- **Thẻ (tags):** EchoPod DL14, DL14 Flowline, Cảm biến siêu âm đo mức 4-20mA, Cảm biến mức có relay, Flowline
+- **Ảnh bìa có sẵn:** `assets/covers/echopod-dl14-flowline.svg`
+- **Tên file ảnh nên đặt:** `echopod-dl14-flowline.jpg`
+- **Alt text ảnh:** EchoPod DL14 Flowline
 - **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
 
 ### EchoPod DL24 Flowline – Cảm Biến Siêu Âm Đo Mức + 2 Relay
@@ -462,6 +525,16 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Alt text ảnh:** EchoPod DL34 Flowline
 - **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
 
+### EchoSpan LU27 Flowline – Transmitter Siêu Âm 2 Dây (~4m)
+- **URL:** `/echospan-lu27-flowline/`
+- **Focus keyword:** echospan lu27
+- **Meta description:** EchoSpan LU27 Flowline – transmitter siêu âm đo mức 2 dây (loop-powered), chỉ 4-20mA, tầm với tới ~4m (13 ft), đầu dò PVDF, cấu hình WebCal. Gọn, dễ ghép PLC/SCADA. Chính hãng, CO/CQ, báo giá.
+- **Thẻ (tags):** EchoSpan LU27, LU27 Flowline, Cảm biến siêu âm 2 dây, Transmitter mức loop-powered, Flowline
+- **Ảnh bìa có sẵn:** `assets/covers/echospan-lu27-flowline.svg`
+- **Tên file ảnh nên đặt:** `echospan-lu27-flowline.jpg`
+- **Alt text ảnh:** EchoSpan LU27 Flowline
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
 ### EchoSpan LU28 Flowline – Transmitter Siêu Âm 2 Dây (Loop-Powered)
 - **URL:** `/echospan-lu28-flowline/`
 - **Focus keyword:** echospan lu28
@@ -482,12 +555,82 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Alt text ảnh:** EchoTouch US01 Flowline
 - **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
 
-### Công Tắc Báo Mức Flowline (Switch-Tek)
-- **URL:** `/cong-tac-bao-muc-flowline/`
-- **Focus keyword:** công tắc báo mức
-- **Meta description:** Công tắc báo mức Flowline Switch-Tek: phao, siêu âm, quang, điện dung – báo mức điểm cao/thấp, điều khiển bơm chống tràn/chạy khô. Ngõ ra relay. Chính hãng, CO/CQ, báo giá nhanh.
-- **Thẻ (tags):** Công tắc báo mức, Switch-Tek, Công tắc phao Flowline, Công tắc mức chống tràn, Flowline
-- **Ảnh bìa có sẵn:** `assets/covers/cong-tac-bao-muc-flowline.svg`
-- **Tên file ảnh nên đặt:** `cong-tac-bao-muc-flowline.jpg`
-- **Alt text ảnh:** Công Tắc Báo Mức Flowline (Switch-Tek)
+### EchoTouch US03 Flowline – Cảm Biến Siêu Âm Đo Mức Phòng Nổ
+- **URL:** `/echotouch-us03-flowline/`
+- **Focus keyword:** echotouch us03
+- **Meta description:** EchoTouch US03 Flowline – transmitter siêu âm đo mức chống cháy nổ (intrinsically safe), 4-20mA, tầm với tới ~4m, cho khu vực nguy hiểm. Bản tầm với lớn hơn US01. Chính hãng, CO/CQ, báo giá.
+- **Thẻ (tags):** EchoTouch US03, US03 Flowline, Cảm biến siêu âm phòng nổ, Cảm biến đo mức chống cháy nổ, Flowline
+- **Ảnh bìa có sẵn:** `assets/covers/echotouch-us03-flowline.svg`
+- **Tên file ảnh nên đặt:** `echotouch-us03-flowline.jpg`
+- **Alt text ảnh:** EchoTouch US03 Flowline
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### EchoWave Flowline – Radar Đo Mức Không Tiếp Xúc
+- **URL:** `/echowave-radar-flowline/`
+- **Focus keyword:** echowave
+- **Meta description:** EchoWave Flowline – radar đo mức không tiếp xúc, ngõ ra 4-20mA, đo bồn lớn/cao dù có hơi, bụi. Không chạm môi chất, ít bảo trì. Cho hoá chất, nhiên liệu, nước thải. Chính hãng, CO/CQ, báo giá.
+- **Thẻ (tags):** EchoWave, EchoWave Flowline, Radar đo mức không tiếp xúc, Cảm biến radar 4-20mA, Flowline
+- **Ảnh bìa có sẵn:** `assets/covers/echowave-radar-flowline.svg`
+- **Tên file ảnh nên đặt:** `echowave-radar-flowline.jpg`
+- **Alt text ảnh:** EchoWave Flowline
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### EchoPulse Flowline – Radar Dẫn Sóng (GWR) Đo Mức
+- **URL:** `/echopulse-radar-flowline/`
+- **Focus keyword:** echopulse
+- **Meta description:** EchoPulse Flowline – radar dẫn sóng (guided wave radar - GWR) đo mức chất lỏng, ngõ ra 4-20mA. Thanh dò dẫn sóng cho độ chính xác cao dù có bọt, chất bám, hơi. Chính hãng, CO/CQ, báo giá.
+- **Thẻ (tags):** EchoPulse, EchoPulse Flowline, Radar dẫn sóng, Guided wave radar, Cảm biến mức GWR
+- **Ảnh bìa có sẵn:** `assets/covers/echopulse-radar-flowline.svg`
+- **Tên file ảnh nên đặt:** `echopulse-radar-flowline.jpg`
+- **Alt text ảnh:** EchoPulse Flowline
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### DeltaSpan LD31 Flowline – Cảm Biến Đo Mức Thả Chìm
+- **URL:** `/deltaspan-ld31-flowline/`
+- **Focus keyword:** deltaspan ld31
+- **Meta description:** DeltaSpan LD31 Flowline – cảm biến áp suất thủy tĩnh thả chìm, đo mức từ đáy giếng/bể ngầm, ngõ ra 4-20mA, có bù áp khí quyển. Cho nước, nước thải. Chính hãng, CO/CQ, báo giá.
+- **Thẻ (tags):** DeltaSpan LD31, LD31 Flowline, Cảm biến áp suất thủy tĩnh, Cảm biến đo mức thả chìm, Flowline
+- **Ảnh bìa có sẵn:** `assets/covers/deltaspan-ld31-flowline.svg`
+- **Tên file ảnh nên đặt:** `deltaspan-ld31-flowline.jpg`
+- **Alt text ảnh:** DeltaSpan LD31 Flowline
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Công Tắc Phao Flowline (Switch-Tek Float)
+- **URL:** `/cong-tac-phao-flowline/`
+- **Focus keyword:** công tắc phao flowline
+- **Meta description:** Công tắc phao Flowline Switch-Tek – báo mức điểm bằng phao, ngõ ra relay điều khiển bơm/van, chống tràn & chạy khô. Lắp đỉnh hoặc hông bồn. Chính hãng, CO/CQ, báo giá nhanh.
+- **Thẻ (tags):** Công tắc phao, Công tắc phao Flowline, Float switch, Phao điện báo mức, Switch-Tek
+- **Ảnh bìa có sẵn:** `assets/covers/cong-tac-phao-flowline.svg`
+- **Tên file ảnh nên đặt:** `cong-tac-phao-flowline.jpg`
+- **Alt text ảnh:** Công Tắc Phao Flowline (Switch-Tek Float)
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Công Tắc Siêu Âm Báo Mức Flowline (Switch-Tek)
+- **URL:** `/cong-tac-sieu-am-bao-muc-flowline/`
+- **Focus keyword:** công tắc siêu âm báo mức
+- **Meta description:** Công tắc siêu âm báo mức Flowline Switch-Tek – phát hiện mức điểm bằng khe siêu âm (gap), không phao cơ, ít kẹt bẩn, ngõ ra relay chống tràn/chạy khô. Cho đa môi chất. Chính hãng, CO/CQ, báo giá.
+- **Thẻ (tags):** Công tắc siêu âm báo mức, Công tắc mức không tiếp xúc, Ultrasonic gap switch, Switch-Tek, Flowline
+- **Ảnh bìa có sẵn:** `assets/covers/cong-tac-sieu-am-bao-muc-flowline.svg`
+- **Tên file ảnh nên đặt:** `cong-tac-sieu-am-bao-muc-flowline.jpg`
+- **Alt text ảnh:** Công Tắc Siêu Âm Báo Mức Flowline (Switch-Tek)
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### LevelTouch LC40 Flowline – Bộ Điều Khiển Mức + Relay
+- **URL:** `/leveltouch-lc40-flowline/`
+- **Focus keyword:** leveltouch lc40
+- **Meta description:** LevelTouch LC40 Flowline – bộ điều khiển mức nhận 4-20mA, nhiều relay điều khiển bơm/van, màn hình hiển thị, cảnh báo mức. Cho trạm bơm & bồn chứa. Chính hãng, CO/CQ, báo giá.
+- **Thẻ (tags):** LevelTouch LC40, LC40 Flowline, Bộ điều khiển mức, Điều khiển bơm theo mức, Flowline
+- **Ảnh bìa có sẵn:** `assets/covers/leveltouch-lc40-flowline.svg`
+- **Tên file ảnh nên đặt:** `leveltouch-lc40-flowline.jpg`
+- **Alt text ảnh:** LevelTouch LC40 Flowline
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### DataLoop LI55 Flowline – Bộ Hiển Thị Mức 4-20mA
+- **URL:** `/dataloop-li55-flowline/`
+- **Focus keyword:** dataloop li55
+- **Meta description:** DataLoop LI55 Flowline – bộ hiển thị số cấp nguồn bằng chính vòng dòng 4-20mA (loop-powered), không cần nguồn ngoài. Hiển thị mức tại chỗ theo đơn vị kỹ thuật. Chính hãng, CO/CQ, báo giá.
+- **Thẻ (tags):** DataLoop LI55, LI55 Flowline, Bộ hiển thị mức 4-20mA, Màn hình vòng dòng loop-powered, Flowline
+- **Ảnh bìa có sẵn:** `assets/covers/dataloop-li55-flowline.svg`
+- **Tên file ảnh nên đặt:** `dataloop-li55-flowline.jpg`
+- **Alt text ảnh:** DataLoop LI55 Flowline
 - **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.

@@ -64,14 +64,30 @@ GROUPS = [
         "seneca/s604-seneca.md",
         "seneca/s311a-seneca.md",
     ]),
-    ("Flowline — Hãng & đo mức", "flowline", [
+    ("Flowline — Hãng & danh mục", "flowline-cat", [
         "flowline/flowline-viet-nam.md",
         "flowline/cam-bien-sieu-am-do-muc-flowline.md",
+        "flowline/cam-bien-radar-do-muc-flowline.md",
+        "flowline/cam-bien-ap-suat-thuy-tinh-flowline.md",
+        "flowline/cong-tac-bao-muc-flowline.md",
+        "flowline/bo-dieu-khien-hien-thi-muc-flowline.md",
+    ]),
+    ("Flowline — Sản phẩm", "flowline-prod", [
+        "flowline/echopod-dl10-flowline.md",
+        "flowline/echopod-dl14-flowline.md",
         "flowline/echopod-dl24-flowline.md",
         "flowline/echopod-dl34-flowline.md",
+        "flowline/echospan-lu27-flowline.md",
         "flowline/echospan-lu28-flowline.md",
         "flowline/echotouch-us01-flowline.md",
-        "flowline/cong-tac-bao-muc-flowline.md",
+        "flowline/echotouch-us03-flowline.md",
+        "flowline/echowave-radar-flowline.md",
+        "flowline/echopulse-radar-flowline.md",
+        "flowline/deltaspan-ld31-flowline.md",
+        "flowline/cong-tac-phao-flowline.md",
+        "flowline/cong-tac-sieu-am-bao-muc-flowline.md",
+        "flowline/leveltouch-lc40-flowline.md",
+        "flowline/dataloop-li55-flowline.md",
     ]),
 ]
 
@@ -440,7 +456,7 @@ page = f"""{CSS}
     <span class="stat"><b>{total}</b> bài viết</span>
     <span class="stat"><b>{len(GROUPS)}</b> cụm chủ đề</span>
     <span class="stat"><b>23</b> trang Seneca</span>
-    <span class="stat"><b>7</b> trang Flowline</span>
+    <span class="stat"><b>21</b> trang Flowline</span>
     <span class="stat">Kèm SERP preview &amp; FAQ</span>
   </div>
 </div></header>

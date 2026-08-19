@@ -45,5 +45,19 @@
   "echopod-dl34-flowline": ["EchoPod DL34", "DL34 Flowline", "Cảm biến siêu âm đo mức bồn cao", "Cảm biến mức 4-20mA", "Flowline"],
   "echospan-lu28-flowline": ["EchoSpan LU28", "LU28 Flowline", "Cảm biến siêu âm 2 dây", "Transmitter mức loop-powered", "Flowline"],
   "echotouch-us01-flowline": ["EchoTouch US01", "US01 Flowline", "Cảm biến siêu âm phòng nổ", "Cảm biến đo mức chống cháy nổ", "Flowline"],
-  "cong-tac-bao-muc-flowline": ["Công tắc báo mức", "Switch-Tek", "Công tắc phao Flowline", "Công tắc mức chống tràn", "Flowline"]
+  "cong-tac-bao-muc-flowline": ["Công tắc báo mức", "Switch-Tek", "Công tắc phao Flowline", "Công tắc mức chống tràn", "Flowline"],
+  "echopod-dl10-flowline": ["EchoPod DL10", "DL10 Flowline", "Bộ điều khiển mức siêu âm", "Công tắc mức 2 relay", "Flowline"],
+  "echopod-dl14-flowline": ["EchoPod DL14", "DL14 Flowline", "Cảm biến siêu âm đo mức 4-20mA", "Cảm biến mức có relay", "Flowline"],
+  "echospan-lu27-flowline": ["EchoSpan LU27", "LU27 Flowline", "Cảm biến siêu âm 2 dây", "Transmitter mức loop-powered", "Flowline"],
+  "echotouch-us03-flowline": ["EchoTouch US03", "US03 Flowline", "Cảm biến siêu âm phòng nổ", "Cảm biến đo mức chống cháy nổ", "Flowline"],
+  "cam-bien-radar-do-muc-flowline": ["Cảm biến radar đo mức", "Radar đo mức Flowline", "EchoWave", "EchoPulse", "Radar dẫn sóng"],
+  "echowave-radar-flowline": ["EchoWave", "EchoWave Flowline", "Radar đo mức không tiếp xúc", "Cảm biến radar 4-20mA", "Flowline"],
+  "echopulse-radar-flowline": ["EchoPulse", "EchoPulse Flowline", "Radar dẫn sóng", "Guided wave radar", "Cảm biến mức GWR"],
+  "cam-bien-ap-suat-thuy-tinh-flowline": ["Cảm biến áp suất thủy tĩnh", "Cảm biến đo mức thả chìm", "DeltaSpan", "Cảm biến mức submersible", "Flowline"],
+  "deltaspan-ld31-flowline": ["DeltaSpan LD31", "LD31 Flowline", "Cảm biến áp suất thủy tĩnh", "Cảm biến đo mức thả chìm", "Flowline"],
+  "cong-tac-phao-flowline": ["Công tắc phao", "Công tắc phao Flowline", "Float switch", "Phao điện báo mức", "Switch-Tek"],
+  "cong-tac-sieu-am-bao-muc-flowline": ["Công tắc siêu âm báo mức", "Công tắc mức không tiếp xúc", "Ultrasonic gap switch", "Switch-Tek", "Flowline"],
+  "bo-dieu-khien-hien-thi-muc-flowline": ["Bộ điều khiển mức", "Bộ hiển thị mức", "LevelTouch", "DataLoop", "Flowline"],
+  "leveltouch-lc40-flowline": ["LevelTouch LC40", "LC40 Flowline", "Bộ điều khiển mức", "Điều khiển bơm theo mức", "Flowline"],
+  "dataloop-li55-flowline": ["DataLoop LI55", "LI55 Flowline", "Bộ hiển thị mức 4-20mA", "Màn hình vòng dòng loop-powered", "Flowline"]
 }

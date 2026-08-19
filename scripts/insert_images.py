@@ -5,6 +5,16 @@ ROOT="/home/user/SEO-web/content/vi"
 
 def pick(slug):
     s=slug
+    # Flowline (đo mức) — xử lý trước để không đụng các rule chung (cam-bien-ap-suat, hien-thi…)
+    if "flowline" in s:
+        if "echotouch" in s: return ("rep-uslevel","prin-ultrasonic","app-hazard")
+        if "echospan" in s: return ("rep-loop-level","prin-ultrasonic","app-level")
+        if "echopulse" in s: return ("rep-gwr","prin-radar","app-level")
+        if "echowave" in s or "radar" in s: return ("rep-radar","prin-radar","app-level")
+        if "thuy-tinh" in s or "deltaspan" in s: return ("rep-submersible","prin-hydrostatic","app-level")
+        if any(k in s for k in ["dieu-khien-hien-thi","leveltouch","dataloop"]): return ("rep-controller","prin-switch","app-control")
+        if "cong-tac" in s: return ("rep-switch","prin-switch","app-switch")
+        return ("rep-level","prin-ultrasonic","app-level")  # echopod / hub / cảm biến siêu âm
     if "dau-day" in s: return ("wiring-4-20ma-2wire","wiring-4-20ma-3wire","signal-chain")
     if "do-ap-suat-wika" in s: return ("rep-gauge","prin-bourdon","app-gauge")
     if "chenh-ap" in s: return ("rep-dp","prin-dp","dp-measurement")
@@ -20,11 +30,6 @@ def pick(slug):
     if "hien-thi" in s or "s311a" in s: return ("rep-panel","prin-panel","app-panel")
     if any(k in s for k in ["kho-tim","ngung-san-xuat","thay-the-plc","tim-cam-bien"]): return ("rep-obsolete","obsolete-replacement","app-obsolete")
     if "seneca-viet-nam" in s: return ("rep-converter","signal-chain","app-remoteio")
-    # Flowline (đo mức)
-    if "echotouch" in s: return ("rep-uslevel","prin-ultrasonic","app-hazard")
-    if "echospan" in s: return ("rep-loop-level","prin-ultrasonic","app-level")
-    if "cong-tac-bao-muc" in s: return ("rep-switch","prin-switch","app-switch")
-    if any(k in s for k in ["flowline","echopod","cam-bien-sieu-am-do-muc"]): return ("rep-level","prin-ultrasonic","app-level")
     return None
 
 CAP={"rep":"Hình đại diện","prin":"Nguyên lý hoạt động","app":"Ứng dụng thiết bị"}
