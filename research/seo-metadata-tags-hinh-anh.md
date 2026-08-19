@@ -240,6 +240,46 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Alt text ảnh:** Lỗi PLC Do Nhiễu: Cách Chống Nhiễu Và Nối Đất Đúng Chuẩn
 - **Gợi ý ảnh thật:** Ảnh PLC Mitsubishi FX3U/FX5U + bảng so sánh.
 
+### Cách Đọc Mã Lỗi PLC Qua Đèn Báo Và Phần Mềm Chẩn Đoán
+- **URL:** `/cach-doc-ma-loi-plc/`
+- **Focus keyword:** cách đọc mã lỗi plc
+- **Meta description:** Hướng dẫn cách đọc mã lỗi PLC qua đèn báo (RUN/ERR/BAT) và phần mềm chẩn đoán từng hãng, giúp khoanh vùng và khắc phục lỗi PLC nhanh, chính xác.
+- **Thẻ (tags):** Cách đọc mã lỗi PLC, Đọc đèn báo PLC, Mã lỗi PLC, Phần mềm chẩn đoán PLC, Diagnostic PLC, Tra mã lỗi PLC
+- **Ảnh bìa có sẵn:** `assets/covers/cach-doc-ma-loi-plc.svg`
+- **Tên file ảnh nên đặt:** `cach-doc-ma-loi-plc.jpg`
+- **Alt text ảnh:** Cách Đọc Mã Lỗi PLC Qua Đèn Báo Và Phần Mềm Chẩn Đoán
+- **Gợi ý ảnh thật:** Ảnh PLC Mitsubishi FX3U/FX5U + bảng so sánh.
+
+### Backup Chương Trình PLC: Cách Sao Lưu Và Khôi Phục An Toàn
+- **URL:** `/backup-chuong-trinh-plc/`
+- **Focus keyword:** backup chương trình plc
+- **Meta description:** Hướng dẫn backup chương trình PLC (upload) và khôi phục (download) an toàn, backup định kỳ để không mất dữ liệu khi pin yếu hay hỏng CPU.
+- **Thẻ (tags):** Backup chương trình PLC, Sao lưu chương trình PLC, Upload download PLC, Khôi phục chương trình PLC, Lưu chương trình PLC, Restore PLC
+- **Ảnh bìa có sẵn:** `assets/covers/backup-chuong-trinh-plc.svg`
+- **Tên file ảnh nên đặt:** `backup-chuong-trinh-plc.jpg`
+- **Alt text ảnh:** Backup Chương Trình PLC: Cách Sao Lưu Và Khôi Phục An Toàn
+- **Gợi ý ảnh thật:** Ảnh PLC Mitsubishi FX3U/FX5U + bảng so sánh.
+
+### Thay Pin PLC Đúng Cách Để Không Mất Chương Trình
+- **URL:** `/thay-pin-plc/`
+- **Focus keyword:** thay pin plc
+- **Meta description:** Hướng dẫn thay pin PLC đúng cách để không mất chương trình: thay khi PLC còn điện, chọn đúng loại pin, backup trước và lịch thay pin định kỳ.
+- **Thẻ (tags):** Thay pin PLC, Pin nuôi PLC, Pin backup PLC, Thay pin không mất chương trình, Pin lithium PLC, RTC PLC
+- **Ảnh bìa có sẵn:** `assets/covers/thay-pin-plc.svg`
+- **Tên file ảnh nên đặt:** `thay-pin-plc.jpg`
+- **Alt text ảnh:** Thay Pin PLC Đúng Cách Để Không Mất Chương Trình
+- **Gợi ý ảnh thật:** Ảnh PLC Mitsubishi FX3U/FX5U + bảng so sánh.
+
+### Bảo Trì PLC Định Kỳ: Checklist Giảm Sự Cố Và Dừng Máy
+- **URL:** `/bao-tri-plc-dinh-ky/`
+- **Focus keyword:** bảo trì plc định kỳ
+- **Meta description:** Checklist bảo trì PLC định kỳ: backup, thay pin, vệ sinh, kiểm tra nguồn – nối đất – truyền thông. Giảm sự cố và dừng máy bất ngờ cho hệ thống PLC.
+- **Thẻ (tags):** Bảo trì PLC định kỳ, Checklist bảo trì PLC, Bảo dưỡng PLC, Phòng ngừa lỗi PLC, Dự phòng linh kiện PLC, Chăm sóc tủ điện PLC
+- **Ảnh bìa có sẵn:** `assets/covers/bao-tri-plc-dinh-ky.svg`
+- **Tên file ảnh nên đặt:** `bao-tri-plc-dinh-ky.jpg`
+- **Alt text ảnh:** Bảo Trì PLC Định Kỳ: Checklist Giảm Sự Cố Và Dừng Máy
+- **Gợi ý ảnh thật:** Ảnh PLC Mitsubishi FX3U/FX5U + bảng so sánh.
+
 
 ## Thiết bị khó tìm & hàng ngừng sản xuất
 

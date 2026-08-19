@@ -42,6 +42,10 @@ GROUPS = [
         "loi-ngo-vao-ra-plc.md",
         "plc-bi-treo-reset.md",
         "loi-plc-do-nhieu.md",
+        "cach-doc-ma-loi-plc.md",
+        "backup-chuong-trinh-plc.md",
+        "thay-pin-plc.md",
+        "bao-tri-plc-dinh-ky.md",
     ]),
     ("Thiết bị khó tìm & hàng ngừng sản xuất", "kho-tim", [
         "thiet-bi-cong-nghiep-kho-tim.md",
