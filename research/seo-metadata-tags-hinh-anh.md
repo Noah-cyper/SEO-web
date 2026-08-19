@@ -280,6 +280,56 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Alt text ảnh:** Bảo Trì PLC Định Kỳ: Checklist Giảm Sự Cố Và Dừng Máy
 - **Gợi ý ảnh thật:** Ảnh PLC Mitsubishi FX3U/FX5U + bảng so sánh.
 
+### Kết Nối PLC Với Biến Tần Qua Modbus RS485: Hướng Dẫn & Lỗi Thường Gặp
+- **URL:** `/ket-noi-plc-bien-tan/`
+- **Focus keyword:** kết nối plc với biến tần
+- **Meta description:** Hướng dẫn kết nối PLC với biến tần qua Modbus RS485: đấu dây A/B, đặt baud/địa chỉ, điều khiển tốc độ, đọc trạng thái và xử lý lỗi kết nối thường gặp.
+- **Thẻ (tags):** Kết nối PLC với biến tần, PLC điều khiển biến tần, Modbus RS485 biến tần, Điều khiển tốc độ biến tần, PLC biến tần, Lỗi kết nối PLC biến tần
+- **Ảnh bìa có sẵn:** `assets/covers/ket-noi-plc-bien-tan.svg`
+- **Tên file ảnh nên đặt:** `ket-noi-plc-bien-tan.jpg`
+- **Alt text ảnh:** Kết Nối PLC Với Biến Tần Qua Modbus RS485: Hướng Dẫn & Lỗi Thường Gặp
+- **Gợi ý ảnh thật:** Ảnh PLC Mitsubishi FX3U/FX5U + bảng so sánh.
+
+### Kết Nối PLC Với Cảm Biến 4-20mA: Đấu Dây Và Scale Tín Hiệu
+- **URL:** `/ket-noi-plc-cam-bien-4-20ma/`
+- **Focus keyword:** kết nối plc với cảm biến 4-20ma
+- **Meta description:** Hướng dẫn kết nối PLC với cảm biến 4-20mA: đấu 2 dây/3 dây/4 dây, chọn ngõ vào analog, scale giá trị và xử lý lỗi tín hiệu analog thường gặp.
+- **Thẻ (tags):** Kết nối PLC với cảm biến 4-20mA, Ngõ vào analog PLC, Đấu cảm biến 2 dây 3 dây, Scale 4-20mA PLC, Tín hiệu analog PLC, Module analog PLC
+- **Ảnh bìa có sẵn:** `assets/covers/ket-noi-plc-cam-bien-4-20ma.svg`
+- **Tên file ảnh nên đặt:** `ket-noi-plc-cam-bien-4-20ma.jpg`
+- **Alt text ảnh:** Kết Nối PLC Với Cảm Biến 4-20mA: Đấu Dây Và Scale Tín Hiệu
+- **Gợi ý ảnh thật:** Ảnh PLC Mitsubishi FX3U/FX5U + bảng so sánh.
+
+### Mở Rộng I/O Cho PLC: Dùng Module Mở Rộng Hay Remote I/O?
+- **URL:** `/mo-rong-io-plc/`
+- **Focus keyword:** mở rộng i/o cho plc
+- **Meta description:** PLC hết chân I/O? Cách mở rộng I/O cho PLC bằng module gắn cạnh hoặc remote I/O qua Modbus, khi nào dùng loại nào và lưu ý khi mở rộng.
+- **Thẻ (tags):** Mở rộng I/O cho PLC, Module mở rộng PLC, Remote I/O, Hết chân PLC, Module I/O Modbus, Thêm ngõ vào ra PLC
+- **Ảnh bìa có sẵn:** `assets/covers/mo-rong-io-plc.svg`
+- **Tên file ảnh nên đặt:** `mo-rong-io-plc.jpg`
+- **Alt text ảnh:** Mở Rộng I/O Cho PLC: Dùng Module Mở Rộng Hay Remote I/O
+- **Gợi ý ảnh thật:** Ảnh PLC Mitsubishi FX3U/FX5U + bảng so sánh.
+
+### Khi Nào Nên Thay PLC? Sửa, Thay Mới Hay Nâng Cấp
+- **URL:** `/khi-nao-thay-plc/`
+- **Focus keyword:** khi nào nên thay plc
+- **Meta description:** Khi nào nên thay PLC thay vì sửa? Dấu hiệu cần thay CPU, PLC đời cũ EOL, chi phí dừng máy và cách chọn giữa sửa, thay mới hay nâng cấp dòng kế nhiệm.
+- **Thẻ (tags):** Khi nào nên thay PLC, Sửa hay thay PLC, Nâng cấp PLC, Thay PLC đời cũ, Tuổi thọ PLC, Chi phí dừng máy
+- **Ảnh bìa có sẵn:** `assets/covers/khi-nao-thay-plc.svg`
+- **Tên file ảnh nên đặt:** `khi-nao-thay-plc.jpg`
+- **Alt text ảnh:** Khi Nào Nên Thay PLC
+- **Gợi ý ảnh thật:** Ảnh PLC Mitsubishi FX3U/FX5U + bảng so sánh.
+
+### Phân Biệt PLC Thật Giả: Dấu Hiệu Và Cách Kiểm Tra
+- **URL:** `/phan-biet-plc-that-gia/`
+- **Focus keyword:** phân biệt plc thật giả
+- **Meta description:** Cách phân biệt PLC thật giả: dấu hiệu tem nhãn, mã model, CO/CQ, tránh mua PLC giả dễ lỗi vặt. Kinh nghiệm chọn PLC chính hãng, nhất là FX3U.
+- **Thẻ (tags):** Phân biệt PLC thật giả, PLC chính hãng, PLC hàng giả, PLC FX3U giả, Kiểm tra PLC thật, CO CQ PLC
+- **Ảnh bìa có sẵn:** `assets/covers/phan-biet-plc-that-gia.svg`
+- **Tên file ảnh nên đặt:** `phan-biet-plc-that-gia.jpg`
+- **Alt text ảnh:** Phân Biệt PLC Thật Giả: Dấu Hiệu Và Cách Kiểm Tra
+- **Gợi ý ảnh thật:** Ảnh PLC Mitsubishi FX3U/FX5U + bảng so sánh.
+
 
 ## Thiết bị khó tìm & hàng ngừng sản xuất
 

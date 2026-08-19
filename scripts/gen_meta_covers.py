@@ -16,7 +16,8 @@ GROUPS = [
         "loi-truyen-thong-plc-hmi-modbus.md",
         "plc-khong-len-nguon.md","plc-mat-chuong-trinh.md","plc-khong-ket-noi-may-tinh.md",
         "loi-ngo-vao-ra-plc.md","plc-bi-treo-reset.md","loi-plc-do-nhieu.md",
-        "cach-doc-ma-loi-plc.md","backup-chuong-trinh-plc.md","thay-pin-plc.md","bao-tri-plc-dinh-ky.md"]),
+        "cach-doc-ma-loi-plc.md","backup-chuong-trinh-plc.md","thay-pin-plc.md","bao-tri-plc-dinh-ky.md",
+        "ket-noi-plc-bien-tan.md","ket-noi-plc-cam-bien-4-20ma.md","mo-rong-io-plc.md","khi-nao-thay-plc.md","phan-biet-plc-that-gia.md"]),
     ("Thiết bị khó tìm & hàng ngừng sản xuất", "#d9862a", [
         "thiet-bi-cong-nghiep-kho-tim.md","linh-kien-tu-dong-hoa-ngung-san-xuat.md","tim-cam-bien-transmitter-kho-tim.md","thay-the-plc-module-doi-cu.md"]),
     ("Seneca — Hãng & danh mục", "#e5484d", [

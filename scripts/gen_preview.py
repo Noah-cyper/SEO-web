@@ -46,6 +46,11 @@ GROUPS = [
         "backup-chuong-trinh-plc.md",
         "thay-pin-plc.md",
         "bao-tri-plc-dinh-ky.md",
+        "ket-noi-plc-bien-tan.md",
+        "ket-noi-plc-cam-bien-4-20ma.md",
+        "mo-rong-io-plc.md",
+        "khi-nao-thay-plc.md",
+        "phan-biet-plc-that-gia.md",
     ]),
     ("Thiết bị khó tìm & hàng ngừng sản xuất", "kho-tim", [
         "thiet-bi-cong-nghiep-kho-tim.md",
