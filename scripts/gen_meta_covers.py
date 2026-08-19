@@ -10,7 +10,7 @@ GROUPS = [
     ("Thiết bị đo lường", "#1f6feb", [
         "cam-bien-ap-suat-la-gi-cach-chon.md","cam-bien-nhiet-do.md","cam-bien-chenh-ap.md",
         "dong-ho-do-ap-suat-wika.md","dau-day-cam-bien-ap-suat-4-20ma.md"]),
-    ("PLC", "#12a594", ["plc-mitsubishi-fx3u-la-gi.md"]),
+    ("PLC", "#12a594", ["plc-mitsubishi-fx3u-la-gi.md","loi-plc-thuong-gap-cach-khac-phuc.md"]),
     ("Thiết bị khó tìm & hàng ngừng sản xuất", "#d9862a", [
         "thiet-bi-cong-nghiep-kho-tim.md","linh-kien-tu-dong-hoa-ngung-san-xuat.md","tim-cam-bien-transmitter-kho-tim.md","thay-the-plc-module-doi-cu.md"]),
     ("Seneca — Hãng & danh mục", "#e5484d", [

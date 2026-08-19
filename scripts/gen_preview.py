@@ -25,6 +25,7 @@ GROUPS = [
     ]),
     ("PLC", "plc", [
         "plc-mitsubishi-fx3u-la-gi.md",
+        "loi-plc-thuong-gap-cach-khac-phuc.md",
     ]),
     ("Thiết bị khó tìm & hàng ngừng sản xuất", "kho-tim", [
         "thiet-bi-cong-nghiep-kho-tim.md",

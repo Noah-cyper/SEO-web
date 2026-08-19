@@ -70,6 +70,16 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Alt text ảnh:** PLC Mitsubishi FX3U Là Gì
 - **Gợi ý ảnh thật:** Ảnh PLC Mitsubishi FX3U/FX5U + bảng so sánh.
 
+### Các Lỗi PLC Thường Gặp Và Cách Khắc Phục (Mọi Hãng: Mitsubishi, Siemens, Omron, Delta…)
+- **URL:** `/loi-plc-thuong-gap-cach-khac-phuc/`
+- **Focus keyword:** lỗi plc
+- **Meta description:** Tổng hợp các lỗi PLC thường gặp ở mọi hãng: Mitsubishi, Siemens, Omron, Delta… kèm nguyên nhân, cách đọc đèn báo và quy trình khắc phục lỗi PLC an toàn.
+- **Thẻ (tags):** Lỗi PLC, Khắc phục lỗi PLC, Sửa lỗi PLC, PLC báo lỗi, PLC không lên nguồn, Lỗi truyền thông PLC
+- **Ảnh bìa có sẵn:** `assets/covers/loi-plc-thuong-gap-cach-khac-phuc.svg`
+- **Tên file ảnh nên đặt:** `loi-plc-thuong-gap-cach-khac-phuc.jpg`
+- **Alt text ảnh:** Các Lỗi PLC Thường Gặp Và Cách Khắc Phục (Mọi Hãng: Mitsubishi, Siemens, Omron, Delta…)
+- **Gợi ý ảnh thật:** Ảnh PLC Mitsubishi FX3U/FX5U + bảng so sánh.
+
 
 ## Thiết bị khó tìm & hàng ngừng sản xuất
 

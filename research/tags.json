@@ -5,6 +5,7 @@
   "dong-ho-do-ap-suat-wika": ["Đồng hồ đo áp suất WIKA", "WIKA", "Đồng hồ áp suất chân inox", "Đồng hồ áp suất dạng màng", "Đồng hồ áp suất có dầu"],
   "dau-day-cam-bien-ap-suat-4-20ma": ["Đấu dây 4-20mA", "Cảm biến áp suất 2 dây", "Cảm biến áp suất 3 dây", "Tín hiệu 4-20mA", "Sơ đồ đấu dây cảm biến"],
   "plc-mitsubishi-fx3u-la-gi": ["PLC Mitsubishi FX3U", "Mitsubishi", "FX3U vs FX5U", "PLC dòng FX", "Thay thế FX3U"],
+  "loi-plc-thuong-gap-cach-khac-phuc": ["Lỗi PLC", "Khắc phục lỗi PLC", "Sửa lỗi PLC", "PLC báo lỗi", "PLC không lên nguồn", "Lỗi truyền thông PLC"],
   "thiet-bi-cong-nghiep-kho-tim": ["Thiết bị công nghiệp khó tìm", "Hàng ngừng sản xuất", "Thiết bị obsolete", "Tìm hàng thay thế", "Linh kiện EOL"],
   "linh-kien-tu-dong-hoa-ngung-san-xuat": ["Linh kiện ngừng sản xuất", "Thiết bị obsolete", "End of life", "Model kế nhiệm", "Tìm hàng thay thế"],
   "tim-cam-bien-transmitter-kho-tim": ["Cảm biến khó tìm", "Transmitter ngừng sản xuất", "Cảm biến thay thế", "Đầu dò khó tìm", "Thay thế transmitter"],
