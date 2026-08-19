@@ -124,6 +124,11 @@ GROUPS = [
         "cach-chon-plc.md",
         "hmi-la-gi.md",
         "scada-la-gi.md",
+        "lap-trinh-ladder-plc.md",
+        "lenh-timer-plc.md",
+        "lenh-counter-plc.md",
+        "dieu-khien-pid-plc.md",
+        "lap-trinh-dieu-khien-dong-co-plc.md",
     ]),
 ]
 

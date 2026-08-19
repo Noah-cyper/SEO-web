@@ -41,7 +41,8 @@ GROUPS = [
         "flowline/cong-tac-phao-flowline.md","flowline/cong-tac-sieu-am-bao-muc-flowline.md",
         "flowline/leveltouch-lc40-flowline.md","flowline/dataloop-li55-flowline.md"]),
     ("PLC — Kiến thức & lập trình", "#0e7490", ["plc-la-gi.md","cau-tao-plc.md","phan-loai-plc.md",
-        "ngon-ngu-lap-trinh-plc.md","plc-va-vi-dieu-khien.md","cach-chon-plc.md","hmi-la-gi.md","scada-la-gi.md"]),
+        "ngon-ngu-lap-trinh-plc.md","plc-va-vi-dieu-khien.md","cach-chon-plc.md","hmi-la-gi.md","scada-la-gi.md",
+        "lap-trinh-ladder-plc.md","lenh-timer-plc.md","lenh-counter-plc.md","dieu-khien-pid-plc.md","lap-trinh-dieu-khien-dong-co-plc.md"]),
 ]
 
 def field(name, text):

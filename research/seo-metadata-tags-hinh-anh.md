@@ -977,3 +977,53 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Tên file ảnh nên đặt:** `scada-la-gi.jpg`
 - **Alt text ảnh:** SCADA Là Gì
 - **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Lập Trình PLC Ladder Cơ Bản Cho Người Mới Bắt Đầu
+- **URL:** `/lap-trinh-ladder-plc/`
+- **Focus keyword:** lập trình plc ladder
+- **Meta description:** Hướng dẫn lập trình PLC Ladder cơ bản cho người mới: tiếp điểm thường mở/đóng, cuộn dây, cách đọc rung và ví dụ điều khiển động cơ start/stop dễ hiểu.
+- **Thẻ (tags):** Lập trình PLC Ladder, Ladder cơ bản, Tiếp điểm cuộn dây PLC, Mạch tự giữ seal-in, Lập trình PLC cho người mới, Ladder logic
+- **Ảnh bìa có sẵn:** `assets/covers/lap-trinh-ladder-plc.svg`
+- **Tên file ảnh nên đặt:** `lap-trinh-ladder-plc.jpg`
+- **Alt text ảnh:** Lập Trình PLC Ladder Cơ Bản Cho Người Mới Bắt Đầu
+- **Gợi ý ảnh thật:** Ảnh PLC Mitsubishi FX3U/FX5U + bảng so sánh.
+
+### Lệnh Timer PLC (Bộ Định Thời): Nguyên Lý Và Cách Dùng
+- **URL:** `/lenh-timer-plc/`
+- **Focus keyword:** lệnh timer plc
+- **Meta description:** Lệnh Timer PLC (bộ định thời) là gì? Phân biệt ON-delay/OFF-delay, cách đặt thời gian, ví dụ ứng dụng và tên lệnh Timer trên Mitsubishi, Siemens, Delta.
+- **Thẻ (tags):** Lệnh Timer PLC, Bộ định thời PLC, Timer ON-delay OFF-delay, TON TOF, Timer trong PLC, Định thời PLC
+- **Ảnh bìa có sẵn:** `assets/covers/lenh-timer-plc.svg`
+- **Tên file ảnh nên đặt:** `lenh-timer-plc.jpg`
+- **Alt text ảnh:** Lệnh Timer PLC (Bộ Định Thời): Nguyên Lý Và Cách Dùng
+- **Gợi ý ảnh thật:** Ảnh PLC Mitsubishi FX3U/FX5U + bảng so sánh.
+
+### Lệnh Counter PLC (Bộ Đếm): Nguyên Lý Và Cách Sử Dụng
+- **URL:** `/lenh-counter-plc/`
+- **Focus keyword:** lệnh counter plc
+- **Meta description:** Lệnh Counter PLC (bộ đếm) là gì? Phân biệt đếm lên/đếm xuống, giá trị preset, reset, ví dụ đếm sản phẩm và tên lệnh Counter theo từng hãng PLC.
+- **Thẻ (tags):** Lệnh Counter PLC, Bộ đếm PLC, Counter đếm lên xuống, CTU CTD, Đếm sản phẩm PLC, Counter tốc độ cao
+- **Ảnh bìa có sẵn:** `assets/covers/lenh-counter-plc.svg`
+- **Tên file ảnh nên đặt:** `lenh-counter-plc.jpg`
+- **Alt text ảnh:** Lệnh Counter PLC (Bộ Đếm): Nguyên Lý Và Cách Sử Dụng
+- **Gợi ý ảnh thật:** Ảnh PLC Mitsubishi FX3U/FX5U + bảng so sánh.
+
+### Điều Khiển PID Bằng PLC: Nguyên Lý Và Cách Chỉnh Cơ Bản
+- **URL:** `/dieu-khien-pid-plc/`
+- **Focus keyword:** điều khiển pid bằng plc
+- **Meta description:** Điều khiển PID bằng PLC là gì? Hiểu vòng lặp PID (P, I, D), cách hoạt động, ứng dụng điều khiển nhiệt độ/áp suất/lưu lượng và mẹo chỉnh PID cơ bản.
+- **Thẻ (tags):** Điều khiển PID bằng PLC, PID PLC, Vòng lặp PID, Chỉnh PID, Điều khiển nhiệt độ PID, P I D
+- **Ảnh bìa có sẵn:** `assets/covers/dieu-khien-pid-plc.svg`
+- **Tên file ảnh nên đặt:** `dieu-khien-pid-plc.jpg`
+- **Alt text ảnh:** Điều Khiển PID Bằng PLC: Nguyên Lý Và Cách Chỉnh Cơ Bản
+- **Gợi ý ảnh thật:** Ảnh PLC Mitsubishi FX3U/FX5U + bảng so sánh.
+
+### Lập Trình PLC Điều Khiển Động Cơ: Start/Stop, Đảo Chiều
+- **URL:** `/lap-trinh-dieu-khien-dong-co-plc/`
+- **Focus keyword:** lập trình plc điều khiển động cơ
+- **Meta description:** Hướng dẫn lập trình PLC điều khiển động cơ: mạch start/stop có tự giữ, đảo chiều quay, khóa liên động và điều khiển tốc độ qua biến tần, kèm lưu ý an toàn.
+- **Thẻ (tags):** Lập trình PLC điều khiển động cơ, PLC điều khiển motor, Mạch Start Stop PLC, Đảo chiều động cơ PLC, Khóa liên động, PLC contactor biến tần
+- **Ảnh bìa có sẵn:** `assets/covers/lap-trinh-dieu-khien-dong-co-plc.svg`
+- **Tên file ảnh nên đặt:** `lap-trinh-dieu-khien-dong-co-plc.jpg`
+- **Alt text ảnh:** Lập Trình PLC Điều Khiển Động Cơ: Start/Stop, Đảo Chiều
+- **Gợi ý ảnh thật:** Ảnh PLC Mitsubishi FX3U/FX5U + bảng so sánh.
