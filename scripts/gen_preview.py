@@ -130,6 +130,15 @@ GROUPS = [
         "dieu-khien-pid-plc.md",
         "lap-trinh-dieu-khien-dong-co-plc.md",
     ]),
+    ("PLC — Ứng dụng", "plc-ud", [
+        "plc-xu-ly-nuoc-thai.md",
+        "plc-nganh-thuc-pham.md",
+        "plc-dieu-khien-bang-tai.md",
+        "plc-he-thong-bom.md",
+        "tu-dien-plc.md",
+        "plc-va-iot.md",
+        "plc-trong-hvac.md",
+    ]),
 ]
 
 def esc(t):

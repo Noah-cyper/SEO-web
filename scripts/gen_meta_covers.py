@@ -43,6 +43,8 @@ GROUPS = [
     ("PLC — Kiến thức & lập trình", "#0e7490", ["plc-la-gi.md","cau-tao-plc.md","phan-loai-plc.md",
         "ngon-ngu-lap-trinh-plc.md","plc-va-vi-dieu-khien.md","cach-chon-plc.md","hmi-la-gi.md","scada-la-gi.md",
         "lap-trinh-ladder-plc.md","lenh-timer-plc.md","lenh-counter-plc.md","dieu-khien-pid-plc.md","lap-trinh-dieu-khien-dong-co-plc.md"]),
+    ("PLC — Ứng dụng", "#0f766e", ["plc-xu-ly-nuoc-thai.md","plc-nganh-thuc-pham.md","plc-dieu-khien-bang-tai.md",
+        "plc-he-thong-bom.md","tu-dien-plc.md","plc-va-iot.md","plc-trong-hvac.md"]),
 ]
 
 def field(name, text):

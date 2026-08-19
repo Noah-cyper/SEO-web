@@ -1027,3 +1027,76 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Tên file ảnh nên đặt:** `lap-trinh-dieu-khien-dong-co-plc.jpg`
 - **Alt text ảnh:** Lập Trình PLC Điều Khiển Động Cơ: Start/Stop, Đảo Chiều
 - **Gợi ý ảnh thật:** Ảnh PLC Mitsubishi FX3U/FX5U + bảng so sánh.
+
+
+## PLC — Ứng dụng
+
+### PLC Xử Lý Nước Thải: Ứng Dụng Và Lợi Ích Tự Động Hóa
+- **URL:** `/plc-xu-ly-nuoc-thai/`
+- **Focus keyword:** plc xử lý nước thải
+- **Meta description:** Ứng dụng PLC xử lý nước thải: điều khiển bơm, sục khí, châm hóa chất, giám sát mức và pH tự động. Lợi ích và cách chọn PLC cho hệ thống xử lý nước thải.
+- **Thẻ (tags):** PLC xử lý nước thải, Tự động hóa xử lý nước thải, Điều khiển bơm nước thải, PLC trạm bơm, SCADA nước thải, Giám sát pH mức
+- **Ảnh bìa có sẵn:** `assets/covers/plc-xu-ly-nuoc-thai.svg`
+- **Tên file ảnh nên đặt:** `plc-xu-ly-nuoc-thai.jpg`
+- **Alt text ảnh:** PLC Xử Lý Nước Thải: Ứng Dụng Và Lợi Ích Tự Động Hóa
+- **Gợi ý ảnh thật:** Ảnh PLC Mitsubishi FX3U/FX5U + bảng so sánh.
+
+### PLC Ngành Thực Phẩm: Ứng Dụng Tự Động Hóa Sản Xuất
+- **URL:** `/plc-nganh-thuc-pham/`
+- **Focus keyword:** plc ngành thực phẩm
+- **Meta description:** Ứng dụng PLC ngành thực phẩm: máy chiết rót, đóng gói, điều khiển nhiệt độ, định lượng và truy xuất dữ liệu. Lợi ích và cách chọn PLC cho nhà máy thực phẩm.
+- **Thẻ (tags):** PLC ngành thực phẩm, Tự động hóa thực phẩm, PLC máy đóng gói, PLC chiết rót, Điều khiển nhiệt độ thực phẩm, Truy xuất dữ liệu
+- **Ảnh bìa có sẵn:** `assets/covers/plc-nganh-thuc-pham.svg`
+- **Tên file ảnh nên đặt:** `plc-nganh-thuc-pham.jpg`
+- **Alt text ảnh:** PLC Ngành Thực Phẩm: Ứng Dụng Tự Động Hóa Sản Xuất
+- **Gợi ý ảnh thật:** Ảnh PLC Mitsubishi FX3U/FX5U + bảng so sánh.
+
+### PLC Điều Khiển Băng Tải: Ứng Dụng Và Cách Triển Khai
+- **URL:** `/plc-dieu-khien-bang-tai/`
+- **Focus keyword:** plc điều khiển băng tải
+- **Meta description:** Ứng dụng PLC điều khiển băng tải: chạy/dừng, điều tốc bằng biến tần, đếm và phân loại sản phẩm, đồng bộ nhiều băng. Lợi ích và thiết bị đi kèm.
+- **Thẻ (tags):** PLC điều khiển băng tải, Tự động hóa băng tải, Đếm sản phẩm băng tải, Phân loại sản phẩm PLC, Điều tốc băng tải, Cảm biến quang
+- **Ảnh bìa có sẵn:** `assets/covers/plc-dieu-khien-bang-tai.svg`
+- **Tên file ảnh nên đặt:** `plc-dieu-khien-bang-tai.jpg`
+- **Alt text ảnh:** PLC Điều Khiển Băng Tải: Ứng Dụng Và Cách Triển Khai
+- **Gợi ý ảnh thật:** Ảnh PLC Mitsubishi FX3U/FX5U + bảng so sánh.
+
+### PLC Điều Khiển Bơm: Luân Phiên, Theo Mức Và Ổn Áp
+- **URL:** `/plc-he-thong-bom/`
+- **Focus keyword:** plc điều khiển bơm
+- **Meta description:** Ứng dụng PLC điều khiển bơm: chạy theo mức, luân phiên nhiều bơm, chống tràn/chạy khô, ổn định áp lực bằng biến tần. Lợi ích và cách chọn PLC cho trạm bơm.
+- **Thẻ (tags):** PLC điều khiển bơm, PLC hệ thống bơm, Luân phiên bơm, Điều khiển bơm theo mức, PLC trạm bơm nước, Ổn áp bơm
+- **Ảnh bìa có sẵn:** `assets/covers/plc-he-thong-bom.svg`
+- **Tên file ảnh nên đặt:** `plc-he-thong-bom.jpg`
+- **Alt text ảnh:** PLC Điều Khiển Bơm: Luân Phiên, Theo Mức Và Ổn Áp
+- **Gợi ý ảnh thật:** Ảnh PLC Mitsubishi FX3U/FX5U + bảng so sánh.
+
+### Tủ Điện PLC: Bố Trí, Thành Phần Và Lưu Ý Thiết Kế
+- **URL:** `/tu-dien-plc/`
+- **Focus keyword:** tủ điện plc
+- **Meta description:** Tủ điện PLC gồm những gì? Cách bố trí bảo vệ, nguồn, PLC, relay, terminal, HMI và lưu ý chống nhiễu – nối đất để tủ điều khiển PLC chạy ổn định.
+- **Thẻ (tags):** Tủ điện PLC, Tủ điều khiển PLC, Thiết kế tủ PLC, Bố trí tủ điện PLC, Đấu tủ PLC, Relay trung gian
+- **Ảnh bìa có sẵn:** `assets/covers/tu-dien-plc.svg`
+- **Tên file ảnh nên đặt:** `tu-dien-plc.jpg`
+- **Alt text ảnh:** Tủ Điện PLC: Bố Trí, Thành Phần Và Lưu Ý Thiết Kế
+- **Gợi ý ảnh thật:** Ảnh PLC Mitsubishi FX3U/FX5U + bảng so sánh.
+
+### PLC Và IoT (IIoT): Giám Sát – Điều Khiển Từ Xa
+- **URL:** `/plc-va-iot/`
+- **Focus keyword:** plc và iot
+- **Meta description:** PLC và IoT (IIoT): cách đưa dữ liệu PLC lên cloud qua gateway/RTU, giám sát và điều khiển từ xa qua web/di động. Lợi ích, thiết bị và lưu ý bảo mật.
+- **Thẻ (tags):** PLC và IoT, IIoT, Giám sát PLC từ xa, PLC kết nối cloud, Gateway IoT PLC, Bảo mật IIoT
+- **Ảnh bìa có sẵn:** `assets/covers/plc-va-iot.svg`
+- **Tên file ảnh nên đặt:** `plc-va-iot.jpg`
+- **Alt text ảnh:** PLC Và IoT (IIoT): Giám Sát
+- **Gợi ý ảnh thật:** Ảnh PLC Mitsubishi FX3U/FX5U + bảng so sánh.
+
+### PLC Trong HVAC: Điều Khiển Điều Hòa Và Thông Gió
+- **URL:** `/plc-trong-hvac/`
+- **Focus keyword:** plc trong hvac
+- **Meta description:** Ứng dụng PLC trong HVAC: điều khiển AHU, chiller, quạt, nhiệt độ – độ ẩm bằng PID, tiết kiệm năng lượng và tích hợp BMS. Lợi ích và cách chọn PLC.
+- **Thẻ (tags):** PLC trong HVAC, PLC điều khiển điều hòa, PLC thông gió, Điều khiển AHU, BMS PLC, Chiller PLC
+- **Ảnh bìa có sẵn:** `assets/covers/plc-trong-hvac.svg`
+- **Tên file ảnh nên đặt:** `plc-trong-hvac.jpg`
+- **Alt text ảnh:** PLC Trong HVAC: Điều Khiển Điều Hòa Và Thông Gió
+- **Gợi ý ảnh thật:** Ảnh PLC Mitsubishi FX3U/FX5U + bảng so sánh.
