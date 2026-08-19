@@ -115,6 +115,16 @@ GROUPS = [
         "flowline/leveltouch-lc40-flowline.md",
         "flowline/dataloop-li55-flowline.md",
     ]),
+    ("PLC — Kiến thức & lập trình", "plc-kt", [
+        "plc-la-gi.md",
+        "cau-tao-plc.md",
+        "phan-loai-plc.md",
+        "ngon-ngu-lap-trinh-plc.md",
+        "plc-va-vi-dieu-khien.md",
+        "cach-chon-plc.md",
+        "hmi-la-gi.md",
+        "scada-la-gi.md",
+    ]),
 ]
 
 def esc(t):

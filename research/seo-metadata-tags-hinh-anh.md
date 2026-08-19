@@ -894,3 +894,86 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Tên file ảnh nên đặt:** `dataloop-li55-flowline.jpg`
 - **Alt text ảnh:** DataLoop LI55 Flowline
 - **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+
+## PLC — Kiến thức & lập trình
+
+### PLC Là Gì? Cấu Tạo, Nguyên Lý Hoạt Động Và Ứng Dụng
+- **URL:** `/plc-la-gi/`
+- **Focus keyword:** plc là gì
+- **Meta description:** PLC là gì? Tìm hiểu khái niệm, cấu tạo, nguyên lý hoạt động và ứng dụng của PLC (bộ điều khiển lập trình) trong tự động hóa công nghiệp, dễ hiểu cho người mới.
+- **Thẻ (tags):** PLC là gì, Bộ điều khiển lập trình, Programmable Logic Controller, Nguyên lý hoạt động PLC, Ứng dụng PLC, PLC cơ bản
+- **Ảnh bìa có sẵn:** `assets/covers/plc-la-gi.svg`
+- **Tên file ảnh nên đặt:** `plc-la-gi.jpg`
+- **Alt text ảnh:** PLC Là Gì
+- **Gợi ý ảnh thật:** Ảnh PLC Mitsubishi FX3U/FX5U + bảng so sánh.
+
+### Cấu Tạo PLC: Các Thành Phần Chính Và Chức Năng
+- **URL:** `/cau-tao-plc/`
+- **Focus keyword:** cấu tạo plc
+- **Meta description:** Cấu tạo PLC gồm những gì? Tìm hiểu các thành phần chính của PLC: bộ nguồn, CPU, bộ nhớ, module I/O và cổng truyền thông cùng chức năng từng khối.
+- **Thẻ (tags):** Cấu tạo PLC, Thành phần PLC, CPU PLC, Module I/O PLC, Bộ nhớ PLC, Nguồn PLC
+- **Ảnh bìa có sẵn:** `assets/covers/cau-tao-plc.svg`
+- **Tên file ảnh nên đặt:** `cau-tao-plc.jpg`
+- **Alt text ảnh:** Cấu Tạo PLC: Các Thành Phần Chính Và Chức Năng
+- **Gợi ý ảnh thật:** Ảnh PLC Mitsubishi FX3U/FX5U + bảng so sánh.
+
+### Phân Loại PLC: Các Loại PLC Và Cách Phân Biệt
+- **URL:** `/phan-loai-plc/`
+- **Focus keyword:** phân loại plc
+- **Meta description:** Phân loại PLC theo cấu trúc (compact/modular), theo số I/O (mini, trung, lớn) và theo hãng. Hiểu các loại PLC để chọn đúng cho ứng dụng của bạn.
+- **Thẻ (tags):** Phân loại PLC, Các loại PLC, PLC compact modular, PLC mini, PLC theo số I/O, Loại PLC
+- **Ảnh bìa có sẵn:** `assets/covers/phan-loai-plc.svg`
+- **Tên file ảnh nên đặt:** `phan-loai-plc.jpg`
+- **Alt text ảnh:** Phân Loại PLC: Các Loại PLC Và Cách Phân Biệt
+- **Gợi ý ảnh thật:** Ảnh PLC Mitsubishi FX3U/FX5U + bảng so sánh.
+
+### Ngôn Ngữ Lập Trình PLC: 5 Loại Chuẩn IEC 61131-3
+- **URL:** `/ngon-ngu-lap-trinh-plc/`
+- **Focus keyword:** ngôn ngữ lập trình plc
+- **Meta description:** Ngôn ngữ lập trình PLC gồm 5 loại chuẩn IEC 61131-3: Ladder, FBD, ST, SFC, IL. Đặc điểm, khi nào dùng loại nào và vì sao Ladder phổ biến nhất.
+- **Thẻ (tags):** Ngôn ngữ lập trình PLC, Ladder logic, FBD ST SFC IL, IEC 61131-3, Lập trình PLC, Ngôn ngữ Ladder
+- **Ảnh bìa có sẵn:** `assets/covers/ngon-ngu-lap-trinh-plc.svg`
+- **Tên file ảnh nên đặt:** `ngon-ngu-lap-trinh-plc.jpg`
+- **Alt text ảnh:** Ngôn Ngữ Lập Trình PLC: 5 Loại Chuẩn IEC 61131-3
+- **Gợi ý ảnh thật:** Ảnh PLC Mitsubishi FX3U/FX5U + bảng so sánh.
+
+### PLC Và Vi Điều Khiển: So Sánh Và Khi Nào Dùng Loại Nào
+- **URL:** `/plc-va-vi-dieu-khien/`
+- **Focus keyword:** plc và vi điều khiển
+- **Meta description:** PLC và vi điều khiển (Arduino/PIC) khác nhau thế nào? So sánh độ bền, I/O, lập trình, môi trường công nghiệp và khi nào nên dùng PLC hay vi điều khiển.
+- **Thẻ (tags):** PLC và vi điều khiển, PLC vs Arduino, So sánh PLC vi điều khiển, PLC khác vi điều khiển, Chọn PLC hay vi điều khiển
+- **Ảnh bìa có sẵn:** `assets/covers/plc-va-vi-dieu-khien.svg`
+- **Tên file ảnh nên đặt:** `plc-va-vi-dieu-khien.jpg`
+- **Alt text ảnh:** PLC Và Vi Điều Khiển: So Sánh Và Khi Nào Dùng Loại Nào
+- **Gợi ý ảnh thật:** Ảnh PLC Mitsubishi FX3U/FX5U + bảng so sánh.
+
+### Cách Chọn PLC Phù Hợp: 7 Tiêu Chí Quan Trọng
+- **URL:** `/cach-chon-plc/`
+- **Focus keyword:** cách chọn plc
+- **Meta description:** Cách chọn PLC phù hợp theo 7 tiêu chí: số I/O, loại tín hiệu, tốc độ, truyền thông, phần mềm, khả năng mở rộng và ngân sách. Kèm gợi ý chọn hãng PLC.
+- **Thẻ (tags):** Cách chọn PLC, Tiêu chí chọn PLC, Chọn PLC phù hợp, Chọn PLC theo ứng dụng, Nên mua PLC hãng nào
+- **Ảnh bìa có sẵn:** `assets/covers/cach-chon-plc.svg`
+- **Tên file ảnh nên đặt:** `cach-chon-plc.jpg`
+- **Alt text ảnh:** Cách Chọn PLC Phù Hợp: 7 Tiêu Chí Quan Trọng
+- **Gợi ý ảnh thật:** Ảnh PLC Mitsubishi FX3U/FX5U + bảng so sánh.
+
+### HMI Là Gì? Chức Năng Và Cách Kết Nối HMI Với PLC
+- **URL:** `/hmi-la-gi/`
+- **Focus keyword:** hmi là gì
+- **Meta description:** HMI là gì? Tìm hiểu màn hình HMI, chức năng giám sát – điều khiển, cách kết nối HMI với PLC và cách chọn HMI phù hợp cho hệ thống tự động hóa.
+- **Thẻ (tags):** HMI là gì, Màn hình HMI, HMI và PLC, Giao diện người máy, Kết nối HMI PLC, Chức năng HMI
+- **Ảnh bìa có sẵn:** `assets/covers/hmi-la-gi.svg`
+- **Tên file ảnh nên đặt:** `hmi-la-gi.jpg`
+- **Alt text ảnh:** HMI Là Gì
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### SCADA Là Gì? Cấu Trúc Hệ Thống Và Quan Hệ Với PLC
+- **URL:** `/scada-la-gi/`
+- **Focus keyword:** scada là gì
+- **Meta description:** SCADA là gì? Tìm hiểu hệ thống SCADA giám sát – điều khiển, cấu trúc (PLC/RTU, truyền thông, máy chủ) và quan hệ giữa SCADA với PLC, HMI.
+- **Thẻ (tags):** SCADA là gì, Hệ thống SCADA, SCADA và PLC, Giám sát điều khiển, Phần mềm SCADA, Cấu trúc SCADA
+- **Ảnh bìa có sẵn:** `assets/covers/scada-la-gi.svg`
+- **Tên file ảnh nên đặt:** `scada-la-gi.jpg`
+- **Alt text ảnh:** SCADA Là Gì
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
