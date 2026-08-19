@@ -120,6 +120,56 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Alt text ảnh:** Lỗi PLC Delta (DVP/AS) Thường Gặp Và Cách Khắc Phục
 - **Gợi ý ảnh thật:** Ảnh PLC Mitsubishi FX3U/FX5U + bảng so sánh.
 
+### Lỗi PLC LS (XGB/XGK/XGT) Thường Gặp Và Cách Khắc Phục
+- **URL:** `/loi-plc-ls/`
+- **Focus keyword:** lỗi plc ls
+- **Meta description:** PLC LS (LSIS) XGB/XGK/XGT báo đèn ERR hay lỗi cấu hình? Cách đọc mã lỗi trong XG5000 và khắc phục các lỗi PLC LS thường gặp nhanh, an toàn.
+- **Thẻ (tags):** Lỗi PLC LS, PLC LS báo lỗi, Đèn ERR LS, XG5000, Lỗi PLC LSIS, PLC LS XGB XGT
+- **Ảnh bìa có sẵn:** `assets/covers/loi-plc-ls.svg`
+- **Tên file ảnh nên đặt:** `loi-plc-ls.jpg`
+- **Alt text ảnh:** Lỗi PLC LS (XGB/XGK/XGT) Thường Gặp Và Cách Khắc Phục
+- **Gợi ý ảnh thật:** Ảnh PLC Mitsubishi FX3U/FX5U + bảng so sánh.
+
+### Lỗi PLC Schneider (Modicon M221/M340) Và Cách Khắc Phục
+- **URL:** `/loi-plc-schneider/`
+- **Focus keyword:** lỗi plc schneider
+- **Meta description:** PLC Schneider Modicon M221/M241/M340 báo đèn ERR, I/O hay mất truyền thông? Cách chẩn đoán trong EcoStruxure và khắc phục các lỗi PLC Schneider thường gặp.
+- **Thẻ (tags):** Lỗi PLC Schneider, PLC Modicon báo lỗi, Đèn ERR Schneider, EcoStruxure, Lỗi M221 M340, Modbus Schneider
+- **Ảnh bìa có sẵn:** `assets/covers/loi-plc-schneider.svg`
+- **Tên file ảnh nên đặt:** `loi-plc-schneider.jpg`
+- **Alt text ảnh:** Lỗi PLC Schneider (Modicon M221/M340) Và Cách Khắc Phục
+- **Gợi ý ảnh thật:** Ảnh PLC Mitsubishi FX3U/FX5U + bảng so sánh.
+
+### Lỗi PLC Panasonic (FP) Thường Gặp Và Cách Khắc Phục
+- **URL:** `/loi-plc-panasonic/`
+- **Focus keyword:** lỗi plc panasonic
+- **Meta description:** PLC Panasonic FP0/FP-X/FPΣ báo đèn ERROR/ALARM hay tự chẩn đoán lỗi? Cách đọc mã lỗi trong FPWIN và khắc phục các lỗi PLC Panasonic thường gặp.
+- **Thẻ (tags):** Lỗi PLC Panasonic, Đèn ERROR ALARM Panasonic, FPWIN, Self-diagnostic Panasonic, Lỗi FP-X, PLC Panasonic FP
+- **Ảnh bìa có sẵn:** `assets/covers/loi-plc-panasonic.svg`
+- **Tên file ảnh nên đặt:** `loi-plc-panasonic.jpg`
+- **Alt text ảnh:** Lỗi PLC Panasonic (FP) Thường Gặp Và Cách Khắc Phục
+- **Gợi ý ảnh thật:** Ảnh PLC Mitsubishi FX3U/FX5U + bảng so sánh.
+
+### Lỗi PLC Allen-Bradley (Rockwell) Và Cách Khắc Phục
+- **URL:** `/loi-plc-allen-bradley/`
+- **Focus keyword:** lỗi plc allen-bradley
+- **Meta description:** PLC Allen-Bradley báo đèn OK đỏ, major fault hay lỗi I/O? Cách đọc Major Fault Type/Code trong Studio 5000 và khắc phục lỗi PLC Allen-Bradley thường gặp.
+- **Thẻ (tags):** Lỗi PLC Allen-Bradley, PLC Rockwell báo lỗi, Đèn OK đỏ, Major Fault, Studio 5000, Lỗi CompactLogix
+- **Ảnh bìa có sẵn:** `assets/covers/loi-plc-allen-bradley.svg`
+- **Tên file ảnh nên đặt:** `loi-plc-allen-bradley.jpg`
+- **Alt text ảnh:** Lỗi PLC Allen-Bradley (Rockwell) Và Cách Khắc Phục
+- **Gợi ý ảnh thật:** Ảnh PLC Mitsubishi FX3U/FX5U + bảng so sánh.
+
+### Lỗi PLC Fatek (FBs/FB) Thường Gặp Và Cách Khắc Phục
+- **URL:** `/loi-plc-fatek/`
+- **Focus keyword:** lỗi plc fatek
+- **Meta description:** PLC Fatek FBs/FB báo đèn ERR, không RUN hay lỗi truyền thông Modbus? Cách đọc lỗi trong WinProladder và khắc phục các lỗi PLC Fatek thường gặp.
+- **Thẻ (tags):** Lỗi PLC Fatek, PLC Fatek báo lỗi, Đèn ERR Fatek, WinProladder, Lỗi FBs, Modbus Fatek
+- **Ảnh bìa có sẵn:** `assets/covers/loi-plc-fatek.svg`
+- **Tên file ảnh nên đặt:** `loi-plc-fatek.jpg`
+- **Alt text ảnh:** Lỗi PLC Fatek (FBs/FB) Thường Gặp Và Cách Khắc Phục
+- **Gợi ý ảnh thật:** Ảnh PLC Mitsubishi FX3U/FX5U + bảng so sánh.
+
 ### Lỗi Truyền Thông PLC – HMI Và Modbus (RS485/TCP): Cách Khắc Phục
 - **URL:** `/loi-truyen-thong-plc-hmi-modbus/`
 - **Focus keyword:** lỗi truyền thông plc

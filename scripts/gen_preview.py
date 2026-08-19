@@ -30,6 +30,11 @@ GROUPS = [
         "loi-plc-siemens.md",
         "loi-plc-omron.md",
         "loi-plc-delta.md",
+        "loi-plc-ls.md",
+        "loi-plc-schneider.md",
+        "loi-plc-panasonic.md",
+        "loi-plc-allen-bradley.md",
+        "loi-plc-fatek.md",
         "loi-truyen-thong-plc-hmi-modbus.md",
     ]),
     ("Thiết bị khó tìm & hàng ngừng sản xuất", "kho-tim", [
