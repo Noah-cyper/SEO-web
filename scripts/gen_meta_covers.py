@@ -13,7 +13,9 @@ GROUPS = [
     ("PLC", "#12a594", ["plc-mitsubishi-fx3u-la-gi.md","loi-plc-thuong-gap-cach-khac-phuc.md",
         "loi-plc-mitsubishi.md","loi-plc-siemens.md","loi-plc-omron.md","loi-plc-delta.md",
         "loi-plc-ls.md","loi-plc-schneider.md","loi-plc-panasonic.md","loi-plc-allen-bradley.md","loi-plc-fatek.md",
-        "loi-truyen-thong-plc-hmi-modbus.md"]),
+        "loi-truyen-thong-plc-hmi-modbus.md",
+        "plc-khong-len-nguon.md","plc-mat-chuong-trinh.md","plc-khong-ket-noi-may-tinh.md",
+        "loi-ngo-vao-ra-plc.md","plc-bi-treo-reset.md","loi-plc-do-nhieu.md"]),
     ("Thiết bị khó tìm & hàng ngừng sản xuất", "#d9862a", [
         "thiet-bi-cong-nghiep-kho-tim.md","linh-kien-tu-dong-hoa-ngung-san-xuat.md","tim-cam-bien-transmitter-kho-tim.md","thay-the-plc-module-doi-cu.md"]),
     ("Seneca — Hãng & danh mục", "#e5484d", [

@@ -36,6 +36,12 @@ GROUPS = [
         "loi-plc-allen-bradley.md",
         "loi-plc-fatek.md",
         "loi-truyen-thong-plc-hmi-modbus.md",
+        "plc-khong-len-nguon.md",
+        "plc-mat-chuong-trinh.md",
+        "plc-khong-ket-noi-may-tinh.md",
+        "loi-ngo-vao-ra-plc.md",
+        "plc-bi-treo-reset.md",
+        "loi-plc-do-nhieu.md",
     ]),
     ("Thiết bị khó tìm & hàng ngừng sản xuất", "kho-tim", [
         "thiet-bi-cong-nghiep-kho-tim.md",

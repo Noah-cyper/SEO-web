@@ -180,6 +180,66 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Alt text ảnh:** Lỗi Truyền Thông PLC
 - **Gợi ý ảnh thật:** Ảnh PLC Mitsubishi FX3U/FX5U + bảng so sánh.
 
+### PLC Không Lên Nguồn (Đèn POWER Tắt): Nguyên Nhân Và Cách Khắc Phục
+- **URL:** `/plc-khong-len-nguon/`
+- **Focus keyword:** plc không lên nguồn
+- **Meta description:** PLC không lên nguồn, đèn POWER tắt hoặc chập chờn? Nguyên nhân (cầu chì, bộ nguồn, sụt áp 24V, đấu sai) và cách khắc phục PLC không lên nguồn an toàn.
+- **Thẻ (tags):** PLC không lên nguồn, PLC mất nguồn, Đèn POWER tắt, Sụt áp 24V, Bộ nguồn PLC, PLC chập chờn
+- **Ảnh bìa có sẵn:** `assets/covers/plc-khong-len-nguon.svg`
+- **Tên file ảnh nên đặt:** `plc-khong-len-nguon.jpg`
+- **Alt text ảnh:** PLC Không Lên Nguồn (Đèn POWER Tắt): Nguyên Nhân Và Cách Khắc Phục
+- **Gợi ý ảnh thật:** Ảnh PLC Mitsubishi FX3U/FX5U + bảng so sánh.
+
+### PLC Mất Chương Trình Khi Cúp Điện: Nguyên Nhân (Pin Yếu) Và Cách Khắc Phục
+- **URL:** `/plc-mat-chuong-trinh/`
+- **Focus keyword:** plc mất chương trình
+- **Meta description:** PLC mất chương trình sau khi cúp điện, đèn BAT sáng? Vì sao pin yếu làm mất data và cách khắc phục PLC mất chương trình: backup, thay pin đúng cách.
+- **Thẻ (tags):** PLC mất chương trình, Lỗi pin PLC, Đèn BAT PLC, Backup chương trình PLC, Thay pin PLC, Khôi phục chương trình PLC
+- **Ảnh bìa có sẵn:** `assets/covers/plc-mat-chuong-trinh.svg`
+- **Tên file ảnh nên đặt:** `plc-mat-chuong-trinh.jpg`
+- **Alt text ảnh:** PLC Mất Chương Trình Khi Cúp Điện: Nguyên Nhân (Pin Yếu) Và Cách Khắc Phục
+- **Gợi ý ảnh thật:** Ảnh PLC Mitsubishi FX3U/FX5U + bảng so sánh.
+
+### PLC Không Kết Nối Máy Tính (Không Nạp Được Chương Trình): Cách Khắc Phục
+- **URL:** `/plc-khong-ket-noi-may-tinh/`
+- **Focus keyword:** plc không kết nối máy tính
+- **Meta description:** PLC không kết nối máy tính, không nạp được chương trình? Nguyên nhân (cáp, driver, cổng COM, sai model, IP) và cách khắc phục PLC không kết nối máy tính.
+- **Thẻ (tags):** PLC không kết nối máy tính, Không nạp được chương trình, Lỗi driver cáp PLC, Lỗi cổng COM, Cáp lập trình PLC, Kết nối PLC Ethernet
+- **Ảnh bìa có sẵn:** `assets/covers/plc-khong-ket-noi-may-tinh.svg`
+- **Tên file ảnh nên đặt:** `plc-khong-ket-noi-may-tinh.jpg`
+- **Alt text ảnh:** PLC Không Kết Nối Máy Tính (Không Nạp Được Chương Trình): Cách Khắc Phục
+- **Gợi ý ảnh thật:** Ảnh PLC Mitsubishi FX3U/FX5U + bảng so sánh.
+
+### Lỗi Ngõ Vào Ra PLC (I/O): Nguyên Nhân Và Cách Khắc Phục
+- **URL:** `/loi-ngo-vao-ra-plc/`
+- **Focus keyword:** lỗi ngõ vào ra plc
+- **Meta description:** Ngõ vào PLC không ăn, ngõ ra không tác động? Nguyên nhân (cảm biến, đứt dây, sai NPN/PNP, cháy kênh) và cách khắc phục lỗi ngõ vào ra PLC từng bước.
+- **Thẻ (tags):** Lỗi ngõ vào ra PLC, Lỗi I/O PLC, Ngõ vào PLC không ăn, Ngõ ra PLC không tác động, Sink Source NPN PNP, Module I/O PLC
+- **Ảnh bìa có sẵn:** `assets/covers/loi-ngo-vao-ra-plc.svg`
+- **Tên file ảnh nên đặt:** `loi-ngo-vao-ra-plc.jpg`
+- **Alt text ảnh:** Lỗi Ngõ Vào Ra PLC (I/O): Nguyên Nhân Và Cách Khắc Phục
+- **Gợi ý ảnh thật:** Ảnh PLC Mitsubishi FX3U/FX5U + bảng so sánh.
+
+### PLC Bị Treo / Reset Liên Tục: Nguyên Nhân Và Cách Khắc Phục
+- **URL:** `/plc-bi-treo-reset/`
+- **Focus keyword:** plc bị treo
+- **Meta description:** PLC bị treo, tự reset hoặc chạy chập chờn? Nguyên nhân (nguồn, nhiễu, watchdog, chương trình, nhiệt) và cách khắc phục PLC bị treo/reset ổn định.
+- **Thẻ (tags):** PLC bị treo, PLC reset liên tục, PLC tự khởi động lại, Watchdog PLC, PLC chạy không ổn định, PLC bị đứng
+- **Ảnh bìa có sẵn:** `assets/covers/plc-bi-treo-reset.svg`
+- **Tên file ảnh nên đặt:** `plc-bi-treo-reset.jpg`
+- **Alt text ảnh:** PLC Bị Treo / Reset Liên Tục: Nguyên Nhân Và Cách Khắc Phục
+- **Gợi ý ảnh thật:** Ảnh PLC Mitsubishi FX3U/FX5U + bảng so sánh.
+
+### Lỗi PLC Do Nhiễu: Cách Chống Nhiễu Và Nối Đất Đúng Chuẩn
+- **URL:** `/loi-plc-do-nhieu/`
+- **Focus keyword:** lỗi plc do nhiễu
+- **Meta description:** PLC bị lỗi ngẫu nhiên, sai tín hiệu do nhiễu từ biến tần/động cơ? Cách chống nhiễu và nối đất đúng chuẩn để khắc phục lỗi PLC do nhiễu hiệu quả.
+- **Thẻ (tags):** Lỗi PLC do nhiễu, Chống nhiễu PLC, Nối đất PLC, Nhiễu biến tần, Cách ly tín hiệu, Cáp chống nhiễu
+- **Ảnh bìa có sẵn:** `assets/covers/loi-plc-do-nhieu.svg`
+- **Tên file ảnh nên đặt:** `loi-plc-do-nhieu.jpg`
+- **Alt text ảnh:** Lỗi PLC Do Nhiễu: Cách Chống Nhiễu Và Nối Đất Đúng Chuẩn
+- **Gợi ý ảnh thật:** Ảnh PLC Mitsubishi FX3U/FX5U + bảng so sánh.
+
 
 ## Thiết bị khó tìm & hàng ngừng sản xuất
 
