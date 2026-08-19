@@ -80,6 +80,56 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Alt text ảnh:** Các Lỗi PLC Thường Gặp Và Cách Khắc Phục (Mọi Hãng: Mitsubishi, Siemens, Omron, Delta…)
 - **Gợi ý ảnh thật:** Ảnh PLC Mitsubishi FX3U/FX5U + bảng so sánh.
 
+### Lỗi PLC Mitsubishi (FX/Q) Thường Gặp Và Cách Khắc Phục
+- **URL:** `/loi-plc-mitsubishi/`
+- **Focus keyword:** lỗi plc mitsubishi
+- **Meta description:** PLC Mitsubishi báo đèn ERROR, BATT hoặc mất kết nối GX Works? Tổng hợp các lỗi PLC Mitsubishi FX/Q thường gặp, cách đọc mã lỗi và khắc phục nhanh, an toàn.
+- **Thẻ (tags):** Lỗi PLC Mitsubishi, Đèn ERROR Mitsubishi, Pin PLC Mitsubishi, GX Works chẩn đoán, Lỗi FX3U, Mã lỗi D8060
+- **Ảnh bìa có sẵn:** `assets/covers/loi-plc-mitsubishi.svg`
+- **Tên file ảnh nên đặt:** `loi-plc-mitsubishi.jpg`
+- **Alt text ảnh:** Lỗi PLC Mitsubishi (FX/Q) Thường Gặp Và Cách Khắc Phục
+- **Gợi ý ảnh thật:** Ảnh PLC Mitsubishi FX3U/FX5U + bảng so sánh.
+
+### Lỗi PLC Siemens (S7-1200/1500, S7-300/400) Và Cách Khắc Phục
+- **URL:** `/loi-plc-siemens/`
+- **Focus keyword:** lỗi plc siemens
+- **Meta description:** PLC Siemens S7 báo đèn SF, BF hay ERROR, hoặc CPU về STOP? Cách đọc Diagnostic buffer trong TIA Portal và khắc phục các lỗi PLC Siemens thường gặp.
+- **Thẻ (tags):** Lỗi PLC Siemens, Đèn SF BF Siemens, Lỗi S7-1200, Lỗi S7-300, Diagnostic buffer, TIA Portal chẩn đoán
+- **Ảnh bìa có sẵn:** `assets/covers/loi-plc-siemens.svg`
+- **Tên file ảnh nên đặt:** `loi-plc-siemens.jpg`
+- **Alt text ảnh:** Lỗi PLC Siemens (S7-1200/1500, S7-300/400) Và Cách Khắc Phục
+- **Gợi ý ảnh thật:** Ảnh PLC Mitsubishi FX3U/FX5U + bảng so sánh.
+
+### Lỗi PLC Omron (CJ/CP/CS) Thường Gặp Và Cách Khắc Phục
+- **URL:** `/loi-plc-omron/`
+- **Focus keyword:** lỗi plc omron
+- **Meta description:** PLC Omron CJ/CP/CS báo đèn ERR/ALM, lỗi bộ nhớ hay pin yếu? Cách đọc mã lỗi trong CX-Programmer/Sysmac và khắc phục các lỗi PLC Omron thường gặp.
+- **Thẻ (tags):** Lỗi PLC Omron, Đèn ERR ALM Omron, CX-Programmer, Pin PLC Omron, Lỗi bộ nhớ Omron, PLC Omron CJ CP
+- **Ảnh bìa có sẵn:** `assets/covers/loi-plc-omron.svg`
+- **Tên file ảnh nên đặt:** `loi-plc-omron.jpg`
+- **Alt text ảnh:** Lỗi PLC Omron (CJ/CP/CS) Thường Gặp Và Cách Khắc Phục
+- **Gợi ý ảnh thật:** Ảnh PLC Mitsubishi FX3U/FX5U + bảng so sánh.
+
+### Lỗi PLC Delta (DVP/AS) Thường Gặp Và Cách Khắc Phục
+- **URL:** `/loi-plc-delta/`
+- **Focus keyword:** lỗi plc delta
+- **Meta description:** PLC Delta DVP/AS báo đèn ERROR, pin yếu hay lỗi truyền thông Modbus? Cách đọc mã lỗi trong WPLSoft/ISPSoft và khắc phục các lỗi PLC Delta thường gặp.
+- **Thẻ (tags):** Lỗi PLC Delta, Đèn ERROR Delta, WPLSoft ISPSoft, Pin PLC Delta AS, Lỗi DVP, Modbus Delta
+- **Ảnh bìa có sẵn:** `assets/covers/loi-plc-delta.svg`
+- **Tên file ảnh nên đặt:** `loi-plc-delta.jpg`
+- **Alt text ảnh:** Lỗi PLC Delta (DVP/AS) Thường Gặp Và Cách Khắc Phục
+- **Gợi ý ảnh thật:** Ảnh PLC Mitsubishi FX3U/FX5U + bảng so sánh.
+
+### Lỗi Truyền Thông PLC – HMI Và Modbus (RS485/TCP): Cách Khắc Phục
+- **URL:** `/loi-truyen-thong-plc-hmi-modbus/`
+- **Focus keyword:** lỗi truyền thông plc
+- **Meta description:** PLC mất kết nối với HMI/SCADA hay lỗi Modbus RS485/TCP? Nguyên nhân và cách khắc phục lỗi truyền thông PLC: baud, địa chỉ, dây A/B, điện trở đầu cuối và IP.
+- **Thẻ (tags):** Lỗi truyền thông PLC, Mất kết nối PLC HMI, Lỗi Modbus RS485, Modbus TCP, Đấu dây RS485 A B, Điện trở đầu cuối 120 ohm
+- **Ảnh bìa có sẵn:** `assets/covers/loi-truyen-thong-plc-hmi-modbus.svg`
+- **Tên file ảnh nên đặt:** `loi-truyen-thong-plc-hmi-modbus.jpg`
+- **Alt text ảnh:** Lỗi Truyền Thông PLC
+- **Gợi ý ảnh thật:** Ảnh PLC Mitsubishi FX3U/FX5U + bảng so sánh.
+
 
 ## Thiết bị khó tìm & hàng ngừng sản xuất
 

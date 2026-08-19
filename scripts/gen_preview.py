@@ -26,6 +26,11 @@ GROUPS = [
     ("PLC", "plc", [
         "plc-mitsubishi-fx3u-la-gi.md",
         "loi-plc-thuong-gap-cach-khac-phuc.md",
+        "loi-plc-mitsubishi.md",
+        "loi-plc-siemens.md",
+        "loi-plc-omron.md",
+        "loi-plc-delta.md",
+        "loi-truyen-thong-plc-hmi-modbus.md",
     ]),
     ("Thiết bị khó tìm & hàng ngừng sản xuất", "kho-tim", [
         "thiet-bi-cong-nghiep-kho-tim.md",
