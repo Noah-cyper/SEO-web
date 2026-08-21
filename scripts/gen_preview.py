@@ -162,6 +162,25 @@ def render_table(rows):
     ) + "</tbody>"
     return f'<div class="tablewrap"><table>{h}{b}</table></div>'
 
+_SVG_URI_CACHE = {}
+def svg_data_uri(name):
+    """Nhúng sơ đồ SVG thành data URI base64 (ảnh <img>, không cần upload)."""
+    if name in _SVG_URI_CACHE:
+        return _SVG_URI_CACHE[name]
+    p = os.path.join("/home/user/SEO-web/assets/diagrams", name + ".svg")
+    if not os.path.exists(p):
+        _SVG_URI_CACHE[name] = None
+        return None
+    svg = open(p, encoding="utf-8").read()
+    m = re.search(r"viewBox='0 0 ([\d.]+) ([\d.]+)'", svg)
+    if m:  # đặt kích thước pixel cố định để <img> có kích thước tự nhiên
+        w, h = int(float(m.group(1))), int(float(m.group(2)))
+        svg = svg.replace("width='100%' height='auto'", f"width='{w}' height='{h}'", 1)
+    b64 = base64.b64encode(svg.encode("utf-8")).decode("ascii")
+    uri = "data:image/svg+xml;base64," + b64
+    _SVG_URI_CACHE[name] = uri
+    return uri
+
 def convert(md, mode="preview"):
     md = re.sub(r"<!--.*?-->", "", md, flags=re.S)
     md = re.sub(r'<a\s+name="[^"]*"></a>', "", md)
@@ -179,11 +198,12 @@ def convert(md, mode="preview"):
             name = src.split("/")[-1]
             name = name[:-4] if name.endswith(".svg") else name
             if mode == "wp":
-                # Hosted PNG <img> — survives WordPress "Mã"/Text tab + Trực quan (SVG bị WP xoá).
-                # Upload các file PNG trong assets/png/diagrams/ vào Thư viện Media 1 lần.
-                url = IMG_BASE + name + ".png"
+                # Ảnh nhúng thẳng vào HTML bằng data URI (base64) — dán tab "Mã" là hiện ngay,
+                # KHÔNG cần upload file lên Thư viện Media. Đây là <img> (không phải <svg> nội tuyến)
+                # nên không bị WordPress xoá như SVG dán trực tiếp.
+                src = svg_data_uri(name) or (IMG_BASE + name + ".png")
                 out.append(f'<p style="text-align:center">'
-                           f'<img src="{esc(url)}" alt="{attresc(alt)}" '
+                           f'<img src="{attresc(src)}" alt="{attresc(alt)}" '
                            f'style="max-width:100%;height:auto" /></p>')
                 i += 1; continue
             fig = ""
@@ -510,20 +530,16 @@ page = f"""{CSS}
     <span class="stat">Kèm SERP preview &amp; FAQ</span>
   </div>
 </div></header>
-<div class="howto"><details open><summary>📋 Cách copy sang WordPress (Classic Editor) — ĐỌC KỸ (ảnh giờ HIỆN được cả tab “Trực quan”)</summary>
-<p style="color:#c0392b;font-weight:700;margin:8px 0">BƯỚC 0 (làm 1 lần duy nhất) — Tải ảnh lên Thư viện:</p>
-<ol style="margin-top:0">
-<li>Vào <b>WordPress → Media (Thư viện) → Thêm mới</b> → kéo–thả <b>toàn bộ file trong thư mục <code>png-hoantrantdh</code></b> (mình gửi kèm) lên. Chỉ cần làm 1 lần cho tất cả bài.</li>
-<li>Ảnh sẽ nằm ở đường dẫn <code>/wp-content/uploads/2026/08/&lt;tên-ảnh&gt;.png</code> — đúng với link trong HTML bài viết. <b>Đăng bài trong tháng 08/2026</b> để khớp thư mục; nếu tháng khác báo mình đổi lại link.</li>
-</ol>
-<p style="font-weight:700;margin:10px 0 4px">Sau đó, mỗi bài viết:</p>
+<div class="howto"><details open><summary>📋 Cách copy sang WordPress (Classic Editor) — ĐỌC KỸ (ảnh NHÚNG SẴN, không cần upload)</summary>
+<p style="color:#1a7f37;font-weight:700;margin:8px 0">✅ Ảnh đã nhúng thẳng trong HTML — dán là hiện ngay, KHÔNG phải tải ảnh lên Thư viện Media.</p>
 <ol>
 <li>Ở bài cần đăng → bấm <b>“Copy HTML bài viết”</b>.</li>
-<li>Trong WordPress: ở ô soạn thảo bấm tab <b>“Mã”</b> → <b>Dán (Ctrl+V)</b>. (Giờ ảnh là ảnh thật đã upload nên <b>bấm “Trực quan” cũng không mất</b>.)</li>
+<li>Trong WordPress: ở ô soạn thảo bấm tab <b>“Mã”</b> (Text) → <b>Dán (Ctrl+V)</b> → hình hiện luôn.</li>
+<li>⚠️ <b>Nên giữ ở tab “Mã” cho tới khi Xuất bản.</b> Hạn chế bấm sang <b>“Trực quan”</b> rồi lưu, vì một số theme/plugin có thể lược bớt ảnh nhúng khi chuyển tab.</li>
 <li>Điền <b>tiêu đề</b> ở ô “Thêm tiêu đề”. Bấm <b>Copy Title / Meta / Slug / Keyword / Tags</b> → dán vào Rank Math (SEO Title, Meta, Permalink, Focus Keyword) và ô <b>Thẻ / Tags</b>.</li>
 <li>Chọn <b>Danh mục</b> → <b>Xuất bản</b> → vào Google Search Console <b>Request Indexing</b>.</li>
 </ol>
-<p style="color:var(--muted);font-size:13px;margin:0 0 8px"><b>Vì sao đổi cách này:</b> WordPress <b>xoá ảnh SVG dán trực tiếp</b> (chỉ giữ chữ) nên trước đây hình “nguyên lý hoạt động” bị mất. Nay hình là <b>PNG thật tải lên Thư viện</b> (~30–80KB/ảnh) nên hiện ổn định ở cả “Mã” lẫn “Trực quan” và trên trang thật.</p>
+<p style="color:var(--muted);font-size:13px;margin:6px 0 0"><b>Nếu ảnh vẫn mất sau khi đăng:</b> nghĩa là WordPress đang lọc ảnh nhúng — thường do đăng bằng tài khoản <b>không phải Administrator</b>, hoặc có <b>plugin bảo mật</b> chặn data URI/SVG. Cách xử lý: đăng bằng tài khoản <b>Administrator</b>, dán ở tab <b>“Mã”</b> và <b>không</b> chuyển sang “Trực quan” trước khi lưu. Nếu vẫn bị chặn, báo mình để chuyển sang phương án ảnh PNG.</p>
 </details></div>
 <div class="layout">
   <nav class="toc" aria-label="Mục lục">{nav_html}</nav>
