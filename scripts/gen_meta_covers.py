@@ -45,6 +45,15 @@ GROUPS = [
         "lap-trinh-ladder-plc.md","lenh-timer-plc.md","lenh-counter-plc.md","dieu-khien-pid-plc.md","lap-trinh-dieu-khien-dong-co-plc.md"]),
     ("PLC — Ứng dụng", "#0f766e", ["plc-xu-ly-nuoc-thai.md","plc-nganh-thuc-pham.md","plc-dieu-khien-bang-tai.md",
         "plc-he-thong-bom.md","tu-dien-plc.md","plc-va-iot.md","plc-trong-hvac.md"]),
+    ("ei3 — Hãng & danh mục", "#0072CE", [
+        "ei3/ei3-viet-nam.md","ei3/gateway-ket-noi-bao-mat-ei3.md","ei3/nen-tang-bao-ve-cps-ei3.md",
+        "ei3/ung-dung-iiot-ei3.md","ei3/bao-mat-zero-trust-ei3.md"]),
+    ("ei3 — Gateway, nền tảng & ứng dụng", "#0072CE", [
+        "ei3/amphion-gateway-ei3.md","ei3/zethus-gateway-ei3.md","ei3/portara-gateway-ei3.md",
+        "ei3/connectedai-ei3.md","ei3/thu-thap-du-lieu-may-ei3.md","ei3/ei3-remote-service.md",
+        "ei3/ei3-monitor-giam-sat-may.md","ei3/oee-production-ei3.md","ei3/downtime-phan-tich-dung-may-ei3.md",
+        "ei3/lifecycle-bao-tri-du-doan-ei3.md","ei3/quality-quan-ly-chat-luong-ei3.md",
+        "ei3/recipe-quan-ly-cong-thuc-ei3.md","ei3/sustain-nang-luong-ei3.md"]),
 ]
 
 def field(name, text):

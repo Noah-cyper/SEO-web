@@ -5,6 +5,17 @@ ROOT="/home/user/SEO-web/content/vi"
 
 def pick(slug):
     s=slug
+    # ei3 (IIoT bảo mật) — xử lý trước để không đụng rule chung (gateway, hien-thi…)
+    if "ei3" in s or any(k in s for k in ["amphion","zethus","portara","connectedai"]):
+        if "amphion" in s or "gateway-ket-noi" in s: return ("rep-gateway-ei3","prin-outbound","app-fleet")
+        if "portara" in s: return ("rep-gateway-ei3","prin-outbound","app-remote-service")
+        if "zethus" in s: return ("rep-gateway-virtual","prin-outbound","app-fleet")
+        if "connectedai" in s or "lifecycle" in s: return ("rep-analytics","prin-ai","app-oee")
+        if "remote-service" in s or "zero-trust" in s: return ("rep-security","prin-zerotrust","app-remote-service")
+        if "nen-tang-bao-ve-cps" in s: return ("rep-platform","prin-zerotrust","app-fleet")
+        if "thu-thap-du-lieu" in s: return ("rep-platform","prin-ai","app-fleet")
+        if s.strip("/") == "ei3": return ("rep-platform","prin-outbound","app-fleet")
+        return ("rep-app","prin-ai","app-oee")   # monitor/oee/downtime/quality/recipe/sustain/ung-dung
     # Flowline (đo mức) — xử lý trước để không đụng các rule chung (cam-bien-ap-suat, hien-thi…)
     if "flowline" in s:
         if "echotouch" in s: return ("rep-uslevel","prin-ultrasonic","app-hazard")
@@ -78,9 +89,10 @@ for path in glob.glob(os.path.join(ROOT,"**","*.md"),recursive=True):
             j=i
             while j<len(lines) and lines[j].strip().startswith(">"): j+=1
             p_prin=j; break
-    # application heading
+    # application heading (bỏ qua heading đầu = vị trí rep; khớp không phân biệt hoa/thường)
     for i,ln in enumerate(lines):
-        if ln.strip().startswith("## ") and re.search(r"(Ứng dụng|dùng để làm gì)",ln):
+        if p_rep is not None and i < p_rep: continue
+        if ln.strip().startswith("## ") and re.search(r"(ứng dụng|dùng để làm gì)",ln,re.I):
             p_app=i+1; break
     if p_app is None:
         for i,ln in enumerate(lines):

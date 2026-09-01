@@ -30,6 +30,10 @@ H1          : Cảm Biến Chênh Áp Là Gì? Nguyên Lý, Ứng Dụng Và Cá
 
 ## Nguyên lý & 3 ứng dụng chính
 
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/dp-measurement.svg)
+
+
 Màng cảm biến nằm giữa hai buồng áp; chênh áp làm màng biến dạng → mạch điện tử quy ra tín hiệu.
 
 | Ứng dụng | Cách dùng |
@@ -73,10 +77,6 @@ Gửi: **dải chênh áp · áp tĩnh đường ống · môi chất · tín hi
 **→ [Liên hệ báo giá cảm biến chênh áp](/lien-he/)**
 
 ---
-
-
-<!--IMG:app-->
-![Ứng dụng thiết bị](assets/diagrams/dp-measurement.svg)
 
 ## Câu hỏi thường gặp (FAQ)
 

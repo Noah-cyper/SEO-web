@@ -42,7 +42,7 @@ Trong nhiều năm, FX3U được xem là **"PLC quốc dân"** tại Việt Nam
 ## Ứng dụng thực tế của FX3U
 
 <!--IMG:app-->
-![Ứng dụng: PLC điều khiển động cơ](assets/diagrams/dieu-khien-dong-co-plc.svg)
+![Ứng dụng thiết bị](assets/diagrams/app-plc.svg)
 
 
 - Máy đóng gói, máy cắt bao bì, dây chuyền chiết rót.

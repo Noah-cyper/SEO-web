@@ -1100,3 +1100,189 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Tên file ảnh nên đặt:** `plc-trong-hvac.png`
 - **Alt text ảnh:** PLC Trong HVAC: Điều Khiển Điều Hòa Và Thông Gió
 - **Gợi ý ảnh thật:** Ảnh PLC Mitsubishi FX3U/FX5U + bảng so sánh.
+
+
+## ei3 — Hãng & danh mục
+
+### ei3 – Nền Tảng IIoT Bảo Mật, Gateway Edge & ConnectedAI
+- **URL:** `/ei3/`
+- **Focus keyword:** ei3
+- **Meta description:** ei3 (Mỹ) – nền tảng IIoT bảo mật cho nhà máy & OEM: gateway edge (Amphion/Zethus/Portara) kết nối outbound-only, bảo vệ hệ thống cyber-physical, ConnectedAI, remote service, Zero Trust. HOANTRANTDH phân phối.
+- **Thẻ (tags):** ei3, ei3 Việt Nam, Nền tảng IIoT bảo mật, ConnectedAI, Kết nối máy an toàn
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/ei3.png`
+- **Tên file ảnh nên đặt:** `ei3.png`
+- **Alt text ảnh:** ei3
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Gateway Kết Nối Bảo Mật ei3 (Amphion · Zethus · Portara)
+- **URL:** `/gateway-ket-noi-bao-mat-ei3/`
+- **Focus keyword:** gateway ei3
+- **Meta description:** Gateway kết nối bảo mật ei3: Amphion (phần cứng edge), Zethus (ảo/container), Portara (nâng cấp hệ cũ). Kết nối máy mới & legacy outbound-only, kiến trúc zero-trust, 30+ giao thức. Tư vấn dự án.
+- **Thẻ (tags):** Gateway ei3, Gateway kết nối máy, IIoT gateway bảo mật, Amphion Zethus Portara, Outbound-only
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/gateway-ket-noi-bao-mat-ei3.png`
+- **Tên file ảnh nên đặt:** `gateway-ket-noi-bao-mat-ei3.png`
+- **Alt text ảnh:** Gateway Kết Nối Bảo Mật ei3 (Amphion · Zethus · Portara)
+- **Gợi ý ảnh thật:** Ảnh gateway Z-KEY/R-KEY-LT có cổng Ethernet + RS485.
+
+### Nền Tảng Bảo Vệ Hệ Thống Cyber-Physical (CPS) ei3
+- **URL:** `/nen-tang-bao-ve-cps-ei3/`
+- **Focus keyword:** nền tảng cps ei3
+- **Meta description:** Nền tảng CPS Protection ei3 – bảo mật ở mọi tầng: thiết bị edge → mạng quản lý → private cloud → ứng dụng IIoT. Kiến trúc SASE đa tầng, kết nối 35+ họ PLC, mạng quản lý toàn cầu. Tư vấn dự án.
+- **Thẻ (tags):** Nền tảng CPS ei3, Bảo vệ hệ thống cyber-physical, CPS Protection Platform, SASE công nghiệp, ei3
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/nen-tang-bao-ve-cps-ei3.png`
+- **Tên file ảnh nên đặt:** `nen-tang-bao-ve-cps-ei3.png`
+- **Alt text ảnh:** Nền Tảng Bảo Vệ Hệ Thống Cyber-Physical (CPS) ei3
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Ứng Dụng IIoT ei3 (Dùng Ngay, Không Cần Lập Trình)
+- **URL:** `/ung-dung-iiot-ei3/`
+- **Focus keyword:** ứng dụng iiot ei3
+- **Meta description:** Bộ ứng dụng IIoT ei3 chạy sẵn trên nền tảng: remote service, giám sát máy, OEE, phân tích downtime, bảo trì dự đoán, chất lượng, công thức, năng lượng — cấu hình no-code. Tư vấn triển khai theo dự án.
+- **Thẻ (tags):** Ứng dụng IIoT ei3, Phần mềm giám sát máy, App IIoT no-code, OEE downtime bảo trì, ei3
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/ung-dung-iiot-ei3.png`
+- **Tên file ảnh nên đặt:** `ung-dung-iiot-ei3.png`
+- **Alt text ảnh:** Ứng Dụng IIoT ei3 (Dùng Ngay, Không Cần Lập Trình)
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Bảo Mật Zero-Trust ei3 (Zero Trust Remote Access – ZTRA)
+- **URL:** `/bao-mat-zero-trust-ei3/`
+- **Focus keyword:** bảo mật zero-trust ei3
+- **Meta description:** Bảo mật Zero-Trust ei3 (ZTRA) – truy cập từ xa an toàn nhúng sẵn trong kết nối công nghiệp: outbound-only, microsegmentation, xác thực liên tục, phát hiện đe doạ. Tuân thủ ISO 27001, SOC 2, IEC 62443, NIST.
+- **Thẻ (tags):** Bảo mật Zero-Trust ei3, ZTRA, An ninh mạng công nghiệp, IEC 62443, Truy cập từ xa an toàn OT
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/bao-mat-zero-trust-ei3.png`
+- **Tên file ảnh nên đặt:** `bao-mat-zero-trust-ei3.png`
+- **Alt text ảnh:** Bảo Mật Zero-Trust ei3 (Zero Trust Remote Access
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+
+## ei3 — Gateway, nền tảng & ứng dụng
+
+### Amphion Gateway ei3 – Gateway Edge Phần Cứng
+- **URL:** `/amphion-gateway-ei3/`
+- **Focus keyword:** amphion gateway
+- **Meta description:** Amphion Gateway ei3 – gateway edge phần cứng (made in USA, DIN-rail): kết nối máy mới & legacy qua 30+ giao thức, outbound-only, cache tốc độ cao + phân tích biên, quản lý fleet, SSO/SIEM. Tư vấn dự án.
+- **Thẻ (tags):** Amphion Gateway, Amphion ei3, Gateway edge phần cứng, IIoT gateway DIN-rail, ei3
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/amphion-gateway-ei3.png`
+- **Tên file ảnh nên đặt:** `amphion-gateway-ei3.png`
+- **Alt text ảnh:** Amphion Gateway ei3
+- **Gợi ý ảnh thật:** Ảnh gateway Z-KEY/R-KEY-LT có cổng Ethernet + RS485.
+
+### Zethus Gateway ei3 – Gateway Ảo (Container)
+- **URL:** `/zethus-gateway-ei3/`
+- **Focus keyword:** zethus gateway
+- **Meta description:** Zethus Gateway ei3 – gateway ảo dạng container, cài thẳng lên bộ điều khiển/edge compute sẵn có, không cần thêm phần cứng. Chạy qua internet hiện có, cùng kiến trúc zero-trust như Amphion. Tư vấn dự án.
+- **Thẻ (tags):** Zethus Gateway, Zethus ei3, Gateway ảo container, Gateway phần mềm, ei3
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/zethus-gateway-ei3.png`
+- **Tên file ảnh nên đặt:** `zethus-gateway-ei3.png`
+- **Alt text ảnh:** Zethus Gateway ei3
+- **Gợi ý ảnh thật:** Ảnh gateway Z-KEY/R-KEY-LT có cổng Ethernet + RS485.
+
+### Portara Gateway ei3 – Nâng Cấp Hệ Remote Access Cũ
+- **URL:** `/portara-gateway-ei3/`
+- **Focus keyword:** portara gateway
+- **Meta description:** Portara Gateway ei3 – bọc hạ tầng remote access cũ trong zero-trust, gom về một mạng quản lý thống nhất, subnet riêng từng máy, giám sát/audit tập trung — không cần thay mới toàn bộ. Tư vấn dự án.
+- **Thẻ (tags):** Portara Gateway, Portara ei3, Nâng cấp remote access, Zero-trust hệ cũ, ei3
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/portara-gateway-ei3.png`
+- **Tên file ảnh nên đặt:** `portara-gateway-ei3.png`
+- **Alt text ảnh:** Portara Gateway ei3
+- **Gợi ý ảnh thật:** Ảnh gateway Z-KEY/R-KEY-LT có cổng Ethernet + RS485.
+
+### ConnectedAI ei3 – Phân Tích Dữ Liệu Máy Bằng AI
+- **URL:** `/connectedai-ei3/`
+- **Focus keyword:** connectedai
+- **Meta description:** ConnectedAI ei3 – phân tích dữ liệu máy bằng AI/khoa học dữ liệu trên cả đội máy: tìm quy luật, chỉ ra nguyên nhân gốc, tạo insight vận hành & bảo trì. Từ dữ liệu thô đến hành động. Tư vấn dự án.
+- **Thẻ (tags):** ConnectedAI, ConnectedAI ei3, Phân tích dữ liệu máy bằng AI, AI bảo trì dự đoán, Insight vận hành
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/connectedai-ei3.png`
+- **Tên file ảnh nên đặt:** `connectedai-ei3.png`
+- **Alt text ảnh:** ConnectedAI ei3
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Thu Thập Dữ Liệu Máy ei3 (Data Collection)
+- **URL:** `/thu-thap-du-lieu-may-ei3/`
+- **Focus keyword:** thu thập dữ liệu máy
+- **Meta description:** Thu thập dữ liệu máy ei3 (Data Collection) – kết nối 35+ họ PLC/bộ điều khiển, gom & chuẩn hoá giao thức tại biên để hệ nội bộ dùng ngay cả khi mất internet, vẫn giữ tuỳ chọn phân tích cloud. Tư vấn dự án.
+- **Thẻ (tags):** Thu thập dữ liệu máy, Data Collection ei3, Kết nối 35 họ PLC, Chuẩn hoá giao thức công nghiệp, ei3
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/thu-thap-du-lieu-may-ei3.png`
+- **Tên file ảnh nên đặt:** `thu-thap-du-lieu-may-ei3.png`
+- **Alt text ảnh:** Thu Thập Dữ Liệu Máy ei3 (Data Collection)
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### ei3 Service – Remote Service (Truy Cập Máy Từ Xa An Toàn)
+- **URL:** `/ei3-remote-service/`
+- **Focus keyword:** remote service ei3
+- **Meta description:** ei3 Service (remote service) – truy cập từ xa an toàn để chẩn đoán & xử lý sự cố máy tức thì, chuyển từ phản ứng sang chủ động, vẫn kiểm soát hoàn toàn thiết bị. Zero-trust. Tư vấn dự án.
+- **Thẻ (tags):** Remote service ei3, Truy cập máy từ xa an toàn, Chẩn đoán máy từ xa, Remote access công nghiệp, ei3
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/ei3-remote-service.png`
+- **Tên file ảnh nên đặt:** `ei3-remote-service.png`
+- **Alt text ảnh:** ei3 Service
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### ei3 Monitor – Giám Sát Dữ Liệu Máy Thời Gian Thực
+- **URL:** `/ei3-monitor-giam-sat-may/`
+- **Focus keyword:** ei3 monitor
+- **Meta description:** ei3 Monitor – giám sát dữ liệu máy thời gian thực và lịch sử trên toàn bộ máy kết nối để phát hiện sớm vấn đề và tối ưu thông số vận hành. Dashboard, cảnh báo no-code. Tư vấn dự án.
+- **Thẻ (tags):** ei3 Monitor, Giám sát máy thời gian thực, Giám sát dữ liệu máy, Dashboard giám sát máy, ei3
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/ei3-monitor-giam-sat-may.png`
+- **Tên file ảnh nên đặt:** `ei3-monitor-giam-sat-may.png`
+- **Alt text ảnh:** ei3 Monitor
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### ei3 Production – Theo Dõi OEE Tự Động
+- **URL:** `/oee-production-ei3/`
+- **Focus keyword:** oee ei3
+- **Meta description:** ei3 Production – theo dõi OEE (availability · performance · quality) với thu thập dữ liệu tự động và dashboard thời gian thực. Đo đúng hiệu suất thiết bị để tăng năng suất. Tư vấn dự án.
+- **Thẻ (tags):** OEE ei3, ei3 Production, Theo dõi OEE, Phần mềm OEE, Đo hiệu suất thiết bị
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/oee-production-ei3.png`
+- **Tên file ảnh nên đặt:** `oee-production-ei3.png`
+- **Alt text ảnh:** ei3 Production
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### ei3 Downtime – Phân Tích Nguyên Nhân Gốc Dừng Máy
+- **URL:** `/downtime-phan-tich-dung-may-ei3/`
+- **Focus keyword:** downtime ei3
+- **Meta description:** ei3 Downtime – phân tích nguyên nhân gốc dừng máy: ghi sự kiện máy, ghi chú vận hành, mẫu cảnh báo, dữ liệu theo chu kỳ; Pareto tự động (Digital Six Sigma). Thực tế giảm 5–15% downtime. Tư vấn dự án.
+- **Thẻ (tags):** Downtime ei3, Phân tích dừng máy, Nguyên nhân gốc dừng máy, Pareto downtime, Giảm thời gian dừng máy
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/downtime-phan-tich-dung-may-ei3.png`
+- **Tên file ảnh nên đặt:** `downtime-phan-tich-dung-may-ei3.png`
+- **Alt text ảnh:** ei3 Downtime
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### ei3 Lifecycle – Bảo Trì Dự Đoán Bằng AI
+- **URL:** `/lifecycle-bao-tri-du-doan-ei3/`
+- **Focus keyword:** lifecycle ei3
+- **Meta description:** ei3 Lifecycle – bảo trì dự đoán bằng AI: biến dữ liệu mài mòn thời gian thực thành chương trình thay phụ tùng tự động, giảm dừng máy và mở thêm nguồn doanh thu dịch vụ. Tư vấn triển khai theo dự án.
+- **Thẻ (tags):** Lifecycle ei3, Bảo trì dự đoán AI, Predictive maintenance, Thay phụ tùng dự đoán, ei3
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/lifecycle-bao-tri-du-doan-ei3.png`
+- **Tên file ảnh nên đặt:** `lifecycle-bao-tri-du-doan-ei3.png`
+- **Alt text ảnh:** ei3 Lifecycle
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### ei3 Quality – Quản Lý Chất Lượng Tự Động
+- **URL:** `/quality-quan-ly-chat-luong-ei3/`
+- **Focus keyword:** quality ei3
+- **Meta description:** ei3 Quality – biến dữ liệu quá trình thành đảm bảo chất lượng tự động, giảm phế phẩm và đảm bảo tuân thủ. Phát hiện lệch quá trình sớm ngay trên nền tảng IIoT. Tư vấn triển khai theo dự án.
+- **Thẻ (tags):** Quality ei3, Quản lý chất lượng IIoT, Giảm phế phẩm, Đảm bảo chất lượng tự động, ei3
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/quality-quan-ly-chat-luong-ei3.png`
+- **Tên file ảnh nên đặt:** `quality-quan-ly-chat-luong-ei3.png`
+- **Alt text ảnh:** ei3 Quality
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### ei3 Recipe – Quản Lý Công Thức Sản Xuất
+- **URL:** `/recipe-quan-ly-cong-thuc-ei3/`
+- **Focus keyword:** recipe ei3
+- **Meta description:** ei3 Recipe – theo dõi & quản lý công thức (recipe) cho quá trình sản xuất trên nền tảng IIoT: chuẩn hoá thông số, đổi công thức nhất quán giữa các máy. Tư vấn triển khai theo dự án.
+- **Thẻ (tags):** Recipe ei3, Quản lý công thức sản xuất, Recipe management, Đổi công thức máy, ei3
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/recipe-quan-ly-cong-thuc-ei3.png`
+- **Tên file ảnh nên đặt:** `recipe-quan-ly-cong-thuc-ei3.png`
+- **Alt text ảnh:** ei3 Recipe
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### ei3 Sustain – Tiết Kiệm Năng Lượng & Bền Vững
+- **URL:** `/sustain-nang-luong-ei3/`
+- **Focus keyword:** sustain ei3
+- **Meta description:** ei3 Sustain – giảm chi phí năng lượng và đạt mục tiêu bền vững qua quản lý tài nguyên thông minh trên nền tảng IIoT. Giám sát tiêu thụ theo máy, phát hiện lãng phí. Tư vấn theo dự án.
+- **Thẻ (tags):** Sustain ei3, Tiết kiệm năng lượng nhà máy, Quản lý năng lượng IIoT, Bền vững sản xuất, ei3
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/sustain-nang-luong-ei3.png`
+- **Tên file ảnh nên đặt:** `sustain-nang-luong-ei3.png`
+- **Alt text ảnh:** ei3 Sustain
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.

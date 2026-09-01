@@ -15,12 +15,16 @@ H1          : Lỗi PLC Mitsubishi (FX/Q) Thường Gặp Và Cách Khắc Phụ
 ## Lỗi PLC Mitsubishi thường gặp là gì?
 
 <!--IMG:rep-->
-![Lỗi PLC Mitsubishi: đèn báo ERROR và BATT](assets/diagrams/rep-loi-mitsubishi.svg)
+![Hình đại diện](assets/diagrams/rep-plc.svg)
 
 
 **Lỗi PLC Mitsubishi** hay gặp nhất trên dòng **FX (FX1N/FX2N/FX3U/FX5U)** và **Q/L, iQ-R** gồm: đèn **ERROR** sáng, đèn **BATT** báo pin yếu, PLC về STOP, mất chương trình, hoặc **không kết nối được GX Works**. Cách xử lý chung: **đọc đèn báo → đọc mã lỗi trong phần mềm → kiểm tra từ nguồn, pin, chương trình đến I/O và truyền thông.**
 
 > **PLC Mitsubishi đang lỗi?** Gửi **model + mô tả đèn/mã lỗi** → [Tư vấn & báo giá sửa – thay thế PLC Mitsubishi](#bao-gia).
+
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-plc.svg)
+
 
 ---
 
@@ -76,10 +80,6 @@ Khắc phục: cài đúng driver, chọn đúng dòng CPU, thử cáp khác, ki
 
 ## Quy trình khắc phục lỗi PLC Mitsubishi
 
-<!--IMG:prin-->
-![Quy trình 6 bước khắc phục lỗi PLC](assets/diagrams/flow-khac-phuc-loi-plc.svg)
-
-
 1. **Đọc đèn** POWER/RUN/ERROR/BATT.
 2. **Kiểm tra nguồn** 220V/24V, cầu chì, terminal.
 3. **Backup + xử lý pin/chương trình** (thay pin khi còn điện).
@@ -92,10 +92,6 @@ Khắc phục: cài đúng driver, chọn đúng dòng CPU, thử cáp khác, ki
 ---
 
 ## Khi nào nên thay PLC Mitsubishi?
-
-<!--IMG:app-->
-![6 nhóm lỗi PLC thường gặp](assets/diagrams/app-nhom-loi-plc.svg)
-
 
 - Pin yếu, lỏng terminal, sai tham số → **sửa tại chỗ**.
 - Cháy kênh I/O → **thay module**.
@@ -114,6 +110,10 @@ Gửi cho chúng tôi: **model PLC (FX3U, FX5U, Q…) · mô tả đèn báo/mã
 **→ [Liên hệ tư vấn & báo giá PLC Mitsubishi](/lien-he/)**
 
 ---
+
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-plc.svg)
 
 ## Câu hỏi thường gặp (FAQ)
 
