@@ -199,16 +199,18 @@ for gtitle, accent, files in GROUPS:
     for f in files:
         d = parse(os.path.join(ROOT, f)); a = anchor(d["slug"]); n += 1
         kws = keywords(d["tukhoa"])
-        fname = a + ".png"
-        # write cover (SVG nguồn; chạy scripts/covers_to_png.py để xuất PNG dùng cho WordPress)
+        fname = a + ".jpg"
+        # write cover (SVG nguồn; chạy scripts/rasterize_covers.py để xuất JPG dùng cho WordPress)
         open(os.path.join(COVERS, a + ".svg"), "w", encoding="utf-8").write(cover_svg(d, gtitle, accent))
         rows.append((d["slug"], d["h1"], focus_kw(kws), d["meta"],
                      ", ".join(tags_for(d)), fname, alt_text(d), img_brief(d)))
 
 # metadata sheet
 md = ["# Gói SEO cho từng bài: Focus keyword · Meta · Thẻ tag · Ảnh\n",
-      "> Dùng khi đăng WordPress (Rank Math). Ảnh bìa thương hiệu đã tạo sẵn dạng **PNG 1200×630** trong `assets/png/covers/<slug>.png` — ",
-      "dùng làm **featured image / ảnh đại diện (OG image)**; trang sản phẩm nên thay bằng **ảnh sản phẩm thật** (theo cột \"Gợi ý ảnh\").",
+      "> Dùng khi đăng WordPress (Rank Math). Ảnh bìa thương hiệu đã tạo sẵn trong `assets/covers/<slug>.jpg` ",
+      "(**1200×630 px, ~40KB** – vượt chuẩn tối thiểu 200×200 và đúng định dạng ảnh mà Facebook/Zalo/mạng xã hội chấp nhận; ",
+      "file `.svg` cùng tên là bản gốc vector để chỉnh sửa, **không** dùng làm featured image vì Facebook không đọc được SVG). ",
+      "Dùng JPG làm **featured image / ảnh đại diện (OG image)**; trang sản phẩm nên thay bằng **ảnh sản phẩm thật** (theo cột \"Gợi ý ảnh\").",
       "Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.\n"]
 for r in rows:
     if r[0] == "__group__":
@@ -220,11 +222,11 @@ for r in rows:
     md.append(f"- **Focus keyword:** {fkw}")
     md.append(f"- **Meta description:** {meta}")
     md.append(f"- **Thẻ (tags):** {tags}")
-    md.append(f"- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/{anchor(slug)}.png`")
+    md.append(f"- **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/{anchor(slug)}.jpg`")
     md.append(f"- **Tên file ảnh nên đặt:** `{fname}`")
     md.append(f"- **Alt text ảnh:** {alt}")
     md.append(f"- **Gợi ý ảnh thật:** {brief}\n")
 
 open("/home/user/SEO-web/research/seo-metadata-tags-hinh-anh.md", "w", encoding="utf-8").write("\n".join(md))
 print("covers:", n, "-> assets/covers/*.svg ; sheet -> research/seo-metadata-tags-hinh-anh.md")
-print("   -> chạy: python3 scripts/covers_to_png.py  để xuất assets/png/covers/*.png (dùng cho WordPress)")
+print("   -> chạy: python3 scripts/rasterize_covers.py  để xuất assets/covers/*.jpg (featured/OG cho WordPress)")

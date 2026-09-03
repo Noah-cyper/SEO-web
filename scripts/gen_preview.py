@@ -593,6 +593,6 @@ function copyAttr(btn){{doCopy(btn.getAttribute('data-copy'));flash(btn,'✓ Đ�
 </script>
 """
 
-out = "/tmp/claude-0/-home-user-SEO-web/a0f20c8b-045d-51bf-b68b-8d2c7f8a16e9/scratchpad/preview.html"
+out = os.environ.get("PREVIEW_OUT", "/home/user/SEO-web/preview.html")
 open(out, "w", encoding="utf-8").write(page)
 print("wrote", out, "articles:", total, "bytes:", len(page))
