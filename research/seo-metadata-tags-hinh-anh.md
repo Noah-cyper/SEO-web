@@ -1288,3 +1288,315 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Tên file ảnh nên đặt:** `sustain-nang-luong-ei3.jpg`
 - **Alt text ảnh:** ei3 Sustain
 - **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+
+## Rhize — Nền tảng & kiến trúc
+
+### Rhize – Manufacturing Data Hub Chuẩn ISA-95
+- **URL:** `/rhize/`
+- **Focus keyword:** rhize
+- **Meta description:** Rhize – Manufacturing Data Hub thời gian thực chuẩn ISA-95: graph database, GraphQL API, BPMN workflow, kết nối OPC UA và MQTT. Tư vấn & triển khai.
+- **Thẻ (tags):** Rhize, Manufacturing Data Hub, ISA-95, Nền tảng dữ liệu sản xuất, MES thế hệ mới
+- **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/rhize.jpg`
+- **Tên file ảnh nên đặt:** `rhize.jpg`
+- **Alt text ảnh:** Rhize
+- **Gợi ý ảnh thật:** Ảnh chụp màn hình dashboard/model ISA-95 hoặc sơ đồ kiến trúc; tránh ảnh stock chung chung.
+
+### Manufacturing Data Hub Là Gì Trong Nhà Máy Số?
+- **URL:** `/manufacturing-data-hub-la-gi/`
+- **Focus keyword:** manufacturing data hub
+- **Meta description:** Manufacturing Data Hub là gì, khác gì MES, historian, data lake và UNS. Kiến trúc MDH hướng sự kiện chuẩn ISA-95 và cách bắt đầu tại nhà máy.
+- **Thẻ (tags):** Manufacturing Data Hub, MDH, Dữ liệu sản xuất, Nhà máy số, Kiến trúc dữ liệu nhà máy
+- **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/manufacturing-data-hub-la-gi.jpg`
+- **Tên file ảnh nên đặt:** `manufacturing-data-hub-la-gi.jpg`
+- **Alt text ảnh:** Manufacturing Data Hub Là Gì Trong Nhà Máy Số
+- **Gợi ý ảnh thật:** Ảnh chụp màn hình dashboard/model ISA-95 hoặc sơ đồ kiến trúc; tránh ảnh stock chung chung.
+
+### Kiến Trúc Rhize – Các Thành Phần Nền Tảng
+- **URL:** `/kien-truc-nen-tang-rhize/`
+- **Focus keyword:** kiến trúc rhize
+- **Meta description:** Kiến trúc Rhize gồm những gì: Rhize DB, Libre Core, BPMN engine, Agent, Admin UI, Apollo Router, NATS, Keycloak. Luồng dữ liệu và yêu cầu hạ tầng.
+- **Thẻ (tags):** Rhize, Kiến trúc Rhize, Microservice sản xuất, Kubernetes, Nền tảng dữ liệu sản xuất
+- **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/kien-truc-nen-tang-rhize.jpg`
+- **Tên file ảnh nên đặt:** `kien-truc-nen-tang-rhize.jpg`
+- **Alt text ảnh:** Kiến Trúc Rhize
+- **Gợi ý ảnh thật:** Ảnh chụp màn hình dashboard/model ISA-95 hoặc sơ đồ kiến trúc; tránh ảnh stock chung chung.
+
+### Rhize ISA-95 – Mô Hình Dữ Liệu Chuẩn Nhà Máy
+- **URL:** `/rhize-isa-95/`
+- **Focus keyword:** isa-95
+- **Meta description:** Rhize ISA-95: mô hình dữ liệu chuẩn IEC 62264 trong Manufacturing Data Hub. Phân cấp thiết bị, vật tư, nhân sự, công thức và cách dùng để truy xuất, tính OEE.
+- **Thẻ (tags):** ISA-95, IEC 62264, Rhize, Mô hình dữ liệu sản xuất, Ontology sản xuất
+- **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/rhize-isa-95.jpg`
+- **Tên file ảnh nên đặt:** `rhize-isa-95.jpg`
+- **Alt text ảnh:** Rhize ISA-95
+- **Gợi ý ảnh thật:** Ảnh chụp màn hình dashboard/model ISA-95 hoặc sơ đồ kiến trúc; tránh ảnh stock chung chung.
+
+### Rhize GraphQL API – Một Endpoint Cho Mọi Ứng Dụng
+- **URL:** `/rhize-graphql-api/`
+- **Focus keyword:** graphql
+- **Meta description:** Rhize GraphQL API: một endpoint duy nhất truy vấn toàn bộ dữ liệu sản xuất chuẩn ISA-95. Vì sao GraphQL hợp với graph, phân quyền và ví dụ dùng thực tế.
+- **Thẻ (tags):** GraphQL, Rhize, API dữ liệu sản xuất, Apollo Router, Tích hợp ứng dụng nhà máy
+- **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/rhize-graphql-api.jpg`
+- **Tên file ảnh nên đặt:** `rhize-graphql-api.jpg`
+- **Alt text ảnh:** Rhize GraphQL API
+- **Gợi ý ảnh thật:** Ảnh chụp màn hình dashboard/model ISA-95 hoặc sơ đồ kiến trúc; tránh ảnh stock chung chung.
+
+### Rhize vs MES, Historian, Data Lake – Chọn Cái Nào?
+- **URL:** `/rhize-vs-mes-historian-data-lake/`
+- **Focus keyword:** mes
+- **Meta description:** So sánh Rhize với MES, historian, data lake và UNS: mỗi hệ giải bài toán gì, khi nào nên thay và khi nào nên ghép. Khung quyết định cho nhà máy.
+- **Thẻ (tags):** Rhize, MES, Historian, Data lake, So sánh hệ thống sản xuất
+- **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/rhize-vs-mes-historian-data-lake.jpg`
+- **Tên file ảnh nên đặt:** `rhize-vs-mes-historian-data-lake.jpg`
+- **Alt text ảnh:** Rhize vs MES, Historian, Data Lake
+- **Gợi ý ảnh thật:** Ảnh chụp màn hình dashboard/model ISA-95 hoặc sơ đồ kiến trúc; tránh ảnh stock chung chung.
+
+
+## Rhize — Thành phần hệ thống
+
+### Rhize DB – Graph Database Chuẩn ISA-95
+- **URL:** `/rhize-db-graph-database/`
+- **Focus keyword:** rhize db
+- **Meta description:** Rhize DB (libreBaas) là graph database lưu toàn bộ trạng thái sản xuất theo schema ISA-95 và phát hành GraphQL. Vì sao dùng đồ thị và cách triển khai.
+- **Thẻ (tags):** Rhize DB, Graph database, libreBaas, Knowledge graph, Cơ sở dữ liệu sản xuất
+- **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/rhize-db-graph-database.jpg`
+- **Tên file ảnh nên đặt:** `rhize-db-graph-database.jpg`
+- **Alt text ảnh:** Rhize DB
+- **Gợi ý ảnh thật:** Ảnh chụp màn hình dashboard/model ISA-95 hoặc sơ đồ kiến trúc; tránh ảnh stock chung chung.
+
+### Rhize Core – Rules Engine Xử Lý Sự Kiện Sản Xuất
+- **URL:** `/rhize-core/`
+- **Focus keyword:** rhize core
+- **Meta description:** Rhize Core (libreCore) là dịch vụ lõi xử lý luật và sự kiện: biến giá trị tag thô từ PLC thành sự kiện có ngữ cảnh ISA-95 để tính OEE, truy xuất và cảnh báo.
+- **Thẻ (tags):** Rhize Core, Rules engine, Xử lý sự kiện phức hợp, Complex event processing, Dữ liệu có ngữ cảnh
+- **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/rhize-core.jpg`
+- **Tên file ảnh nên đặt:** `rhize-core.jpg`
+- **Alt text ảnh:** Rhize Core
+- **Gợi ý ảnh thật:** Ảnh chụp màn hình dashboard/model ISA-95 hoặc sơ đồ kiến trúc; tránh ảnh stock chung chung.
+
+### Rhize BPMN – Workflow Low-Code Cho Nhà Máy
+- **URL:** `/rhize-bpmn-workflow/`
+- **Focus keyword:** bpmn
+- **Meta description:** Rhize BPMN workflow engine: mô hình hoá quy trình sản xuất bằng BPMN low-code, gọi API, biến đổi JSON, điều phối ERP–MES–thiết bị. Cách dùng và lỗi thường gặp.
+- **Thẻ (tags):** BPMN, Workflow sản xuất, Low-code, Rhize, Tự động hoá quy trình
+- **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/rhize-bpmn-workflow.jpg`
+- **Tên file ảnh nên đặt:** `rhize-bpmn-workflow.jpg`
+- **Alt text ảnh:** Rhize BPMN
+- **Gợi ý ảnh thật:** Ảnh chụp màn hình dashboard/model ISA-95 hoặc sơ đồ kiến trúc; tránh ảnh stock chung chung.
+
+### Rhize Agent – Kết Nối Thiết Bị Vào Data Hub
+- **URL:** `/rhize-agent-ket-noi/`
+- **Focus keyword:** rhize agent
+- **Meta description:** Rhize Agent (libre-agent) thu thập dữ liệu từ PLC, SCADA, thiết bị hiện trường: subscribe tag, publish lên NATS, cho phép BPMN đọc ghi ngược lại thiết bị.
+- **Thẻ (tags):** Libre Agent, Thu thập dữ liệu, OPC UA, Kết nối PLC, Rhize
+- **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/rhize-agent-ket-noi.jpg`
+- **Tên file ảnh nên đặt:** `rhize-agent-ket-noi.jpg`
+- **Alt text ảnh:** Rhize Agent
+- **Gợi ý ảnh thật:** Ảnh chụp màn hình dashboard/model ISA-95 hoặc sơ đồ kiến trúc; tránh ảnh stock chung chung.
+
+### Rhize NATS – Bus Sự Kiện Thời Gian Thực
+- **URL:** `/rhize-nats-event-streaming/`
+- **Focus keyword:** nats
+- **Meta description:** Rhize NATS là message broker truyền sự kiện giữa Agent, Core và BPMN engine. Vai trò trong kiến trúc hướng sự kiện, so sánh với MQTT và Kafka, lưu ý triển khai.
+- **Thẻ (tags):** NATS, Event streaming, Message broker, Kiến trúc hướng sự kiện, Rhize
+- **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/rhize-nats-event-streaming.jpg`
+- **Tên file ảnh nên đặt:** `rhize-nats-event-streaming.jpg`
+- **Alt text ảnh:** Rhize NATS
+- **Gợi ý ảnh thật:** Ảnh chụp màn hình dashboard/model ISA-95 hoặc sơ đồ kiến trúc; tránh ảnh stock chung chung.
+
+### Rhize Keycloak – Xác Thực Và Phân Quyền Dữ Liệu
+- **URL:** `/rhize-keycloak-phan-quyen/`
+- **Focus keyword:** keycloak
+- **Meta description:** Rhize Keycloak: xác thực OpenID Connect, SSO và ba lớp phân quyền RBAC, ABAC, graph-based cho dữ liệu sản xuất. Cách cấu hình vai trò và lưu ý bảo mật nhà máy.
+- **Thẻ (tags):** Keycloak, Phân quyền, RBAC, OpenID Connect, Bảo mật dữ liệu sản xuất
+- **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/rhize-keycloak-phan-quyen.jpg`
+- **Tên file ảnh nên đặt:** `rhize-keycloak-phan-quyen.jpg`
+- **Alt text ảnh:** Rhize Keycloak
+- **Gợi ý ảnh thật:** Ảnh chụp màn hình dashboard/model ISA-95 hoặc sơ đồ kiến trúc; tránh ảnh stock chung chung.
+
+### Rhize Grafana & Tempo – Giám Sát Và Truy Vết
+- **URL:** `/rhize-grafana-tempo/`
+- **Focus keyword:** grafana
+- **Meta description:** Rhize Grafana và Tempo: bảng giám sát nền tảng và tracing tiến trình BPMN. Cách phát hiện workflow chậm, truy vấn nặng và các chỉ số cần theo dõi.
+- **Thẻ (tags):** Grafana, Tempo, Giám sát hệ thống, Tracing, Dashboard sản xuất
+- **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/rhize-grafana-tempo.jpg`
+- **Tên file ảnh nên đặt:** `rhize-grafana-tempo.jpg`
+- **Alt text ảnh:** Rhize Grafana & Tempo
+- **Gợi ý ảnh thật:** Ảnh chụp màn hình dashboard/model ISA-95 hoặc sơ đồ kiến trúc; tránh ảnh stock chung chung.
+
+### Rhize Admin UI – Giao Diện Quản Trị Data Hub
+- **URL:** `/rhize-admin-ui/`
+- **Focus keyword:** admin ui
+- **Meta description:** Rhize Admin UI là giao diện quản trị Data Hub: dựng model ISA-95, quản lý người dùng và vai trò, mô hình hoá workflow BPMN. Ai dùng và dùng thế nào.
+- **Thẻ (tags):** Rhize Admin UI, Mô hình hoá dữ liệu, Quản trị hệ thống, ISA-95, Workflow UI
+- **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/rhize-admin-ui.jpg`
+- **Tên file ảnh nên đặt:** `rhize-admin-ui.jpg`
+- **Alt text ảnh:** Rhize Admin UI
+- **Gợi ý ảnh thật:** Ảnh chụp màn hình dashboard/model ISA-95 hoặc sơ đồ kiến trúc; tránh ảnh stock chung chung.
+
+### Triển Khai Rhize Trên Kubernetes – Hạ Tầng
+- **URL:** `/rhize-trien-khai-kubernetes/`
+- **Focus keyword:** kubernetes
+- **Meta description:** Triển khai Rhize trên Kubernetes bằng Helm: thứ tự cài dịch vụ, yêu cầu hạ tầng, on-premise hay cloud, mạng OT–IT, sao lưu và lộ trình theo giai đoạn.
+- **Thẻ (tags):** Kubernetes, Helm, Triển khai Rhize, Hạ tầng nhà máy, On-premise
+- **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/rhize-trien-khai-kubernetes.jpg`
+- **Tên file ảnh nên đặt:** `rhize-trien-khai-kubernetes.jpg`
+- **Alt text ảnh:** Triển Khai Rhize Trên Kubernetes
+- **Gợi ý ảnh thật:** Ảnh chụp màn hình dashboard/model ISA-95 hoặc sơ đồ kiến trúc; tránh ảnh stock chung chung.
+
+
+## Rhize — Tích hợp & chuẩn dữ liệu
+
+### Rhize OPC UA – Kết Nối PLC Vào Data Hub
+- **URL:** `/rhize-opc-ua/`
+- **Focus keyword:** opc ua
+- **Meta description:** Rhize OPC UA: cách kết nối PLC, SCADA vào Manufacturing Data Hub. Subscription, deadband, bảo mật, xử lý PLC đời cũ và lỗi thường gặp khi triển khai.
+- **Thẻ (tags):** OPC UA, Kết nối PLC, Thu thập dữ liệu, Rhize, Giao thức công nghiệp
+- **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/rhize-opc-ua.jpg`
+- **Tên file ảnh nên đặt:** `rhize-opc-ua.jpg`
+- **Alt text ảnh:** Rhize OPC UA
+- **Gợi ý ảnh thật:** Ảnh chụp màn hình dashboard/model ISA-95 hoặc sơ đồ kiến trúc; tránh ảnh stock chung chung.
+
+### Rhize MQTT & UNS – Bổ Sung Ngữ Cảnh Cho Namespace
+- **URL:** `/rhize-mqtt-uns/`
+- **Focus keyword:** mqtt
+- **Meta description:** Rhize MQTT và UNS: Unified Namespace là gì, vì sao broker MQTT chưa đủ, và cách Data Hub bổ sung lớp trạng thái, ngữ cảnh ISA-95 cho kiến trúc UNS.
+- **Thẻ (tags):** MQTT, Unified Namespace, UNS, Sparkplug, Rhize
+- **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/rhize-mqtt-uns.jpg`
+- **Tên file ảnh nên đặt:** `rhize-mqtt-uns.jpg`
+- **Alt text ảnh:** Rhize MQTT & UNS
+- **Gợi ý ảnh thật:** Ảnh chụp màn hình dashboard/model ISA-95 hoặc sơ đồ kiến trúc; tránh ảnh stock chung chung.
+
+### Rhize Tích Hợp ERP – Nối Văn Phòng Với Nhà Xưởng
+- **URL:** `/rhize-tich-hop-erp/`
+- **Focus keyword:** tích hợp erp
+- **Meta description:** Rhize tích hợp ERP: đồng bộ lệnh sản xuất, vật tư và kết quả giữa ERP và nhà xưởng qua OData, REST và workflow BPMN. Luồng dữ liệu và lỗi hay gặp.
+- **Thẻ (tags):** Tích hợp ERP, OData, Lệnh sản xuất, SAP, Rhize
+- **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/rhize-tich-hop-erp.jpg`
+- **Tên file ảnh nên đặt:** `rhize-tich-hop-erp.jpg`
+- **Alt text ảnh:** Rhize Tích Hợp ERP
+- **Gợi ý ảnh thật:** Ảnh chụp màn hình dashboard/model ISA-95 hoặc sơ đồ kiến trúc; tránh ảnh stock chung chung.
+
+### Rhize Tích Hợp SCADA & Historian Sẵn Có
+- **URL:** `/rhize-tich-hop-scada-historian/`
+- **Focus keyword:** scada
+- **Meta description:** Rhize tích hợp SCADA và historian: lấy dữ liệu từ hệ thống sẵn có mà không thay thế, phân vai giữa historian và Data Hub, lỗi thường gặp khi nối lớp OT với IT.
+- **Thẻ (tags):** SCADA, Historian, Tích hợp hệ thống cũ, OT IT, Rhize
+- **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/rhize-tich-hop-scada-historian.jpg`
+- **Tên file ảnh nên đặt:** `rhize-tich-hop-scada-historian.jpg`
+- **Alt text ảnh:** Rhize Tích Hợp SCADA & Historian Sẵn Có
+- **Gợi ý ảnh thật:** Ảnh chụp màn hình dashboard/model ISA-95 hoặc sơ đồ kiến trúc; tránh ảnh stock chung chung.
+
+### Rhize B2MML – Chuẩn Trao Đổi Dữ Liệu ISA-95
+- **URL:** `/rhize-b2mml/`
+- **Focus keyword:** b2mml
+- **Meta description:** Rhize B2MML: B2MML là gì, quan hệ với ISA-95, dùng để trao đổi dữ liệu giữa ERP, MES và Data Hub. Khi nào nên dùng B2MML và khi nào dùng GraphQL.
+- **Thẻ (tags):** B2MML, MESA, ISA-95, Trao đổi dữ liệu, XML sản xuất
+- **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/rhize-b2mml.jpg`
+- **Tên file ảnh nên đặt:** `rhize-b2mml.jpg`
+- **Alt text ảnh:** Rhize B2MML
+- **Gợi ý ảnh thật:** Ảnh chụp màn hình dashboard/model ISA-95 hoặc sơ đồ kiến trúc; tránh ảnh stock chung chung.
+
+
+## Rhize — Ứng dụng & ngành
+
+### Rhize OEE – Hiệu Suất Thiết Bị Từ Dữ Liệu Thật
+- **URL:** `/rhize-oee/`
+- **Focus keyword:** oee
+- **Meta description:** Rhize OEE: tính hiệu suất thiết bị tổng thể từ sự kiện có ngữ cảnh ISA-95 thay vì ước lượng. Công thức, dữ liệu cần thu thập, phân tích dừng máy và lỗi hay gặp.
+- **Thẻ (tags):** OEE, Hiệu suất thiết bị, Phân tích dừng máy, Quản lý hiệu suất, Rhize
+- **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/rhize-oee.jpg`
+- **Tên file ảnh nên đặt:** `rhize-oee.jpg`
+- **Alt text ảnh:** Rhize OEE
+- **Gợi ý ảnh thật:** Ảnh chụp màn hình dashboard/model ISA-95 hoặc sơ đồ kiến trúc; tránh ảnh stock chung chung.
+
+### Batch Record Điện Tử Với Rhize – Hồ Sơ Lô Realtime
+- **URL:** `/rhize-batch-record-dien-tu/`
+- **Focus keyword:** batch record
+- **Meta description:** Batch record điện tử với Rhize: hồ sơ lô hình thành ngay trong lúc chạy thay vì tổng hợp cuối mẻ. Dữ liệu cần thu thập, review by exception và yêu cầu tuân thủ.
+- **Thẻ (tags):** Batch record điện tử, Hồ sơ lô, EBR, Review by exception, GMP
+- **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/rhize-batch-record-dien-tu.jpg`
+- **Tên file ảnh nên đặt:** `rhize-batch-record-dien-tu.jpg`
+- **Alt text ảnh:** Batch Record Điện Tử Với Rhize
+- **Gợi ý ảnh thật:** Ảnh chụp màn hình dashboard/model ISA-95 hoặc sơ đồ kiến trúc; tránh ảnh stock chung chung.
+
+### Rhize Track & Trace – Truy Xuất Nguồn Gốc Nhanh
+- **URL:** `/rhize-truy-xuat-nguon-goc/`
+- **Focus keyword:** truy xuất
+- **Meta description:** Rhize truy xuất nguồn gốc: truy ngược từ thành phẩm về nguyên liệu và truy xuôi khoanh vùng thu hồi trên đồ thị ISA-95. Dữ liệu cần thu thập và điều kiện.
+- **Thẻ (tags):** Truy xuất nguồn gốc, Track and trace, Genealogy, Thu hồi sản phẩm, Rhize
+- **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/rhize-truy-xuat-nguon-goc.jpg`
+- **Tên file ảnh nên đặt:** `rhize-truy-xuat-nguon-goc.jpg`
+- **Alt text ảnh:** Rhize Track & Trace
+- **Gợi ý ảnh thật:** Ảnh chụp màn hình dashboard/model ISA-95 hoặc sơ đồ kiến trúc; tránh ảnh stock chung chung.
+
+### Rhize Quản Lý Chất Lượng Ngay Trong Quá Trình
+- **URL:** `/rhize-quan-ly-chat-luong/`
+- **Focus keyword:** chất lượng
+- **Meta description:** Rhize quản lý chất lượng: gắn kết quả kiểm với đúng lô và thiết bị, cảnh báo lệch thông số ngay trong lúc chạy, xử lý sai lệch bằng workflow và tích hợp LIMS.
+- **Thẻ (tags):** Quản lý chất lượng, QMS, SPC, LIMS, Kiểm soát quá trình
+- **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/rhize-quan-ly-chat-luong.jpg`
+- **Tên file ảnh nên đặt:** `rhize-quan-ly-chat-luong.jpg`
+- **Alt text ảnh:** Rhize Quản Lý Chất Lượng Ngay Trong Quá Trình
+- **Gợi ý ảnh thật:** Ảnh chụp màn hình dashboard/model ISA-95 hoặc sơ đồ kiến trúc; tránh ảnh stock chung chung.
+
+### Rhize Scheduling – Điều Độ Theo Dữ Liệu Thật
+- **URL:** `/rhize-scheduling-lap-ke-hoach/`
+- **Focus keyword:** điều độ
+- **Meta description:** Rhize scheduling: nhận lệnh từ ERP, chia xuống work center theo ISA-95, điều độ dựa trên năng lực và trạng thái máy thật. So sánh với ERP và APS.
+- **Thẻ (tags):** Lập kế hoạch sản xuất, Điều độ sản xuất, APS, Scheduling, Rhize
+- **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/rhize-scheduling-lap-ke-hoach.jpg`
+- **Tên file ảnh nên đặt:** `rhize-scheduling-lap-ke-hoach.jpg`
+- **Alt text ảnh:** Rhize Scheduling
+- **Gợi ý ảnh thật:** Ảnh chụp màn hình dashboard/model ISA-95 hoặc sơ đồ kiến trúc; tránh ảnh stock chung chung.
+
+### Rhize Quản Lý Kho Và Vật Tư Tại Xưởng
+- **URL:** `/rhize-quan-ly-kho-vat-tu/`
+- **Focus keyword:** vật tư
+- **Meta description:** Rhize quản lý kho và vật tư tại xưởng: theo dõi lô vật tư thời gian thực, gắn tiêu hao với mẻ sản xuất, kiểm hạn dùng trước khi chạy, phân vai với WMS.
+- **Thẻ (tags):** Quản lý kho, Vật tư tại xưởng, WMS, Lô vật tư, Tồn kho thời gian thực
+- **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/rhize-quan-ly-kho-vat-tu.jpg`
+- **Tên file ảnh nên đặt:** `rhize-quan-ly-kho-vat-tu.jpg`
+- **Alt text ảnh:** Rhize Quản Lý Kho Và Vật Tư Tại Xưởng
+- **Gợi ý ảnh thật:** Ảnh chụp màn hình dashboard/model ISA-95 hoặc sơ đồ kiến trúc; tránh ảnh stock chung chung.
+
+### Rhize AI – Nền Dữ Liệu Cho AI Trong Nhà Máy
+- **URL:** `/rhize-ai-ml-du-lieu-san-xuat/`
+- **Focus keyword:** dữ liệu sản xuất
+- **Meta description:** Vì sao dự án AI trong nhà máy dừng ở PoC và cách Rhize cung cấp dữ liệu sản xuất có ngữ cảnh, có nhãn cho bảo trì dự đoán và tối ưu quá trình.
+- **Thẻ (tags):** AI công nghiệp, Machine learning, Bảo trì dự đoán, Dữ liệu cho AI, Rhize
+- **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/rhize-ai-ml-du-lieu-san-xuat.jpg`
+- **Tên file ảnh nên đặt:** `rhize-ai-ml-du-lieu-san-xuat.jpg`
+- **Alt text ảnh:** Rhize AI
+- **Gợi ý ảnh thật:** Ảnh chụp màn hình dashboard/model ISA-95 hoặc sơ đồ kiến trúc; tránh ảnh stock chung chung.
+
+### Rhize Ngành Dược – Data Hub Cho Nhà Máy GMP
+- **URL:** `/rhize-nganh-duoc-pham/`
+- **Focus keyword:** dược
+- **Meta description:** Rhize ngành dược: hồ sơ lô điện tử, truy xuất genealogy, ghi vết kiểm toán và kiểm soát sai lệch trên nền Data Hub chuẩn ISA-95 cho nhà máy GMP.
+- **Thẻ (tags):** Ngành dược, GMP, Hồ sơ lô, Life sciences, Truy xuất dược phẩm
+- **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/rhize-nganh-duoc-pham.jpg`
+- **Tên file ảnh nên đặt:** `rhize-nganh-duoc-pham.jpg`
+- **Alt text ảnh:** Rhize Ngành Dược
+- **Gợi ý ảnh thật:** Ảnh chụp màn hình dashboard/model ISA-95 hoặc sơ đồ kiến trúc; tránh ảnh stock chung chung.
+
+### Rhize Ngành Thực Phẩm – Truy Xuất Và OEE
+- **URL:** `/rhize-nganh-thuc-pham-do-uong/`
+- **Focus keyword:** thực phẩm
+- **Meta description:** Rhize ngành thực phẩm – đồ uống: truy xuất lô trong vài phút, giám sát CCP trực tuyến, tính OEE dây chuyền tốc độ cao và kiểm soát nguyên liệu hạn ngắn.
+- **Thẻ (tags):** Ngành thực phẩm, Đồ uống, HACCP, Truy xuất thực phẩm, OEE dây chuyền
+- **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/rhize-nganh-thuc-pham-do-uong.jpg`
+- **Tên file ảnh nên đặt:** `rhize-nganh-thuc-pham-do-uong.jpg`
+- **Alt text ảnh:** Rhize Ngành Thực Phẩm
+- **Gợi ý ảnh thật:** Ảnh chụp màn hình dashboard/model ISA-95 hoặc sơ đồ kiến trúc; tránh ảnh stock chung chung.
+
+### Rhize Sản Xuất Rời Rạc – Truy Xuất Theo Serial
+- **URL:** `/rhize-san-xuat-roi-rac-serial/`
+- **Focus keyword:** serial
+- **Meta description:** Rhize sản xuất rời rạc: truy xuất theo serial từng sản phẩm, gắn linh kiện với máy và thông số gia công, quản lý as-built cho điện tử, cơ khí và linh kiện ô tô.
+- **Thẻ (tags):** Sản xuất rời rạc, Truy xuất theo serial, As-built, Điện tử, Linh kiện ô tô
+- **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/rhize-san-xuat-roi-rac-serial.jpg`
+- **Tên file ảnh nên đặt:** `rhize-san-xuat-roi-rac-serial.jpg`
+- **Alt text ảnh:** Rhize Sản Xuất Rời Rạc
+- **Gợi ý ảnh thật:** Ảnh chụp màn hình dashboard/model ISA-95 hoặc sơ đồ kiến trúc; tránh ảnh stock chung chung.

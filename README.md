@@ -31,6 +31,20 @@ Các trang **link chéo vào nhau** (bài trụ ↔ trang sản phẩm ↔ blog)
 
 Kế hoạch phủ hết dòng/model Seneca (chuyển đổi tín hiệu, remote I/O Z-PC, datalogger/RTU, gateway Modbus, đồng hồ đo điện năng): `research/seneca-content-plan.md`.
 
+## Cụm Rhize — Manufacturing Data Hub (thư mục `content/vi/rhize/`)
+
+**30 bài** về nền tảng dữ liệu sản xuất **Rhize** (Manufacturing Data Hub chuẩn ISA-95),
+theo cấu trúc hub → pillar → satellite:
+
+| Nhóm | Số bài | Nội dung |
+|---|---|---|
+| Nền tảng & kiến trúc | 6 | Brand hub `/rhize/`, MDH là gì, kiến trúc, ISA-95, GraphQL API, so sánh MES/historian/data lake |
+| Thành phần hệ thống | 9 | Rhize DB, Core, BPMN engine, Agent, NATS, Keycloak, Grafana/Tempo, Admin UI, triển khai Kubernetes |
+| Tích hợp & chuẩn dữ liệu | 5 | OPC UA, MQTT/UNS, ERP, SCADA & historian, B2MML |
+| Ứng dụng & ngành | 10 | OEE, batch record điện tử, track & trace, chất lượng, scheduling, kho, AI/ML, dược, thực phẩm, sản xuất rời rạc |
+
+Bản đồ cụm, nguồn thông tin và checklist đối chiếu trước khi đăng: `research/rhize-content-plan.md`.
+
 ## Kế hoạch content (thư mục `research/`)
 
 `research/keyword-and-content-plan.md` — backlog ~30 trang tiếng Việt cụ thể còn lại, xếp theo ROI, mỗi trang có từ khóa + URL + độ ưu tiên (đã đánh dấu trang nào xong). Gồm: bài trụ "là gì/cách chọn", trang sản phẩm theo hãng, blog kỹ thuật how-to, so sánh, trang ngành.

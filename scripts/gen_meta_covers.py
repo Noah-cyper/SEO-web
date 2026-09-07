@@ -54,6 +54,21 @@ GROUPS = [
         "ei3/ei3-monitor-giam-sat-may.md","ei3/oee-production-ei3.md","ei3/downtime-phan-tich-dung-may-ei3.md",
         "ei3/lifecycle-bao-tri-du-doan-ei3.md","ei3/quality-quan-ly-chat-luong-ei3.md",
         "ei3/recipe-quan-ly-cong-thuc-ei3.md","ei3/sustain-nang-luong-ei3.md"]),
+    ("Rhize — Nền tảng & kiến trúc", "#6E56CF", [
+        "rhize/rhize-viet-nam.md","rhize/manufacturing-data-hub-la-gi.md","rhize/kien-truc-nen-tang-rhize.md",
+        "rhize/rhize-isa-95.md","rhize/rhize-graphql-api.md","rhize/rhize-vs-mes-historian-data-lake.md"]),
+    ("Rhize — Thành phần hệ thống", "#6E56CF", [
+        "rhize/rhize-db-graph-database.md","rhize/rhize-core.md","rhize/rhize-bpmn-workflow.md",
+        "rhize/rhize-agent-ket-noi.md","rhize/rhize-nats-event-streaming.md","rhize/rhize-keycloak-phan-quyen.md",
+        "rhize/rhize-grafana-tempo.md","rhize/rhize-admin-ui.md","rhize/rhize-trien-khai-kubernetes.md"]),
+    ("Rhize — Tích hợp & chuẩn dữ liệu", "#6E56CF", [
+        "rhize/rhize-opc-ua.md","rhize/rhize-mqtt-uns.md","rhize/rhize-tich-hop-erp.md",
+        "rhize/rhize-tich-hop-scada-historian.md","rhize/rhize-b2mml.md"]),
+    ("Rhize — Ứng dụng & ngành", "#6E56CF", [
+        "rhize/rhize-oee.md","rhize/rhize-batch-record-dien-tu.md","rhize/rhize-track-and-trace.md",
+        "rhize/rhize-quan-ly-chat-luong.md","rhize/rhize-scheduling-lap-ke-hoach.md","rhize/rhize-quan-ly-kho.md",
+        "rhize/rhize-ai-ml-du-lieu-san-xuat.md","rhize/rhize-nganh-duoc-pham.md",
+        "rhize/rhize-nganh-thuc-pham-do-uong.md","rhize/rhize-nganh-san-xuat-roi-rac.md"]),
 ]
 
 def field(name, text):
@@ -137,6 +152,8 @@ def img_brief(d):
     if "hien-thi" in s: return "Ảnh bộ hiển thị/panel meter gắn mặt tủ, màn LED."
     if "kho-tim" in s: return "Ảnh kho thiết bị/linh kiện đa dạng hoặc hình ghép nhiều model — gợi ý nguồn hàng sẵn."
     if "ngung-san-xuat" in s: return "Ảnh so sánh model cũ → model kế nhiệm, hoặc nhãn 'obsolete/EOL'."
+    if "rhize" in s or "manufacturing-data-hub" in s:
+        return "Ảnh chụp màn hình dashboard/model ISA-95 hoặc sơ đồ kiến trúc; tránh ảnh stock chung chung."
     return "Ảnh minh họa liên quan chủ đề, nền sạch."
 
 def alt_text(d):
