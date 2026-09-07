@@ -46,7 +46,8 @@ for gtitle, _accent, files in GROUPS:
             missing.append(anchor); continue
         items.append(dict(slug=slug, anchor=anchor, h1=h1, b64=thumb(jpg),
                           jpg=kb(jpg), png=kb(f"{COVERS}/{anchor}.png"),
-                          svg=kb(f"{COVERS}/{anchor}.svg")))
+                          svg=kb(f"{COVERS}/{anchor}.svg"),
+                          src=open(f"{COVERS}/{anchor}.svg", encoding="utf-8").read()))
         n += 1
     if items:
         cards.append((gtitle, items))
@@ -64,7 +65,14 @@ def card_html(it):
     <p class="slug">{e(it['slug'])}</p>
     <p class="files"><span>{it['anchor']}</span>
       <b>JPG</b> {it['jpg']} · <b>PNG</b> {it['png']} · <b>SVG</b> {it['svg']}</p>
+    <div class="dl" hidden>
+      <span class="dlab">Tải</span>
+      <button type="button" data-a="{it['anchor']}" data-t="png">PNG</button>
+      <button type="button" data-a="{it['anchor']}" data-t="jpg">JPG</button>
+      <button type="button" data-a="{it['anchor']}" data-t="svg">SVG</button>
+    </div>
   </div>
+  <script type="text/plain" data-svg="{it['anchor']}">{it['src']}</script>
 </article>'''
 
 sections = "\n".join(
@@ -140,6 +148,20 @@ section.group h2{{display:flex;align-items:baseline;gap:12px;margin:0 0 14px;
 .slug{{margin:0;font:12.5px var(--mono);color:var(--accent-ink);word-break:break-all}}
 .files{{margin:0;font:11.5px var(--mono);color:var(--faint)}}
 .files span{{display:block;color:var(--muted);word-break:break-all;margin-bottom:2px}}
+.dl{{display:flex;align-items:center;gap:6px;margin-top:8px;padding-top:9px;
+  border-top:1px dashed var(--border)}}
+.dlab{{font:11px var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--faint)}}
+.dl button,.lbbar .dl button{{font:600 11.5px var(--mono);letter-spacing:.03em;color:var(--accent-ink);
+  background:var(--surface-2);border:1px solid var(--border-strong);border-radius:6px;
+  padding:4px 10px;cursor:pointer}}
+.dl button:hover{{background:var(--accent-soft);border-color:var(--accent)}}
+.dl button:disabled{{opacity:.5;cursor:progress}}
+.dl button:focus-visible{{outline:2px solid var(--accent);outline-offset:1px}}
+#toast{{position:fixed;left:50%;bottom:26px;transform:translateX(-50%);z-index:60;
+  background:var(--ink);color:var(--bg);font:13px var(--sans);padding:9px 18px;
+  border-radius:8px;box-shadow:0 8px 26px rgba(0,0,0,.3);opacity:0;pointer-events:none;
+  transition:opacity .18s}}
+#toast.on{{opacity:1}}
 .files b{{font-weight:600;color:var(--muted)}}
 
 dialog#lb{{border:0;padding:0;background:transparent;max-width:min(1200px,94vw);width:100%}}
@@ -177,10 +199,15 @@ dialog#lb::backdrop{{background:var(--scrim)}}
 <p class="empty" id="empty">Không có ảnh bìa nào khớp từ khoá.</p>
 </div>
 
+<div id="toast" role="status" aria-live="polite"></div>
 <dialog id="lb">
   <div class="lbbox">
     <img id="lbimg" alt="">
     <div class="lbbar"><h4 id="lbt"></h4><code id="lbs"></code>
+      <span class="dl" id="lbdl" hidden><span class="dlab">Tải</span>
+        <button type="button" data-t="png">PNG</button>
+        <button type="button" data-t="jpg">JPG</button>
+        <button type="button" data-t="svg">SVG</button></span>
       <button type="button" id="lbx">Đóng</button></div>
   </div>
 </dialog>
@@ -199,10 +226,66 @@ const lb=document.getElementById('lb'),lbi=document.getElementById('lbimg'),
 document.querySelectorAll('.shot').forEach(b=>b.addEventListener('click',()=>{{
   lbi.src=b.querySelector('img').src;
   lbi.alt='Ảnh bìa bài '+b.dataset.title;
-  lbt.textContent=b.dataset.title;lbs.textContent=b.dataset.slug;lb.showModal();
+  lbt.textContent=b.dataset.title;lbs.textContent=b.dataset.slug;
+  const dl=document.getElementById('lbdl');
+  dl.dataset.a=b.closest('.card').querySelector('.dl button').dataset.a;
+  dl.hidden=!saver;lb.showModal();
 }}));
 document.getElementById('lbx').addEventListener('click',()=>lb.close());
 lb.addEventListener('click',e=>{{if(e.target===lb)lb.close();}});
+
+/* ---- Tải ảnh bìa ----------------------------------------------------------
+   SVG: tải thẳng file gốc nhúng trong trang.
+   PNG/JPG: dựng lại đúng 1200x630 từ chính SVG đó bằng canvas, nên không phải
+   nhúng thêm file nặng vào trang. Nút chỉ hiện khi khung xem cho phép lưu file. */
+const toast=document.getElementById('toast');let tt;
+function say(m){{toast.textContent=m;toast.classList.add('on');
+  clearTimeout(tt);tt=setTimeout(()=>toast.classList.remove('on'),2600);}}
+const srcOf=a=>document.querySelector('script[data-svg="'+a+'"]').textContent;
+
+function raster(svg,type){{
+  return new Promise((res,rej)=>{{
+    const img=new Image();
+    img.onload=()=>{{
+      const c=document.createElement('canvas');c.width=1200;c.height=630;
+      const g=c.getContext('2d');
+      if(type==='jpg'){{g.fillStyle='#111925';g.fillRect(0,0,1200,630);}}
+      g.drawImage(img,0,0,1200,630);
+      c.toBlob(b=>b?res(b):rej(new Error('encode')),
+               type==='jpg'?'image/jpeg':'image/png',0.82);
+    }};
+    img.onerror=()=>rej(new Error('svg'));
+    img.src='data:image/svg+xml;charset=utf-8,'+encodeURIComponent(svg);
+  }});
+}}
+
+let saver=null;
+(async()=>{{
+  saver=window.claude&&window.claude.use?await window.claude.use('downloads'):null;
+  if(!saver)return;                                   // không lưu được thì ẩn luôn nút
+  document.querySelectorAll('.dl').forEach(d=>d.hidden=false);
+}})();
+
+async function grab(anchor,type,btn){{
+  if(!saver)return;
+  const label=btn.textContent;btn.disabled=true;btn.textContent='…';
+  try{{
+    const svg=srcOf(anchor);
+    const data=type==='svg'?new Blob([svg],{{type:'image/svg+xml'}}):await raster(svg,type);
+    await saver.save({{filename:anchor+'.'+type,data}});
+    say('Đã lưu '+anchor+'.'+type);
+  }}catch(err){{
+    if(err&&err.code==='declined'){{/* người dùng bấm huỷ, không báo gì */}}
+    else if(err&&err.code==='rate_limited')say('Đang có hộp thoại lưu khác, thử lại sau.');
+    else say('Không tải được '+anchor+'.'+type+(err&&err.code?' ('+err.code+')':''));
+  }}finally{{btn.disabled=false;btn.textContent=label;}}
+}}
+
+document.querySelectorAll('.card .dl button').forEach(b=>
+  b.addEventListener('click',()=>grab(b.dataset.a,b.dataset.t,b)));
+const lbdl=document.getElementById('lbdl');
+lbdl.querySelectorAll('button').forEach(b=>
+  b.addEventListener('click',()=>grab(lbdl.dataset.a,b.dataset.t,b)));
 </script>
 '''
 
