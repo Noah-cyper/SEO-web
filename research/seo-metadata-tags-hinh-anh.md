@@ -1,9 +1,10 @@
 # Gói SEO cho từng bài: Focus keyword · Meta · Thẻ tag · Ảnh
 
-> Dùng khi đăng WordPress (Rank Math). Ảnh bìa thương hiệu đã tạo sẵn trong `assets/covers/<slug>.jpg` 
-(**1200×630 px, ~40KB** – vượt chuẩn tối thiểu 200×200 và đúng định dạng ảnh mà Facebook/Zalo/mạng xã hội chấp nhận; 
-file `.svg` cùng tên là bản gốc vector để chỉnh sửa, **không** dùng làm featured image vì Facebook không đọc được SVG). 
-Dùng JPG làm **featured image / ảnh đại diện (OG image)**; trang sản phẩm nên thay bằng **ảnh sản phẩm thật** (theo cột "Gợi ý ảnh").
+> Dùng khi đăng WordPress (Rank Math). Mỗi slug có **ba định dạng ảnh bìa cùng tên** trong `assets/covers/`:
+> - `.jpg` (1200×630, ~42KB) – **mặc định cho featured image / OG image**, vượt chuẩn tối thiểu 200×200 và đúng định dạng Facebook/Zalo chấp nhận.
+> - `.png` (1200×630, ~164KB) – bản không mất dữ liệu, dùng khi CMS/sàn chỉ nhận PNG hoặc cần chỉnh sửa lại ảnh.
+> - `.svg` – bản gốc vector để sửa, **không** dùng làm featured image vì Facebook không đọc được SVG.
+> Trang sản phẩm nên thay bằng **ảnh sản phẩm thật** (theo cột "Gợi ý ảnh").
 Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 
 

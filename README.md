@@ -43,6 +43,24 @@ Toàn bộ backlog P0/P1/P2 trong `research/keyword-and-content-plan.md` **đã 
 | So sánh | đồng hồ hay cảm biến áp suất · cảm biến áp suất hãng nào tốt |
 | Trang ngành | đo lường lò hơi · tự động hóa nhà máy xi măng · đo lường hóa chất – dầu khí |
 
+## Ảnh bìa: 3 định dạng cho mỗi bài
+
+Mỗi slug có ba file cùng tên trong `assets/covers/`:
+
+| Định dạng | Kích thước | Dùng khi nào |
+|---|---|---|
+| `.jpg` | 1200×630, ~42KB | **Mặc định** cho featured image / OG image (Facebook, Zalo) |
+| `.png` | 1200×630, ~164KB | Khi CMS/sàn chỉ nhận PNG, hoặc cần bản không mất dữ liệu để chỉnh sửa lại |
+| `.svg` | vector | Bản gốc để sửa nội dung ảnh; **không** dùng làm featured image (Facebook không đọc SVG) |
+
+```bash
+python3 scripts/gen_meta_covers.py    # sinh lại .svg + sheet metadata
+python3 scripts/rasterize_covers.py   # .svg -> .jpg
+python3 scripts/covers_to_png.py      # .svg -> .png
+```
+
+Ảnh bìa dùng dải gradient nên PNG **không quantize** — 256 màu chỉ nhẹ hơn ~17% mà gây banding.
+
 ## Kiểm tra chất lượng bài trước khi đăng
 
 ```bash
