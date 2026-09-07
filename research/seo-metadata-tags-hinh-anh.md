@@ -1600,3 +1600,192 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Tên file ảnh nên đặt:** `rhize-san-xuat-roi-rac-serial.jpg`
 - **Alt text ảnh:** Rhize Sản Xuất Rời Rạc
 - **Gợi ý ảnh thật:** Ảnh chụp màn hình dashboard/model ISA-95 hoặc sơ đồ kiến trúc; tránh ảnh stock chung chung.
+
+
+## Đo lường & áp suất — mở rộng
+
+### Cảm Biến Đo Mức Là Gì? Phân Loại Và Cách Chọn
+- **URL:** `/cam-bien-do-muc/`
+- **Focus keyword:** cảm biến đo mức
+- **Meta description:** Cảm biến đo mức là gì, có mấy loại (siêu âm, radar, thủy tĩnh, điện dung, phao) và cách chọn đúng theo môi chất, bồn chứa. Kèm ứng dụng thực tế và báo giá.
+- **Thẻ (tags):** Cảm biến đo mức, Đo mức nước, Cảm biến siêu âm đo mức, Cảm biến radar, Công tắc báo mức
+- **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/cam-bien-do-muc.jpg`
+- **Tên file ảnh nên đặt:** `cam-bien-do-muc.jpg`
+- **Alt text ảnh:** Cảm Biến Đo Mức Là Gì
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Đồng Hồ Đo Áp Suất Là Gì? Cách Chọn Đúng
+- **URL:** `/dong-ho-do-ap-suat/`
+- **Focus keyword:** đồng hồ đo áp suất
+- **Meta description:** Đồng hồ đo áp suất là gì, có mấy loại, cách chọn đúng thang đo, chân ren, vật liệu và cấp chính xác. Kèm lỗi thường gặp, ứng dụng và báo giá chính hãng.
+- **Thẻ (tags):** Đồng hồ đo áp suất, Áp kế, Thang đo áp suất, Đồng hồ áp suất chân đứng, Cách chọn đồng hồ áp suất
+- **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/dong-ho-do-ap-suat.jpg`
+- **Tên file ảnh nên đặt:** `dong-ho-do-ap-suat.jpg`
+- **Alt text ảnh:** Đồng Hồ Đo Áp Suất Là Gì
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Cảm Biến Áp Suất WIKA Chính Hãng – Báo Giá Nhanh
+- **URL:** `/cam-bien-ap-suat-wika/`
+- **Focus keyword:** cảm biến áp suất wika
+- **Meta description:** Cảm biến áp suất WIKA chính hãng Đức: ngõ ra 4-20mA, 0-10V, đủ dải thang đo, bản màng ngăn và bản vệ sinh. CO/CQ, hóa đơn VAT, hỗ trợ chọn mã theo ứng dụng.
+- **Thẻ (tags):** Cảm biến áp suất WIKA, WIKA, Transmitter áp suất, Cảm biến áp suất 4-20mA, Cảm biến áp suất chính hãng
+- **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/cam-bien-ap-suat-wika.jpg`
+- **Tên file ảnh nên đặt:** `cam-bien-ap-suat-wika.jpg`
+- **Alt text ảnh:** Cảm Biến Áp Suất WIKA Chính Hãng chính hãng
+- **Gợi ý ảnh thật:** Ảnh đồng hồ áp suất WIKA (chân đồng & inox, loại có dầu) trên nền trắng.
+
+### Đồng Hồ Áp Suất Dạng Màng – Chọn Đúng Màng Ngăn
+- **URL:** `/dong-ho-ap-suat-dang-mang/`
+- **Focus keyword:** dạng màng
+- **Meta description:** Đồng hồ áp suất dạng màng (có màng ngăn): dùng khi nào, cấu tạo, cách chọn vật liệu màng và kiểu đấu nối cho môi chất bẩn, nhớt, ăn mòn. Báo giá chính hãng.
+- **Thẻ (tags):** Đồng hồ áp suất dạng màng, Màng ngăn, Diaphragm seal, Đo áp môi chất bẩn, Đo áp hóa chất
+- **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/dong-ho-ap-suat-dang-mang.jpg`
+- **Tên file ảnh nên đặt:** `dong-ho-ap-suat-dang-mang.jpg`
+- **Alt text ảnh:** Đồng Hồ Áp Suất Dạng Màng
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Đồng Hồ Áp Suất Có Dầu – Chống Rung, Bền Kim
+- **URL:** `/dong-ho-ap-suat-co-dau/`
+- **Focus keyword:** có dầu
+- **Meta description:** Đồng hồ áp suất có dầu (glycerin, silicon): vì sao chống rung, khi nào cần, chọn loại dầu theo nhiệt độ và lưu ý khi lắp. Hàng chính hãng, CO/CQ, báo giá nhanh.
+- **Thẻ (tags):** Đồng hồ áp suất có dầu, Glycerin, Đồng hồ chống rung, Dầu silicon, Đồng hồ áp suất thủy lực
+- **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/dong-ho-ap-suat-co-dau.jpg`
+- **Tên file ảnh nên đặt:** `dong-ho-ap-suat-co-dau.jpg`
+- **Alt text ảnh:** Đồng Hồ Áp Suất Có Dầu
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Đồng Hồ Áp Suất Lò Hơi – Chọn Đúng, Lắp Đúng
+- **URL:** `/dong-ho-ap-suat-lo-hoi/`
+- **Focus keyword:** lò hơi
+- **Meta description:** Đồng hồ áp suất lò hơi: cách chọn thang đo, vì sao bắt buộc lắp ống siphon, vật liệu và kiểm định. Lỗi thường gặp khi đo áp hơi nước và báo giá chính hãng.
+- **Thẻ (tags):** Đồng hồ áp suất lò hơi, Ống siphon, Áp kế nồi hơi, Đo áp suất hơi, Kiểm định lò hơi
+- **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/dong-ho-ap-suat-lo-hoi.jpg`
+- **Tên file ảnh nên đặt:** `dong-ho-ap-suat-lo-hoi.jpg`
+- **Alt text ảnh:** Đồng Hồ Áp Suất Lò Hơi
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Cách Chọn Thang Đo Áp Suất Đúng Ngay Từ Đầu
+- **URL:** `/cach-chon-thang-do-ap-suat/`
+- **Focus keyword:** thang đo
+- **Meta description:** Cách chọn thang đo áp suất cho đồng hồ và cảm biến: quy tắc 1/3–2/3, tính áp thử và xung áp, chuyển đổi đơn vị bar–psi–MPa. Sai lầm hay gặp và cách tránh.
+- **Thẻ (tags):** Thang đo áp suất, Cách chọn thang đo, Dải đo áp suất, Quá áp cảm biến, Đơn vị áp suất
+- **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/cach-chon-thang-do-ap-suat.jpg`
+- **Tên file ảnh nên đặt:** `cach-chon-thang-do-ap-suat.jpg`
+- **Alt text ảnh:** Cách Chọn Thang Đo Áp Suất Đúng Ngay Từ Đầu
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Lỗi Cảm Biến Áp Suất – Chẩn Đoán Và Khắc Phục
+- **URL:** `/loi-cam-bien-ap-suat/`
+- **Focus keyword:** lỗi cảm biến
+- **Meta description:** Lỗi cảm biến áp suất hay gặp: mất tín hiệu, số nhảy loạn, sai số, đứng yên. Quy trình chẩn đoán theo thứ tự và cách khắc phục từ nguồn, dây tới đầu dò.
+- **Thẻ (tags):** Lỗi cảm biến áp suất, Sửa cảm biến áp suất, 4-20mA không ổn định, Cảm biến mất tín hiệu, Chẩn đoán cảm biến
+- **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/loi-cam-bien-ap-suat.jpg`
+- **Tên file ảnh nên đặt:** `loi-cam-bien-ap-suat.jpg`
+- **Alt text ảnh:** Lỗi Cảm Biến Áp Suất
+- **Gợi ý ảnh thật:** Ảnh cảm biến áp suất thật + ảnh minh họa lắp trên đường ống.
+
+### Tín Hiệu 4-20mA Là Gì Và Vì Sao Được Dùng?
+- **URL:** `/tin-hieu-4-20ma-la-gi/`
+- **Focus keyword:** 4-20ma
+- **Meta description:** Tín hiệu 4-20mA là gì, vì sao chuẩn công nghiệp chọn dòng thay vì áp, cách đấu 2 dây và 4 dây, tính điện trở tải và xử lý nhiễu. Kèm cách chuyển đổi tín hiệu.
+- **Thẻ (tags):** Tín hiệu 4-20mA, Vòng dòng 4-20mA, 4-20mA 2 dây, Tín hiệu analog, Chuyển đổi tín hiệu
+- **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/tin-hieu-4-20ma-la-gi.jpg`
+- **Tên file ảnh nên đặt:** `tin-hieu-4-20ma-la-gi.jpg`
+- **Alt text ảnh:** Tín Hiệu 4-20mA Là Gì Và Vì Sao Được Dùng
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Đồng Hồ Áp Suất Hay Cảm Biến – Chọn Cái Nào?
+- **URL:** `/dong-ho-vs-cam-bien-ap-suat/`
+- **Focus keyword:** đồng hồ áp suất
+- **Meta description:** Nên dùng đồng hồ áp suất hay cảm biến cho từng điểm đo: khác nhau ở đâu, khi nào cần cả hai, so sánh chi phí và bảo trì. Kèm khung quyết định.
+- **Thẻ (tags):** Đồng hồ áp suất, Cảm biến áp suất, So sánh thiết bị đo áp, Chọn thiết bị đo áp suất, Áp kế hay transmitter
+- **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/dong-ho-vs-cam-bien-ap-suat.jpg`
+- **Tên file ảnh nên đặt:** `dong-ho-vs-cam-bien-ap-suat.jpg`
+- **Alt text ảnh:** Đồng Hồ Áp Suất Hay Cảm Biến
+- **Gợi ý ảnh thật:** Ảnh cảm biến áp suất thật + ảnh minh họa lắp trên đường ống.
+
+### Cảm Biến Áp Suất Hãng Nào Tốt? Cách Chọn Đúng
+- **URL:** `/cam-bien-ap-suat-hang-nao-tot/`
+- **Focus keyword:** hãng
+- **Meta description:** Cảm biến áp suất hãng nào tốt: 6 tiêu chí chọn hãng theo ứng dụng thay vì chạy theo tên tuổi, so sánh nhóm hãng châu Âu và phổ thông, cách tránh mua nhầm.
+- **Thẻ (tags):** Cảm biến áp suất hãng nào tốt, Chọn hãng cảm biến, So sánh hãng, Cảm biến áp suất châu Âu, Tư vấn chọn mua
+- **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/cam-bien-ap-suat-hang-nao-tot.jpg`
+- **Tên file ảnh nên đặt:** `cam-bien-ap-suat-hang-nao-tot.jpg`
+- **Alt text ảnh:** Cảm Biến Áp Suất Hãng Nào Tốt
+- **Gợi ý ảnh thật:** Ảnh cảm biến áp suất thật + ảnh minh họa lắp trên đường ống.
+
+
+## PLC, HMI & biến tần — mở rộng
+
+### PLC Mitsubishi FX5U – Chọn Đúng Và Báo Giá
+- **URL:** `/plc-mitsubishi-fx5u/`
+- **Focus keyword:** fx5u
+- **Meta description:** PLC Mitsubishi FX5U: khác gì FX3U, khi nào nên nâng cấp, cách chọn số I/O và module mở rộng, phần mềm lập trình. Hàng chính hãng, CO/CQ, báo giá nhanh.
+- **Thẻ (tags):** PLC Mitsubishi FX5U, FX5U, MELSEC iQ-F, GX Works3, PLC compact
+- **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/plc-mitsubishi-fx5u.jpg`
+- **Tên file ảnh nên đặt:** `plc-mitsubishi-fx5u.jpg`
+- **Alt text ảnh:** PLC Mitsubishi FX5U
+- **Gợi ý ảnh thật:** Ảnh PLC Mitsubishi FX3U/FX5U + bảng so sánh.
+
+### Truyền Thông FX5U Với FX3U – Chọn Cách Nào?
+- **URL:** `/truyen-thong-fx5u-fx3u/`
+- **Focus keyword:** truyền thông
+- **Meta description:** Truyền thông FX5U với FX3U: chọn Modbus RTU, Ethernet hay N:N, cách đấu RS-485, tham số cần khớp và lỗi hay gặp khi hai đời PLC cùng tồn tại trong một hệ.
+- **Thẻ (tags):** Truyền thông PLC, FX5U FX3U, Modbus RTU, RS-485, Kết nối hai PLC
+- **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/truyen-thong-fx5u-fx3u.jpg`
+- **Tên file ảnh nên đặt:** `truyen-thong-fx5u-fx3u.jpg`
+- **Alt text ảnh:** Truyền Thông FX5U Với FX3U
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### HMI Weintek – Chọn Đúng Dòng Và Báo Giá
+- **URL:** `/hmi-weintek/`
+- **Focus keyword:** weintek
+- **Meta description:** HMI Weintek: các dòng phổ biến, cách chọn kích thước màn và cổng truyền thông, phần mềm EasyBuilder, kết nối PLC. Hàng chính hãng, CO/CQ, báo giá nhanh.
+- **Thẻ (tags):** HMI Weintek, Weintek, EasyBuilder Pro, Màn hình cảm ứng công nghiệp, HMI công nghiệp
+- **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/hmi-weintek.jpg`
+- **Tên file ảnh nên đặt:** `hmi-weintek.jpg`
+- **Alt text ảnh:** HMI Weintek
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Biến Tần Là Gì? Nguyên Lý Và Cách Chọn Đúng
+- **URL:** `/bien-tan-la-gi/`
+- **Focus keyword:** biến tần
+- **Meta description:** Biến tần là gì, nguyên lý hoạt động, cách chọn đúng công suất và loại tải, tiết kiệm điện được bao nhiêu. Kèm lỗi thường gặp và tư vấn chọn mã, báo giá.
+- **Thẻ (tags):** Biến tần, Inverter, Cách chọn biến tần, Điều khiển động cơ, Tiết kiệm điện
+- **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/bien-tan-la-gi.jpg`
+- **Tên file ảnh nên đặt:** `bien-tan-la-gi.jpg`
+- **Alt text ảnh:** Biến Tần Là Gì
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+
+## Trang ngành & ứng dụng
+
+### Thiết Bị Đo Lường Lò Hơi – Danh Mục Điểm Đo
+- **URL:** `/thiet-bi-do-luong-lo-hoi/`
+- **Focus keyword:** đo lường lò hơi
+- **Meta description:** Thiết bị đo lường lò hơi: đo áp suất, nhiệt độ, mức nước bao hơi, lưu lượng và chênh áp. Danh mục điểm đo, cách chọn thiết bị và lưu ý kiểm định an toàn.
+- **Thẻ (tags):** Thiết bị đo lường lò hơi, Đo mức nước bao hơi, Giám sát lò hơi, Cảm biến lò hơi, Nồi hơi công nghiệp
+- **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/thiet-bi-do-luong-lo-hoi.jpg`
+- **Tên file ảnh nên đặt:** `thiet-bi-do-luong-lo-hoi.jpg`
+- **Alt text ảnh:** Thiết Bị Đo Lường Lò Hơi
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Thiết Bị Tự Động Hóa Nhà Máy Xi Măng
+- **URL:** `/thiet-bi-tu-dong-hoa-nha-may-xi-mang/`
+- **Focus keyword:** xi măng
+- **Meta description:** Thiết bị tự động hóa và đo lường cho nhà máy xi măng: đo mức silo, nhiệt độ lò nung, áp suất, cân băng và giám sát năng lượng. Danh mục theo công đoạn, báo giá.
+- **Thẻ (tags):** Nhà máy xi măng, Đo mức silo, Tự động hóa xi măng, Cảm biến chịu bụi, Giám sát năng lượng
+- **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/thiet-bi-tu-dong-hoa-nha-may-xi-mang.jpg`
+- **Tên file ảnh nên đặt:** `thiet-bi-tu-dong-hoa-nha-may-xi-mang.jpg`
+- **Alt text ảnh:** Thiết Bị Tự Động Hóa Nhà Máy Xi Măng
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Giải Pháp Đo Lường Cho Hóa Chất Và Dầu Khí
+- **URL:** `/giai-phap-do-luong-hoa-chat-dau-khi/`
+- **Focus keyword:** hóa chất
+- **Meta description:** Giải pháp đo lường cho nhà máy hóa chất, dầu khí: chọn vật liệu chống ăn mòn, thiết bị phòng nổ, đo mức bồn và cách ly tín hiệu. Danh mục điểm đo và báo giá.
+- **Thẻ (tags):** Nhà máy hóa chất, Dầu khí, Thiết bị phòng nổ, Vật liệu chống ăn mòn, Đo mức bồn hóa chất
+- **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/giai-phap-do-luong-hoa-chat-dau-khi.jpg`
+- **Tên file ảnh nên đặt:** `giai-phap-do-luong-hoa-chat-dau-khi.jpg`
+- **Alt text ảnh:** Giải Pháp Đo Lường Cho Hóa Chất Và Dầu Khí
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.

@@ -31,6 +31,32 @@ Các trang **link chéo vào nhau** (bài trụ ↔ trang sản phẩm ↔ blog)
 
 Kế hoạch phủ hết dòng/model Seneca (chuyển đổi tín hiệu, remote I/O Z-PC, datalogger/RTU, gateway Modbus, đồng hồ đo điện năng): `research/seneca-content-plan.md`.
 
+## Đợt bổ sung: 18 trang khép backlog (`content/vi/`)
+
+Toàn bộ backlog P0/P1/P2 trong `research/keyword-and-content-plan.md` **đã sản xuất xong**:
+
+| Cụm | Trang |
+|---|---|
+| Bài trụ | cảm biến đo mức · biến tần · đồng hồ đo áp suất |
+| Trang sản phẩm | cảm biến áp suất WIKA · PLC Mitsubishi FX5U · đồng hồ dạng màng · đồng hồ có dầu · đồng hồ lò hơi · HMI Weintek |
+| Blog how-to | lỗi cảm biến áp suất · cách chọn thang đo · tín hiệu 4-20mA · truyền thông FX5U–FX3U |
+| So sánh | đồng hồ hay cảm biến áp suất · cảm biến áp suất hãng nào tốt |
+| Trang ngành | đo lường lò hơi · tự động hóa nhà máy xi măng · đo lường hóa chất – dầu khí |
+
+## Kiểm tra chất lượng bài trước khi đăng
+
+```bash
+python3 scripts/check_seo.py            # chấm toàn bộ content/vi
+python3 scripts/check_seo.py rhize      # chấm riêng một cụm
+```
+
+Script chấm theo checklist Rank Math của skill `seo-article-hoantrantdh`: 1 H1, 7–9 H2
+(≥2 H2 chứa từ khoá chính), ≥5 bảng, FAQ 4–6 câu, meta 140–160 ký tự, mật độ từ khoá
+1.5–2.5%, từ khoá trong slug – 10% đầu bài – alt ảnh, 2–4 internal link, CTA `/lien-he/`.
+
+> ⚠️ 109 bài của các đợt đầu **chưa đạt** checklist này (viết trước khi có script).
+> Chạy `check_seo.py` để xem danh sách cần rà soát.
+
 ## Cụm Rhize — Manufacturing Data Hub (thư mục `content/vi/rhize/`)
 
 **30 bài** về nền tảng dữ liệu sản xuất **Rhize** (Manufacturing Data Hub chuẩn ISA-95),

@@ -18,9 +18,9 @@ Bằng chứng nhu cầu: hàng loạt đối thủ (lumi.vn, baa.vn, wisevietna
 | PLC Mitsubishi FX3U là gì? | plc mitsubishi fx3u / là gì / ứng dụng | `/plc-mitsubishi-fx3u-la-gi/` | P0 | ✅ **Đã viết** (`content/vi/plc-mitsubishi-fx3u-la-gi.md`) |
 | Cảm biến chênh áp là gì? Cách chọn | cảm biến chênh áp / differential pressure | `/cam-bien-chenh-ap/` | P0 | ✅ **Đã viết** (`content/vi/cam-bien-chenh-ap.md`) |
 | Cảm biến nhiệt độ (RTD/can nhiệt) là gì? | cảm biến nhiệt độ / pt100 / can nhiệt | `/cam-bien-nhiet-do/` | P0 | ✅ **Đã viết** (`content/vi/cam-bien-nhiet-do.md`) |
-| Cảm biến đo mức là gì? Các loại & cách chọn | cảm biến đo mức / đo mức nước / radar | `/cam-bien-do-muc/` | P1 | ⬜ |
-| Biến tần là gì? Cách chọn biến tần | biến tần / inverter / cách chọn | `/bien-tan-la-gi/` | P1 | ⬜ |
-| Đồng hồ đo áp suất là gì? Cách chọn | đồng hồ đo áp suất / cách chọn | `/dong-ho-do-ap-suat/` | P1 | ⬜ |
+| Cảm biến đo mức là gì? Các loại & cách chọn | cảm biến đo mức / đo mức nước / radar | `/cam-bien-do-muc/` | P1 | ✅ **Đã viết** (`content/vi/cam-bien-do-muc.md`) |
+| Biến tần là gì? Cách chọn biến tần | biến tần / inverter / cách chọn | `/bien-tan-la-gi/` | P1 | ✅ **Đã viết** (`content/vi/bien-tan-la-gi.md`) |
+| Đồng hồ đo áp suất là gì? Cách chọn | đồng hồ đo áp suất / cách chọn | `/dong-ho-do-ap-suat/` | P1 | ✅ **Đã viết** (`content/vi/dong-ho-do-ap-suat.md`) |
 
 ---
 
@@ -31,12 +31,12 @@ Intent mua rõ: "chính hãng", "giá", "CO/CQ", "sẵn hàng". Đối thủ: va
 | Trang | Từ khóa chính | URL slug | Ưu tiên | Trạng thái |
 |---|---|---|---|---|
 | Đồng hồ đo áp suất WIKA | đồng hồ đo áp suất wika / chính hãng / giá | `/dong-ho-do-ap-suat-wika/` | P0 | ✅ **Đã viết** (`content/vi/dong-ho-do-ap-suat-wika.md`) |
-| Cảm biến áp suất WIKA / Georgin / Huba | cảm biến áp suất wika / báo giá | `/cam-bien-ap-suat-wika/` | P0 | ⬜ |
-| PLC Mitsubishi FX5U | plc mitsubishi fx5u / giá | `/plc-mitsubishi-fx5u/` | P0 | ⬜ |
-| Đồng hồ áp suất dạng màng | đồng hồ áp suất dạng màng / có màng ngăn | `/dong-ho-ap-suat-dang-mang/` | P1 | ⬜ |
-| Đồng hồ áp suất có dầu (chống rung) | đồng hồ áp suất có dầu glycerin | `/dong-ho-ap-suat-co-dau/` | P1 | ⬜ |
-| Đồng hồ đo áp suất lò hơi | đồng hồ áp suất lò hơi | `/dong-ho-ap-suat-lo-hoi/` | P1 | ⬜ |
-| HMI Weintek | hmi weintek / màn hình hmi giá | `/hmi-weintek/` | P2 | ⬜ |
+| Cảm biến áp suất WIKA / Georgin / Huba | cảm biến áp suất wika / báo giá | `/cam-bien-ap-suat-wika/` | P0 | ✅ **Đã viết** (`content/vi/cam-bien-ap-suat-wika.md`) |
+| PLC Mitsubishi FX5U | plc mitsubishi fx5u / giá | `/plc-mitsubishi-fx5u/` | P0 | ✅ **Đã viết** (`content/vi/plc-mitsubishi-fx5u.md`) |
+| Đồng hồ áp suất dạng màng | đồng hồ áp suất dạng màng / có màng ngăn | `/dong-ho-ap-suat-dang-mang/` | P1 | ✅ **Đã viết** (`content/vi/dong-ho-ap-suat-dang-mang.md`) |
+| Đồng hồ áp suất có dầu (chống rung) | đồng hồ áp suất có dầu glycerin | `/dong-ho-ap-suat-co-dau/` | P1 | ✅ **Đã viết** (`content/vi/dong-ho-ap-suat-co-dau.md`) |
+| Đồng hồ đo áp suất lò hơi | đồng hồ áp suất lò hơi | `/dong-ho-ap-suat-lo-hoi/` | P1 | ✅ **Đã viết** (`content/vi/dong-ho-ap-suat-lo-hoi.md`) |
+| HMI Weintek | hmi weintek / màn hình hmi giá | `/hmi-weintek/` | P2 | ✅ **Đã viết** (`content/vi/hmi-weintek.md`) |
 
 > **Cần 1 template trang sản phẩm** dùng chung (đã có sẵn cấu trúc trong 2 file WIKA/PLC): H1 + "vì sao tin dùng" + phân loại (bảng) + cách chọn + giá + cam kết CO-CQ/VAT + FAQ + CTA báo giá + schema Product. Nhân bản cho từng brand/dòng.
 
@@ -50,10 +50,10 @@ Intent mua rõ: "chính hãng", "giá", "CO/CQ", "sẵn hàng". Đối thủ: va
 |---|---|---|---|
 | Hướng dẫn hiệu chỉnh zero & span cảm biến | hiệu chỉnh zero span cảm biến | (đã có – rà soát/refresh) | P0 |
 | Cách đấu dây cảm biến áp suất 4-20mA (2 dây/3 dây) | đấu dây cảm biến áp suất 4-20ma | `/dau-day-cam-bien-ap-suat-4-20ma/` | P0 ✅ **Đã viết** |
-| Lỗi thường gặp của cảm biến áp suất & cách khắc phục | lỗi cảm biến áp suất / cách khắc phục | `/loi-cam-bien-ap-suat/` | P1 |
-| Cách chọn thang đo đồng hồ/cảm biến áp suất | cách chọn thang đo áp suất | `/cach-chon-thang-do-ap-suat/` | P1 |
-| 4-20mA là gì? Vì sao dùng trong công nghiệp | tín hiệu 4-20ma là gì | `/tin-hieu-4-20ma-la-gi/` | P2 |
-| Truyền thông FX5U với FX3U | truyền thông fx5u fx3u | `/truyen-thong-fx5u-fx3u/` | P2 |
+| Lỗi thường gặp của cảm biến áp suất & cách khắc phục | lỗi cảm biến áp suất / cách khắc phục | `/loi-cam-bien-ap-suat/` | P1  | ✅ **Đã viết** (`content/vi/loi-cam-bien-ap-suat.md`) |
+| Cách chọn thang đo đồng hồ/cảm biến áp suất | cách chọn thang đo áp suất | `/cach-chon-thang-do-ap-suat/` | P1  | ✅ **Đã viết** (`content/vi/cach-chon-thang-do-ap-suat.md`) |
+| 4-20mA là gì? Vì sao dùng trong công nghiệp | tín hiệu 4-20ma là gì | `/tin-hieu-4-20ma-la-gi/` | P2  | ✅ **Đã viết** (`content/vi/tin-hieu-4-20ma-la-gi.md`) |
+| Truyền thông FX5U với FX3U | truyền thông fx5u fx3u | `/truyen-thong-fx5u-fx3u/` | P2  | ✅ **Đã viết** (`content/vi/truyen-thong-fx5u-fx3u.md`) |
 
 ---
 
@@ -61,17 +61,19 @@ Intent mua rõ: "chính hãng", "giá", "CO/CQ", "sẵn hàng". Đối thủ: va
 
 | Trang | Từ khóa | URL slug |
 |---|---|---|
-| Nên chọn đồng hồ áp suất hay cảm biến áp suất? | đồng hồ áp suất vs cảm biến áp suất | `/dong-ho-vs-cam-bien-ap-suat/` |
+| Nên chọn đồng hồ áp suất hay cảm biến áp suất? | đồng hồ áp suất vs cảm biến áp suất | `/dong-ho-vs-cam-bien-ap-suat/`  | ✅ **Đã viết** (`content/vi/dong-ho-vs-cam-bien-ap-suat.md`) |
 | So sánh FX3U và FX5U | fx3u và fx5u / so sánh | (gộp vào bài FX3U đã viết – đủ mạnh) |
-| Cảm biến áp suất loại nào tốt / hãng nào | cảm biến áp suất hãng nào tốt | `/cam-bien-ap-suat-hang-nao-tot/` |
+| Cảm biến áp suất loại nào tốt / hãng nào | cảm biến áp suất hãng nào tốt | `/cam-bien-ap-suat-hang-nao-tot/`  | ✅ **Đã viết** (`content/vi/cam-bien-ap-suat-hang-nao-tot.md`) |
 
 ---
 
 ## Cụm E — Trang ngành / ứng dụng (P2)
 
-- `/thiet-bi-do-luong-lo-hoi/` (nhiệt điện, lò hơi)
-- `/thiet-bi-tu-dong-hoa-nha-may-xi-mang/`
-- `/giai-phap-do-luong-hoa-chat-dau-khi/`
+| Trang | URL slug | Trạng thái |
+|---|---|---|
+| Thiết bị đo lường lò hơi | `/thiet-bi-do-luong-lo-hoi/` | ✅ **Đã viết** (`content/vi/thiet-bi-do-luong-lo-hoi.md`) |
+| Tự động hóa nhà máy xi măng | `/thiet-bi-tu-dong-hoa-nha-may-xi-mang/` | ✅ **Đã viết** (`content/vi/thiet-bi-tu-dong-hoa-nha-may-xi-mang.md`) |
+| Đo lường hóa chất – dầu khí | `/giai-phap-do-luong-hoa-chat-dau-khi/` | ✅ **Đã viết** (`content/vi/giai-phap-do-luong-hoa-chat-dau-khi.md`) |
 
 ---
 
@@ -103,3 +105,28 @@ Mảng dịch vụ hoantrantdh có thể sở hữu (nguồn EU/G7 + China). Int
 3. **Đợt 3:** so sánh + trang ngành/ứng dụng.
 
 > Mỗi trang trước khi publish: kiểm tra **thông số kỹ thuật theo datasheet hãng**, thêm schema (Product/FAQ/Breadcrumb), internal link chéo giữa bài trụ ↔ trang sản phẩm ↔ blog how-to, và CTA báo giá về `/lien-he/`.
+
+
+---
+
+## Trạng thái backlog (cập nhật 09/2026)
+
+Toàn bộ backlog P0/P1/P2 trong tài liệu này **đã sản xuất xong**. 18 trang bổ sung ở đợt cuối:
+
+| Cụm | Trang đã viết |
+|---|---|
+| A — Bài trụ | `/cam-bien-do-muc/`, `/bien-tan-la-gi/`, `/dong-ho-do-ap-suat/` |
+| B — Sản phẩm | `/cam-bien-ap-suat-wika/`, `/plc-mitsubishi-fx5u/`, `/dong-ho-ap-suat-dang-mang/`, `/dong-ho-ap-suat-co-dau/`, `/dong-ho-ap-suat-lo-hoi/`, `/hmi-weintek/` |
+| C — Blog how-to | `/loi-cam-bien-ap-suat/`, `/cach-chon-thang-do-ap-suat/`, `/tin-hieu-4-20ma-la-gi/`, `/truyen-thong-fx5u-fx3u/` |
+| D — So sánh | `/dong-ho-vs-cam-bien-ap-suat/`, `/cam-bien-ap-suat-hang-nao-tot/` |
+| E — Trang ngành | `/thiet-bi-do-luong-lo-hoi/`, `/thiet-bi-tu-dong-hoa-nha-may-xi-mang/`, `/giai-phap-do-luong-hoa-chat-dau-khi/` |
+
+Cả 18 trang đạt checklist Rank Math của skill `seo-article-hoantrantdh`, kiểm bằng
+`python3 scripts/check_seo.py`.
+
+**Backlog tiếp theo nên cân nhắc** (chưa có trong tài liệu này):
+
+- Cụm thương hiệu còn thiếu: **Georgin** (áp suất, Pháp), **Dinel** (đo mức, Séc), **Termotech** (Ý)
+  — hiện repo mới có Seneca, Flowline, ei3, Rhize.
+- Rà soát lại **109 bài đợt đầu**: phần lớn chưa đạt checklist mới (dưới 5 bảng, meta lệch
+  độ dài, mật độ từ khoá thấp). Chạy `python3 scripts/check_seo.py` để xem danh sách.

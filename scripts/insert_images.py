@@ -5,7 +5,7 @@ ROOT="/home/user/SEO-web/content/vi"
 
 def pick(slug):
     s=slug
-    # Rhize (Manufacturing Data Hub) — bảng tra theo slug, giữ đúng sơ đồ đã chèn
+    # Bài viết theo chuẩn mới: bảng tra slug -> bộ 3 sơ đồ, giữ đúng sơ đồ và alt đã chọn
     _RHIZE = {
         "kien-truc-nen-tang-rhize": ("rep-mdh","prin-event-driven","app-graph"),
         "manufacturing-data-hub-la-gi": ("rep-mdh","prin-event-driven","app-graph"),
@@ -37,6 +37,24 @@ def pick(slug):
         "rhize-trien-khai-kubernetes": ("rep-platform","prin-event-driven","app-graph"),
         "rhize": ("rep-mdh","prin-event-driven","app-graph"),
         "rhize-vs-mes-historian-data-lake": ("rep-mdh","prin-event-driven","app-graph"),
+        "bien-tan-la-gi": ("rep-controller","prin-energy","app-control"),
+        "cach-chon-thang-do-ap-suat": ("rep-gauge","prin-bourdon","app-gauge"),
+        "cam-bien-ap-suat-hang-nao-tot": ("rep-pressure","prin-pressure","app-pressure"),
+        "cam-bien-ap-suat-wika": ("rep-pressure","prin-pressure","app-pressure"),
+        "cam-bien-do-muc": ("rep-level","prin-ultrasonic","app-level"),
+        "dong-ho-ap-suat-co-dau": ("rep-gauge","prin-bourdon","app-gauge"),
+        "dong-ho-ap-suat-dang-mang": ("rep-gauge","prin-bourdon","app-gauge"),
+        "dong-ho-ap-suat-lo-hoi": ("rep-gauge","prin-bourdon","app-gauge"),
+        "dong-ho-do-ap-suat": ("rep-gauge","prin-bourdon","app-gauge"),
+        "dong-ho-vs-cam-bien-ap-suat": ("rep-gauge","prin-pressure","app-pressure"),
+        "giai-phap-do-luong-hoa-chat-dau-khi": ("rep-platform","prin-hydrostatic","app-hazard"),
+        "hmi-weintek": ("rep-panel","prin-panel","app-panel"),
+        "loi-cam-bien-ap-suat": ("rep-pressure","prin-pressure","app-pressure"),
+        "plc-mitsubishi-fx5u": ("rep-plc","prin-plc","topo-plc-hmi-scada"),
+        "thiet-bi-do-luong-lo-hoi": ("rep-platform","prin-bourdon","app-energy"),
+        "thiet-bi-tu-dong-hoa-nha-may-xi-mang": ("rep-platform","prin-ultrasonic","app-energy"),
+        "tin-hieu-4-20ma-la-gi": ("rep-converter","signal-chain","signal-converter"),
+        "truyen-thong-fx5u-fx3u": ("rep-plc","prin-plc","topo-plc-hmi-scada"),
     }
     if s.strip("/") in _RHIZE: return _RHIZE[s.strip("/")]
     # ei3 (IIoT bảo mật) — xử lý trước để không đụng rule chung (gateway, hien-thi…)
@@ -108,6 +126,24 @@ _RHIZE_ALT = {
     "rhize-trien-khai-kubernetes": "Triển Khai Rhize Trên Kubernetes - Hạ Tầng",
     "rhize": "Rhize - Manufacturing Data Hub Chuẩn ISA-95",
     "rhize-vs-mes-historian-data-lake": "Rhize vs MES, Historian, Data Lake - Chọn Cái Nào?",
+    "bien-tan-la-gi": "Biến tần là gì",
+    "cach-chon-thang-do-ap-suat": "Cách chọn thang đo áp suất đúng",
+    "cam-bien-ap-suat-hang-nao-tot": "Chọn hãng cảm biến áp suất phù hợp",
+    "cam-bien-ap-suat-wika": "Cảm biến áp suất WIKA chính hãng",
+    "cam-bien-do-muc": "Cảm biến đo mức là gì",
+    "dong-ho-ap-suat-co-dau": "Đồng hồ áp suất có dầu chống rung",
+    "dong-ho-ap-suat-dang-mang": "Đồng hồ áp suất dạng màng có màng ngăn",
+    "dong-ho-ap-suat-lo-hoi": "Đồng hồ áp suất lò hơi kèm ống siphon",
+    "dong-ho-do-ap-suat": "Đồng hồ đo áp suất là gì",
+    "dong-ho-vs-cam-bien-ap-suat": "So sánh đồng hồ áp suất và cảm biến áp suất",
+    "giai-phap-do-luong-hoa-chat-dau-khi": "Giải pháp đo lường cho nhà máy hóa chất và dầu khí",
+    "hmi-weintek": "HMI Weintek màn hình cảm ứng công nghiệp",
+    "loi-cam-bien-ap-suat": "Lỗi cảm biến áp suất và cách chẩn đoán",
+    "plc-mitsubishi-fx5u": "PLC Mitsubishi FX5U chính hãng",
+    "thiet-bi-do-luong-lo-hoi": "Thiết bị đo lường lò hơi trong nhà máy",
+    "thiet-bi-tu-dong-hoa-nha-may-xi-mang": "Thiết bị tự động hóa nhà máy xi măng",
+    "tin-hieu-4-20ma-la-gi": "Tín hiệu 4-20mA trong hệ thống đo lường",
+    "truyen-thong-fx5u-fx3u": "Truyền thông giữa PLC FX5U và FX3U",
 }
 CAP={"rep":"Hình đại diện","prin":"Nguyên lý hoạt động","app":"Ứng dụng thiết bị"}
 

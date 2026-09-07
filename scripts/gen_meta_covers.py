@@ -69,6 +69,16 @@ GROUPS = [
         "rhize/rhize-quan-ly-chat-luong.md","rhize/rhize-scheduling-lap-ke-hoach.md","rhize/rhize-quan-ly-kho.md",
         "rhize/rhize-ai-ml-du-lieu-san-xuat.md","rhize/rhize-nganh-duoc-pham.md",
         "rhize/rhize-nganh-thuc-pham-do-uong.md","rhize/rhize-nganh-san-xuat-roi-rac.md"]),
+    ("Đo lường & áp suất — mở rộng", "#1f6feb", [
+        "cam-bien-do-muc.md","dong-ho-do-ap-suat.md","cam-bien-ap-suat-wika.md",
+        "dong-ho-ap-suat-dang-mang.md","dong-ho-ap-suat-co-dau.md","dong-ho-ap-suat-lo-hoi.md",
+        "cach-chon-thang-do-ap-suat.md","loi-cam-bien-ap-suat.md","tin-hieu-4-20ma-la-gi.md",
+        "dong-ho-vs-cam-bien-ap-suat.md","cam-bien-ap-suat-hang-nao-tot.md"]),
+    ("PLC, HMI & biến tần — mở rộng", "#12a594", [
+        "plc-mitsubishi-fx5u.md","truyen-thong-fx5u-fx3u.md","hmi-weintek.md","bien-tan-la-gi.md"]),
+    ("Trang ngành & ứng dụng", "#d9862a", [
+        "thiet-bi-do-luong-lo-hoi.md","thiet-bi-tu-dong-hoa-nha-may-xi-mang.md",
+        "giai-phap-do-luong-hoa-chat-dau-khi.md"]),
 ]
 
 def field(name, text):
