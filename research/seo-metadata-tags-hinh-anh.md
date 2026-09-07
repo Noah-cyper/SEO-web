@@ -17,7 +17,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** Cảm biến áp suất, Cảm biến áp suất 4-20mA, Transmitter áp suất, Cách chọn cảm biến áp suất, Cảm biến áp suất có màng ngăn
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/cam-bien-ap-suat.jpg`
 - **Tên file ảnh nên đặt:** `cam-bien-ap-suat.jpg`
-- **Alt text ảnh:** Cảm Biến Áp Suất Là Gì
+- **Alt text ảnh:** Cảm Biến Áp Suất Là Gì? Phân Loại, Nguyên Lý Và Cách Chọn Đúng
 - **Gợi ý ảnh thật:** Ảnh cảm biến áp suất thật + ảnh minh họa lắp trên đường ống.
 
 ### Cảm Biến Nhiệt Độ Là Gì? Pt100, Can Nhiệt Và Cách Chọn Đúng
@@ -27,7 +27,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** Cảm biến nhiệt độ, Pt100, Can nhiệt thermocouple, Cảm biến nhiệt độ RTD, Đầu dò nhiệt độ
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/cam-bien-nhiet-do.jpg`
 - **Tên file ảnh nên đặt:** `cam-bien-nhiet-do.jpg`
-- **Alt text ảnh:** Cảm Biến Nhiệt Độ Là Gì
+- **Alt text ảnh:** Cảm Biến Nhiệt Độ Là Gì? Pt100, Can Nhiệt Và Cách Chọn Đúng
 - **Gợi ý ảnh thật:** Ảnh Pt100/can nhiệt (que đo) + bảng phân biệt loại.
 
 ### Cảm Biến Chênh Áp Là Gì? Nguyên Lý, Ứng Dụng Và Cách Chọn
@@ -37,7 +37,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** Cảm biến chênh áp, Differential pressure, Đo lưu lượng chênh áp, Đo mức bồn kín, Transmitter chênh áp
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/cam-bien-chenh-ap.jpg`
 - **Tên file ảnh nên đặt:** `cam-bien-chenh-ap.jpg`
-- **Alt text ảnh:** Cảm Biến Chênh Áp Là Gì
+- **Alt text ảnh:** Cảm Biến Chênh Áp Là Gì? Nguyên Lý, Ứng Dụng Và Cách Chọn
 - **Gợi ý ảnh thật:** Ảnh cảm biến chênh áp + sơ đồ đo lưu lượng/mức bồn kín.
 
 ### Đồng Hồ Đo Áp Suất WIKA Chính Hãng – Giá Tốt, Sẵn Hàng
@@ -47,7 +47,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** Đồng hồ đo áp suất WIKA, WIKA, Đồng hồ áp suất chân inox, Đồng hồ áp suất dạng màng, Đồng hồ áp suất có dầu
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/dong-ho-do-ap-suat-wika.jpg`
 - **Tên file ảnh nên đặt:** `dong-ho-do-ap-suat-wika.jpg`
-- **Alt text ảnh:** Đồng Hồ Đo Áp Suất WIKA Chính Hãng chính hãng
+- **Alt text ảnh:** Đồng Hồ Đo Áp Suất WIKA Chính Hãng – Giá Tốt, Sẵn Hàng chính hãng
 - **Gợi ý ảnh thật:** Ảnh đồng hồ áp suất WIKA (chân đồng & inox, loại có dầu) trên nền trắng.
 
 ### Cách Đấu Dây Cảm Biến Áp Suất 4-20mA (2 Dây, 3 Dây, 4 Dây)
@@ -70,7 +70,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** PLC Mitsubishi FX3U, Mitsubishi, FX3U vs FX5U, PLC dòng FX, Thay thế FX3U
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/plc-mitsubishi-fx3u-la-gi.jpg`
 - **Tên file ảnh nên đặt:** `plc-mitsubishi-fx3u-la-gi.jpg`
-- **Alt text ảnh:** PLC Mitsubishi FX3U Là Gì
+- **Alt text ảnh:** PLC Mitsubishi FX3U Là Gì? Ứng Dụng, Ưu Điểm Và Khi Nào Nên Lên FX5U
 - **Gợi ý ảnh thật:** Ảnh PLC Mitsubishi FX3U/FX5U + bảng so sánh.
 
 ### Các Lỗi PLC Thường Gặp Và Cách Khắc Phục (Mọi Hãng: Mitsubishi, Siemens, Omron, Delta…)
@@ -180,7 +180,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** Lỗi truyền thông PLC, Mất kết nối PLC HMI, Lỗi Modbus RS485, Modbus TCP, Đấu dây RS485 A B, Điện trở đầu cuối 120 ohm
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/loi-truyen-thong-plc-hmi-modbus.jpg`
 - **Tên file ảnh nên đặt:** `loi-truyen-thong-plc-hmi-modbus.jpg`
-- **Alt text ảnh:** Lỗi Truyền Thông PLC
+- **Alt text ảnh:** Lỗi Truyền Thông PLC – HMI Và Modbus (RS485/TCP): Cách Khắc Phục
 - **Gợi ý ảnh thật:** Ảnh PLC Mitsubishi FX3U/FX5U + bảng so sánh.
 
 ### PLC Không Lên Nguồn (Đèn POWER Tắt): Nguyên Nhân Và Cách Khắc Phục
@@ -310,7 +310,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** Mở rộng I/O cho PLC, Module mở rộng PLC, Remote I/O, Hết chân PLC, Module I/O Modbus, Thêm ngõ vào ra PLC
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/mo-rong-io-plc.jpg`
 - **Tên file ảnh nên đặt:** `mo-rong-io-plc.jpg`
-- **Alt text ảnh:** Mở Rộng I/O Cho PLC: Dùng Module Mở Rộng Hay Remote I/O
+- **Alt text ảnh:** Mở Rộng I/O Cho PLC: Dùng Module Mở Rộng Hay Remote I/O?
 - **Gợi ý ảnh thật:** Ảnh PLC Mitsubishi FX3U/FX5U + bảng so sánh.
 
 ### Khi Nào Nên Thay PLC? Sửa, Thay Mới Hay Nâng Cấp
@@ -320,7 +320,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** Khi nào nên thay PLC, Sửa hay thay PLC, Nâng cấp PLC, Thay PLC đời cũ, Tuổi thọ PLC, Chi phí dừng máy
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/khi-nao-thay-plc.jpg`
 - **Tên file ảnh nên đặt:** `khi-nao-thay-plc.jpg`
-- **Alt text ảnh:** Khi Nào Nên Thay PLC
+- **Alt text ảnh:** Khi Nào Nên Thay PLC? Sửa, Thay Mới Hay Nâng Cấp
 - **Gợi ý ảnh thật:** Ảnh PLC Mitsubishi FX3U/FX5U + bảng so sánh.
 
 ### Phân Biệt PLC Thật Giả: Dấu Hiệu Và Cách Kiểm Tra
@@ -343,7 +343,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** Thiết bị công nghiệp khó tìm, Hàng ngừng sản xuất, Thiết bị obsolete, Tìm hàng thay thế, Linh kiện EOL
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/thiet-bi-cong-nghiep-kho-tim.jpg`
 - **Tên file ảnh nên đặt:** `thiet-bi-cong-nghiep-kho-tim.jpg`
-- **Alt text ảnh:** Thiết Bị Công Nghiệp Khó Tìm & Hàng Ngừng Sản Xuất
+- **Alt text ảnh:** Thiết Bị Công Nghiệp Khó Tìm & Hàng Ngừng Sản Xuất – Tìm Nguồn & Thay Thế
 - **Gợi ý ảnh thật:** Ảnh kho thiết bị/linh kiện đa dạng hoặc hình ghép nhiều model — gợi ý nguồn hàng sẵn.
 
 ### Linh Kiện Tự Động Hóa Ngừng Sản Xuất: Cách Tìm Hàng Thay Thế Đúng
@@ -386,7 +386,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** Seneca, thiết bị tự động hóa, thiết bị đo lường
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/seneca.jpg`
 - **Tên file ảnh nên đặt:** `seneca.jpg`
-- **Alt text ảnh:** Thiết Bị Seneca Chính Hãng chính hãng
+- **Alt text ảnh:** Thiết Bị Seneca Chính Hãng – Bộ Chuyển Đổi Tín Hiệu, Remote I/O, Datalogger chính hãng
 - **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
 
 ### Bộ Chuyển Đổi & Cách Ly Tín Hiệu Seneca (Z-LINE)
@@ -406,7 +406,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** Remote I/O Seneca, Seneca Z-PC, Module Modbus RTU, Thu thập tín hiệu từ xa, Module I/O
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/remote-io-seneca-z-pc.jpg`
 - **Tên file ảnh nên đặt:** `remote-io-seneca-z-pc.jpg`
-- **Alt text ảnh:** Remote I/O Seneca (Z-PC Line) chính hãng
+- **Alt text ảnh:** Remote I/O Seneca (Z-PC Line) – Module Thu Thập Tín Hiệu Modbus chính hãng
 - **Gợi ý ảnh thật:** Ảnh cụm module Z-PC gắn thành hàng trên DIN rail.
 
 ### Datalogger & RTU Giám Sát Từ Xa Seneca
@@ -426,7 +426,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** Gateway Modbus Seneca, Z-KEY, R-KEY-LT, Modbus TCP RTU, Bộ chuyển đổi Modbus
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/gateway-modbus-seneca.jpg`
 - **Tên file ảnh nên đặt:** `gateway-modbus-seneca.jpg`
-- **Alt text ảnh:** Gateway / Router Modbus chính hãng
+- **Alt text ảnh:** Gateway / Router Modbus – IoT Seneca chính hãng
 - **Gợi ý ảnh thật:** Ảnh gateway Z-KEY/R-KEY-LT có cổng Ethernet + RS485.
 
 ### Đồng Hồ Đo Điện Năng & Phân Tích Điện Seneca
@@ -459,7 +459,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** K109S, K109S Seneca, Bộ chuyển đổi 4-20mA 0-10V, Bộ cách ly tín hiệu loop-powered, Seneca
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/k109s-seneca.jpg`
 - **Tên file ảnh nên đặt:** `k109s-seneca.jpg`
-- **Alt text ảnh:** K109S Seneca chính hãng
+- **Alt text ảnh:** K109S Seneca – Bộ Chuyển Đổi & Cách Ly Tín Hiệu Đa Năng chính hãng
 - **Gợi ý ảnh thật:** Ảnh sản phẩm thật trên nền trắng, thấy rõ mặt trước + tem model, gắn DIN rail. Nếu có, thêm 1 ảnh sơ đồ đấu nối.
 
 ### K109PT Seneca – Bộ Chuyển Đổi Tín Hiệu Pt100 (RTD)
@@ -469,7 +469,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** K109PT, K109PT Seneca, Bộ chuyển đổi Pt100, Pt100 ra 4-20mA, Seneca
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/k109pt-seneca.jpg`
 - **Tên file ảnh nên đặt:** `k109pt-seneca.jpg`
-- **Alt text ảnh:** K109PT Seneca chính hãng
+- **Alt text ảnh:** K109PT Seneca – Bộ Chuyển Đổi Tín Hiệu Pt100 (RTD) chính hãng
 - **Gợi ý ảnh thật:** Ảnh sản phẩm thật trên nền trắng, thấy rõ mặt trước + tem model, gắn DIN rail. Nếu có, thêm 1 ảnh sơ đồ đấu nối.
 
 ### K109LV Seneca – Bộ Chuyển Đổi Điện Áp Thấp / Shunt
@@ -479,7 +479,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** K109LV, K109LV Seneca, Bộ chuyển đổi shunt, Tín hiệu mV sang 4-20mA, Seneca
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/k109lv-seneca.jpg`
 - **Tên file ảnh nên đặt:** `k109lv-seneca.jpg`
-- **Alt text ảnh:** K109LV Seneca chính hãng
+- **Alt text ảnh:** K109LV Seneca – Bộ Chuyển Đổi Điện Áp Thấp / Shunt chính hãng
 - **Gợi ý ảnh thật:** Ảnh sản phẩm thật trên nền trắng, thấy rõ mặt trước + tem model, gắn DIN rail. Nếu có, thêm 1 ảnh sơ đồ đấu nối.
 
 ### K121 Seneca – Bộ Chuyển Đổi & Cách Ly Tín Hiệu (Có Nguồn Cấp)
@@ -489,7 +489,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** K121, K121 Seneca, Bộ chuyển đổi cách ly có nguồn, Bộ cách ly tín hiệu dải rộng, Seneca
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/k121-seneca.jpg`
 - **Tên file ảnh nên đặt:** `k121-seneca.jpg`
-- **Alt text ảnh:** K121 Seneca chính hãng
+- **Alt text ảnh:** K121 Seneca – Bộ Chuyển Đổi & Cách Ly Tín Hiệu (Có Nguồn Cấp) chính hãng
 - **Gợi ý ảnh thật:** Ảnh sản phẩm thật trên nền trắng, thấy rõ mặt trước + tem model, gắn DIN rail. Nếu có, thêm 1 ảnh sơ đồ đấu nối.
 
 ### Z109REG2-1 Seneca – Bộ Cách Ly & Chuyển Đổi Tín Hiệu Lập Trình Được
@@ -499,7 +499,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** Z109REG2-1, Z109REG2-1 Seneca, Bộ cách ly tín hiệu, Cách ly 3 đường, Seneca
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/z109reg2-1-seneca.jpg`
 - **Tên file ảnh nên đặt:** `z109reg2-1-seneca.jpg`
-- **Alt text ảnh:** Z109REG2-1 Seneca chính hãng
+- **Alt text ảnh:** Z109REG2-1 Seneca – Bộ Cách Ly & Chuyển Đổi Tín Hiệu Lập Trình Được chính hãng
 - **Gợi ý ảnh thật:** Ảnh sản phẩm thật trên nền trắng, thấy rõ mặt trước + tem model, gắn DIN rail. Nếu có, thêm 1 ảnh sơ đồ đấu nối.
 
 ### K120 Seneca – Bộ Chuyển Đổi & Cách Ly Tín Hiệu
@@ -509,7 +509,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** K120, K120 Seneca, Bộ chuyển đổi tín hiệu K-series, Bộ cách ly tín hiệu, Seneca
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/k120-seneca.jpg`
 - **Tên file ảnh nên đặt:** `k120-seneca.jpg`
-- **Alt text ảnh:** K120 Seneca chính hãng
+- **Alt text ảnh:** K120 Seneca – Bộ Chuyển Đổi & Cách Ly Tín Hiệu chính hãng
 - **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
 
 ### Z109REG2-2 Seneca – Bộ Cách Ly & Chia Tín Hiệu (2 Ngõ Ra)
@@ -519,7 +519,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** Z109REG2-2, Z109REG2-2 Seneca, Bộ chia tín hiệu 2 ngõ ra, Bộ cách ly tín hiệu, Seneca
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/z109reg2-2-seneca.jpg`
 - **Tên file ảnh nên đặt:** `z109reg2-2-seneca.jpg`
-- **Alt text ảnh:** Z109REG2-2 Seneca chính hãng
+- **Alt text ảnh:** Z109REG2-2 Seneca – Bộ Cách Ly & Chia Tín Hiệu (2 Ngõ Ra) chính hãng
 - **Gợi ý ảnh thật:** Ảnh sản phẩm thật trên nền trắng, thấy rõ mặt trước + tem model, gắn DIN rail. Nếu có, thêm 1 ảnh sơ đồ đấu nối.
 
 ### T121 Seneca – Bộ Chuyển Đổi Tín Hiệu Nhiệt Độ (Pt100 / Can Nhiệt)
@@ -529,7 +529,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** T121, T121 Seneca, Bộ chuyển đổi nhiệt độ, Pt100 can nhiệt ra 4-20mA, Seneca
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/t121-seneca.jpg`
 - **Tên file ảnh nên đặt:** `t121-seneca.jpg`
-- **Alt text ảnh:** T121 Seneca chính hãng
+- **Alt text ảnh:** T121 Seneca – Bộ Chuyển Đổi Tín Hiệu Nhiệt Độ (Pt100 / Can Nhiệt) chính hãng
 - **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
 
 ### Z-4RTD2 Seneca – Module 4 Kênh RTD/Pt100 (Modbus RTU)
@@ -539,7 +539,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** Z-4RTD2, Z-4RTD2 Seneca, Module Pt100 Modbus, Remote I/O RTD, Seneca Z-PC
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/z-4rtd2-seneca.jpg`
 - **Tên file ảnh nên đặt:** `z-4rtd2-seneca.jpg`
-- **Alt text ảnh:** Z-4RTD2 Seneca chính hãng
+- **Alt text ảnh:** Z-4RTD2 Seneca – Module 4 Kênh RTD/Pt100 (Modbus RTU) chính hãng
 - **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
 
 ### Z-8AI Seneca – Module 8 Kênh Đầu Vào Analog (Modbus RTU)
@@ -549,7 +549,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** Z-8AI, Z-8AI Seneca, Module 8 analog input, Remote I/O analog, Seneca Z-PC
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/z-8ai-seneca.jpg`
 - **Tên file ảnh nên đặt:** `z-8ai-seneca.jpg`
-- **Alt text ảnh:** Z-8AI Seneca chính hãng
+- **Alt text ảnh:** Z-8AI Seneca – Module 8 Kênh Đầu Vào Analog (Modbus RTU) chính hãng
 - **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
 
 ### Z-4AO Seneca – Module 4 Kênh Đầu Ra Analog (Modbus RTU)
@@ -559,7 +559,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** Z-4AO, Z-4AO Seneca, Module 4 analog output, Remote I/O ngõ ra analog, Seneca Z-PC
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/z-4ao-seneca.jpg`
 - **Tên file ảnh nên đặt:** `z-4ao-seneca.jpg`
-- **Alt text ảnh:** Z-4AO Seneca chính hãng
+- **Alt text ảnh:** Z-4AO Seneca – Module 4 Kênh Đầu Ra Analog (Modbus RTU) chính hãng
 - **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
 
 ### Z-10-D-IN Seneca – Module Ngõ Vào Số + Đếm Xung (Modbus RTU)
@@ -569,7 +569,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** Z-10-D-IN, Z-10-D-IN Seneca, Module ngõ vào số, Đếm xung tốc độ cao, Seneca Z-PC
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/z-10-d-in-seneca.jpg`
 - **Tên file ảnh nên đặt:** `z-10-d-in-seneca.jpg`
-- **Alt text ảnh:** Z-10-D-IN Seneca chính hãng
+- **Alt text ảnh:** Z-10-D-IN Seneca – Module Ngõ Vào Số + Đếm Xung (Modbus RTU) chính hãng
 - **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
 
 ### Z-LOGGER3 Seneca – Datalogger Công Nghiệp Đa Giao Thức
@@ -579,7 +579,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** Z-LOGGER3, Z-LOGGER3 Seneca, Datalogger Modbus, Datalogger UPS, Seneca
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/z-logger3-seneca.jpg`
 - **Tên file ảnh nên đặt:** `z-logger3-seneca.jpg`
-- **Alt text ảnh:** Z-LOGGER3 Seneca chính hãng
+- **Alt text ảnh:** Z-LOGGER3 Seneca – Datalogger Công Nghiệp Đa Giao Thức chính hãng
 - **Gợi ý ảnh thật:** Ảnh sản phẩm thật trên nền trắng, thấy rõ mặt trước + tem model, gắn DIN rail. Nếu có, thêm 1 ảnh sơ đồ đấu nối.
 
 ### Z-GPRS3 Seneca – RTU / Datalogger Không Dây (2G/3G)
@@ -589,7 +589,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** Z-GPRS3, Z-GPRS3 Seneca, RTU 3G, Datalogger không dây, Giám sát từ xa
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/z-gprs3-seneca.jpg`
 - **Tên file ảnh nên đặt:** `z-gprs3-seneca.jpg`
-- **Alt text ảnh:** Z-GPRS3 Seneca chính hãng
+- **Alt text ảnh:** Z-GPRS3 Seneca – RTU / Datalogger Không Dây (2G/3G) chính hãng
 - **Gợi ý ảnh thật:** Ảnh sản phẩm thật trên nền trắng, thấy rõ mặt trước + tem model, gắn DIN rail. Nếu có, thêm 1 ảnh sơ đồ đấu nối.
 
 ### Z-UMTS Seneca – RTU / Datalogger Không Dây 3G (UMTS)
@@ -599,7 +599,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** Z-UMTS, Z-UMTS Seneca, RTU 3G UMTS, Datalogger không dây, Telemetry
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/z-umts-seneca.jpg`
 - **Tên file ảnh nên đặt:** `z-umts-seneca.jpg`
-- **Alt text ảnh:** Z-UMTS Seneca chính hãng
+- **Alt text ảnh:** Z-UMTS Seneca – RTU / Datalogger Không Dây 3G (UMTS) chính hãng
 - **Gợi ý ảnh thật:** Ảnh sản phẩm thật trên nền trắng, thấy rõ mặt trước + tem model, gắn DIN rail. Nếu có, thêm 1 ảnh sơ đồ đấu nối.
 
 ### Z-LTE Seneca – RTU / Datalogger Không Dây 4G LTE
@@ -609,7 +609,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** Z-LTE, Z-LTE Seneca, RTU 4G LTE, Datalogger 4G, Giám sát từ xa
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/z-lte-seneca.jpg`
 - **Tên file ảnh nên đặt:** `z-lte-seneca.jpg`
-- **Alt text ảnh:** Z-LTE Seneca chính hãng
+- **Alt text ảnh:** Z-LTE Seneca – RTU / Datalogger Không Dây 4G LTE chính hãng
 - **Gợi ý ảnh thật:** Ảnh sản phẩm thật trên nền trắng, thấy rõ mặt trước + tem model, gắn DIN rail. Nếu có, thêm 1 ảnh sơ đồ đấu nối.
 
 ### Z-KEY Seneca – Gateway Modbus TCP-IP ↔ RTU
@@ -619,7 +619,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** Z-KEY, Z-KEY Seneca, Gateway Modbus TCP RTU, Bộ chuyển đổi Modbus, Seneca
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/z-key-seneca.jpg`
 - **Tên file ảnh nên đặt:** `z-key-seneca.jpg`
-- **Alt text ảnh:** Z-KEY Seneca chính hãng
+- **Alt text ảnh:** Z-KEY Seneca – Gateway Modbus TCP-IP ↔ RTU chính hãng
 - **Gợi ý ảnh thật:** Ảnh sản phẩm thật trên nền trắng, thấy rõ mặt trước + tem model, gắn DIN rail. Nếu có, thêm 1 ảnh sơ đồ đấu nối.
 
 ### R-KEY-LT Seneca – Gateway Modbus TCP/RTU Nhỏ Gọn
@@ -629,7 +629,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** R-KEY-LT, R-KEY-LT Seneca, Gateway Modbus nhỏ gọn, Modbus TCP RTU, Seneca
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/r-key-lt-seneca.jpg`
 - **Tên file ảnh nên đặt:** `r-key-lt-seneca.jpg`
-- **Alt text ảnh:** R-KEY-LT Seneca chính hãng
+- **Alt text ảnh:** R-KEY-LT Seneca – Gateway Modbus TCP/RTU Nhỏ Gọn chính hãng
 - **Gợi ý ảnh thật:** Ảnh sản phẩm thật trên nền trắng, thấy rõ mặt trước + tem model, gắn DIN rail. Nếu có, thêm 1 ảnh sơ đồ đấu nối.
 
 ### Z-PASS2 Seneca – IIoT Edge Gateway/Router 4G LTE + VPN
@@ -639,7 +639,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** Z-PASS2, Z-PASS2 Seneca, IIoT Gateway 4G, Router công nghiệp VPN, Seneca
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/z-pass2-seneca.jpg`
 - **Tên file ảnh nên đặt:** `z-pass2-seneca.jpg`
-- **Alt text ảnh:** Z-PASS2 Seneca chính hãng
+- **Alt text ảnh:** Z-PASS2 Seneca – IIoT Edge Gateway/Router 4G LTE + VPN chính hãng
 - **Gợi ý ảnh thật:** Ảnh sản phẩm thật trên nền trắng, thấy rõ mặt trước + tem model, gắn DIN rail. Nếu có, thêm 1 ảnh sơ đồ đấu nối.
 
 ### R-PASS Seneca – IIoT Edge Gateway (VPN Từ Xa)
@@ -649,7 +649,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** R-PASS, R-PASS Seneca, IIoT Edge Gateway, Gateway VPN từ xa, Seneca
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/r-pass-seneca.jpg`
 - **Tên file ảnh nên đặt:** `r-pass-seneca.jpg`
-- **Alt text ảnh:** R-PASS Seneca chính hãng
+- **Alt text ảnh:** R-PASS Seneca – IIoT Edge Gateway (VPN Từ Xa) chính hãng
 - **Gợi ý ảnh thật:** Ảnh sản phẩm thật trên nền trắng, thấy rõ mặt trước + tem model, gắn DIN rail. Nếu có, thêm 1 ảnh sơ đồ đấu nối.
 
 ### S504 Seneca – Công Tơ Điện Năng 1 Pha (Dòng S500)
@@ -659,7 +659,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** S504, S504 Seneca, Công tơ điện 1 pha, Đồng hồ điện MID, Seneca
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/s504-seneca.jpg`
 - **Tên file ảnh nên đặt:** `s504-seneca.jpg`
-- **Alt text ảnh:** S504 Seneca chính hãng
+- **Alt text ảnh:** S504 Seneca – Công Tơ Điện Năng 1 Pha (Dòng S500) chính hãng
 - **Gợi ý ảnh thật:** Ảnh sản phẩm thật trên nền trắng, thấy rõ mặt trước + tem model, gắn DIN rail. Nếu có, thêm 1 ảnh sơ đồ đấu nối.
 
 ### S604 Seneca – Đồng Hồ Đo Điện Đa Năng 3 Pha (Power Analyzer)
@@ -669,7 +669,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** S604, S604 Seneca, Đồng hồ đo điện 3 pha, Power analyzer 3 pha, Seneca
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/s604-seneca.jpg`
 - **Tên file ảnh nên đặt:** `s604-seneca.jpg`
-- **Alt text ảnh:** S604 Seneca chính hãng
+- **Alt text ảnh:** S604 Seneca – Đồng Hồ Đo Điện Đa Năng 3 Pha (Power Analyzer) chính hãng
 - **Gợi ý ảnh thật:** Ảnh sản phẩm thật trên nền trắng, thấy rõ mặt trước + tem model, gắn DIN rail. Nếu có, thêm 1 ảnh sơ đồ đấu nối.
 
 ### S311A Seneca – Bộ Hiển Thị Số Đa Năng (Panel Meter)
@@ -679,7 +679,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** S311A, S311A Seneca, Bộ hiển thị đa năng, Panel meter Pt100, Seneca
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/s311a-seneca.jpg`
 - **Tên file ảnh nên đặt:** `s311a-seneca.jpg`
-- **Alt text ảnh:** S311A Seneca chính hãng
+- **Alt text ảnh:** S311A Seneca – Bộ Hiển Thị Số Đa Năng (Panel Meter) chính hãng
 - **Gợi ý ảnh thật:** Ảnh sản phẩm thật trên nền trắng, thấy rõ mặt trước + tem model, gắn DIN rail. Nếu có, thêm 1 ảnh sơ đồ đấu nối.
 
 
@@ -692,7 +692,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** Flowline, Flowline Việt Nam, Cảm biến đo mức Flowline, EchoPod, Đại lý Flowline
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/flowline.jpg`
 - **Tên file ảnh nên đặt:** `flowline.jpg`
-- **Alt text ảnh:** Flowline
+- **Alt text ảnh:** Flowline – Cảm Biến & Công Tắc Đo Mức (Level) Chính Hãng Mỹ
 - **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
 
 ### Cảm Biến Siêu Âm Đo Mức Flowline (Ultrasonic Level)
@@ -755,7 +755,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** EchoPod DL10, DL10 Flowline, Bộ điều khiển mức siêu âm, Công tắc mức 2 relay, Flowline
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/echopod-dl10-flowline.jpg`
 - **Tên file ảnh nên đặt:** `echopod-dl10-flowline.jpg`
-- **Alt text ảnh:** EchoPod DL10 Flowline
+- **Alt text ảnh:** EchoPod DL10 Flowline – Bộ Điều Khiển Mức Siêu Âm (2 Relay)
 - **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
 
 ### EchoPod DL14 Flowline – Cảm Biến Siêu Âm 4-20mA + Relay
@@ -765,7 +765,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** EchoPod DL14, DL14 Flowline, Cảm biến siêu âm đo mức 4-20mA, Cảm biến mức có relay, Flowline
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/echopod-dl14-flowline.jpg`
 - **Tên file ảnh nên đặt:** `echopod-dl14-flowline.jpg`
-- **Alt text ảnh:** EchoPod DL14 Flowline
+- **Alt text ảnh:** EchoPod DL14 Flowline – Cảm Biến Siêu Âm 4-20mA + Relay
 - **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
 
 ### EchoPod DL24 Flowline – Cảm Biến Siêu Âm Đo Mức + 2 Relay
@@ -775,7 +775,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** EchoPod DL24, DL24 Flowline, Cảm biến siêu âm đo mức, Cảm biến mức có relay, Flowline
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/echopod-dl24-flowline.jpg`
 - **Tên file ảnh nên đặt:** `echopod-dl24-flowline.jpg`
-- **Alt text ảnh:** EchoPod DL24 Flowline
+- **Alt text ảnh:** EchoPod DL24 Flowline – Cảm Biến Siêu Âm Đo Mức + 2 Relay
 - **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
 
 ### EchoPod DL34 Flowline – Cảm Biến Siêu Âm Đo Mức Bồn Cao
@@ -785,7 +785,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** EchoPod DL34, DL34 Flowline, Cảm biến siêu âm đo mức bồn cao, Cảm biến mức 4-20mA, Flowline
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/echopod-dl34-flowline.jpg`
 - **Tên file ảnh nên đặt:** `echopod-dl34-flowline.jpg`
-- **Alt text ảnh:** EchoPod DL34 Flowline
+- **Alt text ảnh:** EchoPod DL34 Flowline – Cảm Biến Siêu Âm Đo Mức Bồn Cao
 - **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
 
 ### EchoSpan LU27 Flowline – Transmitter Siêu Âm 2 Dây (~4m)
@@ -795,7 +795,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** EchoSpan LU27, LU27 Flowline, Cảm biến siêu âm 2 dây, Transmitter mức loop-powered, Flowline
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/echospan-lu27-flowline.jpg`
 - **Tên file ảnh nên đặt:** `echospan-lu27-flowline.jpg`
-- **Alt text ảnh:** EchoSpan LU27 Flowline
+- **Alt text ảnh:** EchoSpan LU27 Flowline – Transmitter Siêu Âm 2 Dây (~4m)
 - **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
 
 ### EchoSpan LU28 Flowline – Transmitter Siêu Âm 2 Dây (Loop-Powered)
@@ -805,7 +805,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** EchoSpan LU28, LU28 Flowline, Cảm biến siêu âm 2 dây, Transmitter mức loop-powered, Flowline
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/echospan-lu28-flowline.jpg`
 - **Tên file ảnh nên đặt:** `echospan-lu28-flowline.jpg`
-- **Alt text ảnh:** EchoSpan LU28 Flowline
+- **Alt text ảnh:** EchoSpan LU28 Flowline – Transmitter Siêu Âm 2 Dây (Loop-Powered)
 - **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
 
 ### EchoTouch US01 Flowline – Cảm Biến Siêu Âm Đo Mức Phòng Nổ
@@ -815,7 +815,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** EchoTouch US01, US01 Flowline, Cảm biến siêu âm phòng nổ, Cảm biến đo mức chống cháy nổ, Flowline
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/echotouch-us01-flowline.jpg`
 - **Tên file ảnh nên đặt:** `echotouch-us01-flowline.jpg`
-- **Alt text ảnh:** EchoTouch US01 Flowline
+- **Alt text ảnh:** EchoTouch US01 Flowline – Cảm Biến Siêu Âm Đo Mức Phòng Nổ
 - **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
 
 ### EchoTouch US03 Flowline – Cảm Biến Siêu Âm Đo Mức Phòng Nổ
@@ -825,7 +825,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** EchoTouch US03, US03 Flowline, Cảm biến siêu âm phòng nổ, Cảm biến đo mức chống cháy nổ, Flowline
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/echotouch-us03-flowline.jpg`
 - **Tên file ảnh nên đặt:** `echotouch-us03-flowline.jpg`
-- **Alt text ảnh:** EchoTouch US03 Flowline
+- **Alt text ảnh:** EchoTouch US03 Flowline – Cảm Biến Siêu Âm Đo Mức Phòng Nổ
 - **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
 
 ### EchoWave Flowline – Radar Đo Mức Không Tiếp Xúc
@@ -835,7 +835,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** EchoWave, EchoWave Flowline, Radar đo mức không tiếp xúc, Cảm biến radar 4-20mA, Flowline
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/echowave-radar-flowline.jpg`
 - **Tên file ảnh nên đặt:** `echowave-radar-flowline.jpg`
-- **Alt text ảnh:** EchoWave Flowline
+- **Alt text ảnh:** EchoWave Flowline – Radar Đo Mức Không Tiếp Xúc
 - **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
 
 ### EchoPulse Flowline – Radar Dẫn Sóng (GWR) Đo Mức
@@ -845,7 +845,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** EchoPulse, EchoPulse Flowline, Radar dẫn sóng, Guided wave radar, Cảm biến mức GWR
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/echopulse-radar-flowline.jpg`
 - **Tên file ảnh nên đặt:** `echopulse-radar-flowline.jpg`
-- **Alt text ảnh:** EchoPulse Flowline
+- **Alt text ảnh:** EchoPulse Flowline – Radar Dẫn Sóng (GWR) Đo Mức
 - **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
 
 ### DeltaSpan LD31 Flowline – Cảm Biến Đo Mức Thả Chìm
@@ -855,7 +855,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** DeltaSpan LD31, LD31 Flowline, Cảm biến áp suất thủy tĩnh, Cảm biến đo mức thả chìm, Flowline
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/deltaspan-ld31-flowline.jpg`
 - **Tên file ảnh nên đặt:** `deltaspan-ld31-flowline.jpg`
-- **Alt text ảnh:** DeltaSpan LD31 Flowline
+- **Alt text ảnh:** DeltaSpan LD31 Flowline – Cảm Biến Đo Mức Thả Chìm
 - **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
 
 ### Công Tắc Phao Flowline (Switch-Tek Float)
@@ -885,7 +885,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** LevelTouch LC40, LC40 Flowline, Bộ điều khiển mức, Điều khiển bơm theo mức, Flowline
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/leveltouch-lc40-flowline.jpg`
 - **Tên file ảnh nên đặt:** `leveltouch-lc40-flowline.jpg`
-- **Alt text ảnh:** LevelTouch LC40 Flowline
+- **Alt text ảnh:** LevelTouch LC40 Flowline – Bộ Điều Khiển Mức + Relay
 - **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
 
 ### DataLoop LI55 Flowline – Bộ Hiển Thị Mức 4-20mA
@@ -895,7 +895,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** DataLoop LI55, LI55 Flowline, Bộ hiển thị mức 4-20mA, Màn hình vòng dòng loop-powered, Flowline
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/dataloop-li55-flowline.jpg`
 - **Tên file ảnh nên đặt:** `dataloop-li55-flowline.jpg`
-- **Alt text ảnh:** DataLoop LI55 Flowline
+- **Alt text ảnh:** DataLoop LI55 Flowline – Bộ Hiển Thị Mức 4-20mA
 - **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
 
 
@@ -908,7 +908,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** PLC là gì, Bộ điều khiển lập trình, Programmable Logic Controller, Nguyên lý hoạt động PLC, Ứng dụng PLC, PLC cơ bản
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/plc-la-gi.jpg`
 - **Tên file ảnh nên đặt:** `plc-la-gi.jpg`
-- **Alt text ảnh:** PLC Là Gì
+- **Alt text ảnh:** PLC Là Gì? Cấu Tạo, Nguyên Lý Hoạt Động Và Ứng Dụng
 - **Gợi ý ảnh thật:** Ảnh PLC Mitsubishi FX3U/FX5U + bảng so sánh.
 
 ### Cấu Tạo PLC: Các Thành Phần Chính Và Chức Năng
@@ -968,7 +968,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** HMI là gì, Màn hình HMI, HMI và PLC, Giao diện người máy, Kết nối HMI PLC, Chức năng HMI
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/hmi-la-gi.jpg`
 - **Tên file ảnh nên đặt:** `hmi-la-gi.jpg`
-- **Alt text ảnh:** HMI Là Gì
+- **Alt text ảnh:** HMI Là Gì? Chức Năng Và Cách Kết Nối HMI Với PLC
 - **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
 
 ### SCADA Là Gì? Cấu Trúc Hệ Thống Và Quan Hệ Với PLC
@@ -978,7 +978,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** SCADA là gì, Hệ thống SCADA, SCADA và PLC, Giám sát điều khiển, Phần mềm SCADA, Cấu trúc SCADA
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/scada-la-gi.jpg`
 - **Tên file ảnh nên đặt:** `scada-la-gi.jpg`
-- **Alt text ảnh:** SCADA Là Gì
+- **Alt text ảnh:** SCADA Là Gì? Cấu Trúc Hệ Thống Và Quan Hệ Với PLC
 - **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
 
 ### Lập Trình PLC Ladder Cơ Bản Cho Người Mới Bắt Đầu
@@ -1091,7 +1091,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** PLC và IoT, IIoT, Giám sát PLC từ xa, PLC kết nối cloud, Gateway IoT PLC, Bảo mật IIoT
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/plc-va-iot.jpg`
 - **Tên file ảnh nên đặt:** `plc-va-iot.jpg`
-- **Alt text ảnh:** PLC Và IoT (IIoT): Giám Sát
+- **Alt text ảnh:** PLC Và IoT (IIoT): Giám Sát – Điều Khiển Từ Xa
 - **Gợi ý ảnh thật:** Ảnh PLC Mitsubishi FX3U/FX5U + bảng so sánh.
 
 ### PLC Trong HVAC: Điều Khiển Điều Hòa Và Thông Gió
@@ -1114,7 +1114,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** ei3, ei3 Việt Nam, Nền tảng IIoT bảo mật, ConnectedAI, Kết nối máy an toàn
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/ei3.jpg`
 - **Tên file ảnh nên đặt:** `ei3.jpg`
-- **Alt text ảnh:** ei3
+- **Alt text ảnh:** ei3 – Nền Tảng IIoT Bảo Mật, Gateway Edge & ConnectedAI
 - **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
 
 ### Gateway Kết Nối Bảo Mật ei3 (Amphion · Zethus · Portara)
@@ -1154,7 +1154,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** Bảo mật Zero-Trust ei3, ZTRA, An ninh mạng công nghiệp, IEC 62443, Truy cập từ xa an toàn OT
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/bao-mat-zero-trust-ei3.jpg`
 - **Tên file ảnh nên đặt:** `bao-mat-zero-trust-ei3.jpg`
-- **Alt text ảnh:** Bảo Mật Zero-Trust ei3 (Zero Trust Remote Access
+- **Alt text ảnh:** Bảo Mật Zero-Trust ei3 (Zero Trust Remote Access – ZTRA)
 - **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
 
 
@@ -1167,7 +1167,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** Amphion Gateway, Amphion ei3, Gateway edge phần cứng, IIoT gateway DIN-rail, ei3
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/amphion-gateway-ei3.jpg`
 - **Tên file ảnh nên đặt:** `amphion-gateway-ei3.jpg`
-- **Alt text ảnh:** Amphion Gateway ei3
+- **Alt text ảnh:** Amphion Gateway ei3 – Gateway Edge Phần Cứng
 - **Gợi ý ảnh thật:** Ảnh gateway Z-KEY/R-KEY-LT có cổng Ethernet + RS485.
 
 ### Zethus Gateway ei3 – Gateway Ảo (Container)
@@ -1177,7 +1177,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** Zethus Gateway, Zethus ei3, Gateway ảo container, Gateway phần mềm, ei3
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/zethus-gateway-ei3.jpg`
 - **Tên file ảnh nên đặt:** `zethus-gateway-ei3.jpg`
-- **Alt text ảnh:** Zethus Gateway ei3
+- **Alt text ảnh:** Zethus Gateway ei3 – Gateway Ảo (Container)
 - **Gợi ý ảnh thật:** Ảnh gateway Z-KEY/R-KEY-LT có cổng Ethernet + RS485.
 
 ### Portara Gateway ei3 – Nâng Cấp Hệ Remote Access Cũ
@@ -1187,7 +1187,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** Portara Gateway, Portara ei3, Nâng cấp remote access, Zero-trust hệ cũ, ei3
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/portara-gateway-ei3.jpg`
 - **Tên file ảnh nên đặt:** `portara-gateway-ei3.jpg`
-- **Alt text ảnh:** Portara Gateway ei3
+- **Alt text ảnh:** Portara Gateway ei3 – Nâng Cấp Hệ Remote Access Cũ
 - **Gợi ý ảnh thật:** Ảnh gateway Z-KEY/R-KEY-LT có cổng Ethernet + RS485.
 
 ### ConnectedAI ei3 – Phân Tích Dữ Liệu Máy Bằng AI
@@ -1197,7 +1197,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** ConnectedAI, ConnectedAI ei3, Phân tích dữ liệu máy bằng AI, AI bảo trì dự đoán, Insight vận hành
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/connectedai-ei3.jpg`
 - **Tên file ảnh nên đặt:** `connectedai-ei3.jpg`
-- **Alt text ảnh:** ConnectedAI ei3
+- **Alt text ảnh:** ConnectedAI ei3 – Phân Tích Dữ Liệu Máy Bằng AI
 - **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
 
 ### Thu Thập Dữ Liệu Máy ei3 (Data Collection)
@@ -1217,7 +1217,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** Remote service ei3, Truy cập máy từ xa an toàn, Chẩn đoán máy từ xa, Remote access công nghiệp, ei3
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/ei3-remote-service.jpg`
 - **Tên file ảnh nên đặt:** `ei3-remote-service.jpg`
-- **Alt text ảnh:** ei3 Service
+- **Alt text ảnh:** ei3 Service – Remote Service (Truy Cập Máy Từ Xa An Toàn)
 - **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
 
 ### ei3 Monitor – Giám Sát Dữ Liệu Máy Thời Gian Thực
@@ -1227,7 +1227,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** ei3 Monitor, Giám sát máy thời gian thực, Giám sát dữ liệu máy, Dashboard giám sát máy, ei3
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/ei3-monitor-giam-sat-may.jpg`
 - **Tên file ảnh nên đặt:** `ei3-monitor-giam-sat-may.jpg`
-- **Alt text ảnh:** ei3 Monitor
+- **Alt text ảnh:** ei3 Monitor – Giám Sát Dữ Liệu Máy Thời Gian Thực
 - **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
 
 ### ei3 Production – Theo Dõi OEE Tự Động
@@ -1237,7 +1237,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** OEE ei3, ei3 Production, Theo dõi OEE, Phần mềm OEE, Đo hiệu suất thiết bị
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/oee-production-ei3.jpg`
 - **Tên file ảnh nên đặt:** `oee-production-ei3.jpg`
-- **Alt text ảnh:** ei3 Production
+- **Alt text ảnh:** ei3 Production – Theo Dõi OEE Tự Động
 - **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
 
 ### ei3 Downtime – Phân Tích Nguyên Nhân Gốc Dừng Máy
@@ -1247,7 +1247,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** Downtime ei3, Phân tích dừng máy, Nguyên nhân gốc dừng máy, Pareto downtime, Giảm thời gian dừng máy
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/downtime-phan-tich-dung-may-ei3.jpg`
 - **Tên file ảnh nên đặt:** `downtime-phan-tich-dung-may-ei3.jpg`
-- **Alt text ảnh:** ei3 Downtime
+- **Alt text ảnh:** ei3 Downtime – Phân Tích Nguyên Nhân Gốc Dừng Máy
 - **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
 
 ### ei3 Lifecycle – Bảo Trì Dự Đoán Bằng AI
@@ -1257,7 +1257,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** Lifecycle ei3, Bảo trì dự đoán AI, Predictive maintenance, Thay phụ tùng dự đoán, ei3
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/lifecycle-bao-tri-du-doan-ei3.jpg`
 - **Tên file ảnh nên đặt:** `lifecycle-bao-tri-du-doan-ei3.jpg`
-- **Alt text ảnh:** ei3 Lifecycle
+- **Alt text ảnh:** ei3 Lifecycle – Bảo Trì Dự Đoán Bằng AI
 - **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
 
 ### ei3 Quality – Quản Lý Chất Lượng Tự Động
@@ -1267,7 +1267,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** Quality ei3, Quản lý chất lượng IIoT, Giảm phế phẩm, Đảm bảo chất lượng tự động, ei3
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/quality-quan-ly-chat-luong-ei3.jpg`
 - **Tên file ảnh nên đặt:** `quality-quan-ly-chat-luong-ei3.jpg`
-- **Alt text ảnh:** ei3 Quality
+- **Alt text ảnh:** ei3 Quality – Quản Lý Chất Lượng Tự Động
 - **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
 
 ### ei3 Recipe – Quản Lý Công Thức Sản Xuất
@@ -1277,7 +1277,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** Recipe ei3, Quản lý công thức sản xuất, Recipe management, Đổi công thức máy, ei3
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/recipe-quan-ly-cong-thuc-ei3.jpg`
 - **Tên file ảnh nên đặt:** `recipe-quan-ly-cong-thuc-ei3.jpg`
-- **Alt text ảnh:** ei3 Recipe
+- **Alt text ảnh:** ei3 Recipe – Quản Lý Công Thức Sản Xuất
 - **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
 
 ### ei3 Sustain – Tiết Kiệm Năng Lượng & Bền Vững
@@ -1287,7 +1287,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** Sustain ei3, Tiết kiệm năng lượng nhà máy, Quản lý năng lượng IIoT, Bền vững sản xuất, ei3
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/sustain-nang-luong-ei3.jpg`
 - **Tên file ảnh nên đặt:** `sustain-nang-luong-ei3.jpg`
-- **Alt text ảnh:** ei3 Sustain
+- **Alt text ảnh:** ei3 Sustain – Tiết Kiệm Năng Lượng & Bền Vững
 - **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
 
 
@@ -1300,7 +1300,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** Rhize, Manufacturing Data Hub, ISA-95, Nền tảng dữ liệu sản xuất, MES thế hệ mới
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/rhize.jpg`
 - **Tên file ảnh nên đặt:** `rhize.jpg`
-- **Alt text ảnh:** Rhize
+- **Alt text ảnh:** Rhize – Manufacturing Data Hub Chuẩn ISA-95
 - **Gợi ý ảnh thật:** Ảnh chụp màn hình dashboard/model ISA-95 hoặc sơ đồ kiến trúc; tránh ảnh stock chung chung.
 
 ### Manufacturing Data Hub Là Gì Trong Nhà Máy Số?
@@ -1310,7 +1310,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** Manufacturing Data Hub, MDH, Dữ liệu sản xuất, Nhà máy số, Kiến trúc dữ liệu nhà máy
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/manufacturing-data-hub-la-gi.jpg`
 - **Tên file ảnh nên đặt:** `manufacturing-data-hub-la-gi.jpg`
-- **Alt text ảnh:** Manufacturing Data Hub Là Gì Trong Nhà Máy Số
+- **Alt text ảnh:** Manufacturing Data Hub Là Gì Trong Nhà Máy Số?
 - **Gợi ý ảnh thật:** Ảnh chụp màn hình dashboard/model ISA-95 hoặc sơ đồ kiến trúc; tránh ảnh stock chung chung.
 
 ### Kiến Trúc Rhize – Các Thành Phần Nền Tảng
@@ -1320,7 +1320,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** Rhize, Kiến trúc Rhize, Microservice sản xuất, Kubernetes, Nền tảng dữ liệu sản xuất
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/kien-truc-nen-tang-rhize.jpg`
 - **Tên file ảnh nên đặt:** `kien-truc-nen-tang-rhize.jpg`
-- **Alt text ảnh:** Kiến Trúc Rhize
+- **Alt text ảnh:** Kiến Trúc Rhize – Các Thành Phần Nền Tảng
 - **Gợi ý ảnh thật:** Ảnh chụp màn hình dashboard/model ISA-95 hoặc sơ đồ kiến trúc; tránh ảnh stock chung chung.
 
 ### Rhize ISA-95 – Mô Hình Dữ Liệu Chuẩn Nhà Máy
@@ -1330,7 +1330,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** ISA-95, IEC 62264, Rhize, Mô hình dữ liệu sản xuất, Ontology sản xuất
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/rhize-isa-95.jpg`
 - **Tên file ảnh nên đặt:** `rhize-isa-95.jpg`
-- **Alt text ảnh:** Rhize ISA-95
+- **Alt text ảnh:** Rhize ISA-95 – Mô Hình Dữ Liệu Chuẩn Nhà Máy
 - **Gợi ý ảnh thật:** Ảnh chụp màn hình dashboard/model ISA-95 hoặc sơ đồ kiến trúc; tránh ảnh stock chung chung.
 
 ### Rhize GraphQL API – Một Endpoint Cho Mọi Ứng Dụng
@@ -1340,7 +1340,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** GraphQL, Rhize, API dữ liệu sản xuất, Apollo Router, Tích hợp ứng dụng nhà máy
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/rhize-graphql-api.jpg`
 - **Tên file ảnh nên đặt:** `rhize-graphql-api.jpg`
-- **Alt text ảnh:** Rhize GraphQL API
+- **Alt text ảnh:** Rhize GraphQL API – Một Endpoint Cho Mọi Ứng Dụng
 - **Gợi ý ảnh thật:** Ảnh chụp màn hình dashboard/model ISA-95 hoặc sơ đồ kiến trúc; tránh ảnh stock chung chung.
 
 ### Rhize vs MES, Historian, Data Lake – Chọn Cái Nào?
@@ -1350,7 +1350,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** Rhize, MES, Historian, Data lake, So sánh hệ thống sản xuất
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/rhize-vs-mes-historian-data-lake.jpg`
 - **Tên file ảnh nên đặt:** `rhize-vs-mes-historian-data-lake.jpg`
-- **Alt text ảnh:** Rhize vs MES, Historian, Data Lake
+- **Alt text ảnh:** Rhize vs MES, Historian, Data Lake – Chọn Cái Nào?
 - **Gợi ý ảnh thật:** Ảnh chụp màn hình dashboard/model ISA-95 hoặc sơ đồ kiến trúc; tránh ảnh stock chung chung.
 
 
@@ -1363,7 +1363,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** Rhize DB, Graph database, libreBaas, Knowledge graph, Cơ sở dữ liệu sản xuất
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/rhize-db-graph-database.jpg`
 - **Tên file ảnh nên đặt:** `rhize-db-graph-database.jpg`
-- **Alt text ảnh:** Rhize DB
+- **Alt text ảnh:** Rhize DB – Graph Database Chuẩn ISA-95
 - **Gợi ý ảnh thật:** Ảnh chụp màn hình dashboard/model ISA-95 hoặc sơ đồ kiến trúc; tránh ảnh stock chung chung.
 
 ### Rhize Core – Rules Engine Xử Lý Sự Kiện Sản Xuất
@@ -1373,7 +1373,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** Rhize Core, Rules engine, Xử lý sự kiện phức hợp, Complex event processing, Dữ liệu có ngữ cảnh
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/rhize-core.jpg`
 - **Tên file ảnh nên đặt:** `rhize-core.jpg`
-- **Alt text ảnh:** Rhize Core
+- **Alt text ảnh:** Rhize Core – Rules Engine Xử Lý Sự Kiện Sản Xuất
 - **Gợi ý ảnh thật:** Ảnh chụp màn hình dashboard/model ISA-95 hoặc sơ đồ kiến trúc; tránh ảnh stock chung chung.
 
 ### Rhize BPMN – Workflow Low-Code Cho Nhà Máy
@@ -1383,7 +1383,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** BPMN, Workflow sản xuất, Low-code, Rhize, Tự động hoá quy trình
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/rhize-bpmn-workflow.jpg`
 - **Tên file ảnh nên đặt:** `rhize-bpmn-workflow.jpg`
-- **Alt text ảnh:** Rhize BPMN
+- **Alt text ảnh:** Rhize BPMN – Workflow Low-Code Cho Nhà Máy
 - **Gợi ý ảnh thật:** Ảnh chụp màn hình dashboard/model ISA-95 hoặc sơ đồ kiến trúc; tránh ảnh stock chung chung.
 
 ### Rhize Agent – Kết Nối Thiết Bị Vào Data Hub
@@ -1393,7 +1393,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** Libre Agent, Thu thập dữ liệu, OPC UA, Kết nối PLC, Rhize
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/rhize-agent-ket-noi.jpg`
 - **Tên file ảnh nên đặt:** `rhize-agent-ket-noi.jpg`
-- **Alt text ảnh:** Rhize Agent
+- **Alt text ảnh:** Rhize Agent – Kết Nối Thiết Bị Vào Data Hub
 - **Gợi ý ảnh thật:** Ảnh chụp màn hình dashboard/model ISA-95 hoặc sơ đồ kiến trúc; tránh ảnh stock chung chung.
 
 ### Rhize NATS – Bus Sự Kiện Thời Gian Thực
@@ -1403,7 +1403,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** NATS, Event streaming, Message broker, Kiến trúc hướng sự kiện, Rhize
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/rhize-nats-event-streaming.jpg`
 - **Tên file ảnh nên đặt:** `rhize-nats-event-streaming.jpg`
-- **Alt text ảnh:** Rhize NATS
+- **Alt text ảnh:** Rhize NATS – Bus Sự Kiện Thời Gian Thực
 - **Gợi ý ảnh thật:** Ảnh chụp màn hình dashboard/model ISA-95 hoặc sơ đồ kiến trúc; tránh ảnh stock chung chung.
 
 ### Rhize Keycloak – Xác Thực Và Phân Quyền Dữ Liệu
@@ -1413,7 +1413,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** Keycloak, Phân quyền, RBAC, OpenID Connect, Bảo mật dữ liệu sản xuất
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/rhize-keycloak-phan-quyen.jpg`
 - **Tên file ảnh nên đặt:** `rhize-keycloak-phan-quyen.jpg`
-- **Alt text ảnh:** Rhize Keycloak
+- **Alt text ảnh:** Rhize Keycloak – Xác Thực Và Phân Quyền Dữ Liệu
 - **Gợi ý ảnh thật:** Ảnh chụp màn hình dashboard/model ISA-95 hoặc sơ đồ kiến trúc; tránh ảnh stock chung chung.
 
 ### Rhize Grafana & Tempo – Giám Sát Và Truy Vết
@@ -1423,7 +1423,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** Grafana, Tempo, Giám sát hệ thống, Tracing, Dashboard sản xuất
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/rhize-grafana-tempo.jpg`
 - **Tên file ảnh nên đặt:** `rhize-grafana-tempo.jpg`
-- **Alt text ảnh:** Rhize Grafana & Tempo
+- **Alt text ảnh:** Rhize Grafana & Tempo – Giám Sát Và Truy Vết
 - **Gợi ý ảnh thật:** Ảnh chụp màn hình dashboard/model ISA-95 hoặc sơ đồ kiến trúc; tránh ảnh stock chung chung.
 
 ### Rhize Admin UI – Giao Diện Quản Trị Data Hub
@@ -1433,7 +1433,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** Rhize Admin UI, Mô hình hoá dữ liệu, Quản trị hệ thống, ISA-95, Workflow UI
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/rhize-admin-ui.jpg`
 - **Tên file ảnh nên đặt:** `rhize-admin-ui.jpg`
-- **Alt text ảnh:** Rhize Admin UI
+- **Alt text ảnh:** Rhize Admin UI – Giao Diện Quản Trị Data Hub
 - **Gợi ý ảnh thật:** Ảnh chụp màn hình dashboard/model ISA-95 hoặc sơ đồ kiến trúc; tránh ảnh stock chung chung.
 
 ### Triển Khai Rhize Trên Kubernetes – Hạ Tầng
@@ -1443,7 +1443,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** Kubernetes, Helm, Triển khai Rhize, Hạ tầng nhà máy, On-premise
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/rhize-trien-khai-kubernetes.jpg`
 - **Tên file ảnh nên đặt:** `rhize-trien-khai-kubernetes.jpg`
-- **Alt text ảnh:** Triển Khai Rhize Trên Kubernetes
+- **Alt text ảnh:** Triển Khai Rhize Trên Kubernetes – Hạ Tầng
 - **Gợi ý ảnh thật:** Ảnh chụp màn hình dashboard/model ISA-95 hoặc sơ đồ kiến trúc; tránh ảnh stock chung chung.
 
 
@@ -1456,7 +1456,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** OPC UA, Kết nối PLC, Thu thập dữ liệu, Rhize, Giao thức công nghiệp
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/rhize-opc-ua.jpg`
 - **Tên file ảnh nên đặt:** `rhize-opc-ua.jpg`
-- **Alt text ảnh:** Rhize OPC UA
+- **Alt text ảnh:** Rhize OPC UA – Kết Nối PLC Vào Data Hub
 - **Gợi ý ảnh thật:** Ảnh chụp màn hình dashboard/model ISA-95 hoặc sơ đồ kiến trúc; tránh ảnh stock chung chung.
 
 ### Rhize MQTT & UNS – Bổ Sung Ngữ Cảnh Cho Namespace
@@ -1466,7 +1466,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** MQTT, Unified Namespace, UNS, Sparkplug, Rhize
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/rhize-mqtt-uns.jpg`
 - **Tên file ảnh nên đặt:** `rhize-mqtt-uns.jpg`
-- **Alt text ảnh:** Rhize MQTT & UNS
+- **Alt text ảnh:** Rhize MQTT & UNS – Bổ Sung Ngữ Cảnh Cho Namespace
 - **Gợi ý ảnh thật:** Ảnh chụp màn hình dashboard/model ISA-95 hoặc sơ đồ kiến trúc; tránh ảnh stock chung chung.
 
 ### Rhize Tích Hợp ERP – Nối Văn Phòng Với Nhà Xưởng
@@ -1476,7 +1476,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** Tích hợp ERP, OData, Lệnh sản xuất, SAP, Rhize
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/rhize-tich-hop-erp.jpg`
 - **Tên file ảnh nên đặt:** `rhize-tich-hop-erp.jpg`
-- **Alt text ảnh:** Rhize Tích Hợp ERP
+- **Alt text ảnh:** Rhize Tích Hợp ERP – Nối Văn Phòng Với Nhà Xưởng
 - **Gợi ý ảnh thật:** Ảnh chụp màn hình dashboard/model ISA-95 hoặc sơ đồ kiến trúc; tránh ảnh stock chung chung.
 
 ### Rhize Tích Hợp SCADA & Historian Sẵn Có
@@ -1496,7 +1496,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** B2MML, MESA, ISA-95, Trao đổi dữ liệu, XML sản xuất
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/rhize-b2mml.jpg`
 - **Tên file ảnh nên đặt:** `rhize-b2mml.jpg`
-- **Alt text ảnh:** Rhize B2MML
+- **Alt text ảnh:** Rhize B2MML – Chuẩn Trao Đổi Dữ Liệu ISA-95
 - **Gợi ý ảnh thật:** Ảnh chụp màn hình dashboard/model ISA-95 hoặc sơ đồ kiến trúc; tránh ảnh stock chung chung.
 
 
@@ -1509,7 +1509,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** OEE, Hiệu suất thiết bị, Phân tích dừng máy, Quản lý hiệu suất, Rhize
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/rhize-oee.jpg`
 - **Tên file ảnh nên đặt:** `rhize-oee.jpg`
-- **Alt text ảnh:** Rhize OEE
+- **Alt text ảnh:** Rhize OEE – Hiệu Suất Thiết Bị Từ Dữ Liệu Thật
 - **Gợi ý ảnh thật:** Ảnh chụp màn hình dashboard/model ISA-95 hoặc sơ đồ kiến trúc; tránh ảnh stock chung chung.
 
 ### Batch Record Điện Tử Với Rhize – Hồ Sơ Lô Realtime
@@ -1519,7 +1519,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** Batch record điện tử, Hồ sơ lô, EBR, Review by exception, GMP
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/rhize-batch-record-dien-tu.jpg`
 - **Tên file ảnh nên đặt:** `rhize-batch-record-dien-tu.jpg`
-- **Alt text ảnh:** Batch Record Điện Tử Với Rhize
+- **Alt text ảnh:** Batch Record Điện Tử Với Rhize – Hồ Sơ Lô Realtime
 - **Gợi ý ảnh thật:** Ảnh chụp màn hình dashboard/model ISA-95 hoặc sơ đồ kiến trúc; tránh ảnh stock chung chung.
 
 ### Rhize Track & Trace – Truy Xuất Nguồn Gốc Nhanh
@@ -1529,7 +1529,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** Truy xuất nguồn gốc, Track and trace, Genealogy, Thu hồi sản phẩm, Rhize
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/rhize-truy-xuat-nguon-goc.jpg`
 - **Tên file ảnh nên đặt:** `rhize-truy-xuat-nguon-goc.jpg`
-- **Alt text ảnh:** Rhize Track & Trace
+- **Alt text ảnh:** Rhize Track & Trace – Truy Xuất Nguồn Gốc Nhanh
 - **Gợi ý ảnh thật:** Ảnh chụp màn hình dashboard/model ISA-95 hoặc sơ đồ kiến trúc; tránh ảnh stock chung chung.
 
 ### Rhize Quản Lý Chất Lượng Ngay Trong Quá Trình
@@ -1549,7 +1549,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** Lập kế hoạch sản xuất, Điều độ sản xuất, APS, Scheduling, Rhize
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/rhize-scheduling-lap-ke-hoach.jpg`
 - **Tên file ảnh nên đặt:** `rhize-scheduling-lap-ke-hoach.jpg`
-- **Alt text ảnh:** Rhize Scheduling
+- **Alt text ảnh:** Rhize Scheduling – Điều Độ Theo Dữ Liệu Thật
 - **Gợi ý ảnh thật:** Ảnh chụp màn hình dashboard/model ISA-95 hoặc sơ đồ kiến trúc; tránh ảnh stock chung chung.
 
 ### Rhize Quản Lý Kho Và Vật Tư Tại Xưởng
@@ -1569,7 +1569,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** AI công nghiệp, Machine learning, Bảo trì dự đoán, Dữ liệu cho AI, Rhize
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/rhize-ai-ml-du-lieu-san-xuat.jpg`
 - **Tên file ảnh nên đặt:** `rhize-ai-ml-du-lieu-san-xuat.jpg`
-- **Alt text ảnh:** Rhize AI
+- **Alt text ảnh:** Rhize AI – Nền Dữ Liệu Cho AI Trong Nhà Máy
 - **Gợi ý ảnh thật:** Ảnh chụp màn hình dashboard/model ISA-95 hoặc sơ đồ kiến trúc; tránh ảnh stock chung chung.
 
 ### Rhize Ngành Dược – Data Hub Cho Nhà Máy GMP
@@ -1579,7 +1579,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** Ngành dược, GMP, Hồ sơ lô, Life sciences, Truy xuất dược phẩm
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/rhize-nganh-duoc-pham.jpg`
 - **Tên file ảnh nên đặt:** `rhize-nganh-duoc-pham.jpg`
-- **Alt text ảnh:** Rhize Ngành Dược
+- **Alt text ảnh:** Rhize Ngành Dược – Data Hub Cho Nhà Máy GMP
 - **Gợi ý ảnh thật:** Ảnh chụp màn hình dashboard/model ISA-95 hoặc sơ đồ kiến trúc; tránh ảnh stock chung chung.
 
 ### Rhize Ngành Thực Phẩm – Truy Xuất Và OEE
@@ -1589,7 +1589,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** Ngành thực phẩm, Đồ uống, HACCP, Truy xuất thực phẩm, OEE dây chuyền
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/rhize-nganh-thuc-pham-do-uong.jpg`
 - **Tên file ảnh nên đặt:** `rhize-nganh-thuc-pham-do-uong.jpg`
-- **Alt text ảnh:** Rhize Ngành Thực Phẩm
+- **Alt text ảnh:** Rhize Ngành Thực Phẩm – Truy Xuất Và OEE
 - **Gợi ý ảnh thật:** Ảnh chụp màn hình dashboard/model ISA-95 hoặc sơ đồ kiến trúc; tránh ảnh stock chung chung.
 
 ### Rhize Sản Xuất Rời Rạc – Truy Xuất Theo Serial
@@ -1599,7 +1599,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** Sản xuất rời rạc, Truy xuất theo serial, As-built, Điện tử, Linh kiện ô tô
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/rhize-san-xuat-roi-rac-serial.jpg`
 - **Tên file ảnh nên đặt:** `rhize-san-xuat-roi-rac-serial.jpg`
-- **Alt text ảnh:** Rhize Sản Xuất Rời Rạc
+- **Alt text ảnh:** Rhize Sản Xuất Rời Rạc – Truy Xuất Theo Serial
 - **Gợi ý ảnh thật:** Ảnh chụp màn hình dashboard/model ISA-95 hoặc sơ đồ kiến trúc; tránh ảnh stock chung chung.
 
 
@@ -1612,7 +1612,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** Cảm biến đo mức, Đo mức nước, Cảm biến siêu âm đo mức, Cảm biến radar, Công tắc báo mức
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/cam-bien-do-muc.jpg`
 - **Tên file ảnh nên đặt:** `cam-bien-do-muc.jpg`
-- **Alt text ảnh:** Cảm Biến Đo Mức Là Gì
+- **Alt text ảnh:** Cảm Biến Đo Mức Là Gì? Phân Loại Và Cách Chọn
 - **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
 
 ### Đồng Hồ Đo Áp Suất Là Gì? Cách Chọn Đúng
@@ -1622,7 +1622,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** Đồng hồ đo áp suất, Áp kế, Thang đo áp suất, Đồng hồ áp suất chân đứng, Cách chọn đồng hồ áp suất
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/dong-ho-do-ap-suat.jpg`
 - **Tên file ảnh nên đặt:** `dong-ho-do-ap-suat.jpg`
-- **Alt text ảnh:** Đồng Hồ Đo Áp Suất Là Gì
+- **Alt text ảnh:** Đồng Hồ Đo Áp Suất Là Gì? Cách Chọn Đúng
 - **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
 
 ### Cảm Biến Áp Suất WIKA Chính Hãng – Báo Giá Nhanh
@@ -1632,7 +1632,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** Cảm biến áp suất WIKA, WIKA, Transmitter áp suất, Cảm biến áp suất 4-20mA, Cảm biến áp suất chính hãng
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/cam-bien-ap-suat-wika.jpg`
 - **Tên file ảnh nên đặt:** `cam-bien-ap-suat-wika.jpg`
-- **Alt text ảnh:** Cảm Biến Áp Suất WIKA Chính Hãng chính hãng
+- **Alt text ảnh:** Cảm Biến Áp Suất WIKA Chính Hãng – Báo Giá Nhanh chính hãng
 - **Gợi ý ảnh thật:** Ảnh đồng hồ áp suất WIKA (chân đồng & inox, loại có dầu) trên nền trắng.
 
 ### Đồng Hồ Áp Suất Dạng Màng – Chọn Đúng Màng Ngăn
@@ -1642,7 +1642,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** Đồng hồ áp suất dạng màng, Màng ngăn, Diaphragm seal, Đo áp môi chất bẩn, Đo áp hóa chất
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/dong-ho-ap-suat-dang-mang.jpg`
 - **Tên file ảnh nên đặt:** `dong-ho-ap-suat-dang-mang.jpg`
-- **Alt text ảnh:** Đồng Hồ Áp Suất Dạng Màng
+- **Alt text ảnh:** Đồng Hồ Áp Suất Dạng Màng – Chọn Đúng Màng Ngăn
 - **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
 
 ### Đồng Hồ Áp Suất Có Dầu – Chống Rung, Bền Kim
@@ -1652,7 +1652,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** Đồng hồ áp suất có dầu, Glycerin, Đồng hồ chống rung, Dầu silicon, Đồng hồ áp suất thủy lực
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/dong-ho-ap-suat-co-dau.jpg`
 - **Tên file ảnh nên đặt:** `dong-ho-ap-suat-co-dau.jpg`
-- **Alt text ảnh:** Đồng Hồ Áp Suất Có Dầu
+- **Alt text ảnh:** Đồng Hồ Áp Suất Có Dầu – Chống Rung, Bền Kim
 - **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
 
 ### Đồng Hồ Áp Suất Lò Hơi – Chọn Đúng, Lắp Đúng
@@ -1662,7 +1662,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** Đồng hồ áp suất lò hơi, Ống siphon, Áp kế nồi hơi, Đo áp suất hơi, Kiểm định lò hơi
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/dong-ho-ap-suat-lo-hoi.jpg`
 - **Tên file ảnh nên đặt:** `dong-ho-ap-suat-lo-hoi.jpg`
-- **Alt text ảnh:** Đồng Hồ Áp Suất Lò Hơi
+- **Alt text ảnh:** Đồng Hồ Áp Suất Lò Hơi – Chọn Đúng, Lắp Đúng
 - **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
 
 ### Cách Chọn Thang Đo Áp Suất Đúng Ngay Từ Đầu
@@ -1682,7 +1682,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** Lỗi cảm biến áp suất, Sửa cảm biến áp suất, 4-20mA không ổn định, Cảm biến mất tín hiệu, Chẩn đoán cảm biến
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/loi-cam-bien-ap-suat.jpg`
 - **Tên file ảnh nên đặt:** `loi-cam-bien-ap-suat.jpg`
-- **Alt text ảnh:** Lỗi Cảm Biến Áp Suất
+- **Alt text ảnh:** Lỗi Cảm Biến Áp Suất – Chẩn Đoán Và Khắc Phục
 - **Gợi ý ảnh thật:** Ảnh cảm biến áp suất thật + ảnh minh họa lắp trên đường ống.
 
 ### Tín Hiệu 4-20mA Là Gì Và Vì Sao Được Dùng?
@@ -1692,7 +1692,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** Tín hiệu 4-20mA, Vòng dòng 4-20mA, 4-20mA 2 dây, Tín hiệu analog, Chuyển đổi tín hiệu
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/tin-hieu-4-20ma-la-gi.jpg`
 - **Tên file ảnh nên đặt:** `tin-hieu-4-20ma-la-gi.jpg`
-- **Alt text ảnh:** Tín Hiệu 4-20mA Là Gì Và Vì Sao Được Dùng
+- **Alt text ảnh:** Tín Hiệu 4-20mA Là Gì Và Vì Sao Được Dùng?
 - **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
 
 ### Đồng Hồ Áp Suất Hay Cảm Biến – Chọn Cái Nào?
@@ -1702,7 +1702,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** Đồng hồ áp suất, Cảm biến áp suất, So sánh thiết bị đo áp, Chọn thiết bị đo áp suất, Áp kế hay transmitter
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/dong-ho-vs-cam-bien-ap-suat.jpg`
 - **Tên file ảnh nên đặt:** `dong-ho-vs-cam-bien-ap-suat.jpg`
-- **Alt text ảnh:** Đồng Hồ Áp Suất Hay Cảm Biến
+- **Alt text ảnh:** Đồng Hồ Áp Suất Hay Cảm Biến – Chọn Cái Nào?
 - **Gợi ý ảnh thật:** Ảnh cảm biến áp suất thật + ảnh minh họa lắp trên đường ống.
 
 ### Cảm Biến Áp Suất Hãng Nào Tốt? Cách Chọn Đúng
@@ -1712,7 +1712,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** Cảm biến áp suất hãng nào tốt, Chọn hãng cảm biến, So sánh hãng, Cảm biến áp suất châu Âu, Tư vấn chọn mua
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/cam-bien-ap-suat-hang-nao-tot.jpg`
 - **Tên file ảnh nên đặt:** `cam-bien-ap-suat-hang-nao-tot.jpg`
-- **Alt text ảnh:** Cảm Biến Áp Suất Hãng Nào Tốt
+- **Alt text ảnh:** Cảm Biến Áp Suất Hãng Nào Tốt? Cách Chọn Đúng
 - **Gợi ý ảnh thật:** Ảnh cảm biến áp suất thật + ảnh minh họa lắp trên đường ống.
 
 
@@ -1725,7 +1725,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** PLC Mitsubishi FX5U, FX5U, MELSEC iQ-F, GX Works3, PLC compact
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/plc-mitsubishi-fx5u.jpg`
 - **Tên file ảnh nên đặt:** `plc-mitsubishi-fx5u.jpg`
-- **Alt text ảnh:** PLC Mitsubishi FX5U
+- **Alt text ảnh:** PLC Mitsubishi FX5U – Chọn Đúng Và Báo Giá
 - **Gợi ý ảnh thật:** Ảnh PLC Mitsubishi FX3U/FX5U + bảng so sánh.
 
 ### Truyền Thông FX5U Với FX3U – Chọn Cách Nào?
@@ -1735,7 +1735,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** Truyền thông PLC, FX5U FX3U, Modbus RTU, RS-485, Kết nối hai PLC
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/truyen-thong-fx5u-fx3u.jpg`
 - **Tên file ảnh nên đặt:** `truyen-thong-fx5u-fx3u.jpg`
-- **Alt text ảnh:** Truyền Thông FX5U Với FX3U
+- **Alt text ảnh:** Truyền Thông FX5U Với FX3U – Chọn Cách Nào?
 - **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
 
 ### HMI Weintek – Chọn Đúng Dòng Và Báo Giá
@@ -1745,7 +1745,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** HMI Weintek, Weintek, EasyBuilder Pro, Màn hình cảm ứng công nghiệp, HMI công nghiệp
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/hmi-weintek.jpg`
 - **Tên file ảnh nên đặt:** `hmi-weintek.jpg`
-- **Alt text ảnh:** HMI Weintek
+- **Alt text ảnh:** HMI Weintek – Chọn Đúng Dòng Và Báo Giá
 - **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
 
 ### Biến Tần Là Gì? Nguyên Lý Và Cách Chọn Đúng
@@ -1755,7 +1755,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** Biến tần, Inverter, Cách chọn biến tần, Điều khiển động cơ, Tiết kiệm điện
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/bien-tan-la-gi.jpg`
 - **Tên file ảnh nên đặt:** `bien-tan-la-gi.jpg`
-- **Alt text ảnh:** Biến Tần Là Gì
+- **Alt text ảnh:** Biến Tần Là Gì? Nguyên Lý Và Cách Chọn Đúng
 - **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
 
 
@@ -1768,7 +1768,7 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Thẻ (tags):** Thiết bị đo lường lò hơi, Đo mức nước bao hơi, Giám sát lò hơi, Cảm biến lò hơi, Nồi hơi công nghiệp
 - **Ảnh bìa (featured/OG, JPG 1200×630, ~40KB):** `assets/covers/thiet-bi-do-luong-lo-hoi.jpg`
 - **Tên file ảnh nên đặt:** `thiet-bi-do-luong-lo-hoi.jpg`
-- **Alt text ảnh:** Thiết Bị Đo Lường Lò Hơi
+- **Alt text ảnh:** Thiết Bị Đo Lường Lò Hơi – Danh Mục Điểm Đo
 - **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
 
 ### Thiết Bị Tự Động Hóa Nhà Máy Xi Măng

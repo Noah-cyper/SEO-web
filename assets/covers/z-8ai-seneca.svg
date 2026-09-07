@@ -22,6 +22,6 @@
  <text x="108" y="85" font-size="22" font-weight="700" letter-spacing="3" fill="#f2f5fa">HOANTRANTDH</text>
  <text x="80" y="150" font-size="16" letter-spacing="2" fill="#e5484d">SENECA — SẢN PHẨM</text>
 </g>
-<text x="80" y="300" font-family="Segoe UI,Roboto,Arial,sans-serif" font-size="54" font-weight="700" fill="#f2f5fa">Z-8AI Seneca</text>
+<text x="80" y="312" font-family="Segoe UI,Roboto,Arial,sans-serif" font-size="54" font-weight="700" fill="#f2f5fa">Z-8AI Seneca – Module 8</text><text x="80" y="381" font-family="Segoe UI,Roboto,Arial,sans-serif" font-size="54" font-weight="700" fill="#f2f5fa">Kênh Đầu Vào Analog</text><text x="80" y="450" font-family="Segoe UI,Roboto,Arial,sans-serif" font-size="54" font-weight="700" fill="#f2f5fa">(Modbus RTU)</text>
 <text x="80" y="560" font-family="Consolas,Menlo,monospace" font-size="20" fill="#8b97a6">hoantrantdh.com · thiết bị đo lường – tự động hoá</text>
 </svg>

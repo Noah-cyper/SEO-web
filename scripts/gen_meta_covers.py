@@ -167,28 +167,53 @@ def img_brief(d):
     return "Ảnh minh họa liên quan chủ đề, nền sạch."
 
 def alt_text(d):
-    base = d["h1"].split("–")[0].split("?")[0].strip()
+    # alt = ĐẦY ĐỦ tiêu đề bài, không cắt ở "–" hay "?"
+    base = d["h1"].strip()
     if "seneca" in d["tukhoa"].lower() or "wika" in d["tukhoa"].lower():
         return f"{base} chính hãng"
     return base
 
 # ---- cover SVG ----
+# Tiêu đề trên ảnh bìa là ĐẦY ĐỦ H1 của bài, không cắt bớt. Cỡ chữ tự co
+# để tiêu đề dài vẫn vừa khung, không tràn sang phần đồ hoạ bên phải.
+TITLE_X, TITLE_W = 80, 700     # vùng chữ: x=80 .. 780 (đồ hoạ bắt đầu từ x≈850)
+TITLE_TOP, TITLE_BOT = 195, 530
+CHAR_W = 0.545                 # bề rộng ký tự trung bình / cỡ chữ, font đậm
+
 def wrap(text, maxc):
-    words = text.split(); lines=[]; cur=""
-    for w in words:
-        if len(cur)+len(w)+1 <= maxc: cur=(cur+" "+w).strip()
-        else: lines.append(cur); cur=w
+    """Ngắt dòng theo số ký tự; từ dài hơn một dòng thì tự cắt để không tràn."""
+    lines, cur = [], ""
+    for w in text.split():
+        if len(w) > maxc:
+            if cur: lines.append(cur); cur = ""
+            while len(w) > maxc:
+                lines.append(w[:maxc]); w = w[maxc:]
+        if not cur: cur = w
+        elif len(cur) + 1 + len(w) <= maxc: cur += " " + w
+        else: lines.append(cur); cur = w
     if cur: lines.append(cur)
-    return lines[:4]
+    return lines
+
+def fit_title(title):
+    """Chọn cỡ chữ lớn nhất mà cả tiêu đề vẫn nằm gọn trong khung."""
+    band = TITLE_BOT - TITLE_TOP
+    for size in (54, 50, 46, 42, 38, 35, 32, 29, 26):
+        maxc = max(8, int(TITLE_W / (size * CHAR_W)))
+        lines = wrap(title, maxc)
+        lh = round(size * 1.28)
+        if len(lines) * lh <= band:
+            return lines, size, lh
+    size = 26; lh = round(size * 1.28)
+    return wrap(title, int(TITLE_W / (size * CHAR_W))), size, lh
 
 def cover_svg(d, group, accent):
-    title = d["h1"].split("–")[0].split("?")[0].strip()
-    lines = wrap(title, 24)
+    title = d["h1"].strip()                      # ĐỦ tiêu đề bài, không cắt
+    lines, size, lh = fit_title(title)
     W,H = 1200,630
-    y0 = 300 - (len(lines)-1)*34
+    y0 = (TITLE_TOP + TITLE_BOT) / 2 - (len(lines) - 1) * lh / 2 + size * 0.35
     tspans = "".join(
-        f'<text x="80" y="{y0+i*70}" font-family="Segoe UI,Roboto,Arial,sans-serif" '
-        f'font-size="54" font-weight="700" fill="#f2f5fa">{_h.escape(l)}</text>'
+        f'<text x="{TITLE_X}" y="{y0+i*lh:.0f}" font-family="Segoe UI,Roboto,Arial,sans-serif" '
+        f'font-size="{size}" font-weight="700" fill="#f2f5fa">{_h.escape(l)}</text>'
         for i,l in enumerate(lines))
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img">
 <defs>
