@@ -161,6 +161,38 @@ GROUPS = [
         "ei3/recipe-quan-ly-cong-thuc-ei3.md",
         "ei3/sustain-nang-luong-ei3.md",
     ]),
+    ("Rhize — Nền tảng & kiến trúc", "rhize-core", [
+        "rhize/rhize-viet-nam.md","rhize/manufacturing-data-hub-la-gi.md","rhize/kien-truc-nen-tang-rhize.md",
+        "rhize/rhize-isa-95.md","rhize/rhize-graphql-api.md","rhize/rhize-vs-mes-historian-data-lake.md",
+    ]),
+    ("Rhize — Thành phần hệ thống", "rhize-comp", [
+        "rhize/rhize-db-graph-database.md","rhize/rhize-core.md","rhize/rhize-bpmn-workflow.md",
+        "rhize/rhize-agent-ket-noi.md","rhize/rhize-nats-event-streaming.md","rhize/rhize-keycloak-phan-quyen.md",
+        "rhize/rhize-grafana-tempo.md","rhize/rhize-admin-ui.md","rhize/rhize-trien-khai-kubernetes.md",
+    ]),
+    ("Rhize — Tích hợp & chuẩn dữ liệu", "rhize-int", [
+        "rhize/rhize-opc-ua.md","rhize/rhize-mqtt-uns.md","rhize/rhize-tich-hop-erp.md",
+        "rhize/rhize-tich-hop-scada-historian.md","rhize/rhize-b2mml.md",
+    ]),
+    ("Rhize — Ứng dụng & ngành", "rhize-app", [
+        "rhize/rhize-oee.md","rhize/rhize-batch-record-dien-tu.md","rhize/rhize-track-and-trace.md",
+        "rhize/rhize-quan-ly-chat-luong.md","rhize/rhize-scheduling-lap-ke-hoach.md","rhize/rhize-quan-ly-kho.md",
+        "rhize/rhize-ai-ml-du-lieu-san-xuat.md","rhize/rhize-nganh-duoc-pham.md",
+        "rhize/rhize-nganh-thuc-pham-do-uong.md","rhize/rhize-nganh-san-xuat-roi-rac.md",
+    ]),
+    ("Đo lường & áp suất — mở rộng", "do-luong-2", [
+        "cam-bien-do-muc.md","dong-ho-do-ap-suat.md","cam-bien-ap-suat-wika.md",
+        "dong-ho-ap-suat-dang-mang.md","dong-ho-ap-suat-co-dau.md","dong-ho-ap-suat-lo-hoi.md",
+        "cach-chon-thang-do-ap-suat.md","loi-cam-bien-ap-suat.md","tin-hieu-4-20ma-la-gi.md",
+        "dong-ho-vs-cam-bien-ap-suat.md","cam-bien-ap-suat-hang-nao-tot.md",
+    ]),
+    ("PLC, HMI & biến tần — mở rộng", "plc-2", [
+        "plc-mitsubishi-fx5u.md","truyen-thong-fx5u-fx3u.md","hmi-weintek.md","bien-tan-la-gi.md",
+    ]),
+    ("Trang ngành & ứng dụng", "nganh", [
+        "thiet-bi-do-luong-lo-hoi.md","thiet-bi-tu-dong-hoa-nha-may-xi-mang.md",
+        "giai-phap-do-luong-hoa-chat-dau-khi.md",
+    ]),
 ]
 
 def esc(t):
