@@ -14,6 +14,10 @@ H1          : PCS Renepoly – Bộ Chuyển Đổi Công Suất Hai Chiều (DC
 
 ## PCS là gì?
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-pcs-renepoly.svg)
+
+
 **PCS (Power Conversion System – hệ chuyển đổi công suất)** là thiết bị đứng giữa **khối pin (điện một chiều – DC)** và **hệ thống điện xoay chiều (AC)** của nhà máy hoặc lưới điện. Nhiệm vụ của nó là **đổi dòng điện qua lại theo cả hai chiều**:
 
 - Khi **nạp**: lấy điện AC từ lưới hoặc từ biến tần điện mặt trời, đổi thành DC để nạp vào pin.
@@ -23,11 +27,19 @@ H1          : PCS Renepoly – Bộ Chuyển Đổi Công Suất Hai Chiều (DC
 
 > **Cần chọn PCS cho hệ lưu trữ?** Gửi **công suất cần (kW) · điện áp đấu nối · có cần chạy độc lập khi mất lưới không** → [Nhận tư vấn](#bao-gia).
 
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-pcs.svg)
+
+
 Một điều quan trọng về mặt thương mại: **PCS quyết định con số kW của hệ BESS**, còn khối pin quyết định con số kWh. Muốn cắt đỉnh cao hơn thì phải tăng PCS, không phải tăng pin.
 
 ---
 
 ## Cấu tạo & thông số cần quan tâm
+
+<!--IMG:spec-->
+![Cấu tạo & thông số](assets/diagrams/spec-cabinet-layout.svg)
+
 
 Khi đọc datasheet PCS, các thông số sau quyết định việc hệ có chạy đúng bài toán của bạn hay không:
 
@@ -60,6 +72,10 @@ Trong đó, **chống đảo lưới (anti-islanding)** là chức năng an toà
 
 ## Ứng dụng thực tế
 
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-factory-bess.svg)
+
+
 - **Cắt đỉnh cho nhà máy.** PCS xả đúng phần công suất vượt ngưỡng, kéo đường tải xuống dưới mức tính phí. [Xem chi tiết →](/bess-cho-nha-may-khu-cong-nghiep/)
 - **Dự phòng cho tải quan trọng.** Khi mất lưới, PCS chuyển sang tạo lưới, giữ điện cho dây chuyền, máy chủ, hệ lạnh.
 - **Tăng tự dùng điện mặt trời.** PCS nạp phần PV dư vào pin thay vì đẩy lên lưới. [Xem chi tiết →](/dien-mat-troi-ket-hop-luu-tru/)
@@ -69,6 +85,10 @@ Trong đó, **chống đảo lưới (anti-islanding)** là chức năng an toà
 ---
 
 ## Lựa chọn PCS: những quyết định phải chốt
+
+<!--IMG:comp-->
+![So sánh & lựa chọn](assets/diagrams/compare-ongrid-offgrid.svg)
+
 
 **1. Chọn công suất theo đỉnh, không theo trung bình.** Sai lầm phổ biến là lấy công suất trung bình của nhà máy. Phải nhìn vào **phần đỉnh muốn cắt**. Nếu đỉnh vượt ngưỡng 100 kW thì PCS phải đủ 100 kW trở lên.
 
@@ -89,6 +109,45 @@ Trong đó, **chống đảo lưới (anti-islanding)** là chức năng an toà
 **PCS rời:** linh hoạt hơn khi cần cấu hình đặc biệt, mở rộng hệ có sẵn, hoặc ghép với khối pin đã có. Nhưng đòi hỏi năng lực thiết kế và thử nghiệm tích hợp — phù hợp với đơn vị EPC có kinh nghiệm.
 
 Với phần lớn nhà máy và toà nhà tại Việt Nam, **giải pháp tích hợp sẵn là lựa chọn an toàn hơn** về cả tiến độ lẫn trách nhiệm bảo hành.
+
+---
+
+## PCS ảnh hưởng thế nào tới hiệu suất toàn hệ?
+
+Khi đánh giá một hệ lưu trữ, chỉ số **hiệu suất vòng (round-trip efficiency)** — nạp vào 100 phần thì lấy ra được bao nhiêu — phụ thuộc đáng kể vào PCS, vì năng lượng phải **đi qua nó hai lần**.
+
+Chuỗi tổn hao trong một chu kỳ nạp–xả gồm:
+
+1. **Tổn hao khi nạp:** AC → DC qua PCS.
+2. **Tổn hao trong pin:** điện trở trong sinh nhiệt khi nạp và khi xả.
+3. **Tổn hao khi xả:** DC → AC qua PCS.
+4. **Điện tự dùng:** hệ làm mát, điều khiển, màn hình chạy suốt thời gian.
+
+Vì PCS xuất hiện ở cả bước 1 và bước 3, **chênh lệch nhỏ về hiệu suất PCS bị nhân đôi** trong kết quả cuối cùng. Đây là lý do không nên chỉ nhìn giá khi so sánh PCS.
+
+Một điểm nữa ít người để ý: **hiệu suất PCS thay đổi theo mức tải**. Hầu hết thiết bị điện tử công suất đạt hiệu suất cao nhất ở khoảng tải trung bình đến cao, và **kém hơn khi chạy ở tải rất thấp**. Hệ quả thực tế: một PCS công suất quá lớn so với nhu cầu sẽ thường xuyên chạy ở vùng tải thấp, khiến hiệu suất thực tế kém hơn kỳ vọng.
+
+Đây là một lập luận nữa cho việc **chọn công suất đúng nhu cầu thay vì chọn dư thật nhiều cho "chắc ăn"**. Dư một chút để có biên an toàn là hợp lý; dư gấp đôi thì vừa tốn tiền đầu tư vừa giảm hiệu suất vận hành.
+
+---
+
+## Những câu hỏi nên đặt cho nhà cung cấp PCS
+
+Khi so sánh các phương án, bảng câu hỏi sau giúp bạn phân biệt thiết bị thực sự phù hợp với thiết bị chỉ "trông có vẻ đủ thông số":
+
+| Câu hỏi | Vì sao quan trọng |
+|---|---|
+| Hiệu suất ở các mức tải khác nhau là bao nhiêu? | Hiệu suất đỉnh không phản ánh vận hành thực tế |
+| Có hỗ trợ **chế độ tạo lưới** không? | Quyết định khả năng chạy độc lập khi mất điện |
+| Thời gian chuyển chế độ là bao lâu? | Quyết định tải có bị gián đoạn không |
+| Dải điện áp DC làm việc? | Phải khớp cấu hình rack pin, cả khi pin gần cạn |
+| Khả năng quá tải ngắn hạn? | Nhiều tải có dòng khởi động lớn |
+| Có bù công suất phản kháng không? | Hữu ích ở khu vực lưới yếu |
+| Giao thức truyền thông với BMS/EMS? | Quyết định khả năng tích hợp |
+| Đáp ứng yêu cầu đấu nối của điện lực chưa? | Tránh phải thay thiết bị sau khi mua |
+| Điều kiện môi trường vận hành? | Nhiệt độ, độ ẩm ở Việt Nam khá khắc nghiệt |
+
+Với các hệ tích hợp sẵn như [tủ BESS](/tu-luu-tru-nang-luong-renepoly/) hoặc [container](/container-luu-tru-nang-luong-renepoly/), phần lớn những câu hỏi này đã được hãng giải quyết trong quá trình thiết kế và thử nghiệm đồng bộ — đó chính là giá trị của giải pháp trọn gói.
 
 ---
 

@@ -14,15 +14,27 @@ H1          : Pin LFP & Battery Rack Renepoly (Module Lưu Trữ Công Nghiệp)
 
 ## Pin và rack lưu trữ là gì?
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-battery-rack.svg)
+
+
 Trong một hệ lưu trữ năng lượng, **pin không được lắp rời từng viên** mà tổ chức theo nhiều cấp. Đơn vị nhỏ nhất là **cell** — với lưu trữ tĩnh, đây thường là cell **LFP (LiFePO₄)** dạng lăng trụ dung lượng lớn. Nhiều cell ghép thành **module** có vỏ bảo vệ và mạch giám sát riêng. Nhiều module xếp chồng trong khung kim loại tạo thành **rack**. Nhiều rack đấu song song tạo thành **khối pin của hệ thống**.
 
 **Renepoly** cung cấp các **module pin LFP** và **rack lắp ghép** như sản phẩm riêng, bên cạnh các hệ trọn gói dạng [tủ](/tu-luu-tru-nang-luong-renepoly/) và [container](/container-luu-tru-nang-luong-renepoly/). Điều này cho phép cấu hình dung lượng linh hoạt theo nhu cầu, hoặc mở rộng/thay thế cho hệ đã có.
 
 > **Cần cấu hình dung lượng riêng hoặc mở rộng hệ sẵn có?** Gửi **dung lượng mong muốn (kWh) · điện áp hệ · thiết bị PCS/BMS hiện có** → [Nhận tư vấn](#bao-gia).
 
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-bms.svg)
+
+
 ---
 
 ## Cấu tạo & thông số cần quan tâm
+
+<!--IMG:spec-->
+![Cấu tạo & thông số](assets/diagrams/spec-bess-stack.svg)
+
 
 Cách phân cấp cell → module → rack → hệ thống không chỉ để gọn gàng. Nó phục vụ ba mục đích thực tế: **giám sát chi tiết** (BMS đo được từng cell), **bảo trì có chọn lọc** (hỏng module nào thay module đó), và **mở rộng theo bước** (thêm rack thay vì thay cả hệ).
 
@@ -42,6 +54,10 @@ Cách phân cấp cell → module → rack → hệ thống không chỉ để g
 
 ## Vì sao chọn pin LFP cho lưu trữ?
 
+<!--IMG:comp-->
+![So sánh & lựa chọn](assets/diagrams/compare-lfp-nmc.svg)
+
+
 Với hệ lưu trữ tĩnh đặt cố định tại nhà máy, **LFP gần như là lựa chọn mặc định** của ngành, vì ba lý do:
 
 **Bền nhiệt hơn.** Cấu trúc hoá học của LFP ổn định hơn ở nhiệt độ cao, ngưỡng phản ứng mất kiểm soát cao hơn so với các hoá học chứa cobalt. Với hệ đặt cố định lâu năm, đây là yếu tố an toàn quan trọng hàng đầu.
@@ -55,6 +71,10 @@ Với hệ lưu trữ tĩnh đặt cố định tại nhà máy, **LFP gần nh�
 ---
 
 ## Ứng dụng của module & rack rời
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-factory-bess.svg)
+
 
 - **Cấu hình dung lượng theo yêu cầu:** khi nhu cầu không khớp với cấu hình tủ tiêu chuẩn.
 - **Mở rộng hệ có sẵn:** thêm rack vào hệ đang vận hành để tăng số giờ dự phòng.
@@ -91,6 +111,47 @@ Trong mọi trường hợp, khối pin phải làm việc cùng **BMS** để �
 - **Theo dõi SOH định kỳ** qua báo cáo BMS để dự báo thời điểm cần thay thế.
 - **Siết lại đầu nối** theo lịch bảo trì — đầu nối lỏng gây phát nhiệt cục bộ.
 - **Không trộn module cũ và mới** trong cùng một rack nếu chênh lệch SOH lớn.
+
+---
+
+## Cách ghép nối module và rack: nối tiếp hay song song?
+
+Đây là kiến thức nền tảng nhưng quyết định toàn bộ cấu hình hệ:
+
+**Ghép nối tiếp (series)** — cộng điện áp, giữ nguyên dung lượng dòng. Nhiều cell nối tiếp tạo ra điện áp cao (hàng trăm volt) cần thiết để PCS làm việc hiệu quả. Nhược điểm cố hữu: **dòng điện qua mọi cell bằng nhau**, nên cell yếu nhất giới hạn cả chuỗi — đây chính là lý do BMS phải cân bằng cell và vì sao chênh lệch nhiệt độ lại nguy hiểm.
+
+**Ghép song song (parallel)** — cộng dung lượng, giữ nguyên điện áp. Nhiều rack đấu song song để tăng tổng kWh của hệ.
+
+Một hệ thực tế dùng **cả hai**: cell nối tiếp trong module để đạt điện áp, module nối tiếp trong rack để đạt điện áp hệ, rồi các rack đấu song song để đạt dung lượng mong muốn.
+
+**Hệ quả thực tế khi mở rộng:** bạn **không thể tuỳ tiện thêm rack** vào hệ đang chạy. Rack mới phải:
+
+- Có **cùng điện áp danh định** với các rack hiện có
+- Có **SOH tương đương** — nếu rack mới còn 100% mà rack cũ chỉ còn 85%, dòng sẽ phân bố không đều, rack mới gánh nhiều hơn và suy giảm nhanh
+- Được **BMS cấp hệ thống nhận diện** và đưa vào chu trình quản lý chung
+
+Vì vậy, nếu có ý định mở rộng, **hãy nói ngay từ khi mua hệ đầu tiên** — để nhà cung cấp chừa sẵn khả năng mở rộng trong thiết kế BMS và PCS.
+
+---
+
+## Quy trình kiểm tra khi nhận và lắp đặt
+
+Với module pin, khâu tiếp nhận và lắp đặt quan trọng hơn nhiều thiết bị khác vì sai sót ở đây khó khắc phục về sau:
+
+**Khi nhận hàng:**
+1. Kiểm tra **bao bì và dấu hiệu va đập** — pin bị va đập cơ học có thể hư hỏng bên trong mà không nhìn thấy.
+2. Đo **điện áp hở mạch từng module**, so sánh với nhau. Chênh lệch bất thường là dấu hiệu cần báo lại nhà cung cấp.
+3. Đối chiếu **mã model, số serial** với hồ sơ và chứng nhận.
+4. Kiểm tra **SOC lưu kho** có nằm trong khuyến cáo của hãng không.
+
+**Khi lắp đặt:**
+1. **Siết đúng lực** các đầu nối theo thông số của hãng — quá lỏng gây phát nhiệt, quá chặt làm hỏng cực.
+2. Đảm bảo **thứ tự đấu nối** đúng sơ đồ; đấu ngược cực có thể gây hư hỏng nghiêm trọng.
+3. Kiểm tra **cách điện và tiếp địa** trước khi đóng điện.
+4. Chạy **kiểm tra BMS** để xác nhận mọi cell đều được nhận diện và báo cáo dữ liệu.
+5. Ghi lại **thông số ban đầu** (điện áp, SOH, nhiệt độ) làm mốc so sánh cho các lần bảo trì sau.
+
+Bước cuối cùng thường bị bỏ qua nhưng rất giá trị: có số liệu gốc giúp bạn **phát hiện xu hướng suy giảm bất thường** sớm hơn nhiều so với việc chỉ nhìn con số hiện tại.
 
 ---
 

@@ -14,6 +14,10 @@ H1          : BESS Là Gì? Hệ Thống Lưu Trữ Năng Lượng Bằng Pin T�
 
 ## BESS là gì?
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-bess-cabinet.svg)
+
+
 **BESS** viết tắt của **Battery Energy Storage System** — **hệ thống lưu trữ năng lượng bằng pin**. Nói ngắn gọn: đây là một "kho điện" có thể **nạp điện vào khi điện rẻ hoặc dư thừa**, rồi **trả điện ra khi điện đắt hoặc khi mất điện**.
 
 Nhiều người hình dung BESS chỉ là một cục pin cỡ lớn. Thực tế không phải vậy. Một hệ BESS là **tổ hợp của bốn hệ thống làm việc cùng nhau**: khối pin để chứa năng lượng, **BMS** để canh chừng sức khoẻ pin, **PCS** để đổi dòng điện qua lại giữa một chiều và xoay chiều, và **EMS** để quyết định khi nào nên nạp, khi nào nên xả. Thiếu bất kỳ khối nào, hệ thống hoặc không chạy được, hoặc chạy mà không sinh ra giá trị kinh tế.
@@ -22,9 +26,17 @@ Thuật ngữ **ESS (Energy Storage System)** rộng hơn, bao gồm cả lưu t
 
 > **Đang cân nhắc đầu tư BESS?** Gửi **công suất đỉnh (kW) · hoá đơn điện gần nhất · đã có điện mặt trời chưa** → [Nhận tư vấn & tính toán sơ bộ](#bao-gia).
 
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-bess-charge.svg)
+
+
 ---
 
 ## Cấu tạo hệ thống BESS
+
+<!--IMG:spec-->
+![Cấu tạo & thông số](assets/diagrams/spec-bess-stack.svg)
+
 
 Một hệ BESS hoàn chỉnh gồm các khối sau, xếp từ trong ra ngoài:
 
@@ -79,6 +91,10 @@ Hiểu C-rate rất quan trọng khi mua. Hai hệ cùng 215 kWh nhưng một h�
 
 ## Ứng dụng phổ biến
 
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-factory-bess.svg)
+
+
 - **Nhà máy, khu công nghiệp:** cắt đỉnh, dịch tải, dự phòng. [Xem chi tiết →](/bess-cho-nha-may-khu-cong-nghiep/)
 - **Toà nhà thương mại, trung tâm dữ liệu:** giảm chi phí điện, tăng độ tin cậy.
 - **Trạm sạc xe điện:** gánh công suất đỉnh khi nhiều xe sạc cùng lúc. [Xem chi tiết →](/bess-cho-tram-sac-xe-dien/)
@@ -88,6 +104,10 @@ Hiểu C-rate rất quan trọng khi mua. Hai hệ cùng 215 kWh nhưng một h�
 ---
 
 ## So sánh & lựa chọn: những quyết định phải chốt
+
+<!--IMG:comp-->
+![So sánh & lựa chọn](assets/diagrams/compare-lfp-nmc.svg)
+
 
 **Chọn hoá học pin.** Với lưu trữ tĩnh, **LFP** gần như là mặc định: bền nhiệt hơn, vòng đời dài hơn, không dùng cobalt nên rẻ hơn. **NMC** có mật độ năng lượng cao hơn nên hợp xe điện hoặc nơi cực chật. [So sánh chi tiết →](/pin-lfp-lifepo4-luu-tru-nang-luong/)
 
@@ -106,6 +126,57 @@ Hiểu C-rate rất quan trọng khi mua. Hai hệ cùng 215 kWh nhưng một h�
 3. **Không đo phụ tải thực tế.** Thiết kế theo cảm tính dễ dẫn đến thừa hoặc thiếu.
 4. **Quên tổn hao và suy giảm dung lượng.** Cần tính dư biên độ cho hiệu suất vòng và SOH giảm theo năm.
 5. **Xem nhẹ PCCC và thủ tục đấu nối.** Đây là phần bắt buộc, nên đưa vào ngay từ đầu.
+
+---
+
+## Bảng thuật ngữ BESS cần biết
+
+Ngành lưu trữ dùng nhiều từ viết tắt. Bảng dưới đây tổng hợp những thuật ngữ bạn sẽ gặp khi đọc báo giá và tài liệu kỹ thuật:
+
+| Thuật ngữ | Viết đầy đủ | Ý nghĩa |
+|---|---|---|
+| **BESS** | Battery Energy Storage System | Hệ lưu trữ năng lượng bằng pin |
+| **ESS** | Energy Storage System | Lưu trữ năng lượng nói chung (rộng hơn BESS) |
+| **BMS** | Battery Management System | Hệ quản lý pin — giám sát, cân bằng, bảo vệ |
+| **EMS** | Energy Management System | Hệ quản lý năng lượng — quyết định nạp/xả |
+| **PCS** | Power Conversion System | Bộ chuyển đổi công suất DC↔AC hai chiều |
+| **LFP** | Lithium Iron Phosphate | Hoá học pin phổ biến nhất cho lưu trữ tĩnh |
+| **NMC** | Nickel Manganese Cobalt | Hoá học pin mật độ cao, hợp xe điện |
+| **SOC** | State of Charge | Mức pin còn lại (%) |
+| **SOH** | State of Health | Sức khoẻ pin so với lúc mới (%) |
+| **DoD** | Depth of Discharge | Độ sâu xả — xả bao nhiêu phần trăm |
+| **C-rate** | — | Tỷ lệ công suất ÷ dung lượng, cho biết xả hết trong bao lâu |
+| **PCC** | Point of Common Coupling | Điểm đấu nối chung với lưới |
+| **Round-trip efficiency** | — | Hiệu suất vòng: nạp vào bao nhiêu, lấy ra được bao nhiêu |
+| **Peak shaving** | — | Cắt đỉnh phụ tải |
+| **Load shifting** | — | Dịch tải sang khung giờ giá rẻ |
+| **Grid-following** | — | Chế độ bám lưới (khi lưới còn) |
+| **Grid-forming** | — | Chế độ tạo lưới (khi chạy độc lập) |
+| **Anti-islanding** | — | Chống đảo lưới — ngừng phát ngược khi lưới mất |
+| **Thermal runaway** | — | Thoát nhiệt mất kiểm soát |
+| **FAT** | Factory Acceptance Test | Chạy thử nghiệm thu tại nhà máy trước khi giao |
+
+---
+
+## Lộ trình từ ý tưởng đến vận hành
+
+Với doanh nghiệp lần đầu tìm hiểu, đây là các bước nên đi theo thứ tự:
+
+**Bước 1 — Thu thập dữ liệu (2–4 tuần).** Lấy hoá đơn điện 6–12 tháng, lắp đồng hồ đo để có biểu đồ phụ tải ít nhất một tuần. Đây là nền tảng cho mọi tính toán sau đó; bỏ qua bước này gần như chắc chắn dẫn tới đầu tư sai quy mô.
+
+**Bước 2 — Xác định mục tiêu ưu tiên.** Giảm tiền điện? Chống mất điện? Tăng tự dùng điện mặt trời? Đạt mục tiêu phát thải? Mỗi mục tiêu dẫn tới cấu hình khác nhau, và **không thể tối đa hoá tất cả cùng lúc** với cùng một khoản đầu tư.
+
+**Bước 3 — Tính sơ bộ kW và kWh.** Dựa trên dữ liệu và mục tiêu, tính công suất và dung lượng cần thiết, cộng dự phòng. [Xem hướng dẫn chi tiết →](/tinh-cong-suat-dung-luong-bess/)
+
+**Bước 4 — Chọn dạng đóng gói.** Dưới ~500 kWh chọn [tủ all-in-one](/tu-luu-tru-nang-luong-renepoly/); từ ~1 MWh chọn [container](/container-luu-tru-nang-luong-renepoly/).
+
+**Bước 5 — Kiểm tra tính khả thi.** Mặt bằng, móng, điểm đấu nối, yêu cầu PCCC. Làm việc sớm với **điện lực địa phương** và cơ quan **PCCC** — đây thường là khâu mất nhiều thời gian nhất.
+
+**Bước 6 — Đánh giá hiệu quả kinh tế.** Cộng đủ các nguồn giá trị: chênh giá điện, phí công suất, tự dùng PV, thiệt hại tránh được khi mất điện, trì hoãn nâng cấp hạ tầng.
+
+**Bước 7 — Triển khai và nghiệm thu.** Lắp đặt, cấu hình EMS theo biểu giá, chạy thử các chế độ.
+
+**Bước 8 — Tinh chỉnh (1–3 tháng đầu).** Đây là bước hay bị bỏ qua nhưng rất quan trọng: dựa trên dữ liệu vận hành thực tế để điều chỉnh ngưỡng và chiến lược, thay vì giữ nguyên cấu hình ban đầu.
 
 ---
 

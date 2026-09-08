@@ -14,17 +14,29 @@ H1          : Container Lưu Trữ Năng Lượng Renepoly (BESS Container 20ft)
 
 ## Container lưu trữ năng lượng là gì?
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-bess-container.svg)
+
+
 **Container BESS** là hệ thống lưu trữ năng lượng quy mô lớn được tích hợp trọn vẹn bên trong một **container tiêu chuẩn (thường là 20ft)**. Toàn bộ rack pin, bộ chuyển đổi công suất, hệ quản lý năng lượng, hệ làm mát và hệ phòng cháy chữa cháy được lắp đặt, đấu nối và **chạy thử đồng bộ tại nhà máy trước khi vận chuyển**.
 
 Đây là hình thức triển khai tiêu chuẩn cho các dự án ở quy mô **MWh** — trang trại điện mặt trời/điện gió cần bù công suất, khu công nghiệp lớn, dự án điều tần lưới, hoặc microgrid cho khu vực tách biệt. Dung lượng mỗi container hiện nay có thể lên tới khoảng **5 MWh**.
 
 > **Dự án của bạn ở quy mô MWh?** Gửi **công suất (MW) · dung lượng (MWh) · điểm đấu nối · mặt bằng** → [Nhận tư vấn & báo giá](#bao-gia).
 
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-bess-charge.svg)
+
+
 So với việc xây một nhà chứa pin rồi lắp ghép thiết bị rời, giải pháp container rút ngắn đáng kể thời gian thi công tại chỗ và giảm rủi ro tích hợp — vì phần khó nhất đã được làm xong trong nhà máy.
 
 ---
 
 ## Cấu tạo bên trong container BESS
+
+<!--IMG:spec-->
+![Cấu tạo & thông số](assets/diagrams/spec-container-layout.svg)
+
 
 Bố trí điển hình chia container thành các khu vực:
 
@@ -64,6 +76,10 @@ Các cấu hình 20ft phổ biến trên thị trường hiện nay có đặc �
 
 ## Ứng dụng của container BESS
 
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-island-microgrid.svg)
+
+
 - **Trang trại điện mặt trời / điện gió:** làm phẳng công suất phát, giảm cắt giảm sản lượng khi lưới quá tải, dịch sản lượng sang khung giờ có giá tốt hơn.
 - **Khu công nghiệp lớn:** cắt đỉnh ở quy mô MW, giảm phí công suất cho cả khu.
 - **Dịch vụ phụ trợ lưới điện:** hỗ trợ điều tần, ổn định điện áp — vai trò ngày càng quan trọng khi tỷ trọng năng lượng tái tạo tăng.
@@ -73,6 +89,10 @@ Các cấu hình 20ft phổ biến trên thị trường hiện nay có đặc �
 ---
 
 ## So sánh: container hay nhiều tủ ghép lại?
+
+<!--IMG:comp-->
+![So sánh & lựa chọn](assets/diagrams/compare-cabinet-container.svg)
+
 
 Khi nhu cầu vượt vài trăm kWh, chủ đầu tư đứng trước hai lựa chọn.
 
@@ -99,6 +119,45 @@ Khi nhu cầu vượt vài trăm kWh, chủ đầu tư đứng trước hai lự
 4. **Phòng cháy chữa cháy:** phối hợp với cơ quan PCCC, chừa khoảng cách an toàn và lối tiếp cận.
 5. **Giám sát:** thống nhất giao thức truyền dữ liệu về SCADA/EMS trung tâm — có thể dùng [gateway Modbus](/gateway-modbus-seneca/) khi cần ghép với hệ sẵn có.
 6. **Kế hoạch vận hành:** xác định chiến lược nạp/xả để tối ưu doanh thu, cấu hình trong [EMS](/ems-quan-ly-nang-luong-renepoly/).
+
+---
+
+## Các giai đoạn của một dự án container BESS
+
+Khác với việc mua một tủ đơn lẻ, dự án quy mô MWh là một dự án xây dựng thực thụ, thường kéo dài vài tháng. Hiểu rõ các giai đoạn giúp chủ đầu tư chủ động về tiến độ:
+
+**Giai đoạn 1 — Khảo sát và nghiên cứu khả thi.** Thu thập biểu đồ phụ tải, phân tích hoá đơn điện, khảo sát mặt bằng và điểm đấu nối. Kết quả là bản đề xuất sơ bộ về quy mô (MW/MWh) cùng ước tính hiệu quả kinh tế. Đây là giai đoạn quyết định — sai ở đây thì mọi thứ sau đều lệch.
+
+**Giai đoạn 2 — Thiết kế và thủ tục.** Thiết kế kỹ thuật, tính toán đấu nối, hồ sơ thẩm duyệt PCCC, thoả thuận đấu nối với **điện lực địa phương**. Giai đoạn này thường **chiếm nhiều thời gian nhất** và ít phụ thuộc vào nhà cung cấp thiết bị, nên cần bắt đầu sớm.
+
+**Giai đoạn 3 — Sản xuất và thử nghiệm tại nhà máy.** Container được lắp ráp, đấu nối và **chạy thử đồng bộ (FAT – Factory Acceptance Test)** trước khi xuất xưởng. Chủ đầu tư nên yêu cầu tham gia hoặc nhận biên bản thử nghiệm.
+
+**Giai đoạn 4 — Chuẩn bị mặt bằng.** Thi công móng, đường vận chuyển, hệ thống thoát nước, hàng rào, tiếp địa và hạ tầng điện tại chỗ. Có thể làm song song với giai đoạn 3.
+
+**Giai đoạn 5 — Vận chuyển và lắp đặt.** Cần khảo sát trước lối vào công trường, tải trọng đường và không gian cẩu hạ. Container BESS rất nặng nên đây không phải việc đơn giản.
+
+**Giai đoạn 6 — Đấu nối, chạy thử và nghiệm thu.** Đấu nối điện, cấu hình EMS theo biểu giá và chiến lược vận hành, chạy thử các chế độ (bao gồm thử chuyển sang chạy độc lập nếu có), rồi nghiệm thu tại hiện trường.
+
+**Giai đoạn 7 — Vận hành và tối ưu.** Ba tháng đầu là giai đoạn quan trọng để **tinh chỉnh ngưỡng và chiến lược** dựa trên dữ liệu thực tế, thay vì giữ nguyên cấu hình ban đầu.
+
+---
+
+## So sánh hiệu quả kinh tế theo quy mô
+
+Một điểm mà nhiều chủ đầu tư chưa nắm rõ: **suất đầu tư trên mỗi kWh giảm đáng kể khi quy mô tăng**, nhưng không phải mọi khoản chi phí đều giảm theo tỷ lệ.
+
+| Nhóm chi phí | Khi tăng quy mô |
+|---|---|
+| **Pin (kWh)** | Gần như tỷ lệ thuận — mua nhiều giảm giá đơn vị chút ít |
+| **PCS, EMS, PCCC** | **Giảm mạnh** theo đơn vị kWh — chi phí cố định chia cho nhiều kWh hơn |
+| **Móng, mặt bằng** | Tăng nhưng chậm hơn |
+| **Thủ tục, thiết kế** | Gần như **cố định** — dự án lớn hay nhỏ đều tốn công tương tự |
+| **Vận chuyển, lắp đặt** | Tăng nhưng có tính kinh tế nhờ quy mô |
+| **Vận hành hằng năm** | Giảm theo đơn vị kWh |
+
+Hệ quả thực tế: với dự án chỉ vài trăm kWh, **chi phí thủ tục và tích hợp chiếm tỷ trọng lớn**, khiến suất đầu tư trên kWh cao. Khi lên quy mô MWh, phần chi phí cố định này được "chia đều" cho nhiều kWh hơn, kéo suất đầu tư xuống rõ rệt.
+
+Đây chính là lý do khuyến nghị: **dưới ~500 kWh dùng tủ, từ ~1 MWh trở lên dùng container**. Ở vùng giữa, cần tính cụ thể theo mặt bằng và hạ tầng đấu nối sẵn có.
 
 ---
 

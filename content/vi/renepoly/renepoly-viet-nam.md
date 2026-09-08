@@ -14,17 +14,29 @@ H1          : Renepoly – Hệ Thống Lưu Trữ Năng Lượng BESS, EMS & Mi
 
 ## Renepoly là hãng gì?
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-microgrid.svg)
+
+
 **Renepoly** (Guangzhou Renepoly Energy Technology Co., Ltd.) là nhà sản xuất và tích hợp giải pháp **lưu trữ năng lượng** của **Trung Quốc**, trụ sở tại **Quảng Châu**, có cơ sở tại **Thâm Quyến, Thường Châu** cùng văn phòng tại **châu Âu và Mỹ**. Hãng tập trung vào ba mảng lõi gắn chặt với nhau: **BESS (Battery Energy Storage System – hệ thống lưu trữ năng lượng bằng pin)**, **EMS (Energy Management System – hệ quản lý năng lượng)** và **PCS (Power Conversion System – bộ chuyển đổi công suất)**.
 
 Điểm đáng chú ý là Renepoly không chỉ bán "cục pin lớn". Đội ngũ sáng lập có hơn **10 năm kinh nghiệm phát triển microgrid (lưới điện siêu nhỏ) thông minh**, nên sản phẩm được thiết kế theo hướng **một hệ thống điện hoàn chỉnh biết tự ra quyết định**: khi nào nạp, khi nào xả, khi nào tách khỏi lưới để tự chạy. Mạng lưới dự án và dịch vụ của hãng hiện trải trên **hơn 40 quốc gia và vùng lãnh thổ**, gồm Trung Quốc, Đức, Anh, Mỹ, Mexico, Maldives, Indonesia…
 
 > **Bạn đang cân nhắc đầu tư hệ lưu trữ?** Gửi cho chúng tôi **công suất đỉnh (kW) · sản lượng cần bù (kWh/ngày) · có điện mặt trời chưa · mục tiêu (giảm tiền điện hay dự phòng)** → [Nhận tư vấn & báo giá](#bao-gia).
 
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-bess-charge.svg)
+
+
 Với thị trường Việt Nam, đây là nhóm thiết bị đang được quan tâm rất nhanh vì ba lý do thực tế: **giá điện giờ cao điểm ngày càng đắt**, **điện mặt trời áp mái dư thừa vào ban ngày mà không bán lại được thuận lợi**, và **rủi ro mất điện/sụt áp gây thiệt hại cho dây chuyền sản xuất**. Một hệ BESS được tính đúng có thể giải quyết cùng lúc cả ba.
 
 ---
 
 ## Cấu tạo một hệ lưu trữ năng lượng Renepoly
+
+<!--IMG:spec-->
+![Cấu tạo & thông số](assets/diagrams/spec-bess-stack.svg)
+
 
 Dù là tủ nhỏ hay container lớn, một hệ BESS hoàn chỉnh luôn gồm các khối sau:
 
@@ -62,6 +74,10 @@ Danh mục Renepoly có thể chia thành các nhóm sau:
 
 ## Ứng dụng thực tế tại Việt Nam
 
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-factory-bess.svg)
+
+
 Renepoly hướng tới **chính quyền, khu công nghiệp, tổ hợp thương mại và doanh nghiệp năng lượng mới**, với các bài toán rất sát thực tế Việt Nam:
 
 - **Cắt đỉnh phụ tải (peak shaving).** Nhà máy có công suất đỉnh cao trong vài giờ mỗi ngày sẽ bị tính **giá điện giờ cao điểm** đắt và có thể bị áp phí công suất. BESS xả vào đúng khung giờ đó để kéo đường tải xuống dưới ngưỡng. [Tìm hiểu peak shaving →](/peak-shaving-cat-dinh-tai/)
@@ -74,6 +90,10 @@ Renepoly hướng tới **chính quyền, khu công nghiệp, tổ hợp thươn
 ---
 
 ## So sánh & lựa chọn cấu hình phù hợp
+
+<!--IMG:comp-->
+![So sánh & lựa chọn](assets/diagrams/compare-cabinet-container.svg)
+
 
 Câu hỏi thường gặp nhất là "**nên mua tủ hay container?**". Nguyên tắc chọn:
 

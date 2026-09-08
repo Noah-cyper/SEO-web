@@ -54,6 +54,18 @@ GROUPS = [
         "ei3/ei3-monitor-giam-sat-may.md","ei3/oee-production-ei3.md","ei3/downtime-phan-tich-dung-may-ei3.md",
         "ei3/lifecycle-bao-tri-du-doan-ei3.md","ei3/quality-quan-ly-chat-luong-ei3.md",
         "ei3/recipe-quan-ly-cong-thuc-ei3.md","ei3/sustain-nang-luong-ei3.md"]),
+    ("Renepoly — Hãng & sản phẩm BESS", "#0f9d58", [
+        "renepoly/renepoly-viet-nam.md","renepoly/tu-luu-tru-nang-luong-renepoly.md",
+        "renepoly/container-luu-tru-nang-luong-renepoly.md","renepoly/ems-quan-ly-nang-luong-renepoly.md",
+        "renepoly/pcs-bo-chuyen-doi-cong-suat-renepoly.md","renepoly/pin-lfp-battery-rack-renepoly.md",
+        "renepoly/egs215-renepoly.md","renepoly/es215-renepoly.md","renepoly/es232-renepoly.md"]),
+    ("Lưu trữ năng lượng — Kiến thức & giải pháp", "#0e8f8f", [
+        "renepoly/he-thong-luu-tru-nang-luong-bess-la-gi.md","renepoly/microgrid-la-gi.md",
+        "renepoly/peak-shaving-cat-dinh-tai.md","renepoly/dien-mat-troi-ket-hop-luu-tru.md",
+        "renepoly/bess-cho-nha-may-khu-cong-nghiep.md","renepoly/bess-cho-tram-sac-xe-dien.md",
+        "renepoly/pin-lfp-lifepo4-luu-tru-nang-luong.md","renepoly/lam-mat-chat-long-cho-bess.md",
+        "renepoly/bms-he-thong-quan-ly-pin.md","renepoly/an-toan-pccc-he-thong-bess.md",
+        "renepoly/tinh-cong-suat-dung-luong-bess.md"]),
 ]
 
 def field(name, text):

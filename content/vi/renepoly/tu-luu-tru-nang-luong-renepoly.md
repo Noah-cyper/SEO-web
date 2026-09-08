@@ -14,17 +14,29 @@ H1          : Tủ Lưu Trữ Năng Lượng Renepoly (BESS Cabinet Ngoài Trờ
 
 ## Tủ lưu trữ năng lượng là gì?
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-bess-cabinet.svg)
+
+
 **Tủ lưu trữ năng lượng** (BESS cabinet, hay all-in-one energy storage cabinet) là **một hệ BESS hoàn chỉnh được đóng gói sẵn trong một tủ duy nhất**. Thay vì phải mua rời pin, bộ chuyển đổi, bộ điều khiển, hệ làm mát rồi tự tích hợp, người dùng nhận về một thiết bị đã lắp ráp, chạy thử và nghiệm thu tại nhà máy — tại công trường chỉ cần đặt lên móng, đấu điện và cấu hình.
 
 Dòng tủ của **Renepoly** được thiết kế cho **lắp ngoài trời**, đạt cấp bảo vệ **IP55** (chống bụi và tia nước), làm mát bằng **chất lỏng** để giữ nhiệt độ các cell đồng đều. Model tiêu biểu là **EGS215** với cấu hình **100 kW / 215,04 kWh**; ngoài ra còn có **ES215** (cấu hình 0,5C) và **ES232**.
 
 > **Cần chọn đúng tủ cho nhà máy?** Gửi **công suất đỉnh (kW) · số giờ cần bù · mặt bằng lắp đặt** → [Nhận tư vấn & báo giá](#bao-gia).
 
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-bess-charge.svg)
+
+
 Đây là lựa chọn phổ biến nhất cho **nhà máy vừa, toà nhà thương mại, trạm sạc xe điện và trang trại điện mặt trời quy mô nhỏ** — nơi nhu cầu nằm trong khoảng vài trăm kWh và mặt bằng không dư dả.
 
 ---
 
 ## Cấu tạo bên trong một tủ BESS
+
+<!--IMG:spec-->
+![Cấu tạo & thông số](assets/diagrams/spec-cabinet-layout.svg)
+
 
 Mở tủ ra, ta thấy các khoang chức năng được bố trí tách biệt:
 
@@ -71,6 +83,10 @@ Toàn bộ tủ được **thử nghiệm và hiệu chỉnh trước khi xuất
 
 ## Ứng dụng thực tế
 
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-factory-bess.svg)
+
+
 - **Nhà máy sản xuất:** cắt đỉnh phụ tải để giảm tiền điện giờ cao điểm và phí công suất; đồng thời làm nguồn dự phòng cho tải quan trọng. [Xem chi tiết →](/bess-cho-nha-may-khu-cong-nghiep/)
 - **Trạm sạc xe điện:** gánh công suất khi nhiều xe sạc cùng lúc, tránh phải nâng cấp trạm biến áp. [Xem chi tiết →](/bess-cho-tram-sac-xe-dien/)
 - **Toà nhà thương mại:** giảm chi phí điện, tăng độ tin cậy cho thang máy, máy chủ, hệ lạnh.
@@ -80,6 +96,10 @@ Toàn bộ tủ được **thử nghiệm và hiệu chỉnh trước khi xuất
 ---
 
 ## Lựa chọn: tủ hay container?
+
+<!--IMG:comp-->
+![So sánh & lựa chọn](assets/diagrams/compare-cabinet-container.svg)
+
 
 Đây là câu hỏi quyết định ngân sách. Nguyên tắc:
 
@@ -107,6 +127,55 @@ Ngoài ra cần chốt **C-rate**. Tủ 100 kW / 215 kWh là khoảng 0,5C — x
 - **Thông gió:** dù có làm mát chất lỏng, khu vực đặt tủ vẫn cần thoáng.
 - **Đấu nối:** phải phối hợp với **đơn vị điện lực địa phương**; chuẩn bị hồ sơ kỹ thuật từ sớm.
 - **Đo đếm:** nên có đồng hồ đo đếm để đo hiệu quả thực tế, ví dụ [đồng hồ đo điện năng Seneca](/dong-ho-do-dien-nang-seneca/).
+
+---
+
+## So sánh tủ all-in-one với hệ lắp ghép rời
+
+Trước khi tủ tích hợp phổ biến, các dự án lưu trữ thường được lắp ghép từ thiết bị rời: mua pin của hãng A, PCS của hãng B, EMS của hãng C rồi thuê đơn vị tích hợp. Cách này vẫn tồn tại, nhưng đang thu hẹp dần vì những lý do sau:
+
+| Tiêu chí | **Tủ all-in-one** | **Lắp ghép rời** |
+|---|---|---|
+| Thời gian triển khai | Ngắn — đặt móng, đấu nối, cấu hình | **Dài** — thiết kế, phối hợp, thử nghiệm tích hợp |
+| Rủi ro không tương thích | Thấp — đã thử nghiệm đồng bộ | **Cao** — BMS/PCS/EMS khác hãng có thể "không hiểu nhau" |
+| Trách nhiệm bảo hành | **Một đầu mối** | Nhiều nhà cung cấp, dễ đùn đẩy |
+| Linh hoạt cấu hình | Theo model có sẵn | **Cao** — tự chọn từng thành phần |
+| Yêu cầu năng lực kỹ thuật | Thấp | **Cao** — cần đội thiết kế chuyên môn |
+| Chi phí ở quy mô nhỏ–vừa | Thường **tốt hơn** | Cao do chi phí tích hợp |
+
+Vấn đề lớn nhất của hệ lắp ghép không phải chi phí, mà là **trách nhiệm khi có sự cố**. Khi hệ không đạt hiệu suất cam kết hoặc báo lỗi truyền thông, việc xác định lỗi thuộc về BMS, PCS hay EMS có thể mất nhiều tuần — trong khi các nhà cung cấp đều khẳng định phần của mình không sai.
+
+Với tủ tích hợp, toàn bộ chuỗi này thuộc trách nhiệm một hãng đã **thử nghiệm và nghiệm thu tại nhà máy trước khi giao**.
+
+---
+
+## Checklist trước khi quyết định mua tủ BESS
+
+Dùng danh sách này để đảm bảo không bỏ sót yếu tố nào quan trọng:
+
+**Về nhu cầu:**
+- [ ] Đã đo biểu đồ phụ tải thực tế ít nhất một tuần chưa?
+- [ ] Đã xác định rõ mục tiêu chính: giảm tiền điện, dự phòng, hay cả hai?
+- [ ] Đã tính **kW cần** (đỉnh trừ ngưỡng) và **kWh cần** (diện tích trên ngưỡng)?
+- [ ] Đã cộng 10–20% dự phòng cho tổn hao, DoD và suy giảm theo năm?
+- [ ] Có kế hoạch mở rộng sản xuất trong 3–5 năm tới không?
+
+**Về thiết bị:**
+- [ ] Hoá học cell là gì? (nên là LFP cho lưu trữ tĩnh)
+- [ ] Quản lý nhiệt bằng chất lỏng hay gió? Có phù hợp khí hậu nơi lắp không?
+- [ ] BMS đo tới **từng cell** hay chỉ từng module?
+- [ ] Cấp bảo vệ vỏ tủ có phù hợp vị trí lắp không?
+- [ ] Hệ PCCC gồm những gì? Có thông gió khẩn cấp không?
+- [ ] PCS có hỗ trợ **chế độ tạo lưới** nếu cần dự phòng không?
+- [ ] EMS có chạy được khi mất internet không?
+- [ ] Có xuất dữ liệu ra SCADA sẵn có không? Giao thức gì?
+
+**Về triển khai:**
+- [ ] Mặt bằng đã khảo sát nền móng và thoát nước chưa?
+- [ ] Đã làm việc với **điện lực địa phương** về đấu nối chưa?
+- [ ] Đã trao đổi với cơ quan **PCCC** về yêu cầu thẩm duyệt chưa?
+- [ ] Có kế hoạch lắp đồng hồ đo đếm để nghiệm thu hiệu quả không?
+- [ ] Đã thống nhất nội dung bảo hành và dịch vụ sau bán hàng chưa?
 
 ---
 

@@ -1286,3 +1286,209 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Tên file ảnh nên đặt:** `sustain-nang-luong-ei3.png`
 - **Alt text ảnh:** ei3 Sustain
 - **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+
+## Renepoly — Hãng & sản phẩm BESS
+
+### Renepoly – Hệ Thống Lưu Trữ Năng Lượng BESS, EMS & Microgrid
+- **URL:** `/renepoly/`
+- **Focus keyword:** renepoly
+- **Meta description:** Renepoly (Trung Quốc) – hệ thống lưu trữ năng lượng BESS: tủ ngoài trời làm mát chất lỏng, container tới 5MWh, PCS, EMS microgrid. Cắt đỉnh, dự phòng, kết hợp điện mặt trời. Báo giá theo dự án.
+- **Thẻ (tags):** Renepoly, Renepoly Việt Nam, Hệ thống lưu trữ năng lượng, BESS, Microgrid
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/renepoly.png`
+- **Tên file ảnh nên đặt:** `renepoly.png`
+- **Alt text ảnh:** Renepoly
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Tủ Lưu Trữ Năng Lượng Renepoly (BESS Cabinet Ngoài Trời)
+- **URL:** `/tu-luu-tru-nang-luong-renepoly/`
+- **Focus keyword:** tủ lưu trữ năng lượng
+- **Meta description:** Tủ lưu trữ năng lượng Renepoly (BESS cabinet): tích hợp pin LFP, PCS, EMS, làm mát chất lỏng và PCCC trong một tủ IP55 ngoài trời. Tiêu biểu EGS215 100kW/215kWh. Báo giá theo dự án.
+- **Thẻ (tags):** Tủ lưu trữ năng lượng, Tủ BESS ngoài trời, BESS cabinet, Tủ pin lưu trữ, All-in-one energy storage
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/tu-luu-tru-nang-luong-renepoly.png`
+- **Tên file ảnh nên đặt:** `tu-luu-tru-nang-luong-renepoly.png`
+- **Alt text ảnh:** Tủ Lưu Trữ Năng Lượng Renepoly (BESS Cabinet Ngoài Trời)
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Container Lưu Trữ Năng Lượng Renepoly (BESS Container 20ft)
+- **URL:** `/container-luu-tru-nang-luong-renepoly/`
+- **Focus keyword:** container lưu trữ năng lượng
+- **Meta description:** Container lưu trữ năng lượng Renepoly: BESS 20ft tích hợp rack pin LFP, PCS, EMS, làm mát chất lỏng, PCCC nhiều lớp, dung lượng tới khoảng 5MWh. Cho dự án quy mô MWh. Báo giá theo dự án.
+- **Thẻ (tags):** Container lưu trữ năng lượng, BESS container 5MWh, Container pin 20ft, Hệ lưu trữ quy mô MWh, Containerized BESS
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/container-luu-tru-nang-luong-renepoly.png`
+- **Tên file ảnh nên đặt:** `container-luu-tru-nang-luong-renepoly.png`
+- **Alt text ảnh:** Container Lưu Trữ Năng Lượng Renepoly (BESS Container 20ft)
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### EMS Renepoly – Hệ Quản Lý Năng Lượng Cho Microgrid
+- **URL:** `/ems-quan-ly-nang-luong-renepoly/`
+- **Focus keyword:** ems renepoly
+- **Meta description:** EMS Renepoly – hệ quản lý năng lượng cho microgrid: EMS Local Controller, màn hình điều khiển tại chỗ, 4G router, phần mềm tại chỗ + nền tảng đám mây + app. Điều phối nạp/xả tối ưu chi phí điện.
+- **Thẻ (tags):** EMS Renepoly, Hệ quản lý năng lượng, Energy Management System, EMS microgrid, Bộ điều khiển EMS
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/ems-quan-ly-nang-luong-renepoly.png`
+- **Tên file ảnh nên đặt:** `ems-quan-ly-nang-luong-renepoly.png`
+- **Alt text ảnh:** EMS Renepoly
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### PCS Renepoly – Bộ Chuyển Đổi Công Suất Hai Chiều (DC↔AC)
+- **URL:** `/pcs-bo-chuyen-doi-cong-suat-renepoly/`
+- **Focus keyword:** pcs renepoly
+- **Meta description:** PCS Renepoly (Power Conversion System) – bộ chuyển đổi công suất hai chiều DC↔AC cho hệ lưu trữ: hoà lưới, chạy độc lập, chuyển chế độ zero-second switching. Quyết định công suất kW của hệ BESS.
+- **Thẻ (tags):** PCS Renepoly, Power Conversion System, Bộ chuyển đổi công suất, Inverter hai chiều, PCS BESS
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/pcs-bo-chuyen-doi-cong-suat-renepoly.png`
+- **Tên file ảnh nên đặt:** `pcs-bo-chuyen-doi-cong-suat-renepoly.png`
+- **Alt text ảnh:** PCS Renepoly
+- **Gợi ý ảnh thật:** Ảnh vài model bộ chuyển đổi K109/Z109 gắn trên DIN rail.
+
+### Pin LFP & Battery Rack Renepoly (Module Lưu Trữ Công Nghiệp)
+- **URL:** `/pin-lfp-battery-rack-renepoly/`
+- **Focus keyword:** pin lfp renepoly
+- **Meta description:** Pin LFP và battery rack Renepoly: module pin LiFePO₄ lắp ghép thành rack, kèm BMS nhiều cấp, dùng để cấu hình dung lượng theo nhu cầu hoặc mở rộng hệ BESS có sẵn. Báo giá theo dự án.
+- **Thẻ (tags):** Pin LFP Renepoly, Battery rack, Module pin LiFePO4, Rack pin lưu trữ, Pin lưu trữ công nghiệp
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/pin-lfp-battery-rack-renepoly.png`
+- **Tên file ảnh nên đặt:** `pin-lfp-battery-rack-renepoly.png`
+- **Alt text ảnh:** Pin LFP & Battery Rack Renepoly (Module Lưu Trữ Công Nghiệp)
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### EGS215 Renepoly – Tủ Lưu Trữ Năng Lượng 100kW / 215kWh
+- **URL:** `/egs215-renepoly/`
+- **Focus keyword:** egs215
+- **Meta description:** EGS215 Renepoly – tủ BESS tích hợp 100kW/215,04kWh: pin LFP, PCS, EMS, làm mát chất lỏng, PCCC trong một tủ IP55 ngoài trời. Hỗ trợ RS485/TCP, giám sát đám mây. Báo giá theo dự án.
+- **Thẻ (tags):** EGS215, EGS215 Renepoly, Tủ lưu trữ 215kWh, BESS 100kW 215kWh, Tủ BESS làm mát chất lỏng
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/egs215-renepoly.png`
+- **Tên file ảnh nên đặt:** `egs215-renepoly.png`
+- **Alt text ảnh:** EGS215 Renepoly
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### ES215 Renepoly – Tủ Lưu Trữ Năng Lượng 215kWh (0.5C)
+- **URL:** `/es215-renepoly/`
+- **Focus keyword:** es215
+- **Meta description:** ES215 Renepoly – tủ lưu trữ năng lượng 215kWh cấu hình 0.5C: pin LFP, BMS nhiều cấp, PCS, EMS tích hợp trong tủ ngoài trời. Cân bằng giữa công suất và dung lượng. Báo giá theo dự án.
+- **Thẻ (tags):** ES215, ES215 Renepoly, Tủ BESS 215kWh 0.5C, Tủ lưu trữ năng lượng, BESS cabinet 215kWh
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/es215-renepoly.png`
+- **Tên file ảnh nên đặt:** `es215-renepoly.png`
+- **Alt text ảnh:** ES215 Renepoly
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### ES232 Renepoly – Tủ Lưu Trữ Năng Lượng Dung Lượng Lớn
+- **URL:** `/es232-renepoly/`
+- **Focus keyword:** es232
+- **Meta description:** ES232 Renepoly – tủ lưu trữ năng lượng dung lượng lớn hơn trên cùng nhóm kích thước: pin LFP, BMS nhiều cấp, PCS, EMS tích hợp, làm mát chủ động. Hợp đỉnh tải kéo dài. Báo giá theo dự án.
+- **Thẻ (tags):** ES232, ES232 Renepoly, Tủ BESS 232kWh, Tủ lưu trữ dung lượng lớn, BESS cabinet Renepoly
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/es232-renepoly.png`
+- **Tên file ảnh nên đặt:** `es232-renepoly.png`
+- **Alt text ảnh:** ES232 Renepoly
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+
+## Lưu trữ năng lượng — Kiến thức & giải pháp
+
+### BESS Là Gì? Hệ Thống Lưu Trữ Năng Lượng Bằng Pin Từ A–Z
+- **URL:** `/he-thong-luu-tru-nang-luong-bess-la-gi/`
+- **Focus keyword:** bess là gì
+- **Meta description:** BESS là gì? Giải thích hệ thống lưu trữ năng lượng bằng pin: cấu tạo (cell, BMS, PCS, EMS), nguyên lý sạc–xả, ứng dụng cắt đỉnh, dự phòng, kết hợp điện mặt trời và cách chọn cấu hình.
+- **Thẻ (tags):** BESS là gì, Hệ thống lưu trữ năng lượng, Battery Energy Storage System, Lưu trữ điện bằng pin, ESS
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/he-thong-luu-tru-nang-luong-bess-la-gi.png`
+- **Tên file ảnh nên đặt:** `he-thong-luu-tru-nang-luong-bess-la-gi.png`
+- **Alt text ảnh:** BESS Là Gì
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Microgrid Là Gì? Lưới Điện Siêu Nhỏ Và Ứng Dụng Thực Tế
+- **URL:** `/microgrid-la-gi/`
+- **Focus keyword:** microgrid là gì
+- **Meta description:** Microgrid là gì? Giải thích lưới điện siêu nhỏ: cấu tạo (nguồn phát, BESS, PCS, EMS), nguyên lý tách lưới và chạy độc lập, ứng dụng cho nhà máy, đảo, vùng xa lưới và cách lựa chọn cấu hình.
+- **Thẻ (tags):** Microgrid là gì, Lưới điện siêu nhỏ, Microgrid Việt Nam, Hệ thống điện độc lập, Microgrid EMS
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/microgrid-la-gi.png`
+- **Tên file ảnh nên đặt:** `microgrid-la-gi.png`
+- **Alt text ảnh:** Microgrid Là Gì
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Peak Shaving – Cắt Đỉnh Phụ Tải Để Giảm Tiền Điện
+- **URL:** `/peak-shaving-cat-dinh-tai/`
+- **Focus keyword:** peak shaving
+- **Meta description:** Peak shaving là gì? Cách dùng hệ lưu trữ BESS để cắt đỉnh phụ tải, giảm tiền điện giờ cao điểm và phí công suất. Phân biệt peak shaving và load shifting, cách tính kW/kWh cần thiết.
+- **Thẻ (tags):** Peak shaving, Cắt đỉnh phụ tải, Giảm tiền điện giờ cao điểm, Load shifting, Dịch tải bằng pin
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/peak-shaving-cat-dinh-tai.png`
+- **Tên file ảnh nên đặt:** `peak-shaving-cat-dinh-tai.png`
+- **Alt text ảnh:** Peak Shaving
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Điện Mặt Trời Kết Hợp Lưu Trữ (Solar + BESS)
+- **URL:** `/dien-mat-troi-ket-hop-luu-tru/`
+- **Focus keyword:** điện mặt trời kết hợp lưu trữ
+- **Meta description:** Điện mặt trời kết hợp lưu trữ (solar + BESS): giữ lại phần điện dư ban ngày để dùng buổi tối, tăng tỷ lệ tự dùng, giảm mua điện lưới. Cấu tạo, nguyên lý, cách tính dung lượng pin cần thiết.
+- **Thẻ (tags):** Điện mặt trời kết hợp lưu trữ, Solar BESS, Pin lưu trữ điện mặt trời, Tự dùng điện mặt trời, Hybrid solar storage
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/dien-mat-troi-ket-hop-luu-tru.png`
+- **Tên file ảnh nên đặt:** `dien-mat-troi-ket-hop-luu-tru.png`
+- **Alt text ảnh:** Điện Mặt Trời Kết Hợp Lưu Trữ (Solar + BESS)
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### BESS Cho Nhà Máy & Khu Công Nghiệp
+- **URL:** `/bess-cho-nha-may-khu-cong-nghiep/`
+- **Focus keyword:** bess cho nhà máy
+- **Meta description:** BESS cho nhà máy và khu công nghiệp: cắt đỉnh phụ tải, dịch tải theo giá điện, tăng tự dùng điện mặt trời và dự phòng chống mất điện. Cách tính quy mô, ví dụ thực tế và lộ trình triển khai.
+- **Thẻ (tags):** BESS cho nhà máy, Lưu trữ năng lượng khu công nghiệp, Giảm tiền điện nhà máy, Dự phòng mất điện sản xuất, ESS công nghiệp
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/bess-cho-nha-may-khu-cong-nghiep.png`
+- **Tên file ảnh nên đặt:** `bess-cho-nha-may-khu-cong-nghiep.png`
+- **Alt text ảnh:** BESS Cho Nhà Máy & Khu Công Nghiệp
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### BESS Cho Trạm Sạc Xe Điện (Pin Đệm Công Suất)
+- **URL:** `/bess-cho-tram-sac-xe-dien/`
+- **Focus keyword:** bess cho trạm sạc xe điện
+- **Meta description:** BESS cho trạm sạc xe điện: pin đệm gánh công suất đỉnh khi nhiều xe sạc cùng lúc, tránh phải nâng cấp trạm biến áp và giảm phí công suất. Nguyên lý, cách tính dung lượng và ví dụ thực tế.
+- **Thẻ (tags):** BESS cho trạm sạc xe điện, Trạm sạc EV có pin đệm, Buffer battery EV charging, Lưu trữ cho trạm sạc, Nâng cấp trạm biến áp
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/bess-cho-tram-sac-xe-dien.png`
+- **Tên file ảnh nên đặt:** `bess-cho-tram-sac-xe-dien.png`
+- **Alt text ảnh:** BESS Cho Trạm Sạc Xe Điện (Pin Đệm Công Suất)
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Pin LFP (LiFePO₄) – Chuẩn Mực Cho Lưu Trữ Năng Lượng
+- **URL:** `/pin-lfp-lifepo4-luu-tru-nang-luong/`
+- **Focus keyword:** pin lfp
+- **Meta description:** Pin LFP (LiFePO₄) là gì? Ưu nhược điểm so với NMC, độ bền nhiệt, vòng đời, cách bảo quản và vì sao LFP trở thành lựa chọn tiêu chuẩn cho hệ lưu trữ năng lượng BESS công nghiệp.
+- **Thẻ (tags):** Pin LFP, LiFePO4, Pin LFP và NMC, Pin lithium sắt phosphat, Pin lưu trữ năng lượng
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/pin-lfp-lifepo4-luu-tru-nang-luong.png`
+- **Tên file ảnh nên đặt:** `pin-lfp-lifepo4-luu-tru-nang-luong.png`
+- **Alt text ảnh:** Pin LFP (LiFePO₄)
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Làm Mát Chất Lỏng Cho BESS – Quản Lý Nhiệt Quyết Định Tuổi Thọ
+- **URL:** `/lam-mat-chat-long-cho-bess/`
+- **Focus keyword:** làm mát chất lỏng bess
+- **Meta description:** Làm mát bằng chất lỏng cho hệ lưu trữ BESS: nguyên lý, so sánh với làm mát bằng gió, ảnh hưởng của chênh lệch nhiệt độ tới tuổi thọ pin và cách chọn giải pháp quản lý nhiệt phù hợp.
+- **Thẻ (tags):** Làm mát chất lỏng BESS, Liquid cooling, Làm mát bằng gió, Quản lý nhiệt pin, Thermal management BESS
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/lam-mat-chat-long-cho-bess.png`
+- **Tên file ảnh nên đặt:** `lam-mat-chat-long-cho-bess.png`
+- **Alt text ảnh:** Làm Mát Chất Lỏng Cho BESS
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### BMS Là Gì? Hệ Thống Quản Lý Pin Trong Hệ Lưu Trữ
+- **URL:** `/bms-he-thong-quan-ly-pin/`
+- **Focus keyword:** bms là gì
+- **Meta description:** BMS là gì? Hệ thống quản lý pin trong BESS: đo điện áp, dòng, nhiệt độ từng cell, tính SOC/SOH, cân bằng cell và ngắt bảo vệ. Phân biệt BMS và EMS, cấu trúc nhiều cấp và cách đọc dữ liệu.
+- **Thẻ (tags):** BMS là gì, Hệ thống quản lý pin, Battery Management System, SOC SOH, Cân bằng cell pin
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/bms-he-thong-quan-ly-pin.png`
+- **Tên file ảnh nên đặt:** `bms-he-thong-quan-ly-pin.png`
+- **Alt text ảnh:** BMS Là Gì
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### An Toàn & PCCC Cho Hệ Thống Lưu Trữ Năng Lượng BESS
+- **URL:** `/an-toan-pccc-he-thong-bess/`
+- **Focus keyword:** an toàn bess
+- **Meta description:** An toàn và PCCC cho hệ lưu trữ năng lượng BESS: cơ chế thoát nhiệt mất kiểm soát, các lớp bảo vệ từ cell LFP, BMS, báo cháy, dập cháy tới thông gió khẩn cấp và lưu ý khi thiết kế lắp đặt.
+- **Thẻ (tags):** An toàn BESS, PCCC hệ lưu trữ năng lượng, Thermal runaway, Phòng cháy pin lithium, An toàn pin lưu trữ
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/an-toan-pccc-he-thong-bess.png`
+- **Tên file ảnh nên đặt:** `an-toan-pccc-he-thong-bess.png`
+- **Alt text ảnh:** An Toàn & PCCC Cho Hệ Thống Lưu Trữ Năng Lượng BESS
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Cách Tính Công Suất & Dung Lượng Cho Hệ Lưu Trữ BESS
+- **URL:** `/tinh-cong-suat-dung-luong-bess/`
+- **Focus keyword:** tính công suất bess
+- **Meta description:** Hướng dẫn tính công suất (kW) và dung lượng (kWh) cho hệ lưu trữ BESS: phân biệt kW và kWh, ý nghĩa C-rate, quy trình 6 bước có ví dụ và các sai lầm thường gặp khi chọn cấu hình.
+- **Thẻ (tags):** Tính công suất BESS, Tính dung lượng pin lưu trữ, C-rate, kW hay kWh, Chọn dung lượng BESS
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/tinh-cong-suat-dung-luong-bess.png`
+- **Tên file ảnh nên đặt:** `tinh-cong-suat-dung-luong-bess.png`
+- **Alt text ảnh:** Cách Tính Công Suất & Dung Lượng Cho Hệ Lưu Trữ BESS
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
