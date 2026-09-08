@@ -3,8 +3,34 @@
 import os, re, glob
 ROOT="/home/user/SEO-web/content/vi"
 
+# Renepoly (BESS · microgrid): 5 ảnh/bài — rep · prin · spec · app · comp
+RENEPOLY_IMG = {
+ "renepoly":                        ("rep-microgrid","prin-bess-charge","spec-bess-stack","app-factory-bess","compare-cabinet-container"),
+ "he-thong-luu-tru-nang-luong-bess-la-gi":("rep-bess-cabinet","prin-bess-charge","spec-bess-stack","app-factory-bess","compare-lfp-nmc"),
+ "tu-luu-tru-nang-luong-renepoly":  ("rep-bess-cabinet","prin-bess-charge","spec-cabinet-layout","app-factory-bess","compare-cabinet-container"),
+ "container-luu-tru-nang-luong-renepoly":("rep-bess-container","prin-bess-charge","spec-container-layout","app-island-microgrid","compare-cabinet-container"),
+ "ems-quan-ly-nang-luong-renepoly": ("rep-ems-renepoly","prin-microgrid-switch","spec-ems-arch","app-ems-dashboard","compare-ongrid-offgrid"),
+ "pcs-bo-chuyen-doi-cong-suat-renepoly":("rep-pcs-renepoly","prin-pcs","spec-cabinet-layout","app-factory-bess","compare-ongrid-offgrid"),
+ "pin-lfp-battery-rack-renepoly":   ("rep-battery-rack","prin-bms","spec-bess-stack","app-factory-bess","compare-lfp-nmc"),
+ "egs215-renepoly":                 ("rep-bess-cabinet","prin-liquid-cooling","spec-cabinet-layout","app-factory-bess","compare-cabinet-container"),
+ "es215-renepoly":                  ("rep-bess-cabinet","prin-bess-charge","spec-cabinet-layout","app-factory-bess","compare-cooling"),
+ "es232-renepoly":                  ("rep-bess-cabinet","prin-liquid-cooling","spec-cabinet-layout","app-ev-charging","compare-cabinet-container"),
+ "microgrid-la-gi":                 ("rep-microgrid","prin-microgrid-switch","spec-ems-arch","app-island-microgrid","compare-ongrid-offgrid"),
+ "peak-shaving-cat-dinh-tai":       ("rep-bess-cabinet","prin-peakshaving","spec-sizing","app-factory-bess","compare-roi-bess"),
+ "dien-mat-troi-ket-hop-luu-tru":   ("rep-microgrid","prin-solar-bess","spec-bess-stack","app-solar-storage-roof","compare-ongrid-offgrid"),
+ "bess-cho-nha-may-khu-cong-nghiep":("rep-bess-cabinet","prin-peakshaving","spec-sizing","app-factory-bess","compare-roi-bess"),
+ "bess-cho-tram-sac-xe-dien":       ("rep-bess-cabinet","prin-peakshaving","spec-sizing","app-ev-charging","compare-roi-bess"),
+ "pin-lfp-lifepo4-luu-tru-nang-luong":("rep-lfp-cell","prin-bms","spec-bess-stack","app-factory-bess","compare-lfp-nmc"),
+ "lam-mat-chat-long-cho-bess":      ("rep-bess-cabinet","prin-liquid-cooling","spec-cabinet-layout","app-factory-bess","compare-cooling"),
+ "bms-he-thong-quan-ly-pin":        ("rep-battery-rack","prin-bms","spec-bess-stack","app-ems-dashboard","compare-lfp-nmc"),
+ "an-toan-pccc-he-thong-bess":      ("rep-bess-safety","prin-bms","spec-safety-layers","app-factory-bess","compare-bess-may-phat"),
+ "tinh-cong-suat-dung-luong-bess":  ("rep-bess-cabinet","prin-peakshaving","spec-sizing","app-factory-bess","compare-roi-bess"),
+}
+
 def pick(slug):
     s=slug
+    key = slug.strip("/").replace("/","-")
+    if key in RENEPOLY_IMG: return RENEPOLY_IMG[key]
     # ei3 (IIoT bảo mật) — xử lý trước để không đụng rule chung (gateway, hien-thi…)
     if "ei3" in s or any(k in s for k in ["amphion","zethus","portara","connectedai"]):
         if "amphion" in s or "gateway-ket-noi" in s: return ("rep-gateway-ei3","prin-outbound","app-fleet")
@@ -43,7 +69,8 @@ def pick(slug):
     if "seneca-viet-nam" in s: return ("rep-converter","signal-chain","app-remoteio")
     return None
 
-CAP={"rep":"Hình đại diện","prin":"Nguyên lý hoạt động","app":"Ứng dụng thiết bị"}
+CAP={"rep":"Hình đại diện","prin":"Nguyên lý hoạt động","spec":"Cấu tạo & thông số",
+     "app":"Ứng dụng thiết bị","comp":"So sánh & lựa chọn"}
 
 def slug_of(raw):
     mc=re.search(r"<!--(.*?)-->",raw,re.S); cmt=mc.group(1) if mc else ""
@@ -76,10 +103,13 @@ for path in glob.glob(os.path.join(ROOT,"**","*.md"),recursive=True):
     raw=open(path,encoding="utf-8").read()
     slug=slug_of(raw); trio=pick(slug)
     if not trio: continue
-    rep,prin,app=trio
+    # 3 ảnh (rep·prin·app) hoặc 5 ảnh (rep·prin·spec·app·comp — dùng cho Renepoly)
+    five = len(trio)==5
+    if five: rep,prin,spec,app,comp = trio
+    else:    rep,prin,app = trio; spec=comp=None
     lines=strip_old(raw.split("\n"))
     # anchors
-    p_rep=None; p_prin=None; p_app=None
+    p_rep=None; p_prin=None; p_app=None; p_spec=None; p_comp=None
     for i,ln in enumerate(lines):
         if p_rep is None and ln.strip().startswith("## "):
             p_rep=i+1
@@ -98,13 +128,34 @@ for path in glob.glob(os.path.join(ROOT,"**","*.md"),recursive=True):
         for i,ln in enumerate(lines):
             if ln.strip().startswith("## ") and "Câu hỏi thường gặp" in ln:
                 p_app=i; break
-    # insert from largest index to smallest
+    if five:
+        # spec: heading cấu tạo/thông số/thành phần (trước mục ứng dụng)
+        for i,ln in enumerate(lines):
+            if p_rep is not None and i < p_rep: continue
+            if ln.strip().startswith("## ") and re.search(r"(cấu tạo|thông số|thành phần|cấu hình|kiến trúc)",ln,re.I):
+                p_spec=i+1; break
+        # comp: heading so sánh/lựa chọn/phân loại
+        for i,ln in enumerate(lines):
+            if p_rep is not None and i < p_rep: continue
+            if ln.strip().startswith("## ") and re.search(r"(so sánh|lựa chọn|chọn |phân loại|khi nào|nên chọn)",ln,re.I):
+                p_comp=i+1; break
+    if five:
+        # fallback: nếu thiếu heading tương ứng, chèn trước mục FAQ để bài luôn đủ 5 ảnh
+        faq=next((i for i,ln in enumerate(lines)
+                  if ln.strip().startswith("## ") and "Câu hỏi thường gặp" in ln), len(lines))
+        if p_spec is None: p_spec=max(0,faq-1)
+        if p_comp is None: p_comp=max(0,faq-1)
+    # insert from largest index to smallest; tránh 2 ảnh trùng vị trí
     ins=[]
-    if p_rep is not None: ins.append((p_rep,block("rep",rep)))
-    if p_prin is not None: ins.append((p_prin,block("prin",prin)))
-    if p_app is not None: ins.append((p_app,block("app",app)))
+    used=set()
+    def add(pos,role,fname):
+        if pos is None: return
+        while pos in used: pos+=1
+        used.add(pos); ins.append((pos,block(role,fname)))
+    add(p_rep,"rep",rep); add(p_prin,"prin",prin); add(p_app,"app",app)
+    if five: add(p_spec,"spec",spec); add(p_comp,"comp",comp)
     for pos,blk in sorted(ins,key=lambda t:-t[0]):
-        lines.insert(pos,blk)
+        lines.insert(min(pos,len(lines)),blk)
     open(path,"w",encoding="utf-8").write("\n".join(lines))
     changed+=1
-print("3 images inserted into",changed,"articles")
+print("images inserted into",changed,"articles")
