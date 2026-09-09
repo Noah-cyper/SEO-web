@@ -15,6 +15,10 @@ H1          : Biến Tần Trên Mạng Truyền Thông Công Nghiệp
 
 ## Khi Modbus RTU không còn đủ
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-bien-tan.svg)
+
+
 Ở bài [điều khiển biến tần bằng PLC](/dieu-khien-bien-tan-bang-plc/), chúng ta đã bàn ba cách ra lệnh cho biến tần: đầu ra số, analog và **Modbus RTU**. Với đa số hệ thống vừa và nhỏ, Modbus RTU là lựa chọn hợp lý — hai dây, chi phí thấp, đủ chức năng.
 
 Nhưng khi hệ thống lớn lên, Modbus RTU bắt đầu chạm giới hạn:
@@ -28,6 +32,10 @@ Nhưng khi hệ thống lớn lên, Modbus RTU bắt đầu chạm giới hạn:
 Đó là lúc các **mạng công nghiệp chuyên dụng** phát huy giá trị. Bài này trình bày các họ mạng phổ biến, cách chọn, và những vấn đề thực tế khi triển khai.
 
 > **Đang chọn mạng cho dự án tự động hóa?** Gửi **hãng PLC · số biến tần · yêu cầu tốc độ** → [Nhận tư vấn chọn mạng](#bao-gia).
+
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-fieldbus.svg)
+
 
 Đây là bài **40/50** trong [chuỗi bài biến tần](/bien-tan-la-gi/).
 
@@ -61,6 +69,10 @@ Xu hướng chung hiện nay là **chuyển dần sang Ethernet công nghiệp**
 
 ## Cấu tạo: các họ mạng phổ biến cho biến tần
 
+<!--IMG:spec-->
+![Cấu tạo & thông số](assets/diagrams/spec-vfd-fieldbus.svg)
+
+
 | Mạng | Nền tảng | Đặc điểm | Thường gặp với |
 |---|---|---|---|
 | **Modbus RTU** | RS485 | Đơn giản, phổ biến nhất, **mở và miễn phí** | Mọi hãng, hệ vừa và nhỏ |
@@ -93,6 +105,10 @@ Hầu hết biến tần công nghiệp có **cổng Modbus RTU tích hợp sẵ
 ---
 
 ## Ứng dụng: dữ liệu trao đổi và cấu hình
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-vfd-plc.svg)
+
 
 ### Dữ liệu thường trao đổi với biến tần
 
@@ -148,6 +164,10 @@ Với **mọi loại mạng**, quy tắc chống nhiễu là như nhau: **đi t�
 ---
 
 ## So sánh: chọn mạng nào cho dự án
+
+<!--IMG:comp-->
+![So sánh & lựa chọn](assets/diagrams/comp-fieldbus.svg)
+
 
 | Tình huống | Khuyến nghị |
 |---|---|

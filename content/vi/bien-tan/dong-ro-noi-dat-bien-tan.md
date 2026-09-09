@@ -15,9 +15,17 @@ H1          : Dòng Rò Và Nối Đất Cho Biến Tần
 
 ## Aptomat chống giật nhảy dù không có ai chạm vào gì
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-tu-dien-bien-tan.svg)
+
+
 Đây là một trong những tình huống gây bối rối nhất khi đưa biến tần vào vận hành:
 
 > Hệ thống lắp xong, chạy thử tốt. Đóng aptomat chống giật (RCCB/ELCB) vào thì **nó nhảy ngay khi biến tần khởi động**. Kiểm tra cách điện động cơ — tốt. Kiểm tra cáp — không chạm chập. Nhưng cứ chạy là nhảy.
+
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-dong-ro.svg)
+
 
 Phản ứng phổ biến nhất, và cũng nguy hiểm nhất, là **bỏ luôn RCCB** hoặc nối tắt nó. Đó là loại bỏ một thiết bị bảo vệ an toàn tính mạng để giải quyết một triệu chứng.
 
@@ -79,6 +87,10 @@ Thêm nữa, **RCCB loại AC và loại A thông thường không được thi�
 
 ## Cấu tạo giải pháp: xử lý theo thứ tự
 
+<!--IMG:spec-->
+![Cấu tạo & thông số](assets/diagrams/spec-vfd-emc.svg)
+
+
 ### Bước 1 — Chọn đúng loại RCCB
 
 Đây là biện pháp quan trọng nhất và phải làm đầu tiên.
@@ -132,6 +144,10 @@ Nguyên tắc nối đất cho hệ biến tần:
 
 ## Ứng dụng: dòng qua trục và hư hỏng vòng bi
 
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-vfd-suachua.svg)
+
+
 Đây là vấn đề liên quan trực tiếp tới dòng rò nhưng ít được biết đến, và nó gây thiệt hại thật.
 
 ### Cơ chế
@@ -171,6 +187,10 @@ Nếu đang thiết kế hệ mới với động cơ lớn chạy 24/7, **chổ
 ---
 
 ## So sánh các hướng xử lý RCCB nhảy
+
+<!--IMG:comp-->
+![So sánh & lựa chọn](assets/diagrams/comp-vfd-hang.svg)
+
 
 | Cách xử lý | Chi phí | Có an toàn không | Hiệu quả |
 |---|---|---|---|

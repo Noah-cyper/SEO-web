@@ -15,6 +15,10 @@ H1          : Biến Tần Cho Động Cơ Nam Châm Vĩnh Cửu
 
 ## Loại động cơ không thể chạy trực tiếp từ lưới
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-bien-tan.svg)
+
+
 Suốt chuỗi bài này, "động cơ" mặc định là **động cơ không đồng bộ ba pha (IM — Induction Motor)** — loại rotor lồng sóc phổ biến nhất trong công nghiệp. Nó chạy được cả khi cắm thẳng vào lưới lẫn khi qua biến tần ([xem bài động cơ 3 pha](/bien-tan-va-dong-co-3-pha/)).
 
 Có một họ động cơ khác đang ngày càng phổ biến ở các ứng dụng đòi hỏi hiệu suất cao: **động cơ nam châm vĩnh cửu (PM — Permanent Magnet)**, thường gọi là PMSM hoặc động cơ đồng bộ nam châm vĩnh cửu.
@@ -31,6 +35,10 @@ Từ khác biệt cấu tạo này sinh ra hai hệ quả trái ngược:
 **Ràng buộc:** động cơ PM **không tự khởi động được khi cắm thẳng vào lưới**. Nó **bắt buộc phải có biến tần** để hoạt động. Biến tần không còn là tùy chọn để tiết kiệm điện — nó là bộ phận không thể thiếu của hệ.
 
 > **Đang cân nhắc nâng cấp lên động cơ PM?** Gửi **ứng dụng · công suất · giờ chạy** → [Nhận đánh giá có nên hay không](#bao-gia).
+
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-pmsm.svg)
+
 
 Đây là bài **38/50** trong [chuỗi bài biến tần](/bien-tan-la-gi/).
 
@@ -68,6 +76,10 @@ Với các ứng dụng bơm, quạt — nơi mô-men khởi động không lớ
 
 ## Cấu tạo và thông số: cấu hình cho động cơ PM
 
+<!--IMG:spec-->
+![Cấu tạo & thông số](assets/diagrams/spec-vfd-thongso.svg)
+
+
 | Thông số | Ghi chú |
 |---|---|
 | **Loại động cơ** | Phải chọn **PM / PMSM**, không để mặc định IM |
@@ -95,6 +107,10 @@ Vì vậy với động cơ PM, việc **khai đúng thông số và đặt đú
 
 ## Ứng dụng: nơi động cơ PM phát huy giá trị
 
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-vfd-tietkiem.svg)
+
+
 Bài toán kinh tế của PM rất rõ ràng: **động cơ đắt hơn, nhưng tiết kiệm điện nhiều hơn**. Điều đó nghĩa là nó chỉ đáng đầu tư khi **số giờ chạy đủ lớn** để khoản tiết kiệm vượt chênh lệch giá.
 
 ### Đáng cân nhắc khi
@@ -121,6 +137,10 @@ Bài toán kinh tế của PM rất rõ ràng: **động cơ đắt hơn, nhưng
 ---
 
 ## So sánh động cơ IM và PM
+
+<!--IMG:comp-->
+![So sánh & lựa chọn](assets/diagrams/comp-motor-im-pm.svg)
+
 
 | Tiêu chí | **Không đồng bộ (IM)** | **Nam châm vĩnh cửu (PM)** |
 |---|---|---|

@@ -15,6 +15,10 @@ H1          : Biến Tần Chạy Trên Máy Phát Điện
 
 ## Lưới điện và máy phát không giống nhau
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-bien-tan.svg)
+
+
 Trong tính toán thông thường, ta coi lưới điện là một **nguồn lý tưởng**: điện áp không đổi, tần số không đổi, cấp được bao nhiêu dòng cũng được. Giả định này gần đúng vì công suất của lưới lớn hơn tải rất nhiều lần.
 
 Với **máy phát điện**, giả định đó sụp đổ. Máy phát là một nguồn có công suất **hữu hạn và tương đối gần với tải**, nên:
@@ -29,6 +33,10 @@ Kết quả là một hệ chạy hoàn hảo trên lưới có thể **liên t�
 Bài này giải thích cơ chế và đưa ra các nguyên tắc thiết kế cụ thể.
 
 > **Hệ của bạn cần chạy được trên máy phát?** Gửi **công suất máy phát · tổng công suất biến tần · loại tải** → [Nhận tư vấn](#bao-gia).
+
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-may-phat.svg)
+
 
 Đây là bài **43/50** trong [chuỗi bài biến tần](/bien-tan-la-gi/).
 
@@ -78,6 +86,10 @@ Với hệ có nhiều biến tần cần đồng bộ, dao động tần số n
 ---
 
 ## Cấu tạo giải pháp: thiết kế cho hệ chạy máy phát
+
+<!--IMG:spec-->
+![Cấu tạo & thông số](assets/diagrams/spec-vfd-sizing.svg)
+
 
 ### Chọn công suất máy phát — nguyên tắc dự phòng
 
@@ -132,6 +144,10 @@ Cần lưu ý thêm về **cấu hình tự khởi động lại của biến t�
 
 ## Ứng dụng: các tình huống thực tế
 
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-vfd-nenkhi.svg)
+
+
 **Nhà máy có máy phát dự phòng cho toàn bộ sản xuất.** Cần tính toán kỹ nhất. Nên **phân loại tải theo mức ưu tiên** và chỉ cấp cho nhóm thiết yếu khi chạy máy phát, giảm yêu cầu công suất máy phát.
 
 **Hệ bơm cứu hỏa, bơm thoát nước khẩn cấp.** Đây là ứng dụng mà việc chạy được trên máy phát là **bắt buộc theo thiết kế**. Cần thử nghiệm thực tế định kỳ, không chỉ tính toán.
@@ -157,6 +173,10 @@ Cần lưu ý thêm về **cấu hình tự khởi động lại của biến t�
 ---
 
 ## So sánh: chạy trên lưới và chạy trên máy phát
+
+<!--IMG:comp-->
+![So sánh & lựa chọn](assets/diagrams/comp-vfd-tai.svg)
+
 
 | Tiêu chí | **Lưới điện** | **Máy phát** |
 |---|---|---|

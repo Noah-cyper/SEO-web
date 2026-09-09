@@ -84,6 +84,22 @@ GROUPS = [
         "bien-tan/loi-bien-tan-thuong-gap.md","bien-tan/loi-qua-dong-bien-tan.md",
         "bien-tan/loi-qua-ap-thap-ap-bien-tan.md","bien-tan/loi-qua-nhiet-qua-tai-bien-tan.md",
         "bien-tan/bao-tri-bien-tan-dinh-ky.md","bien-tan/sua-hay-thay-bien-tan.md"]),
+("Biến tần — Ứng dụng theo máy", "#7c2d12", [
+        "bien-tan/bien-tan-cho-bang-tai.md","bien-tan/bien-tan-cho-may-nen-khi.md",
+        "bien-tan/bien-tan-cho-cau-truc-palang.md","bien-tan/bien-tan-cho-may-tron-may-nghien.md",
+        "bien-tan/bien-tan-trong-hvac.md"]),
+    ("Biến tần — Kỹ thuật nâng cao", "#4c1d95", [
+        "bien-tan/bien-tan-hoan-nang-luong.md","bien-tan/dong-bo-nhieu-bien-tan.md",
+        "bien-tan/bien-tan-cho-dong-co-nam-cham-vinh-cuu.md","bien-tan/safe-torque-off-bien-tan.md",
+        "bien-tan/bien-tan-mang-truyen-thong-cong-nghiep.md"]),
+    ("Biến tần — Điện & chất lượng điện", "#075985", [
+        "bien-tan/song-hai-thd-bien-tan.md","bien-tan/he-so-cong-suat-tu-bu-bien-tan.md",
+        "bien-tan/bien-tan-chay-tren-may-phat-dien.md","bien-tan/dong-ro-noi-dat-bien-tan.md",
+        "bien-tan/bien-tan-va-khoi-dong-mem.md"]),
+    ("Biến tần — Dự án & vận hành", "#166534", [
+        "bien-tan/lap-bien-tan-cho-may-dang-chay.md","bien-tan/nghiem-thu-chay-thu-bien-tan.md",
+        "bien-tan/an-toan-dien-voi-bien-tan.md","bien-tan/giam-sat-bien-tan-tu-xa.md",
+        "bien-tan/danh-gia-dau-tu-hoan-von-bien-tan.md"]),
 ]
 
 def field(name, text):

@@ -15,6 +15,10 @@ H1          : Biến Tần, Hệ Số Công Suất Và Tụ Bù
 
 ## Một câu hỏi hay bị trả lời sai
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-tu-dien-bien-tan.svg)
+
+
 Câu hỏi thường gặp khi nhà máy chuẩn bị lắp nhiều biến tần: **"Có cần bù công suất phản kháng cho biến tần không?"**
 
 Câu trả lời ngắn gọn: **thường là không cần** — và trong nhiều trường hợp, việc bù thêm còn **gây hại**.
@@ -29,6 +33,10 @@ Vấn đề thứ hai nghiêm trọng hơn nhiều, và nó xảy ra ở rất n
 Bài này giải thích vì sao, và đưa ra cách xử lý cụ thể.
 
 > **Nhà máy vừa lắp thêm biến tần và tụ bù hay hỏng?** Gửi **dung lượng tụ bù · tổng công suất biến tần · hiện tượng** → [Nhận đánh giá rủi ro](#bao-gia).
+
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-cosphi.svg)
+
 
 Đây là bài **42/50** trong [chuỗi bài biến tần](/bien-tan-la-gi/).
 
@@ -70,6 +78,10 @@ Nghĩa là: lắp tụ bù cho tuyến biến tần **không cải thiện đư�
 
 ## Cấu tạo vấn đề: cộng hưởng giữa tụ bù và sóng hài
 
+<!--IMG:spec-->
+![Cấu tạo & thông số](assets/diagrams/spec-vfd-emc.svg)
+
+
 Nếu chỉ là "không cần thiết" thì cũng chỉ là lãng phí. Vấn đề thật sự nguy hiểm nằm ở chỗ khác: **tụ bù và sóng hài có thể cộng hưởng với nhau**.
 
 Cơ chế như sau:
@@ -108,6 +120,10 @@ Bài học: **mỗi khi thay đổi đáng kể cơ cấu tải của nhà máy 
 ---
 
 ## Ứng dụng: xử lý thế nào cho đúng
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-vfd-tietkiem.svg)
+
 
 ### Trường hợp 1 — Nhà máy chỉ có biến tần, chưa có tụ bù
 
@@ -152,6 +168,10 @@ Lưu ý khi lắp: cuộn kháng làm **điện áp trên tụ tăng lên** so v
 ---
 
 ## So sánh các cấu hình tụ bù
+
+<!--IMG:comp-->
+![So sánh & lựa chọn](assets/diagrams/comp-loc-song-hai.svg)
+
 
 | Cấu hình | Rủi ro cộng hưởng | Chi phí | Phù hợp |
 |---|---|---|---|

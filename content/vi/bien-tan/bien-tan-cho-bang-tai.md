@@ -15,6 +15,10 @@ H1          : Biến Tần Cho Băng Tải
 
 ## Băng tải là tải mô-men không đổi — và điều đó thay đổi mọi tính toán
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-vfd-bangtai.svg)
+
+
 Trong chuỗi bài này, chúng ta đã nói nhiều về bơm và quạt — nơi biến tần tiết kiệm điện rất mạnh nhờ quy luật lập phương. **Băng tải hoàn toàn khác.**
 
 Băng tải thuộc nhóm **tải mô-men không đổi (constant torque)**. Để kéo một khối lượng hàng nhất định, động cơ cần một lực kéo gần như **không phụ thuộc vào tốc độ**. Chạy nhanh hay chậm, lực cản do ma sát con lăn và do trọng lượng hàng vẫn gần như thế.
@@ -29,6 +33,10 @@ Hệ quả rất quan trọng cho việc tính toán:
 Vì vậy, lý do lắp biến tần cho băng tải hầu như không phải để tiết kiệm điện. Lý do thật là: **khởi động êm để hàng không đổ, đổi tốc độ theo nhịp dây chuyền, đồng bộ nhiều đoạn băng, và bảo vệ cơ khí**.
 
 > **Đang cần lắp biến tần cho băng tải?** Gửi **công suất động cơ · tải trên băng · độ nghiêng · loại hàng** → [Nhận tư vấn chọn thiết bị](#bao-gia).
+
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-vf-ratio.svg)
+
 
 Đây là bài **31/50** trong [chuỗi bài biến tần](/bien-tan-la-gi/).
 
@@ -64,6 +72,14 @@ Biến tần loại bỏ toàn bộ nhóm vấn đề này bằng cách đưa t�
 
 ## Cấu tạo và thông số: chọn gì cho băng tải
 
+<!--IMG:spec-->
+![Cấu tạo & thông số](assets/diagrams/spec-vfd-sizing.svg)
+
+
+
+<!--IMG:comp-->
+![So sánh & lựa chọn](assets/diagrams/comp-vfd-tai.svg)
+
 | Hạng mục | Khuyến nghị cho băng tải | Ghi chú |
 |---|---|---|
 | **Loại tải khai báo** | Mô-men không đổi (CT / heavy duty) | Không dùng chế độ bơm–quạt |
@@ -83,6 +99,10 @@ Biến tần loại bỏ toàn bộ nhóm vấn đề này bằng cách đưa t�
 ---
 
 ## Ứng dụng: các kiểu băng tải và cách xử lý
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-vfd-bangtai2.svg)
+
 
 **Băng tải nằm ngang chở hàng rời.** Trường hợp đơn giản nhất. Cần khởi động êm và đổi tốc độ theo nhịp. V/f có thể đủ nếu tải nhẹ; vector khi tải nặng.
 

@@ -15,6 +15,10 @@ H1          : Biến Tần Hoàn Năng Lượng Về Lưới (AFE)
 
 ## Đốt năng lượng hay trả nó về lưới?
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-vfd-cautruc.svg)
+
+
 Ở các bài trước trong chuỗi này, mỗi khi gặp năng lượng dội về từ động cơ, câu trả lời luôn là **điện trở xả**: dẫn năng lượng đó ra một khối điện trở và **đốt thành nhiệt**.
 
 Cách này đơn giản, rẻ và hiệu quả. Nhưng nó có hai vấn đề khi lượng năng lượng lớn:
@@ -27,6 +31,10 @@ Cách này đơn giản, rẻ và hiệu quả. Nhưng nó có hai vấn đề k
 Đây là công nghệ tốt, nhưng **không phải lúc nào cũng đáng đầu tư**. Bài này giải thích nguyên lý, và quan trọng hơn — đưa ra tiêu chí trung thực để biết khi nào nên và khi nào không nên.
 
 > **Không chắc hệ của bạn có đáng đầu tư AFE?** Gửi **tần suất và thời lượng hãm · công suất động cơ** → [Nhận đánh giá](#bao-gia).
+
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-vfd-regen.svg)
+
 
 Đây là bài **36/50** trong [chuỗi bài biến tần](/bien-tan-la-gi/).
 
@@ -68,6 +76,10 @@ Ngoài ra, AFE thường có khả năng **điều chỉnh hệ số công suấ
 
 ## Cấu tạo và thông số: những gì AFE cần thêm
 
+<!--IMG:spec-->
+![Cấu tạo & thông số](assets/diagrams/spec-vfd-afe.svg)
+
+
 | Hạng mục | Biến tần thường | Biến tần AFE |
 |---|---|---|
 | **Khối đầu vào** | Diode (1 chiều) | **IGBT (2 chiều)** |
@@ -91,6 +103,14 @@ Trong thực tế công nghiệp, phần lớn nhà máy có tải nền đủ l
 ---
 
 ## Ứng dụng: khi nào AFE thực sự đáng đầu tư
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-vfd-cautruc.svg)
+
+
+
+<!--IMG:comp-->
+![So sánh & lựa chọn](assets/diagrams/comp-vfd-regen.svg)
 
 Tiêu chí quyết định không phải "có hãm hay không", mà là **hãm bao nhiêu, bao lâu và bao nhiêu lần mỗi giờ**.
 

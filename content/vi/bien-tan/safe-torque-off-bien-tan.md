@@ -15,6 +15,10 @@ H1          : Safe Torque Off (STO) Trên Biến Tần
 
 ## Dừng máy và dừng an toàn không phải một
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-tu-dien-bien-tan.svg)
+
+
 Khi ai đó bấm nút dừng khẩn trên một máy có biến tần, điều gì thực sự xảy ra?
 
 Với cách đấu thông thường, tín hiệu dừng đi vào **chân điều khiển của biến tần**. Biến tần đọc tín hiệu, phần mềm xử lý, rồi ra lệnh cắt đầu ra. Máy dừng.
@@ -28,6 +32,10 @@ Với một máy có thể gây thương tích, đó là mức độ tin cậy k
 Đây là ý nghĩa của cái tên: **"cắt mô-men an toàn"** — đảm bảo bằng phần cứng rằng động cơ không sinh ra lực xoắn.
 
 > **Máy của bạn có cần chức năng STO?** Gửi **loại máy · yêu cầu an toàn · model biến tần** → [Nhận tư vấn](#bao-gia).
+
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-vfd-sto.svg)
+
 
 Đây là bài **39/50** trong [chuỗi bài biến tần](/bien-tan-la-gi/).
 
@@ -72,6 +80,14 @@ Nghĩa là: **STO tuyệt đối không thay thế cho khoá điện (LOTO) khi 
 
 ## Cấu tạo và thông số: những gì cần biết khi chọn và đấu
 
+<!--IMG:spec-->
+![Cấu tạo & thông số](assets/diagrams/spec-vfd-sto.svg)
+
+
+
+<!--IMG:comp-->
+![So sánh & lựa chọn](assets/diagrams/comp-loto-sto.svg)
+
 | Hạng mục | Nội dung | Ghi chú |
 |---|---|---|
 | **Số kênh STO** | Thường **2 kênh độc lập** | Cả hai phải cho phép thì mới chạy |
@@ -96,6 +112,10 @@ Với hầu hết ứng dụng, câu trả lời phải là **không**. Máy t�
 ---
 
 ## Ứng dụng: khi nào STO đáng giá
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-vfd-cautruc.svg)
+
 
 **Máy có cửa che chắn hoặc rào bảo vệ.** Khi cửa mở, máy phải không thể sinh mô-men. STO phối hợp với công tắc an toàn cửa là cấu hình kinh điển.
 

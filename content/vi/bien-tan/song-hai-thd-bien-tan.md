@@ -15,6 +15,10 @@ H1          : Sóng Hài Do Biến Tần Và Cách Giảm THD
 
 ## Vấn đề không nhìn thấy nhưng có hóa đơn
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-tu-dien-bien-tan.svg)
+
+
 Sóng hài là một trong những vấn đề khó chịu nhất về chất lượng điện, vì nó **không gây ra sự cố tức thì**. Không có mã lỗi nào hiện lên, không có thiết bị nào dừng. Thay vào đó, nó gây ra một loạt hiện tượng rời rạc mà thường không ai liên kết lại với nhau:
 
 - **Máy biến áp nóng bất thường** dù chưa đầy tải.
@@ -30,6 +34,10 @@ Từng hiện tượng riêng lẻ đều có thể bị quy cho nguyên nhân k
 Và trong nhà máy hiện đại, nguồn gây méo lớn nhất thường là **các bộ chỉnh lưu** — mà biến tần là loại phổ biến nhất.
 
 > **Nhà máy của bạn có vấn đề về sóng hài?** Gửi **tổng công suất biến tần · công suất máy biến áp · hiện tượng đang gặp** → [Nhận đánh giá](#bao-gia).
+
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-song-hai.svg)
+
 
 Đây là bài **41/50** trong [chuỗi bài biến tần](/bien-tan-la-gi/).
 
@@ -59,6 +67,10 @@ Cần phân biệt hai chỉ số:
 
 ## Cấu tạo tác hại: sóng hài làm gì trong nhà máy
 
+<!--IMG:spec-->
+![Cấu tạo & thông số](assets/diagrams/spec-vfd-emc.svg)
+
+
 **Với máy biến áp.** Dòng hài tần số cao gây **tổn hao dòng xoáy và tổn hao từ trễ tăng mạnh** — tổn hao tăng theo bình phương tần số. Máy biến áp nóng lên dù dòng hiệu dụng đo được vẫn trong định mức. Hệ quả: tuổi thọ cách điện giảm, và trong trường hợp nặng phải **giảm tải danh định (derating)** của máy biến áp.
 
 **Với tụ bù.** Đây là nạn nhân điển hình nhất. Trở kháng của tụ **giảm khi tần số tăng**, nên tụ trở thành "đường thoát ưu tiên" cho dòng hài. Dòng qua tụ tăng vọt, tụ nóng và hỏng sớm.
@@ -78,6 +90,10 @@ Với tải một pha phi tuyến (bộ nguồn máy tính, đèn LED, biến t�
 ---
 
 ## Ứng dụng: sáu cách giảm sóng hài từ rẻ đến đắt
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-vfd-plc.svg)
+
 
 ### 1. Cuộn kháng đầu vào (AC line reactor) — rẻ nhất, làm trước
 
@@ -128,6 +144,10 @@ Nếu dự án đang cân nhắc AFE vì lý do hoàn năng lượng, thì lợi
 ---
 
 ## So sánh các phương án
+
+<!--IMG:comp-->
+![So sánh & lựa chọn](assets/diagrams/comp-loc-song-hai.svg)
+
 
 | Phương án | Chi phí | Mức giảm THD | Phạm vi | Ghi chú |
 |---|---|---|---|---|

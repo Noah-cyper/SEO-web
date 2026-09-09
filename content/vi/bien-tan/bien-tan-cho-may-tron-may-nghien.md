@@ -15,9 +15,17 @@ H1          : Biến Tần Cho Máy Trộn Và Máy Nghiền
 
 ## Bài toán đặc trưng: khởi động khi thùng đã đầy
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-vfd-tron.svg)
+
+
 Có một tình huống lặp đi lặp lại ở các nhà máy có máy trộn, máy nhào, máy nghiền:
 
 > Máy đang trộn giữa mẻ thì mất điện, hoặc phải dừng khẩn. Khi cấp điện lại, **máy không khởi động nổi**. Động cơ ù lên, biến tần báo quá dòng và cắt. Đội bảo trì phải xúc bớt nguyên liệu ra rồi mới chạy lại được.
+
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-vf-ratio.svg)
+
 
 Phản xạ thường thấy là kết luận "biến tần yếu, phải thay cái lớn hơn". Trong nhiều trường hợp, đó là chẩn đoán sai — và đổi máy lớn hơn tốn tiền mà không giải quyết đúng vấn đề.
 
@@ -60,6 +68,10 @@ Kết hợp ba đặc điểm này, ta có một tải mà:
 
 ## Cấu tạo và thông số: cấu hình cho tải nặng
 
+<!--IMG:spec-->
+![Cấu tạo & thông số](assets/diagrams/spec-vfd-thongso.svg)
+
+
 | Thông số | Khuyến nghị | Lý do |
 |---|---|---|
 | **Loại tải khai báo** | Mô-men không đổi (CT / heavy duty) | Không dùng chế độ bơm quạt |
@@ -86,6 +98,10 @@ Chi phí sửa một hộp số máy nghiền lớn hơn nhiều lần so với 
 ---
 
 ## Ứng dụng: các loại máy và cách xử lý
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-vfd-tron.svg)
+
 
 **Máy trộn bê tông, máy trộn vữa.** Tải rất nặng khi đầy. Cần vector, dư công suất, giới hạn mô-men. Lưu ý vật liệu **đóng cứng nếu để lâu** — quy trình vận hành nên tránh dừng máy khi còn đầy liệu.
 
@@ -117,6 +133,10 @@ Bước 1 và 2 giải quyết phần lớn trường hợp, và cả hai đều
 ---
 
 ## So sánh: các cấu hình cho tải nặng
+
+<!--IMG:comp-->
+![So sánh & lựa chọn](assets/diagrams/comp-vf-vector.svg)
+
 
 | Cấu hình | Chi phí | Mô-men khởi động | Bảo vệ cơ khí | Phù hợp |
 |---|---|---|---|---|

@@ -15,6 +15,10 @@ H1          : Đồng Bộ Nhiều Biến Tần Trên Một Dây Chuyền
 
 ## Ba bài toán khác nhau hay bị gộp làm một
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-vfd-bangtai.svg)
+
+
 Khi một dây chuyền có nhiều động cơ, câu hỏi "làm sao cho chúng chạy đồng bộ" thực ra che giấu **ba bài toán kỹ thuật khác nhau**, với ba lời giải khác nhau. Nhầm lẫn giữa chúng là nguyên nhân của rất nhiều hệ chạy không ổn định.
 
 **Bài toán 1 — Đồng bộ tốc độ (speed following).** Các trục **không nối cứng với nhau về cơ khí**, nhưng cần chạy cùng một tốc độ. Ví dụ: nhiều đoạn băng tải nối tiếp, nhiều quạt trong một hệ thông gió. Nếu tốc độ lệch, hàng sẽ dồn ứ hoặc thưa ra.
@@ -26,6 +30,10 @@ Khi một dây chuyền có nhiều động cơ, câu hỏi "làm sao cho chúng
 Ba bài toán này đòi hỏi ba cấu hình khác nhau. Bài này trình bày cả ba, cùng các cách kết nối và những cạm bẫy thực tế.
 
 > **Dây chuyền của bạn cần đồng bộ mấy trục?** Gửi **sơ đồ dây chuyền · số động cơ · yêu cầu đồng bộ** → [Nhận tư vấn cấu hình](#bao-gia).
+
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-master-slave.svg)
+
 
 Đây là bài **37/50** trong [chuỗi bài biến tần](/bien-tan-la-gi/).
 
@@ -68,6 +76,10 @@ Với cấu hình này, hai động cơ gánh tải theo tỷ lệ đặt trư�
 
 ## Cấu tạo: các cách truyền lệnh giữa các biến tần
 
+<!--IMG:spec-->
+![Cấu tạo & thông số](assets/diagrams/spec-vfd-fieldbus.svg)
+
+
 | Cách kết nối | Cách hoạt động | Ưu điểm | Hạn chế |
 |---|---|---|---|
 | **Analog song song** | Một tín hiệu 4–20mA cấp cho tất cả AI | Đơn giản, không lập trình | Không đọc ngược, sai số cộng dồn |
@@ -99,6 +111,10 @@ Droop không chính xác bằng master–slave thật, nhưng rất đáng thử
 ---
 
 ## Ứng dụng: ba bài toán và cấu hình tương ứng
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-vfd-bangtai2.svg)
+
 
 ### Đồng bộ tốc độ nhiều đoạn băng tải
 
@@ -139,6 +155,10 @@ Với hệ xả liệu, trục xả thường **luôn ở chế độ hãm** đ�
 ---
 
 ## So sánh: chọn cách kết nối nào
+
+<!--IMG:comp-->
+![So sánh & lựa chọn](assets/diagrams/comp-fieldbus.svg)
+
 
 | Yêu cầu | Cách phù hợp |
 |---|---|

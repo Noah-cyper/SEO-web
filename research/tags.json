@@ -1268,5 +1268,145 @@
   "Thay biến tần mới",
   "Chi phí sửa biến tần",
   "Biến tần dự phòng"
+ ],
+ "bien-tan-cho-bang-tai": [
+  "Biến tần cho băng tải",
+  "Điều chỉnh tốc độ băng tải",
+  "Băng tải nghiêng",
+  "Khởi động êm băng tải",
+  "Giới hạn mô-men băng tải"
+ ],
+ "bien-tan-cho-may-nen-khi": [
+  "Biến tần cho máy nén khí",
+  "Máy nén khí trục vít",
+  "Tải không tải máy nén",
+  "Giữ áp khí nén",
+  "Tiết kiệm điện khí nén"
+ ],
+ "bien-tan-cho-cau-truc-palang": [
+  "Biến tần cho cầu trục",
+  "Biến tần palăng",
+  "Tải thế năng",
+  "Chống trôi tải",
+  "Chống đung đưa cầu trục"
+ ],
+ "bien-tan-cho-may-tron-may-nghien": [
+  "Biến tần cho máy trộn",
+  "Biến tần máy nghiền",
+  "Mô-men khởi động máy trộn",
+  "Chống thất tốc",
+  "Tải va đập"
+ ],
+ "bien-tan-trong-hvac": [
+  "Biến tần trong HVAC",
+  "Biến tần cho AHU",
+  "Bơm nước lạnh chiller",
+  "Tháp giải nhiệt biến tần",
+  "Chênh áp ống gió"
+ ],
+ "bien-tan-hoan-nang-luong": [
+  "Biến tần hoàn năng lượng",
+  "Biến tần 4 góc phần tư",
+  "Active Front End",
+  "Trả điện về lưới",
+  "Thay điện trở xả"
+ ],
+ "dong-bo-nhieu-bien-tan": [
+  "Đồng bộ nhiều biến tần",
+  "Master slave biến tần",
+  "Chia tải hai động cơ",
+  "Điều khiển sức căng",
+  "Bù trượt động cơ"
+ ],
+ "bien-tan-cho-dong-co-nam-cham-vinh-cuu": [
+  "Động cơ nam châm vĩnh cửu",
+  "PMSM",
+  "So sánh IM và PM",
+  "Khử từ nam châm",
+  "Back-EMF động cơ"
+ ],
+ "safe-torque-off-bien-tan": [
+  "Safe Torque Off",
+  "STO biến tần",
+  "An toàn chức năng máy",
+  "Dừng khẩn cấp",
+  "Rơ-le an toàn"
+ ],
+ "bien-tan-mang-truyen-thong-cong-nghiep": [
+  "Biến tần PROFINET",
+  "Biến tần EtherNet/IP",
+  "PROFIBUS DP",
+  "CANopen",
+  "Card truyền thông biến tần"
+ ],
+ "song-hai-thd-bien-tan": [
+  "Sóng hài biến tần",
+  "Chỉ số THD",
+  "Lọc sóng hài chủ động",
+  "Biến tần 12 xung",
+  "Dây trung tính quá tải"
+ ],
+ "he-so-cong-suat-tu-bu-bien-tan": [
+  "Hệ số công suất biến tần",
+  "Tụ bù và biến tần",
+  "Cộng hưởng tụ bù",
+  "Tụ bù detuned",
+  "Cuộn kháng chống cộng hưởng"
+ ],
+ "bien-tan-chay-tren-may-phat-dien": [
+  "Biến tần chạy máy phát",
+  "Chọn công suất máy phát",
+  "Tải phi tuyến máy phát",
+  "Reverse power",
+  "Khởi động tuần tự"
+ ],
+ "dong-ro-noi-dat-bien-tan": [
+  "Dòng rò biến tần",
+  "Aptomat chống giật cho biến tần",
+  "Điện dung ký sinh",
+  "Dòng qua trục động cơ",
+  "Chổi tiếp đất trục"
+ ],
+ "bien-tan-va-khoi-dong-mem": [
+  "Biến tần và khởi động mềm",
+  "Soft starter",
+  "Khởi động sao tam giác",
+  "Khởi động trực tiếp DOL",
+  "Chi phí vòng đời thiết bị"
+ ],
+ "lap-bien-tan-cho-may-dang-chay": [
+  "Retrofit biến tần",
+  "Lắp biến tần cho máy cũ",
+  "Cải tạo tủ điện",
+  "Đo cách điện động cơ",
+  "Chuyển tay chạy trực tiếp"
+ ],
+ "nghiem-thu-chay-thu-bien-tan": [
+  "Nghiệm thu biến tần",
+  "Chạy thử biến tần",
+  "Commissioning",
+  "Biên bản bàn giao",
+  "Hồ sơ thiết bị"
+ ],
+ "an-toan-dien-voi-bien-tan": [
+  "An toàn điện biến tần",
+  "Khoá điện LOTO",
+  "Tụ DC bus còn điện",
+  "Quy trình cách ly nguồn",
+  "Bảo hộ khi sửa tủ điện"
+ ],
+ "giam-sat-bien-tan-tu-xa": [
+  "Giám sát biến tần từ xa",
+  "Bảo trì dự đoán",
+  "Cảnh báo sớm sự cố",
+  "Giám sát điện năng",
+  "Xu hướng dòng động cơ"
+ ],
+ "danh-gia-dau-tu-hoan-von-bien-tan": [
+  "Tính hoàn vốn dự án",
+  "Đánh giá đầu tư tiết kiệm",
+  "Chi phí vòng đời",
+  "Xếp ưu tiên dự án",
+  "Đo trước đo sau"
  ]
 }

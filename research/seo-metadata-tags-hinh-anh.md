@@ -1804,3 +1804,215 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Tên file ảnh nên đặt:** `sua-hay-thay-bien-tan.png`
 - **Alt text ảnh:** Sửa Hay Thay Biến Tần
 - **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+
+## Biến tần — Ứng dụng theo máy
+
+### Biến Tần Cho Băng Tải
+- **URL:** `/bien-tan-cho-bang-tai/`
+- **Focus keyword:** biến tần cho băng tải
+- **Meta description:** Lắp biến tần cho băng tải: tính mô-men khởi động, chọn công suất đúng, cài đường cong chữ S chống đổ hàng, xử lý băng nghiêng và đồng bộ nhiều đoạn băng.
+- **Thẻ (tags):** Biến tần cho băng tải, Điều chỉnh tốc độ băng tải, Băng tải nghiêng, Khởi động êm băng tải, Giới hạn mô-men băng tải
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/bien-tan-cho-bang-tai.png`
+- **Tên file ảnh nên đặt:** `bien-tan-cho-bang-tai.png`
+- **Alt text ảnh:** Biến Tần Cho Băng Tải
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Biến Tần Cho Máy Nén Khí
+- **URL:** `/bien-tan-cho-may-nen-khi/`
+- **Focus keyword:** biến tần cho máy nén khí
+- **Meta description:** Vì sao máy nén khí chạy tải/không tải lãng phí điện? Cách lắp biến tần giữ áp khí ổn định, chọn công suất, cài PID và tính hoàn vốn cho hệ khí nén.
+- **Thẻ (tags):** Biến tần cho máy nén khí, Máy nén khí trục vít, Tải không tải máy nén, Giữ áp khí nén, Tiết kiệm điện khí nén
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/bien-tan-cho-may-nen-khi.png`
+- **Tên file ảnh nên đặt:** `bien-tan-cho-may-nen-khi.png`
+- **Alt text ảnh:** Biến Tần Cho Máy Nén Khí
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Biến Tần Cho Cầu Trục Và Palăng
+- **URL:** `/bien-tan-cho-cau-truc-palang/`
+- **Focus keyword:** biến tần cho cầu trục
+- **Meta description:** Ứng dụng biến tần cho cầu trục, palăng, tời: vì sao bắt buộc có điện trở xả và encoder, cách phối hợp phanh cơ, chống trôi tải và giảm đung đưa khi di chuyển.
+- **Thẻ (tags):** Biến tần cho cầu trục, Biến tần palăng, Tải thế năng, Chống trôi tải, Chống đung đưa cầu trục
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/bien-tan-cho-cau-truc-palang.png`
+- **Tên file ảnh nên đặt:** `bien-tan-cho-cau-truc-palang.png`
+- **Alt text ảnh:** Biến Tần Cho Cầu Trục Và Palăng
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Biến Tần Cho Máy Trộn Và Máy Nghiền
+- **URL:** `/bien-tan-cho-may-tron-may-nghien/`
+- **Focus keyword:** biến tần cho máy trộn
+- **Meta description:** Máy trộn không khởi động nổi khi đầy liệu? Cách chọn biến tần cho tải mô-men cao và va đập: chế độ vector, giới hạn mô-men, chọn công suất và bảo vệ cơ khí.
+- **Thẻ (tags):** Biến tần cho máy trộn, Biến tần máy nghiền, Mô-men khởi động máy trộn, Chống thất tốc, Tải va đập
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/bien-tan-cho-may-tron-may-nghien.png`
+- **Tên file ảnh nên đặt:** `bien-tan-cho-may-tron-may-nghien.png`
+- **Alt text ảnh:** Biến Tần Cho Máy Trộn Và Máy Nghiền
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Biến Tần Trong Hệ Thống HVAC
+- **URL:** `/bien-tan-trong-hvac/`
+- **Focus keyword:** biến tần trong hvac
+- **Meta description:** Ứng dụng biến tần cho hệ HVAC: bơm nước lạnh, quạt AHU, tháp giải nhiệt. Cách chọn điểm lắp ưu tiên, cấu hình PID theo chênh áp và nhiệt độ, tính tiết kiệm.
+- **Thẻ (tags):** Biến tần trong HVAC, Biến tần cho AHU, Bơm nước lạnh chiller, Tháp giải nhiệt biến tần, Chênh áp ống gió
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/bien-tan-trong-hvac.png`
+- **Tên file ảnh nên đặt:** `bien-tan-trong-hvac.png`
+- **Alt text ảnh:** Biến Tần Trong Hệ Thống HVAC
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+
+## Biến tần — Kỹ thuật nâng cao
+
+### Biến Tần Hoàn Năng Lượng Về Lưới (AFE)
+- **URL:** `/bien-tan-hoan-nang-luong/`
+- **Focus keyword:** biến tần hoàn năng lượng
+- **Meta description:** Biến tần 4 góc phần tư trả điện hãm về lưới thay vì đốt thành nhiệt. Nguyên lý AFE, so sánh với điện trở xả, cách tính năng lượng hãm và khi nào thực sự đáng đầu tư.
+- **Thẻ (tags):** Biến tần hoàn năng lượng, Biến tần 4 góc phần tư, Active Front End, Trả điện về lưới, Thay điện trở xả
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/bien-tan-hoan-nang-luong.png`
+- **Tên file ảnh nên đặt:** `bien-tan-hoan-nang-luong.png`
+- **Alt text ảnh:** Biến Tần Hoàn Năng Lượng Về Lưới (AFE)
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Đồng Bộ Nhiều Biến Tần Trên Một Dây Chuyền
+- **URL:** `/dong-bo-nhieu-bien-tan/`
+- **Focus keyword:** đồng bộ nhiều biến tần
+- **Meta description:** Cách cho nhiều biến tần chạy đồng bộ trên một dây chuyền: đồng bộ tốc độ, chia tải cơ khí cứng, điều khiển sức căng. So sánh analog, Modbus và fieldbus.
+- **Thẻ (tags):** Đồng bộ nhiều biến tần, Master slave biến tần, Chia tải hai động cơ, Điều khiển sức căng, Bù trượt động cơ
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/dong-bo-nhieu-bien-tan.png`
+- **Tên file ảnh nên đặt:** `dong-bo-nhieu-bien-tan.png`
+- **Alt text ảnh:** Đồng Bộ Nhiều Biến Tần Trên Một Dây Chuyền
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Biến Tần Cho Động Cơ Nam Châm Vĩnh Cửu
+- **URL:** `/bien-tan-cho-dong-co-nam-cham-vinh-cuu/`
+- **Focus keyword:** động cơ nam châm vĩnh cửu
+- **Meta description:** Động cơ nam châm vĩnh cửu hiệu suất cao hơn động cơ không đồng bộ nhưng bắt buộc phải có biến tần. So sánh IM và PM, yêu cầu cấu hình và khi nào đáng đầu tư.
+- **Thẻ (tags):** Động cơ nam châm vĩnh cửu, PMSM, So sánh IM và PM, Khử từ nam châm, Back-EMF động cơ
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/bien-tan-cho-dong-co-nam-cham-vinh-cuu.png`
+- **Tên file ảnh nên đặt:** `bien-tan-cho-dong-co-nam-cham-vinh-cuu.png`
+- **Alt text ảnh:** Biến Tần Cho Động Cơ Nam Châm Vĩnh Cửu
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Safe Torque Off (STO) Trên Biến Tần
+- **URL:** `/safe-torque-off-bien-tan/`
+- **Focus keyword:** safe torque off
+- **Meta description:** STO là gì, khác gì với dừng thường và với khoá điện LOTO? Nguyên lý cắt xung IGBT, cách đấu nối, các sai lầm nguy hiểm và khi nào STO không đủ an toàn.
+- **Thẻ (tags):** Safe Torque Off, STO biến tần, An toàn chức năng máy, Dừng khẩn cấp, Rơ-le an toàn
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/safe-torque-off-bien-tan.png`
+- **Tên file ảnh nên đặt:** `safe-torque-off-bien-tan.png`
+- **Alt text ảnh:** Safe Torque Off (STO) Trên Biến Tần
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Biến Tần Trên Mạng Truyền Thông Công Nghiệp
+- **URL:** `/bien-tan-mang-truyen-thong-cong-nghiep/`
+- **Focus keyword:** biến tần profinet
+- **Meta description:** So sánh các mạng truyền thông cho biến tần: Modbus RTU/TCP, PROFIBUS, PROFINET, EtherNet/IP, CANopen. Cách chọn, card mở rộng, đi cáp và lỗi hay gặp.
+- **Thẻ (tags):** Biến tần PROFINET, Biến tần EtherNet/IP, PROFIBUS DP, CANopen, Card truyền thông biến tần
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/bien-tan-mang-truyen-thong-cong-nghiep.png`
+- **Tên file ảnh nên đặt:** `bien-tan-mang-truyen-thong-cong-nghiep.png`
+- **Alt text ảnh:** Biến Tần Trên Mạng Truyền Thông Công Nghiệp
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+
+## Biến tần — Điện & chất lượng điện
+
+### Sóng Hài Do Biến Tần Và Cách Giảm THD
+- **URL:** `/song-hai-thd-bien-tan/`
+- **Focus keyword:** sóng hài biến tần
+- **Meta description:** Vì sao biến tần sinh sóng hài, tác hại lên máy biến áp, tụ bù và cáp trung tính. Sáu cách giảm THD từ cuộn kháng, biến tần 12 xung đến lọc chủ động và AFE.
+- **Thẻ (tags):** Sóng hài biến tần, Chỉ số THD, Lọc sóng hài chủ động, Biến tần 12 xung, Dây trung tính quá tải
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/song-hai-thd-bien-tan.png`
+- **Tên file ảnh nên đặt:** `song-hai-thd-bien-tan.png`
+- **Alt text ảnh:** Sóng Hài Do Biến Tần Và Cách Giảm THD
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Biến Tần, Hệ Số Công Suất Và Tụ Bù
+- **URL:** `/he-so-cong-suat-tu-bu-bien-tan/`
+- **Focus keyword:** hệ số công suất biến tần
+- **Meta description:** Biến tần có cần bù cosφ không? Vì sao tụ bù hay hỏng khi nhà máy lắp nhiều biến tần, cộng hưởng xảy ra thế nào và cách xử lý bằng cuộn kháng chống cộng hưởng.
+- **Thẻ (tags):** Hệ số công suất biến tần, Tụ bù và biến tần, Cộng hưởng tụ bù, Tụ bù detuned, Cuộn kháng chống cộng hưởng
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/he-so-cong-suat-tu-bu-bien-tan.png`
+- **Tên file ảnh nên đặt:** `he-so-cong-suat-tu-bu-bien-tan.png`
+- **Alt text ảnh:** Biến Tần, Hệ Số Công Suất Và Tụ Bù
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Biến Tần Chạy Trên Máy Phát Điện
+- **URL:** `/bien-tan-chay-tren-may-phat-dien/`
+- **Focus keyword:** biến tần chạy máy phát
+- **Meta description:** Vì sao biến tần chạy trên máy phát hay lỗi thấp áp, quá áp? Cách tính hệ số dự phòng công suất máy phát, xử lý sóng hài, năng lượng hãm và trình tự khởi động.
+- **Thẻ (tags):** Biến tần chạy máy phát, Chọn công suất máy phát, Tải phi tuyến máy phát, Reverse power, Khởi động tuần tự
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/bien-tan-chay-tren-may-phat-dien.png`
+- **Tên file ảnh nên đặt:** `bien-tan-chay-tren-may-phat-dien.png`
+- **Alt text ảnh:** Biến Tần Chạy Trên Máy Phát Điện
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Dòng Rò Và Nối Đất Cho Biến Tần
+- **URL:** `/dong-ro-noi-dat-bien-tan/`
+- **Focus keyword:** dòng rò biến tần
+- **Meta description:** RCCB nhảy liên tục khi biến tần chạy? Hiểu dòng rò cao tần qua điện dung ký sinh, chọn RCCB loại B, nối đất hình sao và cách chống hỏng vòng bi do dòng trục.
+- **Thẻ (tags):** Dòng rò biến tần, Aptomat chống giật cho biến tần, Điện dung ký sinh, Dòng qua trục động cơ, Chổi tiếp đất trục
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/dong-ro-noi-dat-bien-tan.png`
+- **Tên file ảnh nên đặt:** `dong-ro-noi-dat-bien-tan.png`
+- **Alt text ảnh:** Dòng Rò Và Nối Đất Cho Biến Tần
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Biến Tần Hay Khởi Động Mềm?
+- **URL:** `/bien-tan-va-khoi-dong-mem/`
+- **Focus keyword:** biến tần và khởi động mềm
+- **Meta description:** So sánh bốn cách khởi động động cơ: trực tiếp, sao–tam giác, khởi động mềm và biến tần. Ưu nhược, chi phí, khi nào khởi động mềm là đủ và khi nào cần biến tần.
+- **Thẻ (tags):** Biến tần và khởi động mềm, Soft starter, Khởi động sao tam giác, Khởi động trực tiếp DOL, Chi phí vòng đời thiết bị
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/bien-tan-va-khoi-dong-mem.png`
+- **Tên file ảnh nên đặt:** `bien-tan-va-khoi-dong-mem.png`
+- **Alt text ảnh:** Biến Tần Hay Khởi Động Mềm
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+
+## Biến tần — Dự án & vận hành
+
+### Lắp Biến Tần Cho Máy Đang Chạy (Retrofit)
+- **URL:** `/lap-bien-tan-cho-may-dang-chay/`
+- **Focus keyword:** lắp biến tần cho máy cũ
+- **Meta description:** Cải tạo máy đang chạy trực tiếp để lắp biến tần: khảo sát động cơ và cơ khí, kiểm tra cách điện, chọn thiết bị, kế hoạch dừng máy và nghiệm thu đo lại tiết kiệm.
+- **Thẻ (tags):** Retrofit biến tần, Lắp biến tần cho máy cũ, Cải tạo tủ điện, Đo cách điện động cơ, Chuyển tay chạy trực tiếp
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/lap-bien-tan-cho-may-dang-chay.png`
+- **Tên file ảnh nên đặt:** `lap-bien-tan-cho-may-dang-chay.png`
+- **Alt text ảnh:** Lắp Biến Tần Cho Máy Đang Chạy (Retrofit)
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Nghiệm Thu Và Chạy Thử Hệ Biến Tần
+- **URL:** `/nghiem-thu-chay-thu-bien-tan/`
+- **Focus keyword:** nghiệm thu biến tần
+- **Meta description:** Quy trình nghiệm thu hệ biến tần: kiểm tra nguội, cấp nguồn không tải, chạy không tải, chạy có tải và thử tình huống bất thường. Kèm checklist và hồ sơ bàn giao.
+- **Thẻ (tags):** Nghiệm thu biến tần, Chạy thử biến tần, Commissioning, Biên bản bàn giao, Hồ sơ thiết bị
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/nghiem-thu-chay-thu-bien-tan.png`
+- **Tên file ảnh nên đặt:** `nghiem-thu-chay-thu-bien-tan.png`
+- **Alt text ảnh:** Nghiệm Thu Và Chạy Thử Hệ Biến Tần
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### An Toàn Điện Khi Làm Việc Với Biến Tần
+- **URL:** `/an-toan-dien-voi-bien-tan/`
+- **Focus keyword:** an toàn điện biến tần
+- **Meta description:** Tụ DC bus giữ điện nguy hiểm nhiều phút sau khi cắt nguồn. Quy trình khoá điện LOTO, năm bước an toàn, sai lầm chết người và lưu ý với động cơ nam châm.
+- **Thẻ (tags):** An toàn điện biến tần, Khoá điện LOTO, Tụ DC bus còn điện, Quy trình cách ly nguồn, Bảo hộ khi sửa tủ điện
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/an-toan-dien-voi-bien-tan.png`
+- **Tên file ảnh nên đặt:** `an-toan-dien-voi-bien-tan.png`
+- **Alt text ảnh:** An Toàn Điện Khi Làm Việc Với Biến Tần
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Giám Sát Biến Tần Từ Xa
+- **URL:** `/giam-sat-bien-tan-tu-xa/`
+- **Focus keyword:** giám sát biến tần từ xa
+- **Meta description:** Đọc dữ liệu từ biến tần để cảnh báo sự cố sớm: dòng, nhiệt độ, điện năng, mã lỗi. Kiến trúc hệ giám sát, chọn dữ liệu nào và cách phát hiện bất thường.
+- **Thẻ (tags):** Giám sát biến tần từ xa, Bảo trì dự đoán, Cảnh báo sớm sự cố, Giám sát điện năng, Xu hướng dòng động cơ
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/giam-sat-bien-tan-tu-xa.png`
+- **Tên file ảnh nên đặt:** `giam-sat-bien-tan-tu-xa.png`
+- **Alt text ảnh:** Giám Sát Biến Tần Từ Xa
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Đánh Giá Đầu Tư Và Tính Hoàn Vốn Dự Án Biến Tần
+- **URL:** `/danh-gia-dau-tu-hoan-von-bien-tan/`
+- **Focus keyword:** hoàn vốn biến tần
+- **Meta description:** Cách tính hoàn vốn khi đầu tư biến tần: liệt kê đủ chi phí, ước lượng tiết kiệm trung thực theo loại tải, xếp thứ tự ưu tiên máy và kiểm chứng bằng đo thực tế.
+- **Thẻ (tags):** Tính hoàn vốn dự án, Đánh giá đầu tư tiết kiệm, Chi phí vòng đời, Xếp ưu tiên dự án, Đo trước đo sau
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/danh-gia-dau-tu-hoan-von-bien-tan.png`
+- **Tên file ảnh nên đặt:** `danh-gia-dau-tu-hoan-von-bien-tan.png`
+- **Alt text ảnh:** Đánh Giá Đầu Tư Và Tính Hoàn Vốn Dự Án Biến Tần
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.

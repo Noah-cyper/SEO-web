@@ -15,6 +15,10 @@ H1          : Biến Tần Trong Hệ Thống HVAC
 
 ## HVAC là nơi biến tần hoàn vốn nhanh nhất
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-vfd-hvac.svg)
+
+
 Hệ thống HVAC — điều hòa không khí, thông gió và làm mát — có ba đặc điểm khiến nó trở thành ứng dụng lý tưởng cho biến tần:
 
 **1. Toàn bộ là tải ly tâm.** Bơm nước lạnh, bơm nước giải nhiệt, quạt AHU, quạt tháp giải nhiệt, quạt hút thải — tất cả đều tuân theo **quy luật đồng dạng**, nơi công suất tỷ lệ với **lập phương tốc độ**.
@@ -28,6 +32,10 @@ Ba yếu tố này cộng lại giải thích vì sao **HVAC thường là nơi 
 Nhưng có một điều kiện: **phải lắp đúng chỗ và cấu hình đúng**. Lắp biến tần cho một bơm rồi vẫn để van tay bóp, hoặc cài tần số nhỏ nhất quá cao, sẽ cho kết quả thất vọng.
 
 > **Muốn biết hệ HVAC của bạn nên lắp biến tần ở đâu trước?** Gửi **danh sách bơm/quạt và công suất · giờ chạy** → [Nhận tư vấn thứ tự ưu tiên](#bao-gia).
+
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-affinity.svg)
+
 
 Đây là bài **35/50** trong [chuỗi bài biến tần](/bien-tan-la-gi/).
 
@@ -69,6 +77,10 @@ Với **bơm**, cần phân biệt:
 
 ## Cấu tạo hệ HVAC: lắp biến tần ở đâu
 
+<!--IMG:spec-->
+![Cấu tạo & thông số](assets/diagrams/spec-vfd-sizing.svg)
+
+
 Một hệ HVAC trung tâm điển hình có các cụm sau. Bảng dưới xếp theo **thứ tự ưu tiên lắp biến tần**:
 
 | Vị trí | Tiềm năng tiết kiệm | Phản hồi PID theo | Ghi chú |
@@ -92,6 +104,10 @@ Một hệ HVAC trung tâm điển hình có các cụm sau. Bảng dưới xế
 ---
 
 ## Ứng dụng: cấu hình PID cho từng cụm
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-vfd-hvac.svg)
+
 
 **Quạt AHU — giữ chênh áp ống gió.** Cảm biến chênh áp đặt trên đường ống gió chính. Khi các VAV box đóng bớt (ít nhu cầu), áp trong ống tăng, PID hạ tốc quạt. Đây là cấu hình tiêu chuẩn cho hệ VAV, và cho mức tiết kiệm cao nhất.
 
@@ -126,6 +142,10 @@ Giao thức phổ biến trong HVAC gồm Modbus và các chuẩn tòa nhà chuy
 ---
 
 ## So sánh: các phương án điều tiết trong HVAC
+
+<!--IMG:comp-->
+![So sánh & lựa chọn](assets/diagrams/comp-vfd-tai.svg)
+
 
 | Tiêu chí | **Van / damper** | **Bật tắt theo bậc** | **Van 3 ngả bypass** | **Biến tần** |
 |---|---|---|---|---|

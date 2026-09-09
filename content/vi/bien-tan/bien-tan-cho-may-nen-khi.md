@@ -15,6 +15,10 @@ H1          : Biến Tần Cho Máy Nén Khí
 
 ## Khí nén là dạng năng lượng đắt nhất trong nhà máy
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-vfd-nenkhi.svg)
+
+
 Trong hầu hết nhà máy sản xuất, **hệ khí nén là một trong những hộ tiêu thụ điện lớn nhất** — thường chỉ đứng sau hệ thống chiếu sáng và các máy chính. Điều đáng nói là hiệu suất chuyển đổi từ điện sang công hữu ích của khí nén rất thấp: phần lớn năng lượng biến thành nhiệt và tổn thất.
 
 Vì vậy, mỗi phần trăm tiết kiệm được trên hệ khí nén đều có giá trị đáng kể. Và trong hệ khí nén, **cách vận hành máy nén là nơi có tiềm năng lớn nhất**.
@@ -30,6 +34,10 @@ Vấn đề nằm ở giai đoạn "không tải". Động cơ vẫn quay ở t�
 Biến tần thay đổi bản chất: thay vì bật/tắt việc nén, máy **quay chậm lại để nén đúng lượng khí đang cần**.
 
 > **Muốn biết hệ khí nén của bạn lãng phí bao nhiêu?** Gửi **công suất máy nén · tỷ lệ thời gian không tải · giờ chạy/ngày** → [Nhận tính toán tiết kiệm](#bao-gia).
+
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-vfd-pid.svg)
+
 
 Đây là bài **32/50** trong [chuỗi bài biến tần](/bien-tan-la-gi/).
 
@@ -72,6 +80,10 @@ Nói cách khác: nguồn tiết kiệm của máy nén khí **không đến t�
 
 ## Cấu tạo hệ máy nén biến tần
 
+<!--IMG:spec-->
+![Cấu tạo & thông số](assets/diagrams/spec-vfd-sizing.svg)
+
+
 | Thành phần | Vai trò | Lưu ý |
 |---|---|---|
 | **Biến tần** | Điều khiển tốc độ đầu nén | Chọn loại **mô-men không đổi**, thường **dư một cấp** |
@@ -94,6 +106,10 @@ Nói cách khác: nguồn tiết kiệm của máy nén khí **không đến t�
 ---
 
 ## Ứng dụng: các tình huống thực tế
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-vfd-nenkhi.svg)
+
 
 **Hệ có một máy nén, nhu cầu khí dao động mạnh trong ngày.** Đây là trường hợp lắp biến tần hiệu quả nhất. Máy chạy chậm khi ít nhu cầu, nhanh khi cần nhiều, giữ áp không đổi. Thời gian chạy không tải gần như bị xóa bỏ.
 
@@ -118,6 +134,10 @@ Làm ba việc này trước, rồi mới đo lại nhu cầu thực và tính c
 ---
 
 ## So sánh các phương án vận hành
+
+<!--IMG:comp-->
+![So sánh & lựa chọn](assets/diagrams/comp-vfd-tai.svg)
+
 
 | Tiêu chí | **Tải / không tải** | **Dừng – khởi động** | **Biến tần** |
 |---|---|---|---|

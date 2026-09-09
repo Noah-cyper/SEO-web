@@ -15,11 +15,19 @@ H1          : Biến Tần Cho Cầu Trục Và Palăng
 
 ## Nâng hạ là ứng dụng khắt khe nhất của biến tần
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-vfd-cautruc.svg)
+
+
 Trong tất cả các ứng dụng của biến tần, **nâng hạ là nhóm khắt khe nhất** — không phải vì kỹ thuật phức tạp hơn, mà vì **hậu quả của một sai sót là tai nạn**, không chỉ là hỏng thiết bị.
 
 Cầu trục, palăng, tời, thang nâng đều thuộc nhóm **tải thế năng (overhauling load)**. Đặc điểm phân biệt chúng với mọi loại tải khác:
 
 > Với băng tải, bơm, quạt — tải luôn **cản trở** chuyển động. Với tải nâng hạ, trọng lực **cản trở khi nâng nhưng lại thúc đẩy khi hạ**.
+
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-vfd-regen.svg)
+
 
 Điều đó tạo ra hai tình huống hoàn toàn khác nhau trong cùng một thiết bị:
 
@@ -67,6 +75,10 @@ Lắp **encoder** trên trục và dùng **vector vòng kín** giải quyết vi
 
 ## Cấu tạo hệ nâng hạ: những thành phần bắt buộc
 
+<!--IMG:spec-->
+![Cấu tạo & thông số](assets/diagrams/spec-vfd-sto.svg)
+
+
 | Thành phần | Bắt buộc? | Vai trò |
 |---|---|---|
 | **Biến tần loại nâng hạ (hoisting)** | **Có** | Có sẵn logic phối hợp phanh, chống trôi |
@@ -110,6 +122,10 @@ Các thông số điều chỉnh trình tự này (thời gian trễ nhả phanh
 
 ## Ứng dụng: các cơ cấu và yêu cầu khác nhau
 
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-vfd-cautruc.svg)
+
+
 Một cầu trục thường có **ba cơ cấu độc lập**, và yêu cầu của chúng không giống nhau:
 
 **1. Cơ cấu nâng hạ (hoist).** Khắt khe nhất. Cần đủ: điện trở xả, encoder, phanh cơ, chống quá tải, logic phanh. Đây là nơi mọi yêu cầu ở trên áp dụng đầy đủ.
@@ -129,6 +145,10 @@ Biến tần giải quyết bằng hai mức:
 ---
 
 ## So sánh: điện trở xả hay hoàn năng lượng về lưới?
+
+<!--IMG:comp-->
+![So sánh & lựa chọn](assets/diagrams/comp-vfd-regen.svg)
+
 
 Với cầu trục hạ tải thường xuyên, lượng năng lượng dội về có thể đáng kể. Có hai cách xử lý:
 

@@ -15,11 +15,19 @@ H1          : Biến Tần Hay Khởi Động Mềm?
 
 ## Hai thiết bị hay bị so sánh nhầm
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-bien-tan.svg)
+
+
 "Khởi động mềm và biến tần cái nào tốt hơn?" là câu hỏi được đặt ra rất thường xuyên — và bản thân câu hỏi đã hơi sai hướng, vì hai thiết bị này **giải quyết hai bài toán khác nhau**.
 
 Sự khác biệt cốt lõi chỉ nằm ở một điểm:
 
 > **Khởi động mềm điều chỉnh ĐIỆN ÁP. Biến tần điều chỉnh cả ĐIỆN ÁP VÀ TẦN SỐ.**
+
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-vf-ratio.svg)
+
 
 Từ đó suy ra:
 
@@ -83,6 +91,14 @@ Dòng khởi động thấp nhất trong bốn phương án, mô-men kiểm soá
 
 ## Cấu tạo so sánh: bảng đầy đủ bốn phương án
 
+<!--IMG:spec-->
+![Cấu tạo & thông số](assets/diagrams/spec-vfd-sizing.svg)
+
+
+
+<!--IMG:comp-->
+![So sánh & lựa chọn](assets/diagrams/comp-vfd-khoidongmem.svg)
+
 | Tiêu chí | **Trực tiếp (DOL)** | **Sao – tam giác** | **Khởi động mềm** | **Biến tần** |
 |---|---|---|---|---|
 | Dòng khởi động | **Rất lớn** | Giảm, nhưng **có đỉnh khi chuyển** | Giảm, **liên tục** | **Thấp nhất** |
@@ -111,6 +127,10 @@ Dòng khởi động thấp nhất trong bốn phương án, mô-men kiểm soá
 ---
 
 ## Ứng dụng: chọn phương án theo loại máy
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-vfd-bangtai2.svg)
+
 
 ### Chọn biến tần khi
 
