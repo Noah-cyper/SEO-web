@@ -14,11 +14,19 @@ H1          : Biến Tần Là Gì? Cấu Tạo, Nguyên Lý Và Ứng Dụng T�
 
 ## Biến tần là gì?
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-bien-tan.svg)
+
+
 **Biến tần** (tiếng Anh: **VFD – Variable Frequency Drive**, hoặc **Inverter**) là thiết bị điện tử công suất dùng để **thay đổi tần số dòng điện cấp cho động cơ**, qua đó **điều khiển tốc độ quay của động cơ** một cách liên tục và chính xác.
 
 Nói cho dễ hiểu: điện lưới Việt Nam có tần số **cố định 50 Hz**. Một động cơ 3 pha đấu thẳng vào lưới sẽ luôn quay ở **một tốc độ duy nhất** — muốn nhanh hơn hay chậm hơn đều không được. Biến tần đứng giữa lưới và động cơ, "chế biến" lại nguồn điện để tạo ra tần số tùy ý — từ vài Hz đến vượt 50 Hz. Đổi tần số chính là đổi tốc độ.
 
 > **Cần tư vấn chọn biến tần cho máy của bạn?** Gửi **công suất động cơ (kW) · dòng định mức (A) · loại tải (bơm/quạt/băng tải…)** → [Nhận tư vấn & báo giá](#bao-gia).
+
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-vfd-pwm.svg)
+
 
 Đây là bài **mở đầu chuỗi 30 bài về biến tần** trên hoantrantdh.com, đi từ nền tảng → chọn mua → lắp đặt → cài đặt → xử lý lỗi. Nếu bạn mới tìm hiểu, hãy đọc bài này trước rồi theo các liên kết ở cuối mỗi phần.
 
@@ -42,6 +50,10 @@ Nhưng có một điều kiện quan trọng: khi giảm tần số, biến tầ
 
 ## Cấu tạo bên trong một biến tần
 
+<!--IMG:spec-->
+![Cấu tạo & thông số](assets/diagrams/spec-vfd-parts.svg)
+
+
 | Khối | Chức năng | Ghi chú thực tế |
 |---|---|---|
 | **Bộ chỉnh lưu** | Đổi AC lưới thành DC | Diode (phổ biến) hoặc SCR |
@@ -57,6 +69,10 @@ Hai chi tiết đáng nhớ với người vận hành: **tụ DC bus** và **qu
 ---
 
 ## Biến tần dùng để làm gì? Sáu lợi ích thực tế
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-vfd-bom.svg)
+
 
 **1. Điều khiển tốc độ chính xác.** Thay đổi tốc độ mượt mà từ gần 0 đến vượt định mức, thay vì chỉ có một tốc độ cố định.
 
@@ -84,6 +100,10 @@ Hai chi tiết đáng nhớ với người vận hành: **tụ DC bus** và **qu
 ---
 
 ## So sánh: biến tần và các cách khởi động cũ
+
+<!--IMG:comp-->
+![So sánh & lựa chọn](assets/diagrams/comp-vfd-saobam.svg)
+
 
 | Tiêu chí | **Khởi động trực tiếp (DOL)** | **Sao – tam giác** | **Biến tần** |
 |---|---|---|---|

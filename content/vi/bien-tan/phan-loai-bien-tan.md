@@ -14,17 +14,29 @@ H1          : Phân Loại Biến Tần – Có Những Loại Nào Và Chọn R
 
 ## Vì sao cần phân loại biến tần?
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-bien-tan.svg)
+
+
 Khi tìm mua biến tần, bạn sẽ gặp hàng loạt thuật ngữ: biến tần 1 pha, biến tần 3 pha, biến tần vector, biến tần chuyên dụng cho bơm, biến tần trung thế… Nếu không biết cách phân nhóm, rất dễ mua nhầm — hoặc mua thừa tính năng không dùng đến, hoặc mua thiếu và phải đổi lại.
 
 Thực tế, biến tần được phân loại theo **nhiều tiêu chí song song**. Một sản phẩm cụ thể sẽ mang đồng thời nhiều nhãn: ví dụ "biến tần **3 pha 380V**, dòng **vector không cảm biến**, chuyên dụng cho **bơm quạt**". Hiểu từng trục phân loại giúp bạn đọc catalogue nhanh và chọn chính xác.
 
 > **Chưa biết nên chọn nhóm nào?** Gửi **nguồn điện hiện có · công suất động cơ · loại tải** → [Nhận tư vấn chọn loại](#bao-gia).
 
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-vf-ratio.svg)
+
+
 Đây là bài **4/30** trong [chuỗi bài biến tần](/bien-tan-la-gi/).
 
 ---
 
 ## Trục 1: Phân loại theo nguồn cấp và điện áp
+
+<!--IMG:comp-->
+![So sánh & lựa chọn](assets/diagrams/comp-vfd-tai.svg)
+
 
 Đây là tiêu chí **bắt buộc phải đúng** — chọn sai thì thiết bị không dùng được.
 
@@ -103,6 +115,10 @@ Ngoài ra còn phân theo **phương thức làm mát**: quạt gió (phổ bi�
 
 ## Ứng dụng: chọn nhóm nào cho từng bài toán?
 
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-vfd-bom.svg)
+
+
 | Bài toán thực tế | Nhóm biến tần nên chọn |
 |---|---|
 | Bơm nước sinh hoạt, giữ áp | 3 pha 380V · V/f hoặc chuyên dụng bơm · có PID |
@@ -159,6 +175,10 @@ Gửi: **nguồn điện hiện có (1 pha 220V / 3 pha 380V) · thông số tr�
 **→ [Liên hệ tư vấn chọn biến tần](/lien-he/)**
 
 ---
+
+<!--IMG:spec-->
+![Cấu tạo & thông số](assets/diagrams/spec-vfd-parts.svg)
+
 
 ## Câu hỏi thường gặp (FAQ)
 

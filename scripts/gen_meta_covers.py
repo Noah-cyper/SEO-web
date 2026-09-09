@@ -66,6 +66,24 @@ GROUPS = [
         "renepoly/pin-lfp-lifepo4-luu-tru-nang-luong.md","renepoly/lam-mat-chat-long-cho-bess.md",
         "renepoly/bms-he-thong-quan-ly-pin.md","renepoly/an-toan-pccc-he-thong-bess.md",
         "renepoly/tinh-cong-suat-dung-luong-bess.md"]),
+("Biến tần — Nền tảng & chọn mua", "#b45309", [
+        "bien-tan/bien-tan-la-gi.md","bien-tan/cau-tao-bien-tan.md","bien-tan/nguyen-ly-hoat-dong-bien-tan.md",
+        "bien-tan/phan-loai-bien-tan.md","bien-tan/bien-tan-tiet-kiem-dien.md","bien-tan/bien-tan-va-dong-co-3-pha.md",
+        "bien-tan/cach-chon-bien-tan.md","bien-tan/chon-cong-suat-bien-tan.md","bien-tan/bien-tan-1-pha-ra-3-pha.md",
+        "bien-tan/so-sanh-cac-hang-bien-tan.md","bien-tan/phan-biet-bien-tan-that-gia.md"]),
+    ("Biến tần — Lắp đặt & đấu nối", "#c2410c", [
+        "bien-tan/so-do-dau-day-bien-tan.md","bien-tan/dau-dieu-khien-bien-tan.md",
+        "bien-tan/chon-cap-aptomat-cho-bien-tan.md","bien-tan/lap-bien-tan-trong-tu-dien.md",
+        "bien-tan/chong-nhieu-emc-cho-bien-tan.md","bien-tan/cuon-khang-loc-nhieu-bien-tan.md"]),
+    ("Biến tần — Cài đặt & điều khiển", "#7c3aed", [
+        "bien-tan/cai-dat-thong-so-bien-tan.md","bien-tan/cai-tang-giam-toc-bien-tan.md",
+        "bien-tan/che-do-dieu-khien-vf-vector.md","bien-tan/dieu-khien-bien-tan-bang-plc.md",
+        "bien-tan/dieu-khien-pid-bang-bien-tan.md","bien-tan/bien-tan-cho-bom-nuoc.md",
+        "bien-tan/bien-tan-cho-quat-hut.md"]),
+    ("Biến tần — Lỗi & bảo trì", "#be123c", [
+        "bien-tan/loi-bien-tan-thuong-gap.md","bien-tan/loi-qua-dong-bien-tan.md",
+        "bien-tan/loi-qua-ap-thap-ap-bien-tan.md","bien-tan/loi-qua-nhiet-qua-tai-bien-tan.md",
+        "bien-tan/bao-tri-bien-tan-dinh-ky.md","bien-tan/sua-hay-thay-bien-tan.md"]),
 ]
 
 def field(name, text):

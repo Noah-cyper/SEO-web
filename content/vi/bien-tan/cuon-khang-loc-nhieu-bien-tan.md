@@ -15,6 +15,10 @@ H1          : Cuộn Kháng Biến Tần: Đầu Vào, Đầu Ra Và Các Loại
 
 ## Cuộn kháng biến tần là gì và vì sao cần đến nó?
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-tu-dien-bien-tan.svg)
+
+
 **Cuộn kháng (reactor)** là một cuộn dây quấn trên lõi sắt, mắc nối tiếp trên đường điện của biến tần. Nguyên lý rất đơn giản: cuộn dây **cản trở sự thay đổi đột ngột của dòng điện**. Dòng càng thay đổi nhanh, cuộn kháng cản càng mạnh.
 
 Chính đặc tính đó khiến cuộn kháng trở thành phụ kiện quan trọng của biến tần. Biến tần là thiết bị **tạo ra rất nhiều thay đổi đột ngột**: chỉnh lưu nạp tụ theo từng xung dòng nhọn ở đầu vào, và IGBT đóng cắt hàng nghìn lần mỗi giây ở đầu ra. Cuộn kháng làm mềm những thay đổi đó.
@@ -27,6 +31,10 @@ Có hai vị trí lắp, giải quyết hai vấn đề hoàn toàn khác nhau:
 Rất nhiều sự cố "không hiểu tại sao" trong tủ biến tần — cầu chì đứt lặp lại, tụ DC bus phồng sớm, động cơ cháy cách điện sau vài tháng, cảm biến nhiễu — có gốc rễ ở việc thiếu cuộn kháng đúng chỗ.
 
 > **Không chắc hệ của bạn có cần cuộn kháng?** Gửi **model biến tần · công suất · chiều dài cáp động cơ · tình trạng lưới** → [Nhận tư vấn](#bao-gia).
+
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-vfd-nhieu.svg)
+
 
 Đây là bài **17/30** trong [chuỗi bài biến tần](/bien-tan-la-gi/).
 
@@ -60,6 +68,10 @@ Ngoài ra, cáp động cơ dài mang xung dốc còn hoạt động như **ăng
 
 ## Cấu tạo và thông số: đọc nhãn cuộn kháng như thế nào
 
+<!--IMG:spec-->
+![Cấu tạo & thông số](assets/diagrams/spec-vfd-emc.svg)
+
+
 Cuộn kháng ba pha gồm **lõi sắt từ** ghép từ các lá thép kỹ thuật điện, **ba cuộn dây** quấn trên ba trụ, đầu ra bằng các cực bắt vít, tất cả đặt trong khung kim loại có lỗ bắt vào tấm nền tủ.
 
 Các thông số cần đọc khi chọn mua:
@@ -89,6 +101,14 @@ Các thông số cần đọc khi chọn mua:
 ---
 
 ## Ứng dụng: khi nào thực sự cần lắp?
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-vfd-bom.svg)
+
+
+
+<!--IMG:comp-->
+![So sánh & lựa chọn](assets/diagrams/comp-vfd-tai.svg)
 
 ### Cần cuộn kháng đầu vào khi
 

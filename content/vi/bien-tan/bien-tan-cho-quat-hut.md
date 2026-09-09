@@ -15,6 +15,10 @@ H1          : Biến Tần Cho Quạt Hút
 
 ## Quạt: nơi damper đang đốt tiền của bạn
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-bien-tan.svg)
+
+
 Quạt công nghiệp — quạt hút bụi, quạt thông gió nhà xưởng, quạt lò hơi, quạt tháp giải nhiệt — thường được lắp với **công suất dư** để đảm bảo đáp ứng được điều kiện xấu nhất. Trong khi đó, điều kiện vận hành hằng ngày lại nhẹ hơn nhiều.
 
 Cách điều tiết truyền thống là dùng **damper (lá gió) hoặc van chặn** để bóp bớt luồng gió. Vấn đề là ở chỗ này: **bóp damper không làm quạt bớt tiêu thụ điện tương ứng**. Cánh quạt vẫn quay đúng tốc độ cũ, vẫn tiêu tốn gần như năng lượng cũ; phần gió bị chặn lại chỉ chuyển thành **ma sát, nhiễu động và nhiệt** trên chính cái damper đó.
@@ -24,6 +28,10 @@ Cách điều tiết truyền thống là dùng **damper (lá gió) hoặc van c
 Biến tần thay đổi cách tiếp cận: thay vì tạo nhiều gió rồi chặn bớt, **quay chậm lại để tạo đúng lượng gió cần**. Và vì quạt cũng là máy ly tâm, quy luật tiết kiệm áp dụng giống hệt bơm — rất thuận lợi.
 
 > **Quạt của bạn đang chạy với damper bóp bao nhiêu phần?** Gửi **công suất quạt · độ mở damper · giờ chạy** → [Nhận tính toán tiết kiệm](#bao-gia).
+
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-affinity.svg)
+
 
 Đây là bài **24/30** trong [chuỗi bài biến tần](/bien-tan-la-gi/).
 
@@ -62,6 +70,10 @@ Giải pháp: bật chức năng **bắt tốc độ đang quay (flying start / 
 
 ## Cấu tạo hệ quạt biến tần: cần những gì
 
+<!--IMG:spec-->
+![Cấu tạo & thông số](assets/diagrams/spec-vfd-sizing.svg)
+
+
 | Thành phần | Vai trò | Lưu ý |
 |---|---|---|
 | **Biến tần** | Điều khiển tốc độ quạt | Chọn theo dòng quạt; ưu tiên dòng có sẵn chế độ quạt/bơm |
@@ -83,6 +95,10 @@ Giải pháp: bật chức năng **bắt tốc độ đang quay (flying start / 
 
 ## Ứng dụng: các kiểu hệ quạt thường gặp
 
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-vfd-quat.svg)
+
+
 **Quạt hút bụi công nghiệp.** Chạy PID theo **chênh áp qua túi lọc**. Khi túi lọc còn sạch, trở lực thấp, quạt chạy chậm. Khi túi bẩn dần, trở lực tăng, quạt tăng tốc để giữ lưu lượng. Cách này vừa tiết kiệm điện vừa **giữ hiệu quả hút ổn định suốt vòng đời túi lọc** — điều mà damper cố định không làm được.
 
 **Quạt thông gió nhà xưởng.** Chạy theo lịch hoặc theo cảm biến nhiệt độ/chất lượng không khí. Giờ ít người, ít máy chạy → giảm tốc. Đây là ứng dụng có tiềm năng tiết kiệm rất lớn vì quạt thông gió thường chạy **rất nhiều giờ mỗi ngày**.
@@ -98,6 +114,10 @@ Giải pháp: bật chức năng **bắt tốc độ đang quay (flying start / 
 ---
 
 ## So sánh các phương án điều tiết quạt
+
+<!--IMG:comp-->
+![So sánh & lựa chọn](assets/diagrams/comp-vfd-tai.svg)
+
 
 | Tiêu chí | **Damper / lá gió** | **Đổi puly, đổi tốc độ cơ khí** | **Đóng/cắt theo lịch** | **Biến tần** |
 |---|---|---|---|---|

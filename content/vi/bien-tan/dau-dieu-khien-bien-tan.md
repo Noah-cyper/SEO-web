@@ -14,6 +14,10 @@ H1          : Đấu Mạch Điều Khiển Biến Tần (DI, AI, AO, Relay)
 
 ## Mạch điều khiển: nơi quyết định cách bạn vận hành máy
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-bien-tan.svg)
+
+
 Nếu mạch động lực trả lời câu hỏi *"điện đi đâu"*, thì mạch điều khiển trả lời câu hỏi *"ai ra lệnh và ra lệnh thế nào"*.
 
 Đây là phần **linh hoạt nhất** của biến tần và cũng là nơi quyết định trải nghiệm vận hành: bạn muốn nhấn nút tại tủ, vặn biến trở, hay để PLC điều khiển hoàn toàn tự động?
@@ -22,11 +26,19 @@ Nếu mạch động lực trả lời câu hỏi *"điện đi đâu"*, thì m�
 
 > **Cần hỗ trợ thiết kế mạch điều khiển?** Gửi **model biến tần · cách muốn vận hành · thiết bị hiện có** → [Nhận hỗ trợ](#bao-gia).
 
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-vfd-pwm.svg)
+
+
 Đây là bài **13/30** trong [chuỗi bài biến tần](/bien-tan-la-gi/).
 
 ---
 
 ## Cấu tạo: các nhóm chân điều khiển
+
+<!--IMG:spec-->
+![Cấu tạo & thông số](assets/diagrams/spec-vfd-dieukhien.svg)
+
 
 | Nhóm | Ký hiệu thường gặp | Chức năng |
 |---|---|---|
@@ -128,6 +140,10 @@ Kết hợp AI dạng dòng với **PID tích hợp** cho phép biến tần t�
 
 ## Ứng dụng: các cấu hình mạch điều khiển thực tế
 
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-vfd-plc.svg)
+
+
 | Nhu cầu vận hành | Cấu hình đấu nối |
 |---|---|
 | **Đơn giản nhất** | Chạy/dừng và chỉnh tốc độ bằng bàn phím biến tần |
@@ -162,6 +178,10 @@ Nếu đã làm đúng các điểm trên mà vẫn nhiễu, cần xét đến l
 ---
 
 ## So sánh: các phương thức điều khiển
+
+<!--IMG:comp-->
+![So sánh & lựa chọn](assets/diagrams/comp-vf-vector.svg)
+
 
 | Phương thức | Ưu điểm | Nhược điểm | Phù hợp |
 |---|---|---|---|

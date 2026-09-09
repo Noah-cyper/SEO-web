@@ -14,6 +14,10 @@ H1          : Chọn Công Suất Biến Tần – Tính Đúng Ngay Từ Đầu
 
 ## Sai lầm phổ biến nhất: chọn theo kW
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-bien-tan.svg)
+
+
 Câu hỏi thường gặp nhất khi mua biến tần là: *"Động cơ 7,5 kW thì mua biến tần 7,5 kW đúng không?"*
 
 Câu trả lời: **chưa chắc**. Và đây chính là sai lầm gây ra phần lớn các ca biến tần liên tục báo quá tải hoặc chết sớm.
@@ -24,6 +28,10 @@ Nguyên tắc đúng:
 
 > **Dòng định mức của biến tần phải lớn hơn hoặc bằng dòng định mức của động cơ**, xét ở đúng cột tải tương ứng.
 
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-affinity.svg)
+
+
 > **Cần tính giúp công suất cho máy của bạn?** Gửi **ảnh nhãn động cơ · loại tải · nhiệt độ tủ** → [Nhận tính toán](#bao-gia).
 
 Đây là bài **8/30** trong [chuỗi bài biến tần](/bien-tan-la-gi/).
@@ -31,6 +39,10 @@ Nguyên tắc đúng:
 ---
 
 ## Cấu tạo bài toán: ba con số cần đối chiếu
+
+<!--IMG:spec-->
+![Cấu tạo & thông số](assets/diagrams/spec-vfd-sizing.svg)
+
 
 Khi mở catalogue biến tần, bạn sẽ thấy mỗi model có nhiều dòng số. Ba con số quan trọng nhất:
 
@@ -122,6 +134,10 @@ Ví dụ 3 cho thấy một điều quan trọng: **nhiều khi giải pháp r�
 
 ## Ứng dụng: các tình huống đặc biệt
 
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-vfd-bangtai.svg)
+
+
 **Một biến tần chạy nhiều động cơ.** Chỉ làm được với chế độ **V/f** (không dùng vector). Phải **cộng dòng của tất cả động cơ** rồi cộng thêm dự phòng. Ngoài ra mỗi động cơ **cần rơ-le nhiệt riêng**, vì bảo vệ quá tải của biến tần chỉ nhìn thấy tổng dòng, không biết động cơ nào đang quá tải.
 
 **Động cơ nhỏ hơn nhiều so với biến tần.** Nếu biến tần quá lớn so với động cơ, cảm biến dòng khó đo chính xác ở mức thấp, chế độ vector hoạt động kém và bảo vệ quá tải không nhạy. Nên tránh chênh lệch quá 2 cấp.
@@ -133,6 +149,10 @@ Ví dụ 3 cho thấy một điều quan trọng: **nhiều khi giải pháp r�
 ---
 
 ## So sánh: chọn vừa đủ hay chọn dư?
+
+<!--IMG:comp-->
+![So sánh & lựa chọn](assets/diagrams/comp-vfd-tai.svg)
+
 
 | Tiêu chí | **Chọn vừa đủ** | **Chọn dư 1 cấp** |
 |---|---|---|

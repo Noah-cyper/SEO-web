@@ -14,12 +14,20 @@ H1          : Nguyên Lý Hoạt Động Của Biến Tần (PWM & Luật V/f)
 
 ## Vấn đề cần giải quyết: vì sao không thể "vặn nhỏ" điện lưới?
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-bien-tan.svg)
+
+
 Để hiểu biến tần, trước hết phải hiểu **vì sao không thể điều khiển tốc độ động cơ bằng cách giảm điện áp đơn thuần**.
 
 Tốc độ quay của động cơ không đồng bộ 3 pha được quyết định bởi **tần số** của nguồn cấp, theo công thức tốc độ đồng bộ:
 
 > **n = 120 × f / p**
 > (n: vòng/phút · f: tần số Hz · p: số cực của động cơ)
+
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-vfd-pwm.svg)
+
 
 Ví dụ động cơ 4 cực chạy ở 50 Hz sẽ có tốc độ đồng bộ **1500 vòng/phút** (thực tế thấp hơn một chút do độ trượt).
 
@@ -98,6 +106,10 @@ Hệ quả thực tế rất quan trọng: **chạy vượt 50 Hz thì tốc đ�
 
 ## Ứng dụng: từ nguyên lý đến vận hành thực tế
 
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-vfd-quat.svg)
+
+
 Hiểu nguyên lý giúp lý giải nhiều hiện tượng thường gặp:
 
 **Vì sao động cơ kêu rít khi chạy biến tần?** Do tần số sóng mang PWM nằm trong dải nghe được. Tăng tần số sóng mang sẽ êm hơn, đổi lại IGBT nóng hơn.
@@ -113,6 +125,10 @@ Hiểu nguyên lý giúp lý giải nhiều hiện tượng thường gặp:
 ---
 
 ## So sánh: điều khiển V/f và điều khiển vector
+
+<!--IMG:comp-->
+![So sánh & lựa chọn](assets/diagrams/comp-vf-vector.svg)
+
 
 Luật V/f mô tả ở trên là **phương pháp điều khiển vô hướng (scalar)** — đơn giản, ổn định, nhưng không "biết" động cơ đang thực sự chịu tải ra sao.
 
@@ -147,6 +163,10 @@ Gửi: **loại tải · công suất và dòng động cơ · dải tốc độ
 **→ [Liên hệ tư vấn biến tần](/lien-he/)**
 
 ---
+
+<!--IMG:spec-->
+![Cấu tạo & thông số](assets/diagrams/spec-vfd-parts.svg)
+
 
 ## Câu hỏi thường gặp (FAQ)
 

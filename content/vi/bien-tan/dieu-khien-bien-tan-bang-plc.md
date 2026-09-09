@@ -15,6 +15,10 @@ H1          : Điều Khiển Biến Tần Bằng PLC
 
 ## Ba cách để PLC ra lệnh cho biến tần
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-bien-tan.svg)
+
+
 Khi biến tần được đưa vào một dây chuyền tự động hóa, nó không còn được vận hành bằng bàn phím nữa mà nhận lệnh từ **PLC**. Có ba cách để làm việc đó, khác nhau về số dây, chi phí và mức thông tin trao đổi được:
 
 1. **Qua đầu ra số của PLC (DO → DI biến tần)** — dùng các tổ hợp tín hiệu để chọn **đa cấp tốc độ** đã cài sẵn.
@@ -26,6 +30,10 @@ Nhiều hệ thực tế dùng **kết hợp**: Modbus để đọc/ghi thông s
 Bài này trình bày cả ba cách, tiêu chí chọn và những lỗi hay gặp khi đấu nối cũng như khi cấu hình truyền thông.
 
 > **Đang tích hợp biến tần vào hệ PLC?** Gửi **model biến tần · model PLC · số điểm cần điều khiển** → [Nhận tư vấn phương án](#bao-gia).
+
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-vfd-pwm.svg)
+
 
 Đây là bài **21/30** trong [chuỗi bài biến tần](/bien-tan-la-gi/).
 
@@ -70,6 +78,10 @@ Modbus RTU hoạt động theo mô hình **master–slave**: PLC là master, cá
 
 ## Cấu tạo cấu hình Modbus: những gì phải khớp
 
+<!--IMG:spec-->
+![Cấu tạo & thông số](assets/diagrams/spec-vfd-dieukhien.svg)
+
+
 Để hai thiết bị nói chuyện được, một loạt tham số phải **giống hệt nhau ở cả hai đầu**:
 
 | Tham số | Ý nghĩa | Lưu ý |
@@ -100,6 +112,14 @@ Một điểm hay nhầm: **đơn vị của giá trị tần số**. Nhiều bi
 ---
 
 ## Ứng dụng: chọn cách nào cho hệ của bạn
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-vfd-plc.svg)
+
+
+
+<!--IMG:comp-->
+![So sánh & lựa chọn](assets/diagrams/comp-vfd-hang.svg)
 
 | Tình huống | Nên chọn |
 |---|---|

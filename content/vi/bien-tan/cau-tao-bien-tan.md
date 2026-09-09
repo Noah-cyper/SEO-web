@@ -14,11 +14,19 @@ H1          : Cấu Tạo Biến Tần – Bên Trong Có Những Gì?
 
 ## Vì sao nên hiểu cấu tạo biến tần?
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-bien-tan.svg)
+
+
 Nhiều người vận hành coi biến tần là một "hộp đen": cắm điện vào, cài vài thông số, chạy được là xong. Cách nghĩ đó ổn cho tới khi máy báo lỗi lúc 2 giờ sáng.
 
 Hiểu cấu tạo giúp bạn trả lời được những câu hỏi rất thực tế: **vì sao biến tần nóng thì hỏng nhanh?** **Vì sao phải chờ vài phút mới được mở nắp sau khi cắt điện?** **Vì sao bụi lại nguy hiểm đến vậy?** **Vì sao có biến tần dùng 10 năm, có cái 2 năm đã hỏng?** Tất cả đều nằm ở mấy khối linh kiện bên trong.
 
 > **Cần tư vấn chọn biến tần bền cho môi trường nhà máy?** Gửi **công suất động cơ · loại tải · điều kiện tủ điện (nhiệt độ, bụi)** → [Nhận tư vấn](#bao-gia).
+
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-vfd-pwm.svg)
+
 
 Bài này là bài **2/30** trong [chuỗi bài về biến tần](/bien-tan-la-gi/), tập trung mổ xẻ phần cứng.
 
@@ -104,6 +112,14 @@ Vì vậy nội dung chính của bảo trì biến tần chỉ gói gọn trong
 
 ## Ứng dụng: hiểu cấu tạo giúp chẩn đoán nhanh hơn
 
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-vfd-bangtai.svg)
+
+
+
+<!--IMG:spec-->
+![Cấu tạo & thông số](assets/diagrams/spec-vfd-parts.svg)
+
 Khi biết bên trong có gì, việc đọc mã lỗi trở nên logic thay vì đoán mò:
 
 | Hiện tượng | Khối nghi ngờ | Hướng kiểm tra |
@@ -120,6 +136,10 @@ Khi biết bên trong có gì, việc đọc mã lỗi trở nên logic thay vì
 ---
 
 ## So sánh: vì sao biến tần cùng công suất lại chênh giá?
+
+<!--IMG:comp-->
+![So sánh & lựa chọn](assets/diagrams/comp-vf-vector.svg)
+
 
 Nhiều khách hàng thắc mắc vì sao hai biến tần cùng ghi 7,5 kW mà giá chênh nhau đáng kể. Khác biệt thường nằm ở những chỗ không nhìn thấy:
 

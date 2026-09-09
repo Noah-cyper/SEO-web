@@ -15,6 +15,10 @@ H1          : Điều Khiển PID Bằng Biến Tần
 
 ## PID trong biến tần dùng để làm gì?
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-bien-tan-bom.svg)
+
+
 Ở chế độ thông thường, biến tần chạy **vòng hở**: bạn đặt 40Hz thì nó chạy 40Hz, bất kể kết quả thực tế ra sao. Nếu nhu cầu thay đổi — nhiều vòi nước mở hơn, đường ống bẩn hơn, phòng đông người hơn — biến tần không biết và không tự điều chỉnh.
 
 **PID tích hợp** biến biến tần thành một hệ **vòng kín**. Thay vì đặt tần số, bạn đặt **giá trị đích của đại lượng cần giữ**: áp suất, lưu lượng, mức, nhiệt độ, chênh áp. Biến tần đọc **cảm biến phản hồi**, so với giá trị đích, và **tự điều chỉnh tần số** cho tới khi hai giá trị bằng nhau.
@@ -32,11 +36,19 @@ Các ứng dụng điển hình:
 
 > **Cần giữ áp suất hoặc lưu lượng ổn định?** Gửi **loại cảm biến · dải đo · model biến tần** → [Nhận cấu hình PID gợi ý](#bao-gia).
 
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-vfd-pid.svg)
+
+
 Đây là bài **22/30** trong [chuỗi bài biến tần](/bien-tan-la-gi/).
 
 ---
 
 ## Nguyên lý: ba thành phần P, I, D làm gì
+
+<!--IMG:spec-->
+![Cấu tạo & thông số](assets/diagrams/spec-vfd-dieukhien.svg)
+
 
 PID tính **sai lệch** = giá trị đặt − giá trị đo được, rồi tổng hợp ba thành phần để ra tín hiệu điều khiển.
 
@@ -92,6 +104,10 @@ Hai chi tiết dễ sai:
 
 ## Ứng dụng: quy trình cài và chỉnh PID
 
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-vfd-bom.svg)
+
+
 **Bước 1 — Chạy thử vòng hở trước.** Trước khi bật PID, hãy chạy biến tần bằng tay ở vài tần số và ghi lại giá trị đo được. Việc này xác nhận cảm biến đọc đúng, chiều quay động cơ đúng, và cho bạn biết **dải tần số làm việc thực tế** của hệ ([xem cài đặt cơ bản](/cai-dat-thong-so-bien-tan/)).
 
 **Bước 2 — Đấu cảm biến.** Dùng **4–20mA** nếu có thể, cáp xoắn đôi có bọc, đi tách khỏi cáp động lực ([xem đấu điều khiển](/dau-dieu-khien-bien-tan/)). Kiểm tra kiểu cấp nguồn cảm biến (2 dây hay 3 dây) và nguồn 24V lấy từ đâu.
@@ -129,6 +145,10 @@ Hai chi tiết dễ sai:
 ---
 
 ## So sánh: PID trong biến tần hay PID trong PLC?
+
+<!--IMG:comp-->
+![So sánh & lựa chọn](assets/diagrams/comp-vfd-tai.svg)
+
 
 | Tiêu chí | **PID trong biến tần** | **PID trong PLC** |
 |---|---|---|

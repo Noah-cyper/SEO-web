@@ -15,6 +15,10 @@ H1          : Biến Tần Cho Bơm Nước
 
 ## Vì sao bơm nước là ứng dụng đáng lắp biến tần nhất?
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-bien-tan-bom.svg)
+
+
 Trong tất cả các loại tải công nghiệp, **bơm ly tâm là nơi biến tần mang lại lợi ích rõ rệt nhất** — cả về tiết kiệm điện lẫn về chất lượng vận hành.
 
 Lý do nằm ở cách vận hành truyền thống. Bơm chạy trực tiếp từ lưới luôn quay ở **một tốc độ duy nhất**, tạo ra một lưu lượng và cột áp cố định. Nhưng nhu cầu thực tế thì thay đổi liên tục: giờ cao điểm khác giờ thấp điểm, ngày khác đêm, mùa khác mùa.
@@ -27,6 +31,10 @@ Cách xử lý cũ là **cho bơm chạy hết công suất rồi bóp bớt b�
 Lắp biến tần thay đổi bản chất: bơm **quay đúng tốc độ cần thiết**, không hơn. Áp suất giữ ổn định, và điện tiêu thụ giảm theo một quy luật rất thuận lợi.
 
 > **Muốn biết bơm của bạn tiết kiệm được bao nhiêu?** Gửi **công suất bơm · số giờ chạy/ngày · mức tải thực tế** → [Nhận tính toán hoàn vốn](#bao-gia).
+
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-vfd-pid.svg)
+
 
 Đây là bài **23/30** trong [chuỗi bài biến tần](/bien-tan-la-gi/).
 
@@ -57,6 +65,10 @@ Cần lưu ý một giới hạn quan trọng: quy luật này chỉ đúng khi 
 
 ## Cấu tạo hệ bơm biến tần: cần những gì
 
+<!--IMG:spec-->
+![Cấu tạo & thông số](assets/diagrams/spec-vfd-sizing.svg)
+
+
 Một hệ bơm giữ áp hoàn chỉnh gồm các thành phần sau:
 
 | Thành phần | Vai trò | Lưu ý chọn |
@@ -78,6 +90,10 @@ Một hệ bơm giữ áp hoàn chỉnh gồm các thành phần sau:
 ---
 
 ## Ứng dụng: các kiểu hệ bơm thường gặp
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-vfd-bom.svg)
+
 
 **Bơm tăng áp cấp nước tòa nhà.** Đây là ứng dụng kinh điển. Biến tần + cảm biến áp suất + PID giữ áp không đổi bất kể có bao nhiêu vòi đang mở. Cư dân không còn cảm giác "nước yếu khi cả tòa cùng dùng".
 
@@ -107,6 +123,10 @@ Chi tiết cài PID và chỉnh P–I xem tại bài [điều khiển PID bằng
 ---
 
 ## So sánh các phương án điều tiết bơm
+
+<!--IMG:comp-->
+![So sánh & lựa chọn](assets/diagrams/comp-vfd-tai.svg)
+
 
 | Tiêu chí | **Chạy trực tiếp + van tiết lưu** | **Rơ-le áp suất đóng/cắt** | **Biến tần + PID** |
 |---|---|---|---|

@@ -15,6 +15,10 @@ H1          : Chế Độ Điều Khiển Biến Tần: V/f Và Vector
 
 ## Cùng một biến tần, hai cách điều khiển khác hẳn nhau
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-bien-tan.svg)
+
+
 Khi cài đặt biến tần, có một thông số quyết định gần như toàn bộ chất lượng vận hành: **chế độ điều khiển (control mode)**. Cùng một biến tần, cùng một động cơ, đổi thông số này là hành vi của hệ thay đổi rõ rệt.
 
 Các chế độ phổ biến trên biến tần công nghiệp hiện nay:
@@ -29,6 +33,10 @@ Chọn sai chế độ dẫn tới hai kiểu lãng phí trái ngược nhau: ho
 Bài này giải thích sự khác nhau ở mức nguyên lý đủ để chọn đúng, và đưa ra tiêu chí quyết định cụ thể.
 
 > **Không chắc nên để V/f hay vector?** Gửi **mô tả tải · nhãn động cơ · model biến tần** → [Nhận tư vấn chế độ điều khiển](#bao-gia).
+
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-vf-ratio.svg)
+
 
 Đây là bài **20/30** trong [chuỗi bài biến tần](/bien-tan-la-gi/).
 
@@ -91,6 +99,10 @@ Lắp **encoder** trên trục động cơ và đưa xung về biến tần thì
 
 ## Cấu tạo bộ thông số theo từng chế độ
 
+<!--IMG:spec-->
+![Cấu tạo & thông số](assets/diagrams/spec-vfd-thongso.svg)
+
+
 | Nhóm thông số | V/f | Sensorless vector | Vector có encoder |
 |---|---|---|---|
 | Khai báo động cơ cơ bản | Cần, mức vừa | **Cần chính xác** | **Cần chính xác** |
@@ -107,6 +119,14 @@ Một lưu ý thực tế: nhiều biến tần đặt mặc định là **V/f**
 ---
 
 ## Ứng dụng: chọn chế độ theo loại máy
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-vfd-bangtai.svg)
+
+
+
+<!--IMG:comp-->
+![So sánh & lựa chọn](assets/diagrams/comp-vf-vector.svg)
 
 **Dùng V/f khi:**
 

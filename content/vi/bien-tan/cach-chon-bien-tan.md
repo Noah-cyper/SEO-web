@@ -14,11 +14,19 @@ H1          : Cách Chọn Biến Tần Đúng – Hướng Dẫn 8 Bước
 
 ## Chọn biến tần: sai một bước là hỏng cả dự án
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-bien-tan.svg)
+
+
 Chọn biến tần không khó, nhưng có **nhiều điểm dễ sai** và mỗi cái sai đều tốn kém: mua về không lắp được, chạy vài tháng liên tục báo lỗi, hoặc trả tiền cho tính năng không bao giờ dùng.
 
 Bài này đưa ra một quy trình **8 bước theo đúng thứ tự** — làm tuần tự sẽ loại trừ được hầu hết rủi ro. Cuối bài có checklist để bạn đối chiếu trước khi đặt hàng.
 
 > **Muốn được tư vấn nhanh?** Gửi **ảnh nhãn động cơ · nguồn điện hiện có · loại máy** → [Nhận đề xuất cấu hình](#bao-gia).
+
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-vf-ratio.svg)
+
 
 Đây là bài **7/30** trong [chuỗi bài biến tần](/bien-tan-la-gi/), mở đầu tầng "chọn mua".
 
@@ -54,6 +62,10 @@ Chụp ảnh nhãn động cơ và ghi lại các thông số sau — bạn sẽ
 ---
 
 ## Bước 3: Phân loại tải — bước quyết định
+
+<!--IMG:comp-->
+![So sánh & lựa chọn](assets/diagrams/comp-vfd-tai.svg)
+
 
 Đây là bước nhiều người bỏ qua nhất nhưng ảnh hưởng trực tiếp tới việc biến tần có bền hay không.
 
@@ -148,6 +160,10 @@ Một biến tần rẻ hơn 20% nhưng khi hỏng phải chờ hàng tháng đ�
 
 ## Ứng dụng: bảng chọn nhanh theo loại máy
 
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-vfd-bom.svg)
+
+
 | Loại máy | Cấu hình đề xuất |
 |---|---|
 | **Bơm nước giữ áp** | 3P 380V · V/f hoặc chuyên dụng bơm · **có PID** · AI 4-20mA |
@@ -212,6 +228,10 @@ Gửi: **ảnh nhãn động cơ · nguồn điện · loại máy/tải · các
 **→ [Liên hệ tư vấn chọn biến tần](/lien-he/)**
 
 ---
+
+<!--IMG:spec-->
+![Cấu tạo & thông số](assets/diagrams/spec-vfd-sizing.svg)
+
 
 ## Câu hỏi thường gặp (FAQ)
 

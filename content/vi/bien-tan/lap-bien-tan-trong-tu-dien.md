@@ -14,6 +14,10 @@ H1          : Lắp Biến Tần Trong Tủ Điện Đúng Cách
 
 ## Vì sao cách lắp tủ quyết định tuổi thọ biến tần?
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-tu-dien-bien-tan.svg)
+
+
 Hai biến tần giống hệt nhau, mua cùng ngày, chạy cùng một loại tải — nhưng một cái dùng 10 năm, một cái 2 năm đã hỏng. Khác biệt thường không nằm ở thiết bị mà nằm ở **cái tủ đựng nó**.
 
 Lý do rất cụ thể: **tụ DC bus lão hoá theo nhiệt độ**, và **nhiệt độ bên trong tủ** là yếu tố bạn kiểm soát được. Một tủ kín, chật, nhiều bụi, đặt cạnh nguồn nhiệt sẽ rút ngắn tuổi thọ thiết bị rất nhanh. [Xem cấu tạo biến tần →](/cau-tao-bien-tan/)
@@ -21,6 +25,10 @@ Lý do rất cụ thể: **tụ DC bus lão hoá theo nhiệt độ**, và **nhi
 Bài này hướng dẫn cách lắp đặt để biến tần chạy mát, ít nhiễu và dễ bảo trì.
 
 > **Cần kiểm tra tủ điện hiện có?** Gửi **ảnh bên trong tủ · kích thước · số biến tần · nhiệt độ đo được** → [Nhận đánh giá](#bao-gia).
+
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-vfd-nhieu.svg)
+
 
 Đây là bài **15/30** trong [chuỗi bài biến tần](/bien-tan-la-gi/).
 
@@ -44,6 +52,10 @@ Tổng nhiệt này phải được **thải ra ngoài** nhanh hơn tốc độ 
 ---
 
 ## Cấu tạo giải pháp tản nhiệt
+
+<!--IMG:spec-->
+![Cấu tạo & thông số](assets/diagrams/spec-vfd-emc.svg)
+
 
 Có bốn cấp giải pháp, chọn theo lượng nhiệt và môi trường:
 
@@ -86,6 +98,10 @@ Mỗi biến tần cần **khoảng trống xung quanh** để không khí lưu 
 
 ## Ứng dụng: bố trí thiết bị trong tủ
 
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-vfd-plc.svg)
+
+
 Bố trí hợp lý giải quyết cùng lúc hai vấn đề: **tản nhiệt** và **chống nhiễu**.
 
 **Nguyên tắc phân vùng:**
@@ -125,6 +141,10 @@ Một lưu ý về **đọng sương**: ở nơi chênh lệch nhiệt độ ng�
 ---
 
 ## So sánh: các phương án tủ theo môi trường
+
+<!--IMG:comp-->
+![So sánh & lựa chọn](assets/diagrams/comp-vfd-hang.svg)
+
 
 | Môi trường | Phương án tủ | Ghi chú |
 |---|---|---|

@@ -14,6 +14,10 @@ H1          : Biến Tần 1 Pha Ra 3 Pha – Hướng Dẫn Đầy Đủ
 
 ## Bài toán: nhà xưởng chỉ có điện 1 pha
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-bien-tan-1p3p.svg)
+
+
 Đây là tình huống rất phổ biến với xưởng nhỏ, hộ kinh doanh, cơ sở gia công tại nhà: bạn có một **máy dùng động cơ 3 pha** — máy tiện, máy cưa, máy bơm, máy trộn — nhưng nơi lắp **chỉ có điện 1 pha 220V**.
 
 Xin cấp điện 3 pha thì tốn kém và mất thời gian. Vậy giải pháp là gì?
@@ -21,6 +25,10 @@ Xin cấp điện 3 pha thì tốn kém và mất thời gian. Vậy giải phá
 Câu trả lời là **biến tần 1 pha vào – 3 pha ra**. Nhưng trước khi mua, có một điều **cực kỳ quan trọng** mà rất nhiều người hiểu sai và dẫn tới mua nhầm.
 
 > **Muốn kiểm tra động cơ có dùng được không?** Gửi **ảnh nhãn động cơ · ảnh hộp đấu dây** → [Nhận tư vấn](#bao-gia).
+
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-vfd-pwm.svg)
+
 
 Đây là bài **9/30** trong [chuỗi bài biến tần](/bien-tan-la-gi/).
 
@@ -63,6 +71,10 @@ Nguyên lý cơ bản giống mọi biến tần khác — **AC → DC → AC** 
 
 ## Cấu tạo bài toán: giới hạn công suất và dòng đầu vào
 
+<!--IMG:spec-->
+![Cấu tạo & thông số](assets/diagrams/spec-vfd-dauday.svg)
+
+
 Đây là điểm kỹ thuật quan trọng thứ hai sau vấn đề điện áp.
 
 Vì toàn bộ công suất phải đi qua **một pha duy nhất**, dòng điện phía nguồn tăng rất nhanh theo công suất. Hệ quả:
@@ -83,6 +95,10 @@ Chọn aptomat theo dòng động cơ (phía ra) thay vì theo dòng đầu vào
 ---
 
 ## Ứng dụng: các trường hợp phù hợp
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-vfd-bom.svg)
+
 
 - **Xưởng gỗ, cơ khí nhỏ tại nhà:** máy cưa, máy bào, máy tiện mini dùng động cơ 3 pha.
 - **Máy bơm nước gia đình/trang trại:** bơm 3 pha công suất nhỏ.
@@ -116,6 +132,10 @@ Ngoài việc "chạy được", bạn còn có luôn các lợi ích của bi�
 ---
 
 ## So sánh: biến tần 1 pha và các giải pháp khác
+
+<!--IMG:comp-->
+![So sánh & lựa chọn](assets/diagrams/comp-vfd-saobam.svg)
+
 
 | Giải pháp | Ưu điểm | Nhược điểm |
 |---|---|---|

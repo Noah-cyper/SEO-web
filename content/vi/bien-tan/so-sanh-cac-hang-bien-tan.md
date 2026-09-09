@@ -14,6 +14,10 @@ H1          : Nên Mua Biến Tần Hãng Nào? Tiêu Chí So Sánh Thực Tế
 
 ## Câu hỏi sai và câu hỏi đúng
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-bien-tan.svg)
+
+
 Câu hỏi thường gặp: *"Biến tần hãng nào tốt nhất?"*
 
 Đây là câu hỏi **không có đáp án chung**, vì "tốt nhất" phụ thuộc vào bạn đang giải bài toán gì. Một biến tần rất tốt cho dây chuyền tự động hoá cao có thể là lựa chọn lãng phí cho một máy bơm trong xưởng nhỏ.
@@ -24,11 +28,23 @@ Bài này đưa ra **8 tiêu chí so sánh khách quan** để bạn tự đánh
 
 > **Cần tư vấn chọn hãng phù hợp bài toán của bạn?** Gửi **loại máy · ngân sách · yêu cầu kỹ thuật** → [Nhận tư vấn khách quan](#bao-gia).
 
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-vf-ratio.svg)
+
+
 Đây là bài **10/30** trong [chuỗi bài biến tần](/bien-tan-la-gi/).
 
 ---
 
 ## Cấu tạo quyết định: 8 tiêu chí so sánh
+
+<!--IMG:spec-->
+![Cấu tạo & thông số](assets/diagrams/spec-vfd-sizing.svg)
+
+
+
+<!--IMG:comp-->
+![So sánh & lựa chọn](assets/diagrams/comp-vfd-hang.svg)
 
 ### 1. Khả năng có phụ tùng và thay thế trong 5–10 năm
 
@@ -114,6 +130,10 @@ Thay vì xếp hạng thương hiệu, hãy nhìn theo nhóm — mỗi nhóm có
 ---
 
 ## Ứng dụng: chọn theo tình huống thực tế
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-vfd-plc.svg)
+
 
 | Tình huống | Nên ưu tiên |
 |---|---|

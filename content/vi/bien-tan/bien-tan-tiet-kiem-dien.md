@@ -14,6 +14,10 @@ H1          : Biến Tần Tiết Kiệm Điện Bao Nhiêu Và Bao Lâu Hoàn V
 
 ## Biến tần có thực sự tiết kiệm điện không?
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-bien-tan-bom.svg)
+
+
 Câu trả lời trung thực là: **có, nhưng không phải trong mọi trường hợp**.
 
 Đây là điểm cần làm rõ trước tiên, vì nhiều người nghe quảng cáo "lắp biến tần tiết kiệm 30–50% điện" rồi lắp cho một máy chạy full tải suốt ngày, sau đó thất vọng vì hoá đơn không giảm.
@@ -23,6 +27,10 @@ Nguyên tắc căn bản: **biến tần tiết kiệm điện khi bạn thực 
 Nhưng khi ứng dụng phù hợp — đặc biệt là **bơm ly tâm và quạt** — mức tiết kiệm có thể rất lớn, xuất phát từ một quy luật vật lý chứ không phải marketing.
 
 > **Muốn biết máy của bạn tiết kiệm được bao nhiêu?** Gửi **công suất động cơ · số giờ chạy/ngày · mức tải thực tế · cách điều tiết hiện tại (van/damper)** → [Nhận tính toán sơ bộ](#bao-gia).
+
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-affinity.svg)
+
 
 Đây là bài **5/30** trong [chuỗi bài biến tần](/bien-tan-la-gi/).
 
@@ -72,6 +80,10 @@ Khác biệt này giải thích vì sao mức tiết kiệm khi thay van tiết 
 
 ## Cấu tạo bài toán: cách tính tiết kiệm thực tế
 
+<!--IMG:spec-->
+![Cấu tạo & thông số](assets/diagrams/spec-vfd-sizing.svg)
+
+
 Để có con số đáng tin, cần đi theo bốn bước:
 
 **Bước 1 — Xác định biểu đồ nhu cầu thực tế.** Máy chạy bao nhiêu giờ mỗi ngày, và trong đó bao nhiêu phần trăm thời gian thực sự cần full tải? Rất nhiều hệ thống được thiết kế dư và chỉ cần 70–80% năng lực trong phần lớn thời gian.
@@ -98,6 +110,10 @@ Ví dụ minh hoạ với **bơm 15 kW**:
 
 ## Ứng dụng: nơi nào tiết kiệm nhiều, nơi nào ít?
 
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-vfd-tietkiem.svg)
+
+
 | Ứng dụng | Tiềm năng tiết kiệm | Lý do |
 |---|---|---|
 | **Bơm ly tâm đang bóp van** | **Rất cao** | Luật bậc ba + loại bỏ tổn thất van |
@@ -113,6 +129,10 @@ Ví dụ minh hoạ với **bơm 15 kW**:
 ---
 
 ## So sánh: các lợi ích ngoài tiền điện
+
+<!--IMG:comp-->
+![So sánh & lựa chọn](assets/diagrams/comp-vfd-saobam.svg)
+
 
 Nhiều dự án chỉ tính riêng tiền điện rồi kết luận "lâu hoàn vốn". Thực tế nên cộng đủ các giá trị khác:
 

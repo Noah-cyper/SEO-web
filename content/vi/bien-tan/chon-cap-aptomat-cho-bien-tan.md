@@ -14,6 +14,10 @@ H1          : Chọn Cáp Và Aptomat Cho Biến Tần
 
 ## Sai lầm phổ biến: chọn theo dòng động cơ
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-tu-dien-bien-tan.svg)
+
+
 Khi lắp biến tần, rất nhiều người chọn aptomat theo **dòng định mức của động cơ** — giống như khi đấu trực tiếp. Đây là cách làm **sai** và gây ra hai vấn đề trái ngược nhau:
 
 - **Aptomat nhảy liên tục** (nếu chọn thiếu), đặc biệt lúc đóng điện
@@ -22,6 +26,10 @@ Khi lắp biến tần, rất nhiều người chọn aptomat theo **dòng đị
 Nguyên tắc đúng:
 
 > **Aptomat và cáp phía nguồn phải chọn theo DÒNG ĐẦU VÀO CỦA BIẾN TẦN**, không phải theo dòng động cơ.
+
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-vfd-pwm.svg)
+
 
 Vì sao? Vì biến tần là một tải điện tử, và **dòng ở phía vào khác với dòng ở phía ra**. Với biến tần 3 pha vào, dòng vào thường xấp xỉ dòng ra nhưng vẫn có chênh lệch. Với **biến tần 1 pha vào – 3 pha ra**, chênh lệch này rất lớn: toàn bộ công suất dồn vào một pha. [Xem chi tiết →](/bien-tan-1-pha-ra-3-pha/)
 
@@ -32,6 +40,10 @@ Vì sao? Vì biến tần là một tải điện tử, và **dòng ở phía v�
 ---
 
 ## Cấu tạo bài toán: các thông số cần có
+
+<!--IMG:spec-->
+![Cấu tạo & thông số](assets/diagrams/spec-vfd-dauday.svg)
+
 
 Trước khi tính, hãy thu thập:
 
@@ -49,6 +61,10 @@ Trước khi tính, hãy thu thập:
 ---
 
 ## Chọn aptomat (MCCB/MCB)
+
+<!--IMG:comp-->
+![So sánh & lựa chọn](assets/diagrams/comp-vfd-tai.svg)
+
 
 ### Nguyên tắc cơ bản
 
@@ -145,6 +161,10 @@ Giới hạn chiều dài cáp cho phép **khác nhau theo model** và có thể
 ---
 
 ## Ứng dụng: quy tắc đi cáp trong tủ và ngoài tủ
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-vfd-bangtai.svg)
+
 
 Cách đi cáp ảnh hưởng trực tiếp tới độ ổn định của cả hệ thống:
 

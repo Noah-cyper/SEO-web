@@ -14,11 +14,19 @@ H1          : Biến Tần Và Động Cơ 3 Pha – Những Điều Phải Bi�
 
 ## Vì sao phải hiểu động cơ trước khi lắp biến tần?
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-bien-tan.svg)
+
+
 Biến tần không làm việc một mình — nó là **một nửa của cặp đôi biến tần + động cơ**. Rất nhiều sự cố mà người dùng đổ lỗi cho biến tần thực ra bắt nguồn từ việc **không hiểu động cơ đang dùng**: đấu nhầm sao/tam giác, cài sai thông số, hoặc chọn động cơ không phù hợp để chạy tần số thấp.
 
 Bài này giúp bạn đọc được nhãn động cơ, quyết định cách đấu dây và đánh giá xem động cơ hiện có dùng được với biến tần hay không — trước khi bỏ tiền mua.
 
 > **Cần kiểm tra động cơ có hợp với biến tần không?** Gửi **ảnh chụp nhãn động cơ · loại tải · dải tốc độ mong muốn** → [Nhận tư vấn](#bao-gia).
+
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-vf-ratio.svg)
+
 
 Đây là bài **6/30**, khép lại tầng nền tảng của [chuỗi bài biến tần](/bien-tan-la-gi/).
 
@@ -46,6 +54,10 @@ Khi lắp biến tần, tốc độ tỉ lệ với tần số đặt. Ví dụ 
 ---
 
 ## Cấu tạo thông tin: đọc nhãn động cơ
+
+<!--IMG:spec-->
+![Cấu tạo & thông số](assets/diagrams/spec-vfd-dauday.svg)
+
 
 Nhãn (name plate) trên động cơ chứa mọi thông số bạn cần để cài biến tần. Đây là bước **bắt buộc** trước khi cấu hình.
 
@@ -92,6 +104,10 @@ Trên nhãn động cơ thường ghi dạng **220/380V** kèm ký hiệu **Δ/Y
 
 ## Ứng dụng: động cơ của tôi có chạy được biến tần không?
 
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-vfd-bangtai.svg)
+
+
 Không phải động cơ nào cũng phù hợp. Hãy kiểm tra theo danh sách sau:
 
 **1. Động cơ có phải loại không đồng bộ 3 pha (rotor lồng sóc) không?**
@@ -117,6 +133,10 @@ Với động cơ công suất lớn chạy biến tần, có thể xuất hiệ
 ---
 
 ## So sánh: động cơ thường và động cơ chuyên dụng cho biến tần
+
+<!--IMG:comp-->
+![So sánh & lựa chọn](assets/diagrams/comp-vf-vector.svg)
+
 
 | Tiêu chí | **Động cơ tiêu chuẩn** | **Động cơ inverter duty** |
 |---|---|---|

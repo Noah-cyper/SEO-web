@@ -1492,3 +1492,315 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Tên file ảnh nên đặt:** `tinh-cong-suat-dung-luong-bess.png`
 - **Alt text ảnh:** Cách Tính Công Suất & Dung Lượng Cho Hệ Lưu Trữ BESS
 - **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+
+## Biến tần — Nền tảng & chọn mua
+
+### Biến Tần Là Gì? Cấu Tạo, Nguyên Lý Và Ứng Dụng Từ A–Z
+- **URL:** `/bien-tan-la-gi/`
+- **Focus keyword:** biến tần là gì
+- **Meta description:** Biến tần là gì? Giải thích cấu tạo, nguyên lý AC-DC-AC, công dụng điều khiển tốc độ động cơ, tiết kiệm điện, khởi động êm và cách chọn biến tần phù hợp cho nhà máy.
+- **Thẻ (tags):** Biến tần, Biến tần là gì, VFD inverter, Điều khiển tốc độ động cơ, Ứng dụng biến tần
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/bien-tan-la-gi.png`
+- **Tên file ảnh nên đặt:** `bien-tan-la-gi.png`
+- **Alt text ảnh:** Biến Tần Là Gì
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Cấu Tạo Biến Tần – Bên Trong Có Những Gì?
+- **URL:** `/cau-tao-bien-tan/`
+- **Focus keyword:** cấu tạo biến tần
+- **Meta description:** Cấu tạo biến tần gồm những gì? Phân tích chi tiết bộ chỉnh lưu, tụ DC bus, khối IGBT, vi điều khiển, mạch I/O và hệ tản nhiệt — bộ phận nào dễ hỏng và vì sao cần bảo trì.
+- **Thẻ (tags):** Cấu tạo biến tần, Chỉnh lưu nghịch lưu, IGBT biến tần, Tụ DC bus, Mạch điều khiển biến tần
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/cau-tao-bien-tan.png`
+- **Tên file ảnh nên đặt:** `cau-tao-bien-tan.png`
+- **Alt text ảnh:** Cấu Tạo Biến Tần
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Nguyên Lý Hoạt Động Của Biến Tần (PWM & Luật V/f)
+- **URL:** `/nguyen-ly-hoat-dong-bien-tan/`
+- **Focus keyword:** nguyên lý hoạt động biến tần
+- **Meta description:** Nguyên lý hoạt động của biến tần: quá trình AC-DC-AC, kỹ thuật PWM tạo sóng, luật V/f giữ mô-men, quan hệ tần số và tốc độ động cơ, vùng suy giảm từ thông và hãm tái sinh.
+- **Thẻ (tags):** Nguyên lý biến tần, Điều chế PWM, AC DC AC, Tần số sóng mang, Sóng mang biến tần
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/nguyen-ly-hoat-dong-bien-tan.png`
+- **Tên file ảnh nên đặt:** `nguyen-ly-hoat-dong-bien-tan.png`
+- **Alt text ảnh:** Nguyên Lý Hoạt Động Của Biến Tần (PWM & Luật V/f)
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Phân Loại Biến Tần – Có Những Loại Nào Và Chọn Ra Sao?
+- **URL:** `/phan-loai-bien-tan/`
+- **Focus keyword:** phân loại biến tần
+- **Meta description:** Phân loại biến tần theo nguồn cấp (1 pha/3 pha), điện áp, loại tải, chế độ điều khiển V/f–vector và biến tần chuyên dụng cho bơm, quạt, thang máy. Hướng dẫn chọn đúng nhóm.
+- **Thẻ (tags):** Phân loại biến tần, Biến tần 1 pha, Biến tần 3 pha, Biến tần chuyên dụng, Biến tần đa năng
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/phan-loai-bien-tan.png`
+- **Tên file ảnh nên đặt:** `phan-loai-bien-tan.png`
+- **Alt text ảnh:** Phân Loại Biến Tần
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Biến Tần Tiết Kiệm Điện Bao Nhiêu Và Bao Lâu Hoàn Vốn?
+- **URL:** `/bien-tan-tiet-kiem-dien/`
+- **Focus keyword:** biến tần tiết kiệm điện
+- **Meta description:** Biến tần tiết kiệm điện thế nào? Giải thích luật đồng dạng P ∝ n³ cho bơm và quạt, so sánh với van tiết lưu, ví dụ tính toán cụ thể và cách ước lượng thời gian hoàn vốn.
+- **Thẻ (tags):** Tiết kiệm điện biến tần, Quy luật đồng dạng, Tải mô-men thay đổi, Hoàn vốn biến tần, Giảm điện năng bơm quạt
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/bien-tan-tiet-kiem-dien.png`
+- **Tên file ảnh nên đặt:** `bien-tan-tiet-kiem-dien.png`
+- **Alt text ảnh:** Biến Tần Tiết Kiệm Điện Bao Nhiêu Và Bao Lâu Hoàn Vốn
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Biến Tần Và Động Cơ 3 Pha – Những Điều Phải Biết
+- **URL:** `/bien-tan-va-dong-co-3-pha/`
+- **Focus keyword:** biến tần và động cơ 3 pha
+- **Meta description:** Biến tần làm việc với động cơ 3 pha thế nào? Hướng dẫn đọc nhãn động cơ, chọn đấu sao hay tam giác, kiểm tra động cơ có chạy được biến tần không và lưu ý khi chạy tốc độ thấp.
+- **Thẻ (tags):** Biến tần và động cơ 3 pha, Động cơ không đồng bộ, Đấu sao tam giác, Động cơ inverter-duty, Tốc độ đồng bộ động cơ
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/bien-tan-va-dong-co-3-pha.png`
+- **Tên file ảnh nên đặt:** `bien-tan-va-dong-co-3-pha.png`
+- **Alt text ảnh:** Biến Tần Và Động Cơ 3 Pha
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Cách Chọn Biến Tần Đúng – Hướng Dẫn 8 Bước
+- **URL:** `/cach-chon-bien-tan/`
+- **Focus keyword:** cách chọn biến tần
+- **Meta description:** Cách chọn biến tần theo 8 bước: xác định nguồn điện, đọc nhãn động cơ, phân loại tải, chọn dòng định mức, chế độ điều khiển, I/O cần dùng, môi trường lắp và hệ thống hỗ trợ.
+- **Thẻ (tags):** Cách chọn biến tần, Tiêu chí chọn biến tần, Chọn biến tần theo tải, Biến tần cho máy công nghiệp, Tư vấn chọn biến tần
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/cach-chon-bien-tan.png`
+- **Tên file ảnh nên đặt:** `cach-chon-bien-tan.png`
+- **Alt text ảnh:** Cách Chọn Biến Tần Đúng
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Chọn Công Suất Biến Tần – Tính Đúng Ngay Từ Đầu
+- **URL:** `/chon-cong-suat-bien-tan/`
+- **Focus keyword:** chọn công suất biến tần
+- **Meta description:** Cách chọn công suất biến tần chuẩn: vì sao phải chọn theo dòng (A) chứ không chỉ kW, phân biệt tải nhẹ và tải nặng, hệ số derating theo nhiệt độ, độ cao và ví dụ tính cụ thể.
+- **Thẻ (tags):** Chọn công suất biến tần, Dòng định mức biến tần, Derating biến tần, Biến tần dư công suất, Tính chọn kW biến tần
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/chon-cong-suat-bien-tan.png`
+- **Tên file ảnh nên đặt:** `chon-cong-suat-bien-tan.png`
+- **Alt text ảnh:** Chọn Công Suất Biến Tần
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Biến Tần 1 Pha Ra 3 Pha – Hướng Dẫn Đầy Đủ
+- **URL:** `/bien-tan-1-pha-ra-3-pha/`
+- **Focus keyword:** biến tần 1 pha ra 3 pha
+- **Meta description:** Biến tần 1 pha ra 3 pha: nguyên lý, giới hạn công suất, cách kiểm tra động cơ đấu tam giác 220V, chọn aptomat và những hiểu lầm về việc "biến 220V thành 380V". Hướng dẫn đầy đủ.
+- **Thẻ (tags):** Biến tần 1 pha ra 3 pha, Chạy động cơ 3 pha bằng điện 1 pha, Biến tần 220V, Derating 1 pha, Điện 1 pha cho máy 3 pha
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/bien-tan-1-pha-ra-3-pha.png`
+- **Tên file ảnh nên đặt:** `bien-tan-1-pha-ra-3-pha.png`
+- **Alt text ảnh:** Biến Tần 1 Pha Ra 3 Pha
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Nên Mua Biến Tần Hãng Nào? Tiêu Chí So Sánh Thực Tế
+- **URL:** `/so-sanh-cac-hang-bien-tan/`
+- **Focus keyword:** so sánh các hãng biến tần
+- **Meta description:** So sánh các hãng biến tần theo 8 tiêu chí thực tế: phụ tùng lâu dài, hỗ trợ kỹ thuật, tài liệu, khả năng quá tải, độ bền môi trường nóng ẩm và tổng chi phí sở hữu — không chỉ giá mua.
+- **Thẻ (tags):** So sánh hãng biến tần, Chọn hãng biến tần, Biến tần Nhật Châu Âu, Biến tần Trung Quốc, Tiêu chí so sánh biến tần
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/so-sanh-cac-hang-bien-tan.png`
+- **Tên file ảnh nên đặt:** `so-sanh-cac-hang-bien-tan.png`
+- **Alt text ảnh:** Nên Mua Biến Tần Hãng Nào
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Phân Biệt Biến Tần Thật Giả Và Hàng Dựng
+- **URL:** `/phan-biet-bien-tan-that-gia/`
+- **Focus keyword:** phân biệt biến tần thật giả
+- **Meta description:** Cách phân biệt biến tần thật giả và hàng dựng: kiểm tra tem, số seri, bao bì, chất lượng vỏ, bo mạch, giấy tờ CO/CQ và những dấu hiệu cảnh báo khi giá rẻ bất thường.
+- **Thẻ (tags):** Phân biệt biến tần thật giả, Biến tần chính hãng, Biến tần dựng lại, Kiểm tra tem serial, Mua biến tần uy tín
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/phan-biet-bien-tan-that-gia.png`
+- **Tên file ảnh nên đặt:** `phan-biet-bien-tan-that-gia.png`
+- **Alt text ảnh:** Phân Biệt Biến Tần Thật Giả Và Hàng Dựng
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+
+## Biến tần — Lắp đặt & đấu nối
+
+### Sơ Đồ Đấu Dây Biến Tần (Mạch Động Lực)
+- **URL:** `/so-do-dau-day-bien-tan/`
+- **Focus keyword:** sơ đồ đấu dây biến tần
+- **Meta description:** Sơ đồ đấu dây biến tần chuẩn: đấu nguồn vào R/S/T, đầu ra U/V/W tới động cơ, nối đất PE, vị trí aptomat và cuộn kháng, cùng 8 lỗi đấu dây nguy hiểm cần tránh tuyệt đối.
+- **Thẻ (tags):** Sơ đồ đấu dây biến tần, Đấu R S T U V W, Nối đất biến tần, Đấu động lực biến tần, Lỗi đấu dây biến tần
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/so-do-dau-day-bien-tan.png`
+- **Tên file ảnh nên đặt:** `so-do-dau-day-bien-tan.png`
+- **Alt text ảnh:** Sơ Đồ Đấu Dây Biến Tần (Mạch Động Lực)
+- **Gợi ý ảnh thật:** Sơ đồ đấu dây 4-20mA (2/3/4 dây) rõ ràng, dễ nhìn.
+
+### Đấu Mạch Điều Khiển Biến Tần (DI, AI, AO, Relay)
+- **URL:** `/dau-dieu-khien-bien-tan/`
+- **Focus keyword:** đấu điều khiển biến tần
+- **Meta description:** Hướng dẫn đấu mạch điều khiển biến tần: chân DI chạy/dừng, chọn NPN hay PNP, đấu biến trở và cảm biến 4-20mA vào AI, ngõ ra AO và relay, cùng cách chống nhiễu cho cáp tín hiệu.
+- **Thẻ (tags):** Đầu điều khiển biến tần, Chân DI biến tần, NPN PNP biến tần, Đấu analog cho biến tần, Đấu biến trở biến tần
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/dau-dieu-khien-bien-tan.png`
+- **Tên file ảnh nên đặt:** `dau-dieu-khien-bien-tan.png`
+- **Alt text ảnh:** Đấu Mạch Điều Khiển Biến Tần (DI, AI, AO, Relay)
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Chọn Cáp Và Aptomat Cho Biến Tần
+- **URL:** `/chon-cap-aptomat-cho-bien-tan/`
+- **Focus keyword:** chọn aptomat cho biến tần
+- **Meta description:** Hướng dẫn chọn aptomat và cáp cho biến tần: vì sao phải tính theo dòng đầu vào chứ không phải dòng động cơ, chọn cáp bọc chống nhiễu, lưu ý về RCCB chống giật và cách đi cáp.
+- **Thẻ (tags):** Chọn cáp cho biến tần, Aptomat cho biến tần, MCCB biến tần, RCCB loại B, Tiết diện cáp động cơ
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/chon-cap-aptomat-cho-bien-tan.png`
+- **Tên file ảnh nên đặt:** `chon-cap-aptomat-cho-bien-tan.png`
+- **Alt text ảnh:** Chọn Cáp Và Aptomat Cho Biến Tần
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Lắp Biến Tần Trong Tủ Điện Đúng Cách
+- **URL:** `/lap-bien-tan-trong-tu-dien/`
+- **Focus keyword:** lắp biến tần trong tủ điện
+- **Meta description:** Hướng dẫn lắp biến tần trong tủ điện: tính nhiệt lượng toả ra, chọn quạt thông gió, khoảng cách lắp đặt, bố trí thiết bị tránh nhiễu và các lỗi khiến biến tần quá nhiệt sớm.
+- **Thẻ (tags):** Lắp biến tần trong tủ điện, Bố trí tủ biến tần, Tản nhiệt tủ điện, Quạt hút tủ điện, Khoảng cách lắp biến tần
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/lap-bien-tan-trong-tu-dien.png`
+- **Tên file ảnh nên đặt:** `lap-bien-tan-trong-tu-dien.png`
+- **Alt text ảnh:** Lắp Biến Tần Trong Tủ Điện Đúng Cách
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Chống Nhiễu EMC Cho Biến Tần
+- **URL:** `/chong-nhieu-emc-cho-bien-tan/`
+- **Focus keyword:** chống nhiễu biến tần
+- **Meta description:** Biến tần gây nhiễu cảm biến, treo PLC, rớt Modbus? Hướng dẫn hiểu cơ chế phát nhiễu, quy trình chẩn đoán theo thứ tự và 10 biện pháp xử lý từ rẻ đến tốn kém.
+- **Thẻ (tags):** Chống nhiễu biến tần, Nhiễu EMC biến tần, Lọc EMC, Cáp bọc chống nhiễu, Nhiễu Modbus RS485
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/chong-nhieu-emc-cho-bien-tan.png`
+- **Tên file ảnh nên đặt:** `chong-nhieu-emc-cho-bien-tan.png`
+- **Alt text ảnh:** Chống Nhiễu EMC Cho Biến Tần
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Cuộn Kháng Biến Tần: Đầu Vào, Đầu Ra Và Các Loại Lọc
+- **URL:** `/cuon-khang-loc-nhieu-bien-tan/`
+- **Focus keyword:** cuộn kháng biến tần
+- **Meta description:** Cuộn kháng biến tần là gì, khi nào cần đầu vào, khi nào cần đầu ra? Phân biệt cuộn kháng, lọc dU/dt, lọc sin, lọc EMC và cách chọn theo chiều dài cáp.
+- **Thẻ (tags):** Cuộn kháng biến tần, Cuộn kháng đầu vào, Cuộn kháng đầu ra, Lọc dU/dt, Lọc sin biến tần
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/cuon-khang-loc-nhieu-bien-tan.png`
+- **Tên file ảnh nên đặt:** `cuon-khang-loc-nhieu-bien-tan.png`
+- **Alt text ảnh:** Cuộn Kháng Biến Tần: Đầu Vào, Đầu Ra Và Các Loại Lọc
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+
+## Biến tần — Cài đặt & điều khiển
+
+### Cài Đặt Thông Số Biến Tần Từ Đầu
+- **URL:** `/cai-dat-thong-so-bien-tan/`
+- **Focus keyword:** cài đặt biến tần
+- **Meta description:** Hướng dẫn cài đặt biến tần từ đầu: reset về mặc định, khai báo động cơ, chọn nguồn lệnh, đặt tần số, tăng giảm tốc và auto-tune. Kèm bảng thông số và lỗi hay gặp.
+- **Thẻ (tags):** Cài đặt biến tần, Thông số biến tần, Reset biến tần, Auto tune biến tần, Khai báo động cơ
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/cai-dat-thong-so-bien-tan.png`
+- **Tên file ảnh nên đặt:** `cai-dat-thong-so-bien-tan.png`
+- **Alt text ảnh:** Cài Đặt Thông Số Biến Tần Từ Đầu
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Cài Thời Gian Tăng Giảm Tốc Cho Biến Tần
+- **URL:** `/cai-tang-giam-toc-bien-tan/`
+- **Focus keyword:** thời gian tăng tốc biến tần
+- **Meta description:** Cách đặt thời gian tăng giảm tốc cho biến tần theo quán tính tải, xử lý lỗi quá dòng khi tăng tốc và quá áp khi giảm tốc, khi nào cần điện trở xả.
+- **Thẻ (tags):** Thời gian tăng tốc biến tần, Thời gian giảm tốc, Đường cong chữ S, Điện trở xả biến tần, Bộ hãm biến tần
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/cai-tang-giam-toc-bien-tan.png`
+- **Tên file ảnh nên đặt:** `cai-tang-giam-toc-bien-tan.png`
+- **Alt text ảnh:** Cài Thời Gian Tăng Giảm Tốc Cho Biến Tần
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Chế Độ Điều Khiển Biến Tần: V/f Và Vector
+- **URL:** `/che-do-dieu-khien-vf-vector/`
+- **Focus keyword:** v/f và vector
+- **Meta description:** So sánh V/f, sensorless vector và vector có encoder: khác nhau ở đâu, mô-men thấp tốc ra sao, khi nào bắt buộc dùng vector và cách cài đúng.
+- **Thẻ (tags):** Chế độ V/f, Sensorless vector, Vector có encoder, Mô-men khởi động, Torque boost
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/che-do-dieu-khien-vf-vector.png`
+- **Tên file ảnh nên đặt:** `che-do-dieu-khien-vf-vector.png`
+- **Alt text ảnh:** Chế Độ Điều Khiển Biến Tần: V/f Và Vector
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Điều Khiển Biến Tần Bằng PLC
+- **URL:** `/dieu-khien-bien-tan-bang-plc/`
+- **Focus keyword:** điều khiển biến tần bằng plc
+- **Meta description:** Ba cách điều khiển biến tần từ PLC: đầu ra số đa cấp tốc độ, analog 4-20mA và Modbus RTU. So sánh ưu nhược, cách đấu, thanh ghi và lỗi truyền thông hay gặp.
+- **Thẻ (tags):** Điều khiển biến tần bằng PLC, Modbus RTU biến tần, RS485 biến tần, Đa cấp tốc độ, Thanh ghi biến tần
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/dieu-khien-bien-tan-bang-plc.png`
+- **Tên file ảnh nên đặt:** `dieu-khien-bien-tan-bang-plc.png`
+- **Alt text ảnh:** Điều Khiển Biến Tần Bằng PLC
+- **Gợi ý ảnh thật:** Ảnh PLC Mitsubishi FX3U/FX5U + bảng so sánh.
+
+### Điều Khiển PID Bằng Biến Tần
+- **URL:** `/dieu-khien-pid-bang-bien-tan/`
+- **Focus keyword:** pid biến tần
+- **Meta description:** Hướng dẫn dùng PID tích hợp trong biến tần để giữ áp suất, lưu lượng, mức, nhiệt độ: đấu cảm biến, cài thông số, quy trình chỉnh P-I-D và xử lý dao động.
+- **Thẻ (tags):** PID biến tần, Cài PID biến tần, Giữ áp suất tự động, Biến tần vòng kín, Chức năng sleep biến tần
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/dieu-khien-pid-bang-bien-tan.png`
+- **Tên file ảnh nên đặt:** `dieu-khien-pid-bang-bien-tan.png`
+- **Alt text ảnh:** Điều Khiển PID Bằng Biến Tần
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Biến Tần Cho Bơm Nước
+- **URL:** `/bien-tan-cho-bom-nuoc/`
+- **Focus keyword:** biến tần cho bơm nước
+- **Meta description:** Lắp biến tần cho bơm nước: chọn công suất, cảm biến áp suất, cài PID và chức năng ngủ. So sánh với van tiết lưu và bình tích áp, kèm bài toán hoàn vốn.
+- **Thẻ (tags):** Biến tần cho bơm nước, Bơm tăng áp biến tần, Giữ áp suất nước, Biến tần bơm chìm, Tiết kiệm điện bơm
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/bien-tan-cho-bom-nuoc.png`
+- **Tên file ảnh nên đặt:** `bien-tan-cho-bom-nuoc.png`
+- **Alt text ảnh:** Biến Tần Cho Bơm Nước
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Biến Tần Cho Quạt Hút
+- **URL:** `/bien-tan-cho-quat-hut/`
+- **Focus keyword:** biến tần cho quạt
+- **Meta description:** Lắp biến tần cho quạt hút bụi, quạt thông gió, quạt lò: chọn công suất, xử lý quán tính cánh quạt, giữ chênh áp bằng PID và so sánh với damper.
+- **Thẻ (tags):** Biến tần cho quạt, Quạt hút bụi biến tần, Quạt thông gió biến tần, Flying start, Skip frequency
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/bien-tan-cho-quat-hut.png`
+- **Tên file ảnh nên đặt:** `bien-tan-cho-quat-hut.png`
+- **Alt text ảnh:** Biến Tần Cho Quạt Hút
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+
+## Biến tần — Lỗi & bảo trì
+
+### Lỗi Biến Tần Thường Gặp Và Cách Khắc Phục
+- **URL:** `/loi-bien-tan-thuong-gap/`
+- **Focus keyword:** lỗi biến tần
+- **Meta description:** Tổng hợp các nhóm lỗi biến tần phổ biến: quá dòng, quá áp, thấp áp, quá nhiệt, quá tải, mất pha, lỗi truyền thông. Kèm quy trình chẩn đoán 7 bước.
+- **Thẻ (tags):** Lỗi biến tần, Mã lỗi biến tần, Chẩn đoán lỗi biến tần, Biến tần báo lỗi, Khắc phục lỗi biến tần
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/loi-bien-tan-thuong-gap.png`
+- **Tên file ảnh nên đặt:** `loi-bien-tan-thuong-gap.png`
+- **Alt text ảnh:** Lỗi Biến Tần Thường Gặp Và Cách Khắc Phục
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Lỗi Quá Dòng Biến Tần (OC)
+- **URL:** `/loi-qua-dong-bien-tan/`
+- **Focus keyword:** lỗi quá dòng biến tần
+- **Meta description:** Biến tần báo lỗi quá dòng OC khi tăng tốc, khi chạy hay ngay khi khởi động? Phân biệt ba tình huống, quy trình chẩn đoán và cách xử lý theo từng nguyên nhân.
+- **Thẻ (tags):** Lỗi quá dòng biến tần, Lỗi OC biến tần, Quá dòng khi tăng tốc, Chạm chập động cơ, Kẹt tải cơ khí
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/loi-qua-dong-bien-tan.png`
+- **Tên file ảnh nên đặt:** `loi-qua-dong-bien-tan.png`
+- **Alt text ảnh:** Lỗi Quá Dòng Biến Tần (OC)
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Lỗi Quá Áp Và Thấp Áp Trên Biến Tần
+- **URL:** `/loi-qua-ap-thap-ap-bien-tan/`
+- **Focus keyword:** lỗi quá áp biến tần
+- **Meta description:** Biến tần báo OV khi dừng hoặc LV khi khởi động? Giải thích DC bus, phân biệt hai lỗi, cách xử lý mất pha, sụt áp lưới và khi nào cần điện trở xả.
+- **Thẻ (tags):** Lỗi quá áp biến tần, Lỗi thấp áp biến tần, Lỗi OV LV, Mất pha đầu vào, Điện áp DC bus
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/loi-qua-ap-thap-ap-bien-tan.png`
+- **Tên file ảnh nên đặt:** `loi-qua-ap-thap-ap-bien-tan.png`
+- **Alt text ảnh:** Lỗi Quá Áp Và Thấp Áp Trên Biến Tần
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Lỗi Quá Nhiệt Và Quá Tải Trên Biến Tần
+- **URL:** `/loi-qua-nhiet-qua-tai-bien-tan/`
+- **Focus keyword:** lỗi quá nhiệt biến tần
+- **Meta description:** Biến tần báo OH khi trời nóng hoặc OL khi tải nặng? Nguyên nhân quá nhiệt do quạt, bụi, tủ kín; quá tải do chọn sai công suất và cơ khí. Kèm cách phòng ngừa.
+- **Thẻ (tags):** Lỗi quá nhiệt biến tần, Lỗi quá tải biến tần, Lỗi OH OL, Quạt làm mát biến tần, Derating nhiệt độ
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/loi-qua-nhiet-qua-tai-bien-tan.png`
+- **Tên file ảnh nên đặt:** `loi-qua-nhiet-qua-tai-bien-tan.png`
+- **Alt text ảnh:** Lỗi Quá Nhiệt Và Quá Tải Trên Biến Tần
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Bảo Trì Biến Tần Định Kỳ
+- **URL:** `/bao-tri-bien-tan-dinh-ky/`
+- **Focus keyword:** bảo trì biến tần
+- **Meta description:** Quy trình bảo trì biến tần: vệ sinh tản nhiệt, siết cực đấu, kiểm tra quạt và tụ DC bus. Kèm checklist theo tháng/quý/năm và cách lưu hồ sơ thiết bị.
+- **Thẻ (tags):** Bảo trì biến tần, Vệ sinh biến tần, Thay quạt biến tần, Tuổi thọ tụ biến tần, Checklist bảo trì
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/bao-tri-bien-tan-dinh-ky.png`
+- **Tên file ảnh nên đặt:** `bao-tri-bien-tan-dinh-ky.png`
+- **Alt text ảnh:** Bảo Trì Biến Tần Định Kỳ
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Sửa Hay Thay Biến Tần?
+- **URL:** `/sua-hay-thay-bien-tan/`
+- **Focus keyword:** sửa hay thay biến tần
+- **Meta description:** Biến tần hỏng nên sửa hay thay mới? Phân tích theo mức độ hư hỏng, tuổi thiết bị, tính sẵn có linh kiện, tầm quan trọng của máy và tổng chi phí vòng đời.
+- **Thẻ (tags):** Sửa hay thay biến tần, Sửa biến tần, Thay biến tần mới, Chi phí sửa biến tần, Biến tần dự phòng
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/sua-hay-thay-bien-tan.png`
+- **Tên file ảnh nên đặt:** `sua-hay-thay-bien-tan.png`
+- **Alt text ảnh:** Sửa Hay Thay Biến Tần
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.

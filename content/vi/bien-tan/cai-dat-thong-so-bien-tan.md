@@ -15,6 +15,10 @@ H1          : Cài Đặt Thông Số Biến Tần Từ Đầu
 
 ## Vì sao phải cài đặt thông số trước khi chạy?
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-bien-tan.svg)
+
+
 Biến tần xuất xưởng với một bộ **thông số mặc định của nhà sản xuất**. Bộ thông số đó được đặt cho một động cơ giả định "trung bình", một cách điều khiển giả định và một kiểu tải giả định. Hệ thống thực tế của bạn gần như chắc chắn khác.
 
 Chạy biến tần với thông số mặc định thường dẫn tới một trong các kết quả sau:
@@ -29,11 +33,19 @@ Việc cài đặt không phức tạp. Với **khoảng 10–12 thông số**, 
 
 > **Vừa mua biến tần và chưa biết bắt đầu từ đâu?** Gửi **model biến tần · nhãn động cơ · mô tả tải** → [Nhận bộ thông số gợi ý](#bao-gia).
 
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-vf-ratio.svg)
+
+
 Đây là bài **18/30** trong [chuỗi bài biến tần](/bien-tan-la-gi/).
 
 ---
 
 ## Nguyên lý: hiểu cách biến tần tổ chức thông số
+
+<!--IMG:spec-->
+![Cấu tạo & thông số](assets/diagrams/spec-vfd-thongso.svg)
+
 
 Mọi biến tần, dù của hãng nào, đều tổ chức thông số theo cùng một logic. Nắm được logic này thì đọc tài liệu hãng nào cũng nhanh.
 
@@ -89,6 +101,10 @@ Sau 12 thông số này, tùy ứng dụng mà bổ sung:
 
 ## Ứng dụng: quy trình cài đặt 8 bước
 
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-vfd-bom.svg)
+
+
 **Bước 1 — Ngắt kết nối cơ khí nếu có thể.** Với thiết bị mới hoặc động cơ chưa rõ, nên tháo khớp nối để chạy thử không tải trước. Nếu không tháo được thì ít nhất phải đảm bảo tải quay được an toàn theo cả hai chiều.
 
 **Bước 2 — Reset về mặc định.** Bắt buộc với biến tần cũ, biến tần mua lại, hoặc máy đã có người khác cài. Bước này loại bỏ toàn bộ thông số lạ mà bạn không biết tồn tại. Sau khi reset, biến tần thường yêu cầu tắt nguồn và bật lại.
@@ -121,6 +137,10 @@ Bước 8 hay bị bỏ qua nhất, và là bước tốn kém nhất khi cần 
 ---
 
 ## So sánh: chạy mặc định, cài cơ bản và cài đầy đủ
+
+<!--IMG:comp-->
+![So sánh & lựa chọn](assets/diagrams/comp-vf-vector.svg)
+
 
 | Mức độ | Việc phải làm | Phù hợp với | Rủi ro còn lại |
 |---|---|---|---|

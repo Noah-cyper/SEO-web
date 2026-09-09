@@ -14,6 +14,10 @@ H1          : Chống Nhiễu EMC Cho Biến Tần
 
 ## Triệu chứng: khi nào bạn đang gặp vấn đề nhiễu?
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-tu-dien-bien-tan.svg)
+
+
 Nhiễu điện từ (EMC) là loại sự cố khó chịu nhất khi làm việc với biến tần, vì nó **không làm hỏng gì ngay** mà chỉ khiến hệ thống hoạt động sai một cách khó hiểu.
 
 Các dấu hiệu điển hình:
@@ -30,6 +34,10 @@ Các dấu hiệu điển hình:
 **Dấu hiệu nhận biết chắc chắn:** vấn đề **chỉ xuất hiện khi biến tần đang chạy**, và biến mất khi dừng biến tần. Nếu đúng như vậy, gần như chắc chắn đây là vấn đề nhiễu.
 
 > **Đang gặp nhiễu chưa xử lý được?** Gửi **mô tả hiện tượng · sơ đồ đi cáp · ảnh tủ** → [Nhận hỗ trợ chẩn đoán](#bao-gia).
+
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-vfd-nhieu.svg)
+
 
 Đây là bài **16/30** trong [chuỗi bài biến tần](/bien-tan-la-gi/).
 
@@ -76,6 +84,10 @@ Trước khi mua thiết bị chống nhiễu, hãy xác định **nhiễu vào 
 
 ## Cấu tạo giải pháp: 10 biện pháp từ rẻ đến tốn kém
 
+<!--IMG:spec-->
+![Cấu tạo & thông số](assets/diagrams/spec-vfd-emc.svg)
+
+
 ### Nhóm 1 — Miễn phí hoặc rất rẻ (làm trước)
 
 **1. Tách cáp tín hiệu khỏi cáp động lực.**
@@ -115,6 +127,10 @@ Làm mềm sườn xung, giảm nhiễu bức xạ từ cáp động cơ và gi�
 ---
 
 ## Ứng dụng: xử lý theo từng triệu chứng
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-vfd-plc.svg)
+
 
 | Triệu chứng | Nguyên nhân thường gặp | Xử lý theo thứ tự |
 |---|---|---|
@@ -157,6 +173,10 @@ Kinh nghiệm thực tế: **phần lớn ca nhiễu được giải quyết ở
 ---
 
 ## So sánh: lọc đầu vào và cuộn kháng đầu ra
+
+<!--IMG:comp-->
+![So sánh & lựa chọn](assets/diagrams/comp-vfd-hang.svg)
+
 
 Hai thiết bị này hay bị nhầm lẫn vì đều liên quan tới nhiễu, nhưng giải quyết hai vấn đề khác nhau:
 

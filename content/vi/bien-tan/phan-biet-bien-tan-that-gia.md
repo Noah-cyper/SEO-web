@@ -14,6 +14,10 @@ H1          : Phân Biệt Biến Tần Thật Giả Và Hàng Dựng
 
 ## Ba loại hàng cần phân biệt
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-bien-tan.svg)
+
+
 Trên thị trường không chỉ có "thật" và "giả". Thực tế có ba nhóm, và nhóm ở giữa mới là nơi nhiều người mắc bẫy:
 
 **1. Hàng chính hãng.** Sản xuất bởi hãng, nhập khẩu chính ngạch, có đầy đủ **CO (chứng nhận xuất xứ), CQ (chứng nhận chất lượng)**, hoá đơn VAT và bảo hành từ nhà phân phối.
@@ -25,6 +29,10 @@ Trên thị trường không chỉ có "thật" và "giả". Thực tế có ba 
 Bài này giúp bạn nhận biết cả ba, với trọng tâm là **hàng dựng** vì đây là rủi ro phổ biến nhất tại Việt Nam.
 
 > **Không chắc thiết bị mình mua có chính hãng?** Gửi **ảnh tem, số seri và ảnh tổng thể** → [Nhận hỗ trợ kiểm tra](#bao-gia).
+
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-vfd-loi.svg)
+
 
 Đây là bài **11/30** trong [chuỗi bài biến tần](/bien-tan-la-gi/), khép lại tầng "chọn mua".
 
@@ -46,6 +54,10 @@ Khoản chênh lệch bạn tiết kiệm được thường **nhỏ hơn rất 
 ---
 
 ## Cấu tạo dấu hiệu: 10 điểm cần kiểm tra
+
+<!--IMG:spec-->
+![Cấu tạo & thông số](assets/diagrams/spec-vfd-baotri.svg)
+
 
 ### 1. Tem nhãn và chất lượng in
 
@@ -129,6 +141,10 @@ Cuối cùng nhưng quan trọng nhất: **ai chịu trách nhiệm khi máy h�
 
 ## Ứng dụng: quy trình kiểm tra khi nhận hàng
 
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-vfd-suachua.svg)
+
+
 **Trước khi thanh toán:**
 1. Yêu cầu **ảnh thực tế** của đúng thiết bị sẽ giao (không phải ảnh catalogue).
 2. Yêu cầu **ảnh tem và số seri** để tra cứu trước.
@@ -152,6 +168,10 @@ Cuối cùng nhưng quan trọng nhất: **ai chịu trách nhiệm khi máy h�
 ---
 
 ## So sánh: hàng chính hãng và hàng trôi nổi
+
+<!--IMG:comp-->
+![So sánh & lựa chọn](assets/diagrams/comp-vfd-that-gia.svg)
+
 
 | Tiêu chí | **Chính hãng** | **Hàng dựng / trôi nổi** |
 |---|---|---|

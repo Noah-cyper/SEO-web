@@ -15,6 +15,10 @@ H1          : Cài Thời Gian Tăng Giảm Tốc Cho Biến Tần
 
 ## Hai con số quyết định biến tần chạy êm hay báo lỗi
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-bien-tan.svg)
+
+
 Trong toàn bộ bảng thông số của biến tần, **thời gian tăng tốc** và **thời gian giảm tốc** là hai con số gây ra nhiều sự cố nhất — và cũng là hai con số dễ sửa nhất.
 
 Định nghĩa của chúng rất cụ thể:
@@ -33,6 +37,10 @@ Hai con số này ảnh hưởng trực tiếp tới:
 - **Năng suất** — chu kỳ máy dài hay ngắn.
 
 > **Máy hay báo lỗi khi khởi động hoặc khi dừng?** Gửi **mã lỗi · model biến tần · mô tả tải** → [Nhận tư vấn xử lý](#bao-gia).
+
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-vf-ratio.svg)
+
 
 Đây là bài **19/30** trong [chuỗi bài biến tần](/bien-tan-la-gi/).
 
@@ -74,6 +82,10 @@ S-curve rất đáng dùng khi:
 
 ## Cấu tạo bộ thông số liên quan
 
+<!--IMG:spec-->
+![Cấu tạo & thông số](assets/diagrams/spec-vfd-thongso.svg)
+
+
 Ngoài hai thông số chính, có một nhóm thông số phụ đi kèm mà hiểu đúng sẽ giải quyết được phần lớn tình huống:
 
 | Thông số | Ý nghĩa | Khi nào dùng |
@@ -91,6 +103,14 @@ Ngoài hai thông số chính, có một nhóm thông số phụ đi kèm mà hi
 ---
 
 ## Ứng dụng: chọn thời gian theo loại tải
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-vfd-bangtai.svg)
+
+
+
+<!--IMG:comp-->
+![So sánh & lựa chọn](assets/diagrams/comp-vfd-tai.svg)
 
 Không có con số đúng cho mọi máy. Nhưng có **thứ tự ưu tiên rõ ràng** theo loại tải:
 

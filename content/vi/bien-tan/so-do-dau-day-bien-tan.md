@@ -14,6 +14,10 @@ H1          : Sơ Đồ Đấu Dây Biến Tần (Mạch Động Lực)
 
 ## Nguyên tắc an toàn trước khi bắt đầu
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-bien-tan.svg)
+
+
 Đấu dây biến tần không phức tạp, nhưng có **vài lỗi có thể phá hỏng thiết bị ngay lập tức** hoặc gây nguy hiểm cho người. Trước khi thao tác:
 
 - **Cắt điện hoàn toàn** và treo biển cảnh báo tại tủ.
@@ -23,6 +27,10 @@ H1          : Sơ Đồ Đấu Dây Biến Tần (Mạch Động Lực)
 
 > ⚠️ Bài này trình bày **nguyên tắc chung**. Với thiết bị thực tế, tài liệu của nhà sản xuất luôn là căn cứ cuối cùng.
 
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-vfd-pwm.svg)
+
+
 > **Cần hỗ trợ đấu nối tại hiện trường?** Gửi **model biến tần · công suất động cơ · sơ đồ tủ hiện có** → [Nhận hỗ trợ kỹ thuật](#bao-gia).
 
 Đây là bài **12/30** trong [chuỗi bài biến tần](/bien-tan-la-gi/), mở đầu tầng lắp đặt.
@@ -30,6 +38,10 @@ H1          : Sơ Đồ Đấu Dây Biến Tần (Mạch Động Lực)
 ---
 
 ## Cấu tạo hàng đầu cốt: các nhóm chân trên biến tần
+
+<!--IMG:spec-->
+![Cấu tạo & thông số](assets/diagrams/spec-vfd-dauday.svg)
+
 
 Một biến tần điển hình có ba nhóm đầu nối:
 
@@ -91,6 +103,10 @@ Rất nhiều ca "biến tần gây nhiễu cảm biến" hoặc "mất kết n�
 
 ## Ứng dụng: các cấu hình đấu dây thường gặp
 
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-vfd-bom.svg)
+
+
 ### Cấu hình 1 — Cơ bản nhất
 
 Aptomat → biến tần → động cơ. Chạy/dừng bằng bàn phím trên biến tần, chỉnh tốc độ bằng phím lên/xuống. Phù hợp máy đơn giản, ít thao tác.
@@ -138,6 +154,10 @@ Với máy quan trọng, đôi khi cần mạch cho phép **chạy động cơ t
 ---
 
 ## So sánh: đấu trực tiếp và đấu qua biến tần
+
+<!--IMG:comp-->
+![So sánh & lựa chọn](assets/diagrams/comp-vfd-saobam.svg)
+
 
 | Hạng mục | **Đấu trực tiếp (DOL)** | **Qua biến tần** |
 |---|---|---|
