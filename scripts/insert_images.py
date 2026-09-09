@@ -66,11 +66,36 @@ VFD_IMG = {
  "sua-hay-thay-bien-tan":     ("rep-bien-tan-loi","prin-vfd-loi","spec-vfd-baotri","app-vfd-suachua","comp-sua-thay"),
 }
 
+# Biến tần — mở rộng tầng 6–9 (20 bài): 5 ảnh/bài
+VFD2_IMG = {
+ "bien-tan-cho-bang-tai":       ("rep-vfd-bangtai","prin-vf-ratio","spec-vfd-sizing","app-vfd-bangtai2","comp-vfd-tai"),
+ "bien-tan-cho-may-nen-khi":    ("rep-vfd-nenkhi","prin-vfd-pid","spec-vfd-sizing","app-vfd-nenkhi","comp-vfd-tai"),
+ "bien-tan-cho-cau-truc-palang":("rep-vfd-cautruc","prin-vfd-regen","spec-vfd-sto","app-vfd-cautruc","comp-vfd-regen"),
+ "bien-tan-cho-may-tron-may-nghien":("rep-vfd-tron","prin-vf-ratio","spec-vfd-thongso","app-vfd-tron","comp-vf-vector"),
+ "bien-tan-trong-hvac":         ("rep-vfd-hvac","prin-affinity","spec-vfd-sizing","app-vfd-hvac","comp-vfd-tai"),
+ "bien-tan-hoan-nang-luong":    ("rep-vfd-cautruc","prin-vfd-regen","spec-vfd-afe","app-vfd-cautruc","comp-vfd-regen"),
+ "dong-bo-nhieu-bien-tan":      ("rep-vfd-bangtai","prin-master-slave","spec-vfd-fieldbus","app-vfd-bangtai2","comp-fieldbus"),
+ "bien-tan-cho-dong-co-nam-cham-vinh-cuu":("rep-bien-tan","prin-pmsm","spec-vfd-thongso","app-vfd-tietkiem","comp-motor-im-pm"),
+ "safe-torque-off-bien-tan":    ("rep-tu-dien-bien-tan","prin-vfd-sto","spec-vfd-sto","app-vfd-cautruc","comp-loto-sto"),
+ "bien-tan-mang-truyen-thong-cong-nghiep":("rep-bien-tan","prin-fieldbus","spec-vfd-fieldbus","app-vfd-plc","comp-fieldbus"),
+ "song-hai-thd-bien-tan":       ("rep-tu-dien-bien-tan","prin-song-hai","spec-vfd-emc","app-vfd-plc","comp-loc-song-hai"),
+ "he-so-cong-suat-tu-bu-bien-tan":("rep-tu-dien-bien-tan","prin-cosphi","spec-vfd-emc","app-vfd-tietkiem","comp-loc-song-hai"),
+ "bien-tan-chay-tren-may-phat-dien":("rep-bien-tan","prin-may-phat","spec-vfd-sizing","app-vfd-nenkhi","comp-vfd-tai"),
+ "dong-ro-noi-dat-bien-tan":    ("rep-tu-dien-bien-tan","prin-dong-ro","spec-vfd-emc","app-vfd-suachua","comp-vfd-hang"),
+ "bien-tan-va-khoi-dong-mem":   ("rep-bien-tan","prin-vf-ratio","spec-vfd-sizing","app-vfd-bangtai2","comp-vfd-khoidongmem"),
+ "lap-bien-tan-cho-may-dang-chay":("rep-vfd-retrofit","prin-affinity","spec-retrofit","app-vfd-retrofit","comp-vfd-roi"),
+ "nghiem-thu-chay-thu-bien-tan":("rep-tu-dien-bien-tan","prin-vfd-pwm","spec-nghiem-thu","app-vfd-retrofit","comp-vfd-hang"),
+ "an-toan-dien-voi-bien-tan":   ("rep-tu-dien-bien-tan","prin-dong-ro","spec-vfd-sto","app-vfd-suachua","comp-loto-sto"),
+ "giam-sat-bien-tan-tu-xa":     ("rep-bien-tan","prin-fieldbus","spec-giam-sat","app-vfd-monitor","comp-fieldbus"),
+ "danh-gia-dau-tu-hoan-von-bien-tan":("rep-bien-tan-bom","prin-affinity","spec-vfd-sizing","app-vfd-tietkiem","comp-vfd-roi"),
+}
+
 def pick(slug):
     s=slug
     key = slug.strip("/").replace("/","-")
     if key in RENEPOLY_IMG: return RENEPOLY_IMG[key]
     if key in VFD_IMG: return VFD_IMG[key]
+    if key in VFD2_IMG: return VFD2_IMG[key]
     # ei3 (IIoT bảo mật) — xử lý trước để không đụng rule chung (gateway, hien-thi…)
     if "ei3" in s or any(k in s for k in ["amphion","zethus","portara","connectedai"]):
         if "amphion" in s or "gateway-ket-noi" in s: return ("rep-gateway-ei3","prin-outbound","app-fleet")
