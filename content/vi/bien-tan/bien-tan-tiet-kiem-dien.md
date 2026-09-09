@@ -151,6 +151,24 @@ Khi cộng đủ những khoản này, bài toán đầu tư thường thuận l
 
 ---
 
+## Cách kiểm chứng mức tiết kiệm thực tế
+
+Con số tiết kiệm trên lý thuyết chỉ có giá trị khi được kiểm chứng bằng số đo thật. Đây là cách làm đơn giản mà bất kỳ đội bảo trì nào cũng thực hiện được.
+
+**Bước 1 — Đo trước khi lắp.** Dùng ampe kìm hoặc đồng hồ đo công suất, ghi lại **dòng và công suất tiêu thụ** ở các chế độ vận hành thực tế trong ít nhất một tuần. Ghi kèm thời điểm trong ngày và mức tải tương ứng.
+
+**Bước 2 — Ghi lại điều kiện vận hành hiện tại.** Van đang bóp bao nhiêu phần? Damper mở bao nhiêu? Máy chạy bao nhiêu giờ mỗi ngày? Đây chính là những con số cho biết bạn đang lãng phí bao nhiêu.
+
+**Bước 3 — Sau khi lắp biến tần, mở hoàn toàn van và damper.** Đây là bước hay bị quên nhất. Giữ nguyên van bóp sau khi lắp biến tần nghĩa là bạn vẫn đang phá bỏ năng lượng như cũ, chỉ khác là bây giờ có thêm một thiết bị trong tủ.
+
+**Bước 4 — Đo lại ở cùng điều kiện sản lượng.** Điều kiện so sánh phải tương đương: cùng lưu lượng, cùng áp suất, cùng sản lượng đầu ra. So sánh khi điều kiện khác nhau sẽ cho kết quả vô nghĩa.
+
+**Bước 5 — Theo dõi liên tục.** Nếu có đồng hồ đo điện năng riêng cho tủ, hãy ghi số hằng tuần. Xu hướng theo thời gian đáng tin hơn nhiều so với một lần đo đơn lẻ.
+
+Kinh nghiệm thực tế cho thấy phần lớn chênh lệch giữa **tiết kiệm kỳ vọng** và **tiết kiệm thực tế** đến từ ba nguyên nhân: van hoặc damper vẫn còn bóp, tần số nhỏ nhất đặt quá cao khiến máy không xuống được vùng tiết kiệm, và ước lượng sai tỷ lệ thời gian máy chạy non tải. Cả ba đều kiểm tra được trong một buổi.
+
+---
+
 ## Sai lầm khi kỳ vọng tiết kiệm điện
 
 1. **Lắp biến tần cho máy luôn chạy full tải.** Không có gì để tiết kiệm.

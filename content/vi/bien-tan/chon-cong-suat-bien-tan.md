@@ -169,6 +169,23 @@ Ngược lại, **dư quá nhiều (2–3 cấp) không phải là tốt hơn**:
 
 ---
 
+## Kiểm chứng lại lựa chọn sau khi lắp
+
+Chọn công suất trên giấy chỉ là bước đầu. Sau khi lắp xong, hãy dành mười phút để xác nhận lựa chọn là đúng — việc này rẻ hơn rất nhiều so với phát hiện sai vào mùa cao điểm.
+
+**Bốn phép đo cần làm trong tuần đầu vận hành:**
+
+1. **Đo dòng thực tế khi chạy ở chế độ nặng nhất** bằng ampe kìm, so với dòng định mức biến tần. Nếu dòng làm việc thường xuyên nằm gần sát ngưỡng, bạn đang không còn biên dự phòng nào cho ngày nóng hoặc khi tải nặng hơn.
+2. **Đo dòng lúc khởi động.** Đây là thời điểm dòng cao nhất. Nếu biến tần chạm ngưỡng ngay ở bước này, hoặc là thời gian tăng tốc quá ngắn, hoặc là công suất chọn thiếu thật.
+3. **Đọc nhiệt độ tản nhiệt** trên màn hình biến tần sau khi máy chạy ổn định vài giờ, vào **thời điểm nóng nhất trong ngày**. Nhiệt độ cao ngay từ đầu mùa mát là dấu hiệu sẽ có sự cố khi vào mùa nóng.
+4. **Kiểm tra dòng ba pha có cân nhau không.** Lệch đáng kể cho thấy vấn đề ở đấu nối hoặc ở động cơ, không phải ở việc chọn công suất.
+
+**Ghi lại các con số này vào hồ sơ máy.** Chúng trở thành mốc so sánh: sáu tháng sau, nếu dòng ở cùng chế độ vận hành đã tăng lên đáng kể, đó là dấu hiệu sớm của hỏng hóc cơ khí — vòng bi mòn, dây curoa quá căng, khớp nối lệch tâm — chứ không phải biến tần yếu đi.
+
+Một lưu ý cuối: nếu sau khi đo bạn phát hiện đã chọn thiếu, **đừng cố xoay xở bằng cách nâng ngưỡng bảo vệ**. Đó là cách nhanh nhất để hỏng cả biến tần lẫn động cơ. Hãy đổi lên một cấp công suất, hoặc xem lại xem tải có vấn đề cơ khí gì không.
+
+---
+
 ## Sai lầm thường gặp
 
 1. **Chỉ so kW mà không so dòng (A).**
