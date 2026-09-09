@@ -27,10 +27,50 @@ RENEPOLY_IMG = {
  "tinh-cong-suat-dung-luong-bess":  ("rep-bess-cabinet","prin-peakshaving","spec-sizing","app-factory-bess","compare-roi-bess"),
 }
 
+# Biến tần (VFD): 5 ảnh/bài — chuỗi bài 5 tầng (nền tảng → chọn → lắp → cài → lỗi)
+VFD_IMG = {
+ # Tầng 1 — Nền tảng
+ "bien-tan-la-gi":            ("rep-bien-tan","prin-vfd-pwm","spec-vfd-parts","app-vfd-bom","comp-vfd-saobam"),
+ "cau-tao-bien-tan":          ("rep-bien-tan","prin-vfd-pwm","spec-vfd-parts","app-vfd-bangtai","comp-vf-vector"),
+ "nguyen-ly-hoat-dong-bien-tan":("rep-bien-tan","prin-vfd-pwm","spec-vfd-parts","app-vfd-quat","comp-vf-vector"),
+ "phan-loai-bien-tan":        ("rep-bien-tan","prin-vf-ratio","spec-vfd-parts","app-vfd-bom","comp-vfd-tai"),
+ "bien-tan-tiet-kiem-dien":   ("rep-bien-tan-bom","prin-affinity","spec-vfd-sizing","app-vfd-tietkiem","comp-vfd-saobam"),
+ "bien-tan-va-dong-co-3-pha": ("rep-bien-tan","prin-vf-ratio","spec-vfd-dauday","app-vfd-bangtai","comp-vf-vector"),
+ # Tầng 2 — Chọn mua
+ "cach-chon-bien-tan":        ("rep-bien-tan","prin-vf-ratio","spec-vfd-sizing","app-vfd-bom","comp-vfd-tai"),
+ "chon-cong-suat-bien-tan":   ("rep-bien-tan","prin-affinity","spec-vfd-sizing","app-vfd-bangtai","comp-vfd-tai"),
+ "bien-tan-1-pha-ra-3-pha":   ("rep-bien-tan-1p3p","prin-vfd-pwm","spec-vfd-dauday","app-vfd-bom","comp-vfd-saobam"),
+ "so-sanh-cac-hang-bien-tan": ("rep-bien-tan","prin-vf-ratio","spec-vfd-sizing","app-vfd-plc","comp-vfd-hang"),
+ "phan-biet-bien-tan-that-gia":("rep-bien-tan","prin-vfd-loi","spec-vfd-baotri","app-vfd-suachua","comp-vfd-that-gia"),
+ # Tầng 3 — Lắp đặt & đấu nối
+ "so-do-dau-day-bien-tan":    ("rep-bien-tan","prin-vfd-pwm","spec-vfd-dauday","app-vfd-bom","comp-vfd-saobam"),
+ "dau-dieu-khien-bien-tan":   ("rep-bien-tan","prin-vfd-pwm","spec-vfd-dieukhien","app-vfd-plc","comp-vf-vector"),
+ "chon-cap-aptomat-cho-bien-tan":("rep-tu-dien-bien-tan","prin-vfd-pwm","spec-vfd-dauday","app-vfd-bangtai","comp-vfd-tai"),
+ "lap-bien-tan-trong-tu-dien":("rep-tu-dien-bien-tan","prin-vfd-nhieu","spec-vfd-emc","app-vfd-plc","comp-vfd-hang"),
+ "chong-nhieu-emc-cho-bien-tan":("rep-tu-dien-bien-tan","prin-vfd-nhieu","spec-vfd-emc","app-vfd-plc","comp-vfd-hang"),
+ "cuon-khang-loc-nhieu-bien-tan":("rep-tu-dien-bien-tan","prin-vfd-nhieu","spec-vfd-emc","app-vfd-bom","comp-vfd-tai"),
+ # Tầng 4 — Cài đặt & điều khiển
+ "cai-dat-thong-so-bien-tan": ("rep-bien-tan","prin-vf-ratio","spec-vfd-thongso","app-vfd-bom","comp-vf-vector"),
+ "cai-tang-giam-toc-bien-tan":("rep-bien-tan","prin-vf-ratio","spec-vfd-thongso","app-vfd-bangtai","comp-vfd-tai"),
+ "che-do-dieu-khien-vf-vector":("rep-bien-tan","prin-vf-ratio","spec-vfd-thongso","app-vfd-bangtai","comp-vf-vector"),
+ "dieu-khien-bien-tan-bang-plc":("rep-bien-tan","prin-vfd-pwm","spec-vfd-dieukhien","app-vfd-plc","comp-vfd-hang"),
+ "dieu-khien-pid-bang-bien-tan":("rep-bien-tan-bom","prin-vfd-pid","spec-vfd-dieukhien","app-vfd-bom","comp-vfd-tai"),
+ "bien-tan-cho-bom-nuoc":     ("rep-bien-tan-bom","prin-vfd-pid","spec-vfd-sizing","app-vfd-bom","comp-vfd-tai"),
+ "bien-tan-cho-quat-hut":     ("rep-bien-tan","prin-affinity","spec-vfd-sizing","app-vfd-quat","comp-vfd-tai"),
+ # Tầng 5 — Lỗi & bảo trì
+ "loi-bien-tan-thuong-gap":   ("rep-bien-tan-loi","prin-vfd-loi","spec-vfd-baotri","app-vfd-suachua","comp-sua-thay"),
+ "loi-qua-dong-bien-tan":     ("rep-bien-tan-loi","prin-vfd-loi","spec-vfd-thongso","app-vfd-suachua","comp-vfd-tai"),
+ "loi-qua-ap-thap-ap-bien-tan":("rep-bien-tan-loi","prin-vfd-loi","spec-vfd-dauday","app-vfd-suachua","comp-vfd-tai"),
+ "loi-qua-nhiet-qua-tai-bien-tan":("rep-bien-tan-loi","prin-vfd-loi","spec-vfd-baotri","app-vfd-suachua","comp-vfd-tai"),
+ "bao-tri-bien-tan-dinh-ky":  ("rep-tu-dien-bien-tan","prin-vfd-loi","spec-vfd-baotri","app-vfd-suachua","comp-sua-thay"),
+ "sua-hay-thay-bien-tan":     ("rep-bien-tan-loi","prin-vfd-loi","spec-vfd-baotri","app-vfd-suachua","comp-sua-thay"),
+}
+
 def pick(slug):
     s=slug
     key = slug.strip("/").replace("/","-")
     if key in RENEPOLY_IMG: return RENEPOLY_IMG[key]
+    if key in VFD_IMG: return VFD_IMG[key]
     # ei3 (IIoT bảo mật) — xử lý trước để không đụng rule chung (gateway, hien-thi…)
     if "ei3" in s or any(k in s for k in ["amphion","zethus","portara","connectedai"]):
         if "amphion" in s or "gateway-ket-noi" in s: return ("rep-gateway-ei3","prin-outbound","app-fleet")
