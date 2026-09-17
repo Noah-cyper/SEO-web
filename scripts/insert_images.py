@@ -90,12 +90,37 @@ VFD2_IMG = {
  "danh-gia-dau-tu-hoan-von-bien-tan":("rep-bien-tan-bom","prin-affinity","spec-vfd-sizing","app-vfd-tietkiem","comp-vfd-roi"),
 }
 
+# Cảm biến lưu lượng — chuỗi 20 bài: 5 ảnh/bài
+FLOW_IMG = {
+ "cam-bien-luu-luong-la-gi":   ("rep-cam-bien-luu-luong","prin-flow-profile","spec-flow-donvi","app-flow-nuoc","comp-flow-congnghe"),
+ "nguyen-ly-do-luu-luong":     ("rep-cam-bien-luu-luong","prin-faraday","spec-flow-donvi","app-flow-nuoc","comp-flow-congnghe"),
+ "phan-loai-cam-bien-luu-luong":("rep-cam-bien-luu-luong","prin-flow-profile","spec-flow-chon","app-flow-nuoc","comp-flow-congnghe"),
+ "don-vi-luu-luong-quy-doi":   ("rep-cam-bien-luu-luong","prin-thermal-mass","spec-flow-donvi","app-flow-hoi","comp-flow-tichkhoi"),
+ "cach-chon-cam-bien-luu-luong":("rep-cam-bien-luu-luong","prin-flow-profile","spec-flow-chon","app-flow-nuoc","comp-flow-chiphi"),
+ "dong-ho-luu-luong-dien-tu":  ("rep-dong-ho-dien-tu","prin-faraday","spec-flow-lapdat","app-flow-nuoc","comp-flow-congnghe"),
+ "cam-bien-luu-luong-sieu-am": ("rep-sieu-am-clamp","prin-transit-time","spec-flow-lapdat","app-flow-nuoc","comp-flow-clamp-inline"),
+ "luu-luong-ke-coriolis":      ("rep-coriolis","prin-coriolis","spec-flow-saiso","app-flow-hoi","comp-flow-tichkhoi"),
+ "luu-luong-ke-tuabin":        ("rep-tuabin","prin-tuabin","spec-flow-lapdat","app-flow-nuoc","comp-flow-chiphi"),
+ "luu-luong-ke-vortex":        ("rep-vortex","prin-vortex","spec-flow-saiso","app-flow-hoi","comp-flow-chiphi"),
+ "luu-luong-ke-chenh-ap-orifice":("rep-orifice","prin-bernoulli-dp","spec-flow-lapdat","app-flow-hoi","comp-flow-chiphi"),
+ "cam-bien-luu-luong-khi-nhiet":("rep-thermal-khi","prin-thermal-mass","spec-flow-donvi","app-flow-khinen","comp-flow-tichkhoi"),
+ "lap-dat-cam-bien-luu-luong": ("rep-cam-bien-luu-luong","prin-flow-profile","spec-flow-lapdat","app-flow-suachua","comp-flow-loi"),
+ "dau-day-cam-bien-luu-luong": ("rep-cam-bien-luu-luong","prin-faraday","spec-flow-dauday","app-flow-suachua","comp-flow-congnghe"),
+ "hieu-chuan-cam-bien-luu-luong":("rep-cam-bien-luu-luong","prin-tuabin","spec-flow-hieuchuan","app-flow-suachua","comp-flow-loi"),
+ "sai-so-do-luu-luong":        ("rep-cam-bien-luu-luong","prin-flow-profile","spec-flow-saiso","app-flow-suachua","comp-flow-chiphi"),
+ "do-luu-luong-nuoc-thai":     ("rep-flow-nuocthai","prin-faraday","spec-flow-lapdat","app-flow-nuoc","comp-flow-congnghe"),
+ "do-luu-luong-khi-nen":       ("rep-thermal-khi","prin-thermal-mass","spec-flow-donvi","app-flow-khinen","comp-flow-tichkhoi"),
+ "do-luu-luong-hoi-nuoc":      ("rep-flow-hoi","prin-vortex","spec-flow-saiso","app-flow-hoi","comp-flow-tichkhoi"),
+ "loi-cam-bien-luu-luong":     ("rep-cam-bien-luu-luong","prin-flow-loi","spec-flow-hieuchuan","app-flow-suachua","comp-flow-loi"),
+}
+
 def pick(slug):
     s=slug
     key = slug.strip("/").replace("/","-")
     if key in RENEPOLY_IMG: return RENEPOLY_IMG[key]
     if key in VFD_IMG: return VFD_IMG[key]
     if key in VFD2_IMG: return VFD2_IMG[key]
+    if key in FLOW_IMG: return FLOW_IMG[key]
     # ei3 (IIoT bảo mật) — xử lý trước để không đụng rule chung (gateway, hien-thi…)
     if "ei3" in s or any(k in s for k in ["amphion","zethus","portara","connectedai"]):
         if "amphion" in s or "gateway-ket-noi" in s: return ("rep-gateway-ei3","prin-outbound","app-fleet")
