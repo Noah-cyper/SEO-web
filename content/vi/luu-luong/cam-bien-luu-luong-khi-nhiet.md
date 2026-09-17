@@ -15,6 +15,10 @@ H1          : Cảm Biến Lưu Lượng Khí Kiểu Nhiệt
 
 ## Công nghệ được thiết kế riêng cho khí
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-thermal-khi.svg)
+
+
 Hầu hết công nghệ đo lưu lượng được phát triển cho chất lỏng rồi mở rộng sang khí. **Cảm biến nhiệt thì ngược lại** — nó sinh ra để đo khí, và đó là nơi nó vượt trội.
 
 Ba lý do khiến nó được chọn cho khí nén và khí công nghiệp:
@@ -30,6 +34,10 @@ Cộng thêm một lợi thế triển khai: loại **insertion (cắm vào ốn
 Nhưng nó có một ràng buộc mà bất kỳ ai dùng cũng phải hiểu: **kết quả phụ thuộc vào thành phần khí**.
 
 > **Cần đo khí nén hoặc khí công nghiệp?** Gửi **loại khí · đường kính ống · dải lưu lượng** → [Nhận tư vấn](#bao-gia).
+
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-thermal-mass.svg)
+
 
 Đây là bài **12/20** trong [chuỗi cảm biến lưu lượng](/cam-bien-luu-luong-la-gi/).
 
@@ -88,6 +96,10 @@ Nhiều thiết bị cho phép **chọn loại khí trong menu** từ một danh
 
 ## Cấu tạo và thông số
 
+<!--IMG:spec-->
+![Cấu tạo & thông số](assets/diagrams/spec-flow-donvi.svg)
+
+
 ### Hai kiểu lắp đặt
 
 **Loại inline (lắp trong ống).**
@@ -144,6 +156,10 @@ Cả ba đều dẫn tới **sai lệch từ từ**, không phải hỏng đột
 
 ## Ứng dụng: khí nén là ứng dụng số một
 
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-flow-khinen.svg)
+
+
 ### Đo khí nén trong nhà máy
 
 Đây là ứng dụng phổ biến nhất, và nó phục vụ ba mục đích khác nhau:
@@ -179,6 +195,10 @@ Thứ tự ưu tiên trong hệ khí nén điển hình:
 ---
 
 ## So sánh với các công nghệ đo khí khác
+
+<!--IMG:comp-->
+![So sánh & lựa chọn](assets/diagrams/comp-flow-tichkhoi.svg)
+
 
 | Tiêu chí | **Nhiệt (thermal)** | Vortex | Orifice | Coriolis |
 |---|---|---|---|---|

@@ -15,6 +15,10 @@ H1          : Lắp Đặt Cảm Biến Lưu Lượng Đúng Cách
 
 ## Thiết bị tốt lắp sai vẫn cho số sai
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-cam-bien-luu-luong.svg)
+
+
 Đây là điều làm cảm biến lưu lượng khác hẳn mọi thiết bị đo khác trong nhà máy.
 
 Một cảm biến áp suất lắp ở đâu trên đường ống cũng đo đúng áp suất tại đó. Một cảm biến nhiệt độ cắm vào đâu cũng đo đúng nhiệt độ chỗ đó. Nhưng một cảm biến lưu lượng **lắp sai vị trí sẽ cho số sai — và không có cách nào biết được nếu chỉ nhìn vào màn hình**.
@@ -26,6 +30,10 @@ Vì lý do đó, trong toàn bộ chuỗi bài này, **lắp đặt xứng đán
 Bài này trình bày bốn điều kiện bắt buộc của một vị trí lắp đúng, và cách xử lý khi hiện trường không đáp ứng được.
 
 > **Không chắc vị trí lắp có đạt không?** Gửi **ảnh đoạn ống dự kiến kèm các co, van xung quanh** → [Nhận đánh giá vị trí lắp](#bao-gia).
+
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-flow-profile.svg)
+
 
 Đây là bài **13/20** trong [chuỗi cảm biến lưu lượng](/cam-bien-luu-luong-la-gi/).
 
@@ -57,6 +65,10 @@ Sau mỗi vật cản, dòng chảy cần **một quãng đường để tự ph
 ---
 
 ## Cấu tạo: bốn điều kiện của một vị trí lắp đúng
+
+<!--IMG:spec-->
+![Cấu tạo & thông số](assets/diagrams/spec-flow-lapdat.svg)
+
 
 ### Điều kiện 1 — Đủ đoạn ống thẳng
 
@@ -137,6 +149,10 @@ Hậu quả: số liệu sai và thiết bị bị mài mòn do bọt vỡ.
 
 ## Ứng dụng: xử lý khi hiện trường không đủ điều kiện
 
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-flow-suachua.svg)
+
+
 Đây là tình huống thực tế phổ biến nhất: đường ống đã có sẵn, chật chội, đầy co và van — và không có đoạn thẳng nào đủ dài.
 
 Có bốn hướng xử lý, theo thứ tự nên thử:
@@ -202,6 +218,10 @@ Tốn kém nhất, nhưng đôi khi là đúng đắn nhất — đặc biệt v
 ---
 
 ## So sánh: mức độ khó tính của từng công nghệ
+
+<!--IMG:comp-->
+![So sánh & lựa chọn](assets/diagrams/comp-flow-loi.svg)
+
 
 | Công nghệ | Đoạn thẳng | Ống phải đầy | Nhạy bọt khí | Nhạy rung động | Tổng thể |
 |---|---|---|---|---|---|

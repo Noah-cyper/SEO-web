@@ -15,6 +15,10 @@ H1          : Lưu Lượng Kế Tuabin
 
 ## Công nghệ cơ khí vẫn giữ chỗ đứng sau nhiều thập kỷ
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-tuabin.svg)
+
+
 Giữa các công nghệ điện tử hiện đại, **lưu lượng kế tuabin** vẫn được dùng rộng rãi — và không phải vì thói quen. Nó có ba ưu điểm mà các công nghệ khác khó có cùng lúc:
 
 - **Độ chính xác tốt** với chất lỏng sạch, ở mức giá thấp hơn nhiều so với Coriolis.
@@ -28,6 +32,10 @@ Nhưng nó cũng là công nghệ **kén môi chất nhất** trong toàn bộ h
 Bài này trình bày rõ ranh giới đó: tuabin làm được gì rất tốt, và tuyệt đối không nên dùng ở đâu.
 
 > **Cần đo dầu, nhiên liệu hoặc chất lỏng sạch?** Gửi **môi chất · dải lưu lượng · độ nhớt** → [Nhận tư vấn](#bao-gia).
+
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-tuabin.svg)
+
 
 Đây là bài **9/20** trong [chuỗi cảm biến lưu lượng](/cam-bien-luu-luong-la-gi/).
 
@@ -79,6 +87,10 @@ Nếu ứng dụng của bạn có **độ nhớt biến động mạnh**, tuabi
 
 ## Cấu tạo và thông số
 
+<!--IMG:spec-->
+![Cấu tạo & thông số](assets/diagrams/spec-flow-lapdat.svg)
+
+
 ### Các bộ phận và điểm yếu của chúng
 
 | Bộ phận | Vai trò | Điểm yếu |
@@ -123,6 +135,14 @@ Vì tuabin rất sợ hạt rắn, hầu hết ứng dụng đều cần một *
 ---
 
 ## Ứng dụng: nơi tuabin là lựa chọn tốt và nơi tuyệt đối tránh
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-flow-nuoc.svg)
+
+
+
+<!--IMG:comp-->
+![So sánh & lựa chọn](assets/diagrams/comp-flow-chiphi.svg)
 
 ### Rất phù hợp
 

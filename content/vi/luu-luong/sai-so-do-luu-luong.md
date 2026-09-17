@@ -15,6 +15,10 @@ H1          : Sai Số Trong Đo Lưu Lượng
 
 ## Hai thiết bị cùng ghi "±0,5%" có thể rất khác nhau
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-cam-bien-luu-luong.svg)
+
+
 Khi so sánh hai bảng thông số, bạn thấy:
 
 - Thiết bị A: độ chính xác **±0,5% giá trị đọc**
@@ -34,6 +38,10 @@ Cùng một dòng chữ trong catalogue, nhưng một cái chính xác hơn cái
 Bài này giải thích cách đọc thông số sai số cho đúng, các nguồn sai số trong thực tế, và cách giảm chúng.
 
 > **Cần đánh giá sai số cho hệ đo của bạn?** Gửi **thông số thiết bị · dải lưu lượng thực tế** → [Nhận phân tích](#bao-gia).
+
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-flow-profile.svg)
+
 
 Đây là bài **16/20** trong [chuỗi cảm biến lưu lượng](/cam-bien-luu-luong-la-gi/).
 
@@ -74,6 +82,10 @@ Nhiều tài liệu ghi độ chính xác dưới dạng **kết hợp cả hai*
 ---
 
 ## Cấu tạo: các nguồn sai số trong thực tế
+
+<!--IMG:spec-->
+![Cấu tạo & thông số](assets/diagrams/spec-flow-saiso.svg)
+
 
 Sai số của **thiết bị** chỉ là một phần, và thường không phải phần lớn nhất. Dưới đây là các nguồn sai số xếp theo mức độ ảnh hưởng thực tế mà chúng tôi gặp trong nhà máy.
 
@@ -129,6 +141,10 @@ Sai số công bố của nhà sản xuất. Thường là **nguồn nhỏ nhấ
 ---
 
 ## Ứng dụng: các khái niệm liên quan cần phân biệt
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-flow-suachua.svg)
+
 
 ### Độ chính xác, độ lặp lại và độ phân giải
 
@@ -186,6 +202,10 @@ Với bộ đếm tổng, cần phân biệt hai loại:
 ---
 
 ## So sánh: giảm sai số bằng cách nào hiệu quả nhất
+
+<!--IMG:comp-->
+![So sánh & lựa chọn](assets/diagrams/comp-flow-chiphi.svg)
+
 
 | Biện pháp | Chi phí | Mức cải thiện | Nên làm khi |
 |---|---|---|---|

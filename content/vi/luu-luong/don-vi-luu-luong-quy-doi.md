@@ -15,6 +15,10 @@ H1          : Đơn Vị Lưu Lượng Và Cách Quy Đổi
 
 ## Sai số tốn kém nhất không nằm ở thiết bị
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-cam-bien-luu-luong.svg)
+
+
 Trong đo lưu lượng, có một loại sai số lớn hơn mọi sai số thiết bị cộng lại, và nó **không tốn một đồng nào để sửa**: nhầm lẫn đơn vị và điều kiện quy chiếu.
 
 Hai tình huống điển hình:
@@ -28,6 +32,10 @@ Cả hai đều không phải lỗi thiết bị. Chúng là lỗi **đơn vị*
 Bài này giải thích hệ thống đơn vị, cách quy đổi, và đặc biệt là **điều kiện quy chiếu** — khái niệm gây nhầm lẫn nhiều nhất.
 
 > **Cần đối chiếu đơn vị trong hồ sơ dự án?** Gửi **thông số đang có · môi chất** → [Nhận hỗ trợ quy đổi](#bao-gia).
+
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-thermal-mass.svg)
+
 
 Đây là bài **4/20** trong [chuỗi cảm biến lưu lượng](/cam-bien-luu-luong-la-gi/).
 
@@ -88,6 +96,10 @@ Muốn chuyển từ thể tích sang khối lượng, nhân với **khối lư�
 
 ## Cấu tạo vấn đề: điều kiện quy chiếu với khí
 
+<!--IMG:spec-->
+![Cấu tạo & thông số](assets/diagrams/spec-flow-donvi.svg)
+
+
 Để thoát khỏi sự mơ hồ trên, ngành công nghiệp dùng khái niệm **thể tích quy chuẩn**: quy đổi thể tích khí về **một điều kiện áp suất và nhiệt độ tham chiếu đã thỏa thuận**.
 
 Có hai họ ký hiệu:
@@ -125,6 +137,10 @@ Nhiều thiết bị đo khối lượng vẫn hiển thị Nm³/h cho tiện �
 ---
 
 ## Ứng dụng: bảng quy đổi và cách dùng
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-flow-hoi.svg)
+
 
 ### Quy đổi thể tích (luôn đúng, không phụ thuộc môi chất)
 
@@ -175,6 +191,10 @@ Khi cấu hình bộ đếm tổng, cần chú ý **đơn vị của mỗi xung*
 ---
 
 ## So sánh: khi nào dùng đơn vị nào
+
+<!--IMG:comp-->
+![So sánh & lựa chọn](assets/diagrams/comp-flow-tichkhoi.svg)
+
 
 | Tình huống | Nên dùng | Lý do |
 |---|---|---|

@@ -1408,5 +1408,145 @@
   "Chi phí vòng đời",
   "Xếp ưu tiên dự án",
   "Đo trước đo sau"
+ ],
+ "cam-bien-luu-luong-la-gi": [
+  "Cảm biến lưu lượng",
+  "Flow sensor",
+  "Lưu lượng kế",
+  "Đồng hồ đo lưu lượng",
+  "Thiết bị đo lưu lượng"
+ ],
+ "nguyen-ly-do-luu-luong": [
+  "Nguyên lý đo lưu lượng",
+  "Biên dạng dòng chảy",
+  "Số Reynolds",
+  "Chảy tầng chảy rối",
+  "Phương pháp đo lưu lượng"
+ ],
+ "phan-loai-cam-bien-luu-luong": [
+  "Phân loại lưu lượng kế",
+  "Công tắc lưu lượng",
+  "Rotameter",
+  "Đồng hồ nước cơ",
+  "Kiểu lắp insertion"
+ ],
+ "don-vi-luu-luong-quy-doi": [
+  "Đơn vị lưu lượng",
+  "Quy đổi m3/h l/min",
+  "Nm3/h",
+  "Điều kiện quy chiếu",
+  "FAD máy nén"
+ ],
+ "cach-chon-cam-bien-luu-luong": [
+  "Cách chọn lưu lượng kế",
+  "Tính chọn cỡ DN",
+  "Turndown",
+  "Vận tốc dòng khuyến nghị",
+  "Tiêu chí chọn thiết bị đo"
+ ],
+ "dong-ho-luu-luong-dien-tu": [
+  "Đồng hồ lưu lượng điện từ",
+  "Magnetic flow meter",
+  "Lớp lót PTFE",
+  "Điện cực đo lưu lượng",
+  "Độ dẫn điện tối thiểu"
+ ],
+ "cam-bien-luu-luong-sieu-am": [
+  "Cảm biến lưu lượng siêu âm",
+  "Clamp-on flow meter",
+  "Transit-time",
+  "Doppler",
+  "Chất tiếp âm couplant"
+ ],
+ "luu-luong-ke-coriolis": [
+  "Lưu lượng kế Coriolis",
+  "Đo lưu lượng khối",
+  "Đo khối lượng riêng",
+  "Đo nồng độ trực tuyến",
+  "Kiểm điểm không"
+ ],
+ "luu-luong-ke-tuabin": [
+  "Lưu lượng kế tuabin",
+  "Hệ số K",
+  "Bánh răng oval",
+  "Đo lưu lượng dầu",
+  "Quay vọt overspeed"
+ ],
+ "luu-luong-ke-vortex": [
+  "Lưu lượng kế vortex",
+  "Xoáy Karman",
+  "Hằng số Strouhal",
+  "Vortex đa biến",
+  "Ngưỡng vận tốc tối thiểu"
+ ],
+ "luu-luong-ke-chenh-ap-orifice": [
+  "Tấm orifice",
+  "Lưu lượng kế chênh áp",
+  "Ống venturi",
+  "Ống pitot trung bình",
+  "Tỷ số beta"
+ ],
+ "cam-bien-luu-luong-khi-nhiet": [
+  "Lưu lượng khí kiểu nhiệt",
+  "Thermal mass flow",
+  "Đo khí không cần bù",
+  "Đầu dò cắm ống",
+  "Loại khí hiệu chuẩn"
+ ],
+ "lap-dat-cam-bien-luu-luong": [
+  "Lắp đặt lưu lượng kế",
+  "Đoạn ống thẳng",
+  "Ống không đầy",
+  "Bộ nắn dòng",
+  "Xâm thực cavitation"
+ ],
+ "dau-day-cam-bien-luu-luong": [
+  "Đấu dây lưu lượng kế",
+  "Đầu ra xung",
+  "Scale tín hiệu analog",
+  "Loop-powered hai dây",
+  "Bẫy căn bậc hai"
+ ],
+ "hieu-chuan-cam-bien-luu-luong": [
+  "Hiệu chuẩn lưu lượng kế",
+  "Hiệu chuẩn ướt",
+  "Hiệu chuẩn khô",
+  "So sánh tại chỗ",
+  "Hồ sơ hiệu chuẩn"
+ ],
+ "sai-so-do-luu-luong": [
+  "Sai số đo lưu lượng",
+  "Phần trăm giá trị đọc",
+  "Phần trăm dải đo",
+  "Độ lặp lại",
+  "Sai số hệ thống"
+ ],
+ "do-luu-luong-nuoc-thai": [
+  "Đo lưu lượng nước thải",
+  "Đo lưu lượng bùn",
+  "Máng Parshall",
+  "Đập tràn",
+  "Quan trắc nước thải"
+ ],
+ "do-luu-luong-khi-nen": [
+  "Đo lưu lượng khí nén",
+  "Phát hiện rò rỉ khí nén",
+  "Phân bổ chi phí khí nén",
+  "Hiệu suất máy nén",
+  "Đo ban đêm"
+ ],
+ "do-luu-luong-hoi-nuoc": [
+  "Đo lưu lượng hơi nước",
+  "Hơi bão hòa",
+  "Hơi quá nhiệt",
+  "Bù áp suất nhiệt độ",
+  "Bình ngưng ống xung"
+ ],
+ "loi-cam-bien-luu-luong": [
+  "Lỗi cảm biến lưu lượng",
+  "Đồng hồ đọc sai",
+  "Số liệu nhảy loạn",
+  "Chẩn đoán lưu lượng kế",
+  "Bọt khí đường ống"
  ]
 }

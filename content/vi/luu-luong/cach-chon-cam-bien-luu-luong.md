@@ -15,6 +15,10 @@ H1          : Cách Chọn Cảm Biến Lưu Lượng
 
 ## Thứ tự chọn quan trọng hơn danh sách tiêu chí
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-cam-bien-luu-luong.svg)
+
+
 Hầu hết hướng dẫn chọn cảm biến lưu lượng đưa ra một danh sách tiêu chí. Vấn đề là **thứ tự xét chúng quyết định kết quả**.
 
 Nếu bắt đầu từ ngân sách, bạn sẽ chọn thiết bị rẻ nhất rồi phát hiện nó không đo được môi chất của mình. Nếu bắt đầu từ cỡ ống, bạn sẽ mua đúng cỡ nhưng sai dải đo. Nếu bắt đầu từ công nghệ ("nghe nói Coriolis tốt nhất"), bạn sẽ trả nhiều tiền cho khả năng không dùng đến.
@@ -33,6 +37,10 @@ Thứ tự đúng đi từ **ràng buộc cứng tới ràng buộc mềm**:
 Bốn tiêu chí đầu thường đã thu hẹp danh sách xuống một hoặc hai lựa chọn. Bài này đi qua từng bước với các câu hỏi cụ thể cần trả lời.
 
 > **Muốn được tư vấn cho hệ cụ thể?** Gửi **môi chất · ống · dải lưu lượng · ảnh vị trí lắp** → [Nhận đề xuất thiết bị](#bao-gia).
+
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-flow-profile.svg)
+
 
 Đây là bài **5/20** trong [chuỗi cảm biến lưu lượng](/cam-bien-luu-luong-la-gi/).
 
@@ -125,6 +133,10 @@ Nếu **không**, lựa chọn thu hẹp về **siêu âm kẹp ngoài** — g�
 
 ## Cấu tạo: bốn tiêu chí còn lại
 
+<!--IMG:spec-->
+![Cấu tạo & thông số](assets/diagrams/spec-flow-chon.svg)
+
+
 ### Tiêu chí 5 — Độ chính xác thực sự cần
 
 Nguyên tắc: **chọn theo mục đích đo, không chọn theo mức cao nhất có thể mua**.
@@ -195,6 +207,14 @@ Xét cuối cùng, và xét đầy đủ chứ không chỉ giá mua:
 ---
 
 ## Ứng dụng: quy trình chọn sáu bước
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-flow-nuoc.svg)
+
+
+
+<!--IMG:comp-->
+![So sánh & lựa chọn](assets/diagrams/comp-flow-chiphi.svg)
 
 **Bước 1 — Thu thập thông tin hiện trường.**
 Môi chất, đường kính và vật liệu ống, áp suất, nhiệt độ, dải lưu lượng, **ảnh chụp vị trí dự kiến lắp kèm các vật cản xung quanh**.

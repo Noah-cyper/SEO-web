@@ -15,6 +15,10 @@ H1          : Đấu Dây Cảm Biến Lưu Lượng
 
 ## Đo đúng rồi vẫn có thể hiển thị sai
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-cam-bien-luu-luong.svg)
+
+
 Một cảm biến lưu lượng lắp đúng vị trí, hiệu chuẩn tốt, vẫn có thể khiến hệ thống hiển thị con số sai — nếu phần đấu nối và quy đổi tín hiệu làm không đúng.
 
 Ba lỗi kinh điển ở khâu này:
@@ -30,6 +34,10 @@ Cả ba đều không phải lỗi thiết bị và đều **phòng tránh đư�
 Bài này trình bày các kiểu tín hiệu, cách đấu nối, cách scale đúng, và quy trình kiểm chứng sau khi đấu.
 
 > **Cần hỗ trợ đấu nối vào PLC hoặc bộ hiển thị?** Gửi **model thiết bị · hệ điều khiển đang dùng** → [Nhận hướng dẫn đấu nối](#bao-gia).
+
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-faraday.svg)
+
 
 Đây là bài **14/20** trong [chuỗi cảm biến lưu lượng](/cam-bien-luu-luong-la-gi/).
 
@@ -116,6 +124,10 @@ Tín hiệu số được điều chế chồng lên dòng 4–20mA. Vòng analo
 
 ## Cấu tạo: scale tín hiệu đúng cách
 
+<!--IMG:spec-->
+![Cấu tạo & thông số](assets/diagrams/spec-flow-dauday.svg)
+
+
 Đây là khâu gây sai số nhiều nhất và cũng dễ kiểm tra nhất.
 
 ### Quy đổi 4–20mA sang giá trị kỹ thuật
@@ -175,6 +187,14 @@ Sai lệch ở đây làm tổng sai **theo bội số** (gấp 10, gấp 100 l�
 ---
 
 ## Ứng dụng: chọn tín hiệu theo mục đích
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-flow-suachua.svg)
+
+
+
+<!--IMG:comp-->
+![So sánh & lựa chọn](assets/diagrams/comp-flow-congnghe.svg)
 
 | Mục đích | Tín hiệu nên dùng |
 |---|---|

@@ -42,10 +42,6 @@ Bài này đưa ra **8 tiêu chí so sánh khách quan** để bạn tự đánh
 ![Cấu tạo & thông số](assets/diagrams/spec-vfd-sizing.svg)
 
 
-
-<!--IMG:comp-->
-![So sánh & lựa chọn](assets/diagrams/comp-vfd-hang.svg)
-
 ### 1. Khả năng có phụ tùng và thay thế trong 5–10 năm
 
 Đây là tiêu chí **quan trọng nhất nhưng ít người hỏi nhất** khi mua.
@@ -113,6 +109,10 @@ Giá mua chỉ là một phần. Cần cộng thêm:
 ---
 
 ## So sánh theo nhóm xuất xứ (khái quát)
+
+<!--IMG:comp-->
+![So sánh & lựa chọn](assets/diagrams/comp-vfd-hang.svg)
+
 
 Thay vì xếp hạng thương hiệu, hãy nhìn theo nhóm — mỗi nhóm có đặc trưng riêng:
 

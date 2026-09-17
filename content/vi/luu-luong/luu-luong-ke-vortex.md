@@ -15,6 +15,10 @@ H1          : Lưu Lượng Kế Vortex
 
 ## Công nghệ được chọn khi môi chất quá nóng cho mọi thứ khác
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-vortex.svg)
+
+
 Khi cần đo **hơi nước**, danh sách lựa chọn thu hẹp rất nhanh. Đồng hồ điện từ không dùng được (hơi không dẫn điện). Tuabin không chịu nổi nhiệt độ và sẽ hỏng. Coriolis dùng được nhưng đắt và tổn thất áp lớn. Siêu âm gặp khó với hơi.
 
 Còn lại hai phương án thực tế: **chênh áp (orifice)** và **vortex**. Và giữa hai cái đó, vortex thường thắng vì một lý do đơn giản — **dải đo rộng hơn nhiều**.
@@ -26,6 +30,10 @@ Còn lại hai phương án thực tế: **chênh áp (orifice)** và **vortex**
 Đổi lại, vortex có một ràng buộc rõ rệt mà ai dùng cũng phải biết: **dưới một vận tốc nhất định, nó không đo được gì cả**.
 
 > **Cần đo hơi, khí hoặc chất lỏng nhiệt độ cao?** Gửi **môi chất · áp suất · nhiệt độ · dải lưu lượng** → [Nhận tư vấn](#bao-gia).
+
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-vortex.svg)
+
 
 Đây là bài **10/20** trong [chuỗi cảm biến lưu lượng](/cam-bien-luu-luong-la-gi/).
 
@@ -82,6 +90,10 @@ Với môi chất **nhớt** hoặc **lưu lượng rất thấp**, vortex khôn
 ---
 
 ## Cấu tạo và thông số
+
+<!--IMG:spec-->
+![Cấu tạo & thông số](assets/diagrams/spec-flow-saiso.svg)
+
 
 ### Ba kiểu cảm biến phát hiện xoáy
 
@@ -144,6 +156,10 @@ Phép kiểm tra cuối cùng rất đáng làm và mất chưa tới một phú
 
 ## Ứng dụng: nơi vortex tỏa sáng
 
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-flow-hoi.svg)
+
+
 ### Rất phù hợp
 
 - **Hơi nước bão hòa và hơi quá nhiệt** — ứng dụng số một của vortex.
@@ -178,6 +194,10 @@ Hơi nước là ứng dụng chính của vortex, và có hai chi tiết đặc
 ---
 
 ## So sánh với các công nghệ khác cho hơi và khí
+
+<!--IMG:comp-->
+![So sánh & lựa chọn](assets/diagrams/comp-flow-chiphi.svg)
+
 
 | Tiêu chí | **Vortex** | Orifice | Coriolis | Nhiệt (thermal) |
 |---|---|---|---|---|

@@ -15,6 +15,10 @@ H1          : Đồng Hồ Lưu Lượng Điện Từ (MAG)
 
 ## Lựa chọn mặc định cho chất lỏng dẫn điện
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-dong-ho-dien-tu.svg)
+
+
 Nếu bạn cần đo nước, nước thải, bùn hoặc hóa chất dẫn điện, **đồng hồ điện từ gần như luôn là câu trả lời đúng** — và nên là thiết bị đầu tiên bạn xét, trước khi cân nhắc bất kỳ công nghệ nào khác.
 
 Lý do nằm ở một đặc điểm cấu tạo rất đặc biệt: **bên trong đồng hồ điện từ không có gì cả**. Không cánh quạt, không vật cản, không lỗ thu hẹp. Chỉ là một đoạn ống trơn có lớp lót cách điện, hai điện cực nhỏ nằm ngang mức thành ống, và hai cuộn dây bên ngoài.
@@ -31,6 +35,10 @@ Từ cấu tạo "không có gì" đó sinh ra một loạt ưu điểm mà các
 Đổi lại, nó có **một điều kiện bắt buộc không thể thỏa hiệp**: chất lỏng phải **dẫn điện**.
 
 > **Cần đồng hồ điện từ cho hệ của bạn?** Gửi **môi chất · đường kính ống · dải lưu lượng** → [Nhận tư vấn chọn model](#bao-gia).
+
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-faraday.svg)
+
 
 Đây là bài **6/20** trong [chuỗi cảm biến lưu lượng](/cam-bien-luu-luong-la-gi/).
 
@@ -71,6 +79,10 @@ Lý do: từ trường một chiều liên tục gây **phân cực điện hóa
 ---
 
 ## Cấu tạo và thông số: chọn đúng lớp lót và điện cực
+
+<!--IMG:spec-->
+![Cấu tạo & thông số](assets/diagrams/spec-flow-lapdat.svg)
+
 
 Hai thành phần tiếp xúc trực tiếp với môi chất quyết định tuổi thọ thiết bị.
 
@@ -135,6 +147,10 @@ Nếu môi chất không dẫn điện, hãy chuyển sang [Coriolis](/luu-luong
 
 ## Ứng dụng: lắp đặt đúng cách
 
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-flow-nuoc.svg)
+
+
 Đồng hồ điện từ dễ tính hơn nhiều công nghệ khác, nhưng vẫn có bốn điều kiện bắt buộc.
 
 ### 1. Ống phải luôn đầy
@@ -176,6 +192,10 @@ Yêu cầu ngắn hơn nhiều công nghệ khác, nhưng vẫn cần — tra th
 ---
 
 ## So sánh với các công nghệ khác
+
+<!--IMG:comp-->
+![So sánh & lựa chọn](assets/diagrams/comp-flow-congnghe.svg)
+
 
 | Tiêu chí | **Điện từ** | Siêu âm | Tuabin | Orifice |
 |---|---|---|---|---|

@@ -15,6 +15,10 @@ H1          : Đo Lưu Lượng Bằng Chênh Áp (Orifice)
 
 ## Công nghệ lâu đời nhất — và vẫn được dùng nhiều nhất trên thế giới
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-orifice.svg)
+
+
 Trong một ngành thay đổi nhanh như đo lường công nghiệp, **phương pháp chênh áp** vẫn giữ vị trí đặc biệt: nó là công nghệ đo lưu lượng **lâu đời nhất, được chuẩn hóa kỹ nhất, và vẫn chiếm tỷ trọng rất lớn** trong các nhà máy hiện hữu.
 
 Lý do không phải quán tính mà là ba ưu điểm thực chất:
@@ -30,6 +34,10 @@ Lý do không phải quán tính mà là ba ưu điểm thực chất:
 Bài này trình bày rõ cả hai mặt để bạn biết khi nào chênh áp là lựa chọn kinh tế đúng, và khi nào nó là lựa chọn tưởng rẻ mà hóa đắt.
 
 > **Đang cân nhắc phương án orifice?** Gửi **môi chất · cỡ ống · dải lưu lượng** → [Nhận tính toán và so sánh](#bao-gia).
+
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-bernoulli-dp.svg)
+
 
 Đây là bài **11/20** trong [chuỗi cảm biến lưu lượng](/cam-bien-luu-luong-la-gi/).
 
@@ -78,6 +86,10 @@ Nếu ứng dụng có **lưu lượng biến động rất rộng**, hãy cân 
 ---
 
 ## Cấu tạo: các kiểu phần tử sơ cấp
+
+<!--IMG:spec-->
+![Cấu tạo & thông số](assets/diagrams/spec-flow-lapdat.svg)
+
 
 ### Tấm orifice
 
@@ -141,6 +153,10 @@ Một thanh dò cắm ngang dòng, có các lỗ hướng về phía dòng chả
 
 ## Ứng dụng: lắp đặt và những chi tiết quyết định
 
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-flow-hoi.svg)
+
+
 ### Ống xung — nơi phần lớn sự cố xảy ra
 
 Đây là điểm yếu thực tế lớn nhất của hệ đo chênh áp, và nó không nằm ở thiết bị mà ở **hai ống nhỏ dẫn áp suất**.
@@ -197,6 +213,10 @@ Với ống nhỏ và lưu lượng thấp, orifice vẫn rẻ nhất. Với ố
 ---
 
 ## So sánh: khi nào chọn chênh áp
+
+<!--IMG:comp-->
+![So sánh & lựa chọn](assets/diagrams/comp-flow-chiphi.svg)
+
 
 ### Nên chọn khi
 

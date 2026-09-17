@@ -84,10 +84,6 @@ Nghĩa là: **STO tuyệt đối không thay thế cho khoá điện (LOTO) khi 
 ![Cấu tạo & thông số](assets/diagrams/spec-vfd-sto.svg)
 
 
-
-<!--IMG:comp-->
-![So sánh & lựa chọn](assets/diagrams/comp-loto-sto.svg)
-
 | Hạng mục | Nội dung | Ghi chú |
 |---|---|---|
 | **Số kênh STO** | Thường **2 kênh độc lập** | Cả hai phải cho phép thì mới chạy |
@@ -116,6 +112,10 @@ Với hầu hết ứng dụng, câu trả lời phải là **không**. Máy t�
 <!--IMG:app-->
 ![Ứng dụng thiết bị](assets/diagrams/app-vfd-cautruc.svg)
 
+
+
+<!--IMG:comp-->
+![So sánh & lựa chọn](assets/diagrams/comp-loto-sto.svg)
 
 **Máy có cửa che chắn hoặc rào bảo vệ.** Khi cửa mở, máy phải không thể sinh mô-men. STO phối hợp với công tắc an toàn cửa là cấu hình kinh điển.
 

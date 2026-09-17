@@ -42,10 +42,6 @@ Trước khi đọc tiếp, cần chắc chắn một điều: **biến tần th
 
 ## Nguyên lý: phân loại mức độ hư hỏng
 
-<!--IMG:comp-->
-![So sánh & lựa chọn](assets/diagrams/comp-sua-thay.svg)
-
-
 Không phải mọi hư hỏng đều như nhau. Có thể chia thành ba mức, và mức độ quyết định phần lớn câu trả lời.
 
 ### Mức 1 — Hỏng vật tư tiêu hao (nên sửa)
@@ -175,6 +171,10 @@ Bước 2 là bước quan trọng nhất và cũng hay bị bỏ qua nhất. L�
 ---
 
 ## So sánh hai hướng
+
+<!--IMG:comp-->
+![So sánh & lựa chọn](assets/diagrams/comp-sua-thay.svg)
+
 
 | Tiêu chí | **Sửa** | **Thay mới** |
 |---|---|---|

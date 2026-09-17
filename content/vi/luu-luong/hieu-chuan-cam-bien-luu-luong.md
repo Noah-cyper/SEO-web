@@ -15,6 +15,10 @@ H1          : Hiệu Chuẩn Cảm Biến Lưu Lượng
 
 ## Thiết bị không báo khi nó bắt đầu sai
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-cam-bien-luu-luong.svg)
+
+
 Đây là đặc điểm nguy hiểm nhất của thiết bị đo: **khi nó bắt đầu sai, nó vẫn hiển thị một con số hoàn toàn bình thường**.
 
 Không có đèn báo. Không có mã lỗi. Không có gì bất thường trên màn hình. Chỉ có điều con số đó đã lệch đi 2%, rồi 5%, rồi 10% — và mỗi tháng trôi qua là một tháng bạn tính chi phí sai, phân bổ sai, hoặc điều khiển theo một giá trị không đúng.
@@ -31,6 +35,10 @@ Các cơ chế gây sai lệch dần đều **âm thầm và không thể nhìn 
 Hiệu chuẩn là cách duy nhất phát hiện những thay đổi này. Bài này trình bày các hình thức hiệu chuẩn, chu kỳ hợp lý, và — quan trọng với đa số người đọc — **những phép kiểm tra đơn giản có thể tự làm mà không cần gửi thiết bị đi đâu**.
 
 > **Cần hiệu chuẩn hoặc kiểm tra thiết bị đang dùng?** Gửi **model · năm sử dụng · mục đích đo** → [Nhận tư vấn](#bao-gia).
+
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-tuabin.svg)
+
 
 Đây là bài **15/20** trong [chuỗi cảm biến lưu lượng](/cam-bien-luu-luong-la-gi/).
 
@@ -81,6 +89,10 @@ Lưu ý quan trọng: thiết bị chuẩn dùng để so sánh **cũng phải �
 
 ## Cấu tạo: phép kiểm tra giá trị nhất — kiểm điểm 0
 
+<!--IMG:spec-->
+![Cấu tạo & thông số](assets/diagrams/spec-flow-hieuchuan.svg)
+
+
 Trong tất cả các phép kiểm tra, **kiểm điểm 0 là rẻ nhất, nhanh nhất và phát hiện được nhiều vấn đề nhất**.
 
 Nguyên tắc rất đơn giản: **khi hoàn toàn không có dòng chảy, thiết bị phải đọc 0**. Nếu nó đọc một giá trị khác 0, có điều gì đó không ổn.
@@ -120,6 +132,10 @@ Với hầu hết thiết bị, kiểm tra này mất chưa tới mười phút 
 ---
 
 ## Ứng dụng: chu kỳ hiệu chuẩn hợp lý
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-flow-suachua.svg)
+
 
 Không có một chu kỳ đúng cho mọi trường hợp. Chu kỳ phụ thuộc bốn yếu tố:
 
@@ -201,6 +217,10 @@ Bước 2 là bước hay bị quên nhất, và nó gây sai số **ngay từ n
 ---
 
 ## So sánh ba hình thức hiệu chuẩn
+
+<!--IMG:comp-->
+![So sánh & lựa chọn](assets/diagrams/comp-flow-loi.svg)
+
 
 | Tiêu chí | **Hiệu chuẩn ướt** | **Hiệu chuẩn khô** | **So sánh tại chỗ** |
 |---|---|---|---|

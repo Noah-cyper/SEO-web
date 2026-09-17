@@ -15,6 +15,10 @@ H1          : Cảm Biến Lưu Lượng Siêu Âm
 
 ## Công nghệ duy nhất đo được mà không đụng vào đường ống
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-sieu-am-clamp.svg)
+
+
 Mọi công nghệ đo lưu lượng khác đều đòi hỏi một điều: **cắt đường ống ra và lắp thiết bị vào**. Với một dây chuyền đang sản xuất, điều đó nghĩa là dừng máy, xả nước, cắt, hàn, thử áp — một dự án nhỏ.
 
 **Cảm biến siêu âm kẹp ngoài (clamp-on)** là ngoại lệ. Hai đầu dò kẹp bên ngoài thành ống, sóng âm xuyên qua thành ống vào môi chất và trở ra. Toàn bộ quá trình lắp đặt mất chưa tới một giờ, **không đụng vào đường ống, không dừng sản xuất, không một giọt nước chảy ra**.
@@ -28,6 +32,10 @@ Từ đặc điểm này sinh ra hai nhóm ứng dụng mà siêu âm gần như
 Đổi lại, siêu âm có những điều kiện riêng — và hiểu chúng là điều kiện để dùng thành công.
 
 > **Cần đo lưu lượng mà không được cắt ống?** Gửi **vật liệu và đường kính ống · môi chất** → [Nhận tư vấn](#bao-gia).
+
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-transit-time.svg)
+
 
 Đây là bài **7/20** trong [chuỗi cảm biến lưu lượng](/cam-bien-luu-luong-la-gi/).
 
@@ -81,6 +89,10 @@ Lưu ý cho môi chất bẩn nói chung: nếu chất lỏng **dẫn điện**,
 ---
 
 ## Cấu tạo và thông số: điều gì quyết định độ chính xác
+
+<!--IMG:spec-->
+![Cấu tạo & thông số](assets/diagrams/spec-flow-lapdat.svg)
+
 
 Với siêu âm kẹp ngoài, **chất lượng lắp đặt quyết định kết quả nhiều hơn chất lượng thiết bị**. Đây là điểm khác biệt lớn nhất so với các công nghệ lắp trong ống.
 
@@ -137,6 +149,14 @@ Bỏ qua bước này là nguyên nhân phổ biến thứ hai của việc khô
 ---
 
 ## Ứng dụng: khi nào siêu âm là lựa chọn đúng
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-flow-nuoc.svg)
+
+
+
+<!--IMG:comp-->
+![So sánh & lựa chọn](assets/diagrams/comp-flow-clamp-inline.svg)
 
 ### Rất phù hợp
 

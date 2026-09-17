@@ -15,6 +15,10 @@ H1          : Nguyên Lý Đo Lưu Lượng
 
 ## Không có cách nào đo lưu lượng một cách trực tiếp
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-cam-bien-luu-luong.svg)
+
+
 Với nhiệt độ, bạn đặt một đầu dò vào và nó nóng lên đúng bằng môi chất. Với áp suất, bạn để một màng biến dạng dưới áp lực. Đó là những phép đo **trực tiếp** — đại lượng cần đo tác động thẳng lên phần tử cảm biến.
 
 Lưu lượng không như vậy. **Không có vật liệu nào biến đổi tỷ lệ với lưu lượng.** Mọi công nghệ đo lưu lượng đều phải đi đường vòng: đo một đại lượng khác rồi **suy ra** lưu lượng.
@@ -28,6 +32,10 @@ Lưu lượng không như vậy. **Không có vật liệu nào biến đổi t�
 Bài này trình bày ba nhóm nguyên lý và — quan trọng hơn — **các giả định ẩn phía sau chúng**.
 
 > **Không chắc công nghệ nào phù hợp với môi chất của bạn?** Gửi **môi chất · điều kiện làm việc** → [Nhận tư vấn](#bao-gia).
+
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-faraday.svg)
+
 
 Đây là bài **2/20** trong [chuỗi cảm biến lưu lượng](/cam-bien-luu-luong-la-gi/).
 
@@ -80,6 +88,10 @@ Hai công nghệ không đi qua vận tốc mà đo thẳng ra khối lượng:
 
 ## Cấu tạo bài toán: vì sao biên dạng dòng chảy quan trọng đến vậy
 
+<!--IMG:spec-->
+![Cấu tạo & thông số](assets/diagrams/spec-flow-donvi.svg)
+
+
 Đây là phần mà tài liệu bán hàng hiếm khi nói, nhưng nó giải thích phần lớn các ca "đo sai mà không hiểu vì sao".
 
 ### Vận tốc không đều trên tiết diện
@@ -127,6 +139,14 @@ Ngược lại, **tuabin, vortex và chênh áp** nhạy hơn và yêu cầu đo
 ---
 
 ## Ứng dụng: chọn nguyên lý theo bài toán
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-flow-nuoc.svg)
+
+
+
+<!--IMG:comp-->
+![So sánh & lựa chọn](assets/diagrams/comp-flow-congnghe.svg)
 
 | Tình huống | Nguyên lý phù hợp | Lý do |
 |---|---|---|

@@ -15,6 +15,10 @@ H1          : Lưu Lượng Kế Coriolis
 
 ## Thiết bị đo lưu lượng chính xác nhất — và đắt nhất
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-coriolis.svg)
+
+
 Trong toàn bộ họ thiết bị đo lưu lượng, **Coriolis đứng riêng một nhóm**. Nó là công nghệ duy nhất đo được **lưu lượng khối một cách trực tiếp**, không qua bất kỳ phép suy diễn nào, và không phụ thuộc vào áp suất, nhiệt độ, độ nhớt hay biên dạng dòng chảy.
 
 Nói cách khác: những giả định ẩn khiến các công nghệ khác sai — dòng chảy bị méo, khối lượng riêng thay đổi, độ nhớt biến động — **hầu như không tồn tại với Coriolis**.
@@ -24,6 +28,10 @@ Và như mọi thứ trong kỹ thuật, ưu thế đó có giá của nó: **Co
 Bài này giải thích nguyên lý, chỉ ra chính xác **khi nào chi phí đó là xứng đáng** và khi nào không — vì mua Coriolis cho một ứng dụng chỉ cần giám sát nước làm mát là một trong những cách lãng phí ngân sách đo lường nhanh nhất.
 
 > **Đang cân nhắc Coriolis cho ứng dụng của bạn?** Gửi **môi chất · dải lưu lượng · yêu cầu chính xác** → [Nhận đánh giá có đáng đầu tư không](#bao-gia).
+
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-coriolis.svg)
+
 
 Đây là bài **8/20** trong [chuỗi cảm biến lưu lượng](/cam-bien-luu-luong-la-gi/).
 
@@ -70,6 +78,10 @@ Khả năng **đo nồng độ trực tuyến** này là lý do Coriolis rất �
 ---
 
 ## Cấu tạo và thông số
+
+<!--IMG:spec-->
+![Cấu tạo & thông số](assets/diagrams/spec-flow-saiso.svg)
+
 
 ### Các kiểu hình dạng ống
 
@@ -126,6 +138,14 @@ Nhưng có bốn điều kiện khác cần chú ý:
 ---
 
 ## Ứng dụng: khi nào Coriolis xứng đáng
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-flow-hoi.svg)
+
+
+
+<!--IMG:comp-->
+![So sánh & lựa chọn](assets/diagrams/comp-flow-tichkhoi.svg)
 
 ### Đáng đầu tư khi
 

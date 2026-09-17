@@ -76,10 +76,6 @@ Biến tần loại bỏ toàn bộ nhóm vấn đề này bằng cách đưa t�
 ![Cấu tạo & thông số](assets/diagrams/spec-vfd-sizing.svg)
 
 
-
-<!--IMG:comp-->
-![So sánh & lựa chọn](assets/diagrams/comp-vfd-tai.svg)
-
 | Hạng mục | Khuyến nghị cho băng tải | Ghi chú |
 |---|---|---|
 | **Loại tải khai báo** | Mô-men không đổi (CT / heavy duty) | Không dùng chế độ bơm–quạt |
@@ -133,6 +129,10 @@ Biến tần loại bỏ toàn bộ nhóm vấn đề này bằng cách đưa t�
 ---
 
 ## So sánh: các cách vận hành băng tải
+
+<!--IMG:comp-->
+![So sánh & lựa chọn](assets/diagrams/comp-vfd-tai.svg)
+
 
 | Tiêu chí | **Chạy trực tiếp** | **Khởi động sao–tam giác** | **Khởi động mềm** | **Biến tần** |
 |---|---|---|---|---|

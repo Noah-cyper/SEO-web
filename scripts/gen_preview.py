@@ -219,6 +219,21 @@ GROUPS = [
         "bien-tan/lap-bien-tan-cho-may-dang-chay.md","bien-tan/nghiem-thu-chay-thu-bien-tan.md",
         "bien-tan/an-toan-dien-voi-bien-tan.md","bien-tan/giam-sat-bien-tan-tu-xa.md",
         "bien-tan/danh-gia-dau-tu-hoan-von-bien-tan.md"]),
+("Lưu lượng — Nền tảng & chọn mua", "luu-luong-nen-tang", [
+        "luu-luong/cam-bien-luu-luong-la-gi.md","luu-luong/nguyen-ly-do-luu-luong.md",
+        "luu-luong/phan-loai-cam-bien-luu-luong.md","luu-luong/don-vi-luu-luong-quy-doi.md",
+        "luu-luong/cach-chon-cam-bien-luu-luong.md"]),
+    ("Lưu lượng — Công nghệ đo", "luu-luong-cong-nghe", [
+        "luu-luong/dong-ho-luu-luong-dien-tu.md","luu-luong/cam-bien-luu-luong-sieu-am.md",
+        "luu-luong/luu-luong-ke-coriolis.md","luu-luong/luu-luong-ke-tuabin.md",
+        "luu-luong/luu-luong-ke-vortex.md","luu-luong/luu-luong-ke-chenh-ap-orifice.md",
+        "luu-luong/cam-bien-luu-luong-khi-nhiet.md"]),
+    ("Lưu lượng — Lắp đặt & đo lường", "luu-luong-lap-dat", [
+        "luu-luong/lap-dat-cam-bien-luu-luong.md","luu-luong/dau-day-cam-bien-luu-luong.md",
+        "luu-luong/hieu-chuan-cam-bien-luu-luong.md","luu-luong/sai-so-do-luu-luong.md"]),
+    ("Lưu lượng — Ứng dụng & sự cố", "luu-luong-ung-dung", [
+        "luu-luong/do-luu-luong-nuoc-thai.md","luu-luong/do-luu-luong-khi-nen.md",
+        "luu-luong/do-luu-luong-hoi-nuoc.md","luu-luong/loi-cam-bien-luu-luong.md"]),
 ]
 
 def esc(t):

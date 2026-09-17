@@ -2016,3 +2016,215 @@ Tên file ảnh & Alt text đã đặt sẵn chứa từ khoá.
 - **Tên file ảnh nên đặt:** `danh-gia-dau-tu-hoan-von-bien-tan.png`
 - **Alt text ảnh:** Đánh Giá Đầu Tư Và Tính Hoàn Vốn Dự Án Biến Tần
 - **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+
+## Lưu lượng — Nền tảng & chọn mua
+
+### Cảm Biến Lưu Lượng Là Gì?
+- **URL:** `/cam-bien-luu-luong-la-gi/`
+- **Focus keyword:** cảm biến lưu lượng
+- **Meta description:** Cảm biến lưu lượng là gì, có mấy loại, đo thể tích hay khối lượng, chọn công nghệ nào cho nước, khí và hơi. Hướng dẫn đầy đủ kèm bảng so sánh thực tế.
+- **Thẻ (tags):** Cảm biến lưu lượng, Flow sensor, Lưu lượng kế, Đồng hồ đo lưu lượng, Thiết bị đo lưu lượng
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/cam-bien-luu-luong-la-gi.png`
+- **Tên file ảnh nên đặt:** `cam-bien-luu-luong-la-gi.png`
+- **Alt text ảnh:** Cảm Biến Lưu Lượng Là Gì
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Nguyên Lý Đo Lưu Lượng
+- **URL:** `/nguyen-ly-do-luu-luong/`
+- **Focus keyword:** nguyên lý đo lưu lượng
+- **Meta description:** Ba nhóm nguyên lý đo lưu lượng: đo vận tốc, đo chênh áp và đo khối lượng trực tiếp. Vì sao biên dạng dòng chảy và số Reynolds quyết định độ chính xác.
+- **Thẻ (tags):** Nguyên lý đo lưu lượng, Biên dạng dòng chảy, Số Reynolds, Chảy tầng chảy rối, Phương pháp đo lưu lượng
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/nguyen-ly-do-luu-luong.png`
+- **Tên file ảnh nên đặt:** `nguyen-ly-do-luu-luong.png`
+- **Alt text ảnh:** Nguyên Lý Đo Lưu Lượng
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Phân Loại Cảm Biến Lưu Lượng
+- **URL:** `/phan-loai-cam-bien-luu-luong/`
+- **Focus keyword:** phân loại cảm biến lưu lượng
+- **Meta description:** Phân loại lưu lượng kế theo nguyên lý, theo môi chất, theo kiểu lắp và theo chức năng. Bảng tra nhanh giúp khoanh vùng loại phù hợp trước khi đi vào chi tiết.
+- **Thẻ (tags):** Phân loại lưu lượng kế, Công tắc lưu lượng, Rotameter, Đồng hồ nước cơ, Kiểu lắp insertion
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/phan-loai-cam-bien-luu-luong.png`
+- **Tên file ảnh nên đặt:** `phan-loai-cam-bien-luu-luong.png`
+- **Alt text ảnh:** Phân Loại Cảm Biến Lưu Lượng
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Đơn Vị Lưu Lượng Và Cách Quy Đổi
+- **URL:** `/don-vi-luu-luong-quy-doi/`
+- **Focus keyword:** đơn vị lưu lượng
+- **Meta description:** Bảng quy đổi đơn vị lưu lượng và giải thích Nm³/h khác m³/h thế nào. Vì sao nhầm điều kiện quy chiếu khi đo khí là sai số lớn nhất và tốn kém nhất.
+- **Thẻ (tags):** Đơn vị lưu lượng, Quy đổi m3/h l/min, Nm3/h, Điều kiện quy chiếu, FAD máy nén
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/don-vi-luu-luong-quy-doi.png`
+- **Tên file ảnh nên đặt:** `don-vi-luu-luong-quy-doi.png`
+- **Alt text ảnh:** Đơn Vị Lưu Lượng Và Cách Quy Đổi
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Cách Chọn Cảm Biến Lưu Lượng
+- **URL:** `/cach-chon-cam-bien-luu-luong/`
+- **Focus keyword:** cách chọn cảm biến lưu lượng
+- **Meta description:** Quy trình chọn cảm biến lưu lượng theo 8 tiêu chí: môi chất, dải đo, cỡ DN theo vận tốc, độ chính xác, điều kiện lắp, tín hiệu ra, vật liệu và ngân sách.
+- **Thẻ (tags):** Cách chọn lưu lượng kế, Tính chọn cỡ DN, Turndown, Vận tốc dòng khuyến nghị, Tiêu chí chọn thiết bị đo
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/cach-chon-cam-bien-luu-luong.png`
+- **Tên file ảnh nên đặt:** `cach-chon-cam-bien-luu-luong.png`
+- **Alt text ảnh:** Cách Chọn Cảm Biến Lưu Lượng
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+
+## Lưu lượng — Công nghệ đo
+
+### Đồng Hồ Lưu Lượng Điện Từ (MAG)
+- **URL:** `/dong-ho-luu-luong-dien-tu/`
+- **Focus keyword:** đồng hồ lưu lượng điện từ
+- **Meta description:** Đồng hồ lưu lượng điện từ hoạt động thế nào, vì sao chỉ đo được chất lỏng dẫn điện, cách chọn lớp lót và điện cực, yêu cầu lắp đặt và các lỗi hay gặp.
+- **Thẻ (tags):** Đồng hồ lưu lượng điện từ, Magnetic flow meter, Lớp lót PTFE, Điện cực đo lưu lượng, Độ dẫn điện tối thiểu
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/dong-ho-luu-luong-dien-tu.png`
+- **Tên file ảnh nên đặt:** `dong-ho-luu-luong-dien-tu.png`
+- **Alt text ảnh:** Đồng Hồ Lưu Lượng Điện Từ (MAG)
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Cảm Biến Lưu Lượng Siêu Âm
+- **URL:** `/cam-bien-luu-luong-sieu-am/`
+- **Focus keyword:** cảm biến lưu lượng siêu âm
+- **Meta description:** Cảm biến siêu âm đo lưu lượng không cần cắt ống. Phân biệt transit-time và Doppler, điều kiện để đo chính xác, cách lắp đầu dò và các lỗi hay gặp.
+- **Thẻ (tags):** Cảm biến lưu lượng siêu âm, Clamp-on flow meter, Transit-time, Doppler, Chất tiếp âm couplant
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/cam-bien-luu-luong-sieu-am.png`
+- **Tên file ảnh nên đặt:** `cam-bien-luu-luong-sieu-am.png`
+- **Alt text ảnh:** Cảm Biến Lưu Lượng Siêu Âm
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Lưu Lượng Kế Coriolis
+- **URL:** `/luu-luong-ke-coriolis/`
+- **Focus keyword:** lưu lượng kế coriolis
+- **Meta description:** Coriolis đo trực tiếp lưu lượng khối, không cần bù áp suất và nhiệt độ. Nguyên lý, ưu nhược, khi nào đáng đầu tư và các điều kiện lắp đặt bắt buộc.
+- **Thẻ (tags):** Lưu lượng kế Coriolis, Đo lưu lượng khối, Đo khối lượng riêng, Đo nồng độ trực tuyến, Kiểm điểm không
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/luu-luong-ke-coriolis.png`
+- **Tên file ảnh nên đặt:** `luu-luong-ke-coriolis.png`
+- **Alt text ảnh:** Lưu Lượng Kế Coriolis
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Lưu Lượng Kế Tuabin
+- **URL:** `/luu-luong-ke-tuabin/`
+- **Focus keyword:** lưu lượng kế tuabin
+- **Meta description:** Lưu lượng kế tuabin hoạt động ra sao, hệ số K là gì, vì sao độ nhớt làm sai số và những môi chất tuyệt đối không dùng. So sánh với bánh răng oval.
+- **Thẻ (tags):** Lưu lượng kế tuabin, Hệ số K, Bánh răng oval, Đo lưu lượng dầu, Quay vọt overspeed
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/luu-luong-ke-tuabin.png`
+- **Tên file ảnh nên đặt:** `luu-luong-ke-tuabin.png`
+- **Alt text ảnh:** Lưu Lượng Kế Tuabin
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Lưu Lượng Kế Vortex
+- **URL:** `/luu-luong-ke-vortex/`
+- **Focus keyword:** lưu lượng kế vortex
+- **Meta description:** Vortex đo lưu lượng bằng tần số xoáy Karman, chịu nhiệt cao và đo được cả lỏng, khí, hơi. Nguyên lý, giới hạn dưới, loại đa biến và yêu cầu lắp đặt.
+- **Thẻ (tags):** Lưu lượng kế vortex, Xoáy Karman, Hằng số Strouhal, Vortex đa biến, Ngưỡng vận tốc tối thiểu
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/luu-luong-ke-vortex.png`
+- **Tên file ảnh nên đặt:** `luu-luong-ke-vortex.png`
+- **Alt text ảnh:** Lưu Lượng Kế Vortex
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Đo Lưu Lượng Bằng Chênh Áp (Orifice)
+- **URL:** `/luu-luong-ke-chenh-ap-orifice/`
+- **Focus keyword:** tấm orifice
+- **Meta description:** Phương pháp chênh áp đo lưu lượng: nguyên lý căn bậc hai, tỷ số beta, cách lắp ống xung, tổn thất áp và vì sao dải đo hẹp. So sánh orifice, venturi, pitot.
+- **Thẻ (tags):** Tấm orifice, Lưu lượng kế chênh áp, Ống venturi, Ống pitot trung bình, Tỷ số beta
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/luu-luong-ke-chenh-ap-orifice.png`
+- **Tên file ảnh nên đặt:** `luu-luong-ke-chenh-ap-orifice.png`
+- **Alt text ảnh:** Đo Lưu Lượng Bằng Chênh Áp (Orifice)
+- **Gợi ý ảnh thật:** Ảnh cảm biến chênh áp + sơ đồ đo lưu lượng/mức bồn kín.
+
+### Cảm Biến Lưu Lượng Khí Kiểu Nhiệt
+- **URL:** `/cam-bien-luu-luong-khi-nhiet/`
+- **Focus keyword:** cảm biến lưu lượng khí kiểu nhiệt
+- **Meta description:** Cảm biến nhiệt đo trực tiếp lưu lượng khối của khí, không cần bù áp suất và nhiệt độ. Nguyên lý, vì sao phụ thuộc thành phần khí và cách lắp loại insertion.
+- **Thẻ (tags):** Lưu lượng khí kiểu nhiệt, Thermal mass flow, Đo khí không cần bù, Đầu dò cắm ống, Loại khí hiệu chuẩn
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/cam-bien-luu-luong-khi-nhiet.png`
+- **Tên file ảnh nên đặt:** `cam-bien-luu-luong-khi-nhiet.png`
+- **Alt text ảnh:** Cảm Biến Lưu Lượng Khí Kiểu Nhiệt
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+
+## Lưu lượng — Lắp đặt & đo lường
+
+### Lắp Đặt Cảm Biến Lưu Lượng Đúng Cách
+- **URL:** `/lap-dat-cam-bien-luu-luong/`
+- **Focus keyword:** lắp đặt cảm biến lưu lượng
+- **Meta description:** Đoạn ống thẳng bao nhiêu là đủ, vì sao ống phải luôn đầy, cách tránh bọt khí và khi nào cần bộ nắn dòng. Hướng dẫn lắp đặt quyết định độ chính xác.
+- **Thẻ (tags):** Lắp đặt lưu lượng kế, Đoạn ống thẳng, Ống không đầy, Bộ nắn dòng, Xâm thực cavitation
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/lap-dat-cam-bien-luu-luong.png`
+- **Tên file ảnh nên đặt:** `lap-dat-cam-bien-luu-luong.png`
+- **Alt text ảnh:** Lắp Đặt Cảm Biến Lưu Lượng Đúng Cách
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Đấu Dây Cảm Biến Lưu Lượng
+- **URL:** `/dau-day-cam-bien-luu-luong/`
+- **Focus keyword:** đấu dây cảm biến lưu lượng
+- **Meta description:** Cách đấu dây và chọn tín hiệu cho cảm biến lưu lượng: 4-20mA hai dây và bốn dây, đầu ra xung để đếm tổng, Modbus. Kèm cách scale trong PLC và lỗi hay gặp.
+- **Thẻ (tags):** Đấu dây lưu lượng kế, Đầu ra xung, Scale tín hiệu analog, Loop-powered hai dây, Bẫy căn bậc hai
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/dau-day-cam-bien-luu-luong.png`
+- **Tên file ảnh nên đặt:** `dau-day-cam-bien-luu-luong.png`
+- **Alt text ảnh:** Đấu Dây Cảm Biến Lưu Lượng
+- **Gợi ý ảnh thật:** Sơ đồ đấu dây 4-20mA (2/3/4 dây) rõ ràng, dễ nhìn.
+
+### Hiệu Chuẩn Cảm Biến Lưu Lượng
+- **URL:** `/hieu-chuan-cam-bien-luu-luong/`
+- **Focus keyword:** hiệu chuẩn cảm biến lưu lượng
+- **Meta description:** Hiệu chuẩn ướt, hiệu chuẩn khô và kiểm điểm 0 khác nhau thế nào. Chu kỳ hiệu chuẩn hợp lý, cách kiểm tra tại chỗ và khi nào bắt buộc có giấy chứng nhận.
+- **Thẻ (tags):** Hiệu chuẩn lưu lượng kế, Hiệu chuẩn ướt, Hiệu chuẩn khô, So sánh tại chỗ, Hồ sơ hiệu chuẩn
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/hieu-chuan-cam-bien-luu-luong.png`
+- **Tên file ảnh nên đặt:** `hieu-chuan-cam-bien-luu-luong.png`
+- **Alt text ảnh:** Hiệu Chuẩn Cảm Biến Lưu Lượng
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Sai Số Trong Đo Lưu Lượng
+- **URL:** `/sai-so-do-luu-luong/`
+- **Focus keyword:** sai số đo lưu lượng
+- **Meta description:** Phân biệt sai số theo % giá trị đọc và % dải đo, vì sao hai thiết bị cùng ghi ±0,5% lại rất khác nhau. Turndown, độ lặp lại và các nguồn sai số thực tế.
+- **Thẻ (tags):** Sai số đo lưu lượng, Phần trăm giá trị đọc, Phần trăm dải đo, Độ lặp lại, Sai số hệ thống
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/sai-so-do-luu-luong.png`
+- **Tên file ảnh nên đặt:** `sai-so-do-luu-luong.png`
+- **Alt text ảnh:** Sai Số Trong Đo Lưu Lượng
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+
+## Lưu lượng — Ứng dụng & sự cố
+
+### Đo Lưu Lượng Nước Thải
+- **URL:** `/do-luu-luong-nuoc-thai/`
+- **Focus keyword:** đo lưu lượng nước thải
+- **Meta description:** Đo lưu lượng nước thải, bùn và kênh hở: vì sao đồng hồ điện từ là lựa chọn mặc định, khi nào dùng máng Parshall, cách chống lắng cặn và bám bẩn điện cực.
+- **Thẻ (tags):** Đo lưu lượng nước thải, Đo lưu lượng bùn, Máng Parshall, Đập tràn, Quan trắc nước thải
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/do-luu-luong-nuoc-thai.png`
+- **Tên file ảnh nên đặt:** `do-luu-luong-nuoc-thai.png`
+- **Alt text ảnh:** Đo Lưu Lượng Nước Thải
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Đo Lưu Lượng Khí Nén
+- **URL:** `/do-luu-luong-khi-nen/`
+- **Focus keyword:** đo lưu lượng khí nén
+- **Meta description:** Cách đo lưu lượng khí nén để phát hiện rò rỉ, phân bổ chi phí và theo dõi hiệu suất máy nén. Chọn thiết bị, vị trí lắp và phép đo ban đêm cho giá trị cao nhất.
+- **Thẻ (tags):** Đo lưu lượng khí nén, Phát hiện rò rỉ khí nén, Phân bổ chi phí khí nén, Hiệu suất máy nén, Đo ban đêm
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/do-luu-luong-khi-nen.png`
+- **Tên file ảnh nên đặt:** `do-luu-luong-khi-nen.png`
+- **Alt text ảnh:** Đo Lưu Lượng Khí Nén
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Đo Lưu Lượng Hơi Nước
+- **URL:** `/do-luu-luong-hoi-nuoc/`
+- **Focus keyword:** đo lưu lượng hơi nước
+- **Meta description:** Đo hơi bão hòa và hơi quá nhiệt: vì sao bắt buộc bù áp suất và nhiệt độ, chọn vortex hay orifice, xử lý nước ngưng và cách tính chi phí hơi theo bộ phận.
+- **Thẻ (tags):** Đo lưu lượng hơi nước, Hơi bão hòa, Hơi quá nhiệt, Bù áp suất nhiệt độ, Bình ngưng ống xung
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/do-luu-luong-hoi-nuoc.png`
+- **Tên file ảnh nên đặt:** `do-luu-luong-hoi-nuoc.png`
+- **Alt text ảnh:** Đo Lưu Lượng Hơi Nước
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.
+
+### Lỗi Cảm Biến Lưu Lượng Và Cách Chẩn Đoán
+- **URL:** `/loi-cam-bien-luu-luong/`
+- **Focus keyword:** lỗi cảm biến lưu lượng
+- **Meta description:** Đồng hồ lưu lượng đọc 0, nhảy loạn hay sai lệch dần? Bảng tra theo triệu chứng, quy trình chẩn đoán chín bước và cách phân biệt lỗi thiết bị với lỗi hệ thống.
+- **Thẻ (tags):** Lỗi cảm biến lưu lượng, Đồng hồ đọc sai, Số liệu nhảy loạn, Chẩn đoán lưu lượng kế, Bọt khí đường ống
+- **Ảnh bìa (PNG 1200×630):** `assets/png/covers/loi-cam-bien-luu-luong.png`
+- **Tên file ảnh nên đặt:** `loi-cam-bien-luu-luong.png`
+- **Alt text ảnh:** Lỗi Cảm Biến Lưu Lượng Và Cách Chẩn Đoán
+- **Gợi ý ảnh thật:** Ảnh minh họa liên quan chủ đề, nền sạch.

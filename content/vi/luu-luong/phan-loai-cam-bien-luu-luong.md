@@ -15,6 +15,10 @@ H1          : Phân Loại Cảm Biến Lưu Lượng
 
 ## Cùng một thiết bị, bốn cách gọi tên khác nhau
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-cam-bien-luu-luong.svg)
+
+
 Khi đi mua cảm biến lưu lượng, bạn sẽ gặp một mớ tên gọi chồng chéo: "đồng hồ nước điện từ", "lưu lượng kế dạng wafer", "flow switch", "mass flow meter", "clamp-on ultrasonic". Chúng nghe như bảy loại khác nhau, nhưng thực ra là **cùng một nhóm thiết bị được gọi theo bốn tiêu chí khác nhau**:
 
 1. Theo **nguyên lý đo** — điện từ, siêu âm, Coriolis, tuabin, vortex, chênh áp, nhiệt.
@@ -27,6 +31,10 @@ Hiểu bốn trục phân loại này giúp bạn **khoanh vùng nhanh** trướ
 Bài này đưa ra bảng tra theo cả bốn trục.
 
 > **Cần khoanh vùng loại phù hợp cho ứng dụng của bạn?** Gửi **môi chất · ống · mục đích đo** → [Nhận tư vấn](#bao-gia).
+
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-flow-profile.svg)
+
 
 Đây là bài **3/20** trong [chuỗi cảm biến lưu lượng](/cam-bien-luu-luong-la-gi/).
 
@@ -61,6 +69,10 @@ Hạn chế: có bộ phận quay nên **sợ cặn bẩn**, mất chính xác d
 
 ## Cấu tạo: phân loại theo kiểu lắp đặt
 
+<!--IMG:spec-->
+![Cấu tạo & thông số](assets/diagrams/spec-flow-chon.svg)
+
+
 Trục phân loại này quyết định **công lắp đặt và khả năng bảo trì** — thường ảnh hưởng tới tổng chi phí nhiều hơn giá thiết bị.
 
 ### Lắp trong đường ống (inline / in-line)
@@ -94,6 +106,14 @@ Một thanh dò được cắm xuyên qua thành ống vào giữa dòng chảy.
 ---
 
 ## Ứng dụng: phân loại theo chức năng đầu ra
+
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-flow-nuoc.svg)
+
+
+
+<!--IMG:comp-->
+![So sánh & lựa chọn](assets/diagrams/comp-flow-congnghe.svg)
 
 Đây là trục hay bị bỏ qua nhất khi đặt hàng, và cũng là nguồn của nhiều lần mua nhầm.
 

@@ -95,10 +95,6 @@ Dòng khởi động thấp nhất trong bốn phương án, mô-men kiểm soá
 ![Cấu tạo & thông số](assets/diagrams/spec-vfd-sizing.svg)
 
 
-
-<!--IMG:comp-->
-![So sánh & lựa chọn](assets/diagrams/comp-vfd-khoidongmem.svg)
-
 | Tiêu chí | **Trực tiếp (DOL)** | **Sao – tam giác** | **Khởi động mềm** | **Biến tần** |
 |---|---|---|---|---|
 | Dòng khởi động | **Rất lớn** | Giảm, nhưng **có đỉnh khi chuyển** | Giảm, **liên tục** | **Thấp nhất** |
@@ -131,6 +127,10 @@ Dòng khởi động thấp nhất trong bốn phương án, mô-men kiểm soá
 <!--IMG:app-->
 ![Ứng dụng thiết bị](assets/diagrams/app-vfd-bangtai2.svg)
 
+
+
+<!--IMG:comp-->
+![So sánh & lựa chọn](assets/diagrams/comp-vfd-khoidongmem.svg)
 
 ### Chọn biến tần khi
 

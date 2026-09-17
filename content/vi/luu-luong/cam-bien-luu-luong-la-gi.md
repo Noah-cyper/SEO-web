@@ -15,6 +15,10 @@ H1          : Cảm Biến Lưu Lượng Là Gì?
 
 ## Đại lượng khó đo nhất trong bốn đại lượng cơ bản
 
+<!--IMG:rep-->
+![Hình đại diện](assets/diagrams/rep-cam-bien-luu-luong.svg)
+
+
 Trong đo lường công nghiệp có bốn đại lượng nền tảng: **áp suất, nhiệt độ, mức và lưu lượng**. Ba đại lượng đầu tương đối dễ — bạn đặt một cảm biến vào đúng chỗ và đọc giá trị.
 
 **Lưu lượng là đại lượng khó nhất**, vì một lý do căn bản: nó **không phải là một đại lượng tại một điểm**. Lưu lượng là lượng chất đi qua **một mặt cắt ngang** trong một đơn vị thời gian — và để biết nó, bạn phải biết cả **vận tốc dòng chảy trên toàn bộ tiết diện ống**.
@@ -24,6 +28,10 @@ Vấn đề là vận tốc **không đều trên tiết diện**: ở giữa �
 Đây là lý do một cảm biến lưu lượng lắp sai vị trí có thể cho sai số rất lớn, trong khi bản thân thiết bị vẫn hoàn toàn tốt. Và cũng là lý do bài này — cùng cả chuỗi 20 bài — dành nhiều dung lượng cho **lắp đặt và điều kiện đo**, không chỉ cho thiết bị.
 
 > **Cần chọn cảm biến lưu lượng cho hệ của bạn?** Gửi **môi chất · đường kính ống · dải lưu lượng** → [Nhận tư vấn chọn thiết bị](#bao-gia).
+
+<!--IMG:prin-->
+![Nguyên lý hoạt động](assets/diagrams/prin-flow-profile.svg)
+
 
 Đây là bài **1/20** — bài mở đầu chuỗi cảm biến lưu lượng.
 
@@ -58,6 +66,10 @@ Nhóm 1 và 2 cho ra **lưu lượng thể tích**; muốn có khối lượng p
 ---
 
 ## Cấu tạo và thông số: đọc nhãn cảm biến lưu lượng
+
+<!--IMG:spec-->
+![Cấu tạo & thông số](assets/diagrams/spec-flow-donvi.svg)
+
 
 Một cảm biến lưu lượng công nghiệp thường gồm hai phần:
 
@@ -97,6 +109,10 @@ Hai thiết bị cùng ghi "±0,5%" có thể chênh nhau rất xa trong thực 
 
 ## Ứng dụng: lưu lượng dùng để làm gì
 
+<!--IMG:app-->
+![Ứng dụng thiết bị](assets/diagrams/app-flow-nuoc.svg)
+
+
 Đo lưu lượng phục vụ bốn nhóm mục đích, và mục đích quyết định mức chính xác cần có:
 
 **1. Giám sát vận hành.** Biết máy đang chạy đúng chế độ không, bơm có đủ nước không, lọc có tắc không. Yêu cầu chính xác vừa phải; quan trọng là **ổn định và tin cậy**.
@@ -120,6 +136,10 @@ Hai thiết bị cùng ghi "±0,5%" có thể chênh nhau rất xa trong thực 
 ---
 
 ## So sánh nhanh các công nghệ đo
+
+<!--IMG:comp-->
+![So sánh & lựa chọn](assets/diagrams/comp-flow-congnghe.svg)
+
 
 Bảng dưới là bản tóm tắt; mỗi công nghệ có một bài riêng trong chuỗi:
 

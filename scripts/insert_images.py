@@ -224,9 +224,10 @@ for path in glob.glob(os.path.join(ROOT,"**","*.md"),recursive=True):
             if p_rep is not None and i < p_rep: continue
             if ln.strip().startswith("## ") and re.search(r"(cấu tạo|thông số|thành phần|cấu hình|kiến trúc)",ln,re.I):
                 p_spec=i+1; break
-        # comp: heading so sánh/lựa chọn/phân loại
+        # comp: heading so sánh/lựa chọn/phân loại — phải nằm SAU heading của spec
+        _cmin = p_spec if p_spec is not None else (p_rep or 0)
         for i,ln in enumerate(lines):
-            if p_rep is not None and i < p_rep: continue
+            if i <= _cmin: continue
             if ln.strip().startswith("## ") and re.search(r"(so sánh|lựa chọn|chọn |phân loại|khi nào|nên chọn)",ln,re.I):
                 p_comp=i+1; break
     if five:
